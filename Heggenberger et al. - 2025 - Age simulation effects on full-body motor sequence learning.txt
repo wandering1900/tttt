@@ -1,0 +1,1510 @@
+﻿Age Simulation Effects on Full-Body Motor Sequence Learning
+Anna Heggenberger, Janine Vieweg, and Sabine Schaefer
+Sport Science Institute, Saarland University
+Gross-motor sequence learning is fundamental for performing daily activities and maintaining independence
+across the lifespan. This study investigated how age and age simulation affect gross-motor sequence learning,
+focusing on acquisition, execution performance, explicit recall, and retention performance. We tested 74
+participants belonging to five groups: young adults aged 18–27 years without (n = 14) or with (n = 15) an age
+simulation suit, middle-aged adults aged 30–59 years without (n = 15) or with (n = 15) the suit, and older
+adults aged 60–86 years without the suit (n = 15). Participants in the suit condition wore the GERonTologic
+Simulator age suit (Moll, 2021), which simulates age-related physical impairments by reducing sensory
+perception, flexibility, and strength. Participants performed a fixed 10-element gross-motor sequence task
+requiring full-body movements over 28 practice trials. Explicit sequence recall was assessed after acquisition,
+and a retention test was conducted on the following day. All groups demonstrated implicit sequence learning
+and maintained their performance levels from the end of acquisition to the retention test. However, young
+adults without the suit exhibited the fastest execution times and highest explicit recall scores. Notably, the suit
+significantly impaired execution performance and explicit recall in both younger and middle-aged adults,
+indicating that peripheral impairments can hinder explicit memory formation even when implicit learning
+remains intact. These findings highlight the significant impact of peripheral sensorimotor declines on grossmotor sequence learning and memory formation across the adult lifespan. The results underscore the
+importance of considering both cognitive and sensorimotor factors in motor learning research.
+Public Significance Statement
+This study demonstrates that peripheral constraints, simulated by an age simulation suit, can hamper
+performance and explicit memory formation of whole-body motor sequence tasks. The findings
+underscore the importance of sensorimotor factors for understanding motor skill preservation and
+independence across the lifespan.
+Keywords: age simulation, motor sequence learning, whole-body movement, implicit memory, explicit memory
+Supplemental materials: https://doi.org/10.1037/pag0000921.supp
+Motor sequence learning refers to the process of acquiring and
+executing a series of movements in a specific temporal and/or spatial
+order. This skill is crucial for many daily activities, such as typing on
+a keyboard, as well as for tasks requiring full-body coordination,
+such as dancing or getting dressed. As people age, the ability
+to perform motor sequences becomes vital for maintaining
+independence and quality of life. However, performing a sequence
+of movements, particularly those involving the entire body, can
+become more challenging with age.
+Previous studies report that older adults can still learn new, simple
+motor sequences (Daselaar et al., 2003; D. V. Howard & Howard,
+1992; King et al., 2013; Shea et al., 2006; Vieweg et al., 2023;
+This article was published Online First July 21, 2025.
+Hannes Zacher served as action editor.
+Anna Heggenberger https://orcid.org/0009-0001-5144-8548
+Janine Vieweg https://orcid.org/0000-0002-4117-9743
+Sabine Schaefer https://orcid.org/0000-0001-7890-9132
+The study’s preregistration, the deidentified data set, materials, and the
+analytic code are accessible on the Open Science Framework at https://
+doi.org/10.17605/OSF.IO/ZXB46 (Heggenberger, 2025). Part of the
+data has been presented on posters at the Arbeitsgemeinschaft für
+Sportpsychologie Conference in Berlin (2024), the European Congress
+of Sport and Exercise Psychology in Innsbruck (2024), and the European
+Network of Young Specialists in Sport Psychology Conference in
+Tallinn (2024).
+The authors have no known conflicts of interest to disclose. This study was
+funded by the Saarland University. The authors thank the participants of the
+study and Christian Kaczmarek, Peter Leinen, Kai Leisge, Stefan Panzer, and
+David Wright for helpful discussions. The authors especially honor the
+valuable contribution of the late Klaus Blischke to the earlier stages of
+planning the study. The authors thank the experimenters Tobias Anton,
+Emily Fuchs, and Michelle Hartz for collecting the data.
+Anna Heggenberger played a lead role in data curation, formal analysis,
+validation, visualization, and writing–original draft, a supporting role in
+conceptualization, and an equal role in investigation and methodology.
+Janine Vieweg played a supporting role in writing–review and editing and an
+equal role in conceptualization and investigation. Sabine Schaefer played a
+lead role in funding acquisition, project administration, resources, supervision, and writing–review and editing and an equal role in conceptualization, investigation, methodology, and validation.
+Correspondence concerning this article should be addressed to Anna
+Heggenberger, Sport Science Institute, Saarland University, Campus Gebäude
+B8.1, D-66123 Saarbrücken, Germany. Email: anna.heggenberger@unisaarland.de
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 861–875
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000921
+861
+862
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Voelcker-Rehage, 2008; Wilson et al., 2012) but often execute them
+at a significantly slower speed compared with younger adults (Shea
+et al., 2006; Verwey, 2010). For example, a study conducted by
+Shea et al. (2006) directly compared younger adults (19–33 years)
+with older adults (66–78 years) on an implicit sequence learning
+task. Participants operated a lever with their forearm and moved it as
+quickly as possible to visually presented target locations on a
+tabletop, including blocks of random and repeating sequences. Both
+age groups improved their performance on the repeated sequence
+blocks through practice, demonstrating that older adults are capable
+of implicitly learning motor sequences. However, older adults were
+consistently slower than younger adults during acquisition and
+retention, and young adults improved faster over the practice trials.
+This has been attributed to an inability of older adults to switch to a
+sequencing mode and effectively use motor chunks (Shea et
+al., 2006).
+Despite studies that find preserved implicit sequence learning
+with age, other research points to age-related declines in these tasks
+(for an overview see King et al., 2013). Specifically, under conditions of increased task complexity or when explicit awareness of
+the sequence pattern is required, older adults exhibit slower learning
+rates than younger adults (I. J. Bennett et al., 2011; Feeney et al.,
+2002; D. V. Howard & Howard, 2001; J. H. Howard et al., 2008;
+King et al., 2013; Willingham et al., 2002). Furthermore, the explicit
+awareness of learned patterns declines with age (D. V. Howard &
+Howard, 1989, 1992; Verwey, 2010; Verwey et al., 2011). In a study
+by Verwey et al. (2011), younger (18–28 years) and older (55–62
+years) participants practiced two fixed key press sequences. While
+both age groups were able to learn implicitly, older participants
+demonstrated reduced explicit awareness and recall compared with
+their younger counterparts. This may be linked to less efficient
+development of motor chunks and to a stronger focus on associative
+learning and external cues (Verwey et al., 2011).
+Furthermore, with increasing age, individuals tend to have difficulties in consolidating motor sequence memories, demonstrating
+fewer offline gains than younger adults (Brown et al., 2009; King
+et al., 2013; Nemeth & Janacsek, 2011; Shea et al., 2006; Spencer
+et al., 2007).
+While most studies have examined age differences in motor
+sequence learning and retention between younger (typically under
+40 years old) and older adults (60+ years), relatively little research
+has specifically focused on middle-aged individuals, although this
+period often marks the beginning of cognitive and motor decline
+(Dohm-Hansen et al., 2024).
+The studies conducted so far have yielded mixed results. Gaillard
+et al. (2009) found that participants across different age groups,
+including young adults (22 years old), middle-aged adults (45 years
+old), and older adults (71 years old), demonstrated similar performance levels in motor sequence learning when completing a
+serial reaction time task, which involved reacting to visual stimuli
+following an implicit repeating pattern. Conversely, Janacsek et al.
+(2012) identified a noticeable decline in learning abilities starting
+around the age of 45 when responding to sequences of visual stimuli
+that alternated between random and repeating patterns. A study by
+Meissner et al. (2016) even discovered a striking deficit in implicit
+sequence learning specific to middle-aged adults (30–50 years)
+compared with younger and older adults during a serial reaction time
+task. The authors suggest that middle-aged adults may experience a
+unique transitional period wherein implicit procedural learning
+abilities decline. These findings underscore the importance of
+examining changes across the full adult lifespan (Meissner
+et al., 2016).
+Taken together, previous research indicates that older participants
+often exhibit slower execution, poorer explicit awareness, and less
+effective retention performance compared with younger participants
+in motor sequence learning (Shea et al., 2006; Verwey, 2010;
+Verwey et al., 2011).
+Reasons for Age-Related Differences in Motor
+Sequence Learning
+As people age, they experience declines in various sensory,
+motor, and cognitive functions (Leversen et al., 2012; S.-C. Li &
+Dinse, 2002; Voelcker-Rehage, 2008). These declines can be
+attributed to both central and peripheral causes (Kuehn et al., 2018;
+Roberts & Allen, 2016; Vieweg et al., 2023).
+Peripheral impairments include changes in sensory and motor
+systems, which are not directly attributable to changes in the central
+nervous system. For example, aging leads to deterioration of sensory
+organs, such as the eyes and ears, resulting in reduced visual acuity,
+contrast sensitivity, depth perception, and hearing loss (Gilmore
+et al., 2006; Glass, 2007; Huang & Tang, 2010; Jackson & Owsley,
+2003; Murphy et al., 2002; Nusbaum, 1999; Rubin et al., 1994;
+Schneider et al., 2010; Zhang et al., 2008). Additionally, proprioceptive abilities, crucial for perceiving the position and movement
+of limbs, decline due to the degeneration of peripheral nerves (Goble
+et al., 2009). These sensory impairments hinder the accurate perception and response to environmental stimuli, which is essential for
+successful motor task performance (François et al., 2011; Novak &
+Deshpande, 2014). Furthermore, peripheral motor impairments,
+including decreased muscle strength and mass, reduced joint flexibility, and increased muscle stiffness, can impair movement coordination and speed, making it difficult to execute precise and complex
+movements (Hunter et al., 2016; Marcucci & Reggiani, 2020).
+Central causes for age-related performance differences involve
+changes within the brain (I. J. Bennett et al., 2011; Khaing et al.,
+2023; Kuehn et al., 2018). The common cause hypothesis suggests
+that declines in sensory, motor, and cognitive functions are interconnected, stemming from a shared underlying factor, that is, brain
+aging (Anstey et al., 2001, 2003; Baltes & Lindenberger, 1997;
+Ghisletta & Lindenberger, 2005; Lindenberger & Ghisletta, 2009).
+This theory posits that neurobiological changes, such as reduced
+brain volume and lower neurotransmitter levels, contribute to declines
+as people age (Lindenberger & Ghisletta, 2009). For instance, changes
+in the brain’s ability to process sensory information, like vestibular
+system degeneration, can lead to balance issues (Cronin et al., 2017).
+Motor impairments arise from decreased neural efficiency in the
+cortico-striatal system, which is crucial for movement planning and
+execution (Seidler, 2010; Toni et al., 2002).
+Declines in the central nervous system are primarily associated
+with cognitive impairments (Morrison & Baxter, 2012). Neuroimaging
+studies have revealed significant volume reductions and decreases
+in dopamine levels, especially in the frontal cortex and striatum,
+which are essential for sequence learning and memory formation
+(Flöel et al., 2005; Gunning-Dixon et al., 1998; Kennedy & Raz,
+2005; King et al., 2013; Kuehn et al., 2018; Raz et al., 2003; Simon
+et al., 2011). Additionally, the integrity of White matter tracts
+connecting key brain regions declines (I. J. Bennett et al., 2011),
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+863
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+and older adults show decreased activation in areas like the
+putamen, affecting learning and retrieval (Aizenstein et al., 2006;
+King et al., 2013; Van Impe et al., 2009).
+While age-related differences in motor sequence learning are
+well-documented at the behavioral level, the relative contributions
+of peripheral and central causes to performance deficits remain
+underexplored. Understanding the specific impact of peripheral
+impairments, distinct from central cognitive decline, is essential for
+developing targeted interventions to mitigate age-related deficits.
+Moreover, most previous studies on age differences in motor
+sequence learning have compared young and older adults. However,
+sensorimotor and cognitive changes typically begin to manifest in
+midlife (Dohm-Hansen et al., 2024; van Wieringen et al., 2022), so
+including this age group in studies in motor sequence learning is an
+important addition to the literature.
+Age Simulation
+Researchers have increasingly used age simulation suits to mimic
+age-related limitations. Age simulation suits mirror some of the
+sensory and motor constraints of healthy aging, such as vision loss,
+hearing deficits, reduced strength, decreased flexibility, impaired
+balance, and slowed movement execution (Gerhardy et al., 2022,
+2024; Moll, 2021). Age simulation suits use weights, joint bandages,
+blurry glasses, noise-insulation earmuffs, gloves, and “wobbly”
+overshoes (Moll, 2021; Schaefer et al., 2023; Vieweg et al.,
+2023). Note that the suits only manipulate “peripheral” aspects of
+aging (i.e., via reductions in sensory acuity), while they do not
+influence the neural integrity of the brain. They therefore allow
+researchers to experimentally disentangle the influence of peripheral
+versus central nervous system changes and their respective influence
+on performance.
+A study conducted by Vieweg and Schaefer (2020) investigated
+the effects of wearing the age simulation suit model “GERonTologic
+Simulator” (GERT; Moll, 2021) on gross-motor, fine-motor, and
+cognitive abilities of young adults in their early 20s. In a repeated
+measures design, the suit significantly reduced performance across
+all domains to levels typical of 50- to 85-year-olds.
+Another study by Vieweg et al. (2023) investigated how the age
+simulation suit affects implicit motor sequence learning, cognitive
+speed tasks, and far visual acuity in younger individuals. The study
+involved three groups: young adults with the suit (M = 23.2 years),
+young adults without the suit (M = 23.6 years), and older adults
+(M = 72.6 years). The motor sequence learning task involved
+moving a lever with one’s dominant arm to match a displayed
+spatial–temporal target pattern. Older adults made significantly
+more errors when executing motor sequences and showed less
+learning compared with younger adults, regardless of whether the
+younger participants wore the age simulation suit or not. Although
+the suit reduced the younger adults’ far visual acuity to levels similar
+to older adults, it did not impact their cognitive processing speed or
+ability to learn motor sequences (Vieweg et al., 2023). This suggests
+that cognitive factors, such as reduced processing speed, are responsible for the poorer performance of older adults (Vieweg et al., 2023).
+However, the experimental setup may have minimized the potential
+impact of the age simulation suit, as participants performed the task
+while seated with their arm resting on a lever. This raises the question
+of how the suit would affect performance in motor sequence learning
+tasks that require full-body involvement.
+The Present Study
+While prior work has often demonstrated preserved implicit
+motor sequence learning abilities in aging, performance decrements
+and impaired learning rates have also been observed compared with
+younger adults (for an overview see King et al., 2013). Interestingly,
+most motor sequence learning studies have utilized paradigms
+involving seated, small-scale movements, raising the question of
+whether similar findings emerge for gross-motor sequence learning
+tasks requiring whole-body movements. While some research has
+addressed gross-motor sequence learning in younger adults
+(Blischke & Malangré, 2017; Genzel et al., 2012; Gudberg et al.,
+2015; Kempler & Richmond, 2012; Malangré & Blischke, 2016;
+Malangré et al., 2014; Morita et al., 2012), these studies did not
+investigate age-related differences. To our knowledge, no prior
+study has directly compared gross-motor sequence learning across
+younger, middle-aged, and older adults. The present study therefore
+aimed to fill this gap by examining full-body motor sequence learning
+across the adult lifespan.
+The observed age-related differences in prior research have
+been attributed to age-related declines in sensory, motor, and
+cognitive functioning (Leversen et al., 2012; S.-C. Li & Dinse,
+2002; Vieweg & Schaefer, 2020; Vieweg et al., 2023; VoelckerRehage, 2008). To elucidate how sensorimotor impairments specifically contribute to changes in sequence acquisition and retention
+across adulthood, we used an age simulation suit that mimics the
+peripheral constraints of healthy physical aging in younger and
+middle-aged participants. The gross-motor, multistep, dynamic
+movement sequence task of the present study places high demands
+on whole-body control, balance, and coordination, making it more
+ecologically valid than previous motor sequence learning tasks.
+The biomechanical and sensorimotor deficits simulated by the age
+suit are likely to impact the ability to accurately execute a complex
+full-body movement sequence.
+Additionally, a middle-aged adult group is included, as this age
+may represent a decline in implicit procedural capacities (Meissner
+et al., 2016). This allows us to investigate whether young adults are
+more successful than middle-aged adults in compensating for the
+suit-related constraints (Freund & Baltes, 2002; Raz, 2009).
+Based on studies indicating that implicit sequence learning is
+generally preserved with age (D. V. Howard & Howard, 1992; Shea
+et al., 2006), we hypothesize that all groups demonstrate implicit
+learning, as evidenced by improvements in response times over
+time. However, we predict that the execution performance is slower
+in middle-aged and older adults due to age-related declines in motor
+and cognitive functions (King et al., 2013; Salthouse, 1996).
+In contrast to the findings by Vieweg et al. (2023), we anticipate a
+significant impact of the age simulation suit on performance in the
+gross-motor sequence task. We expect that the full-body movements
+make the peripheral impairments simulated by the suit more challenging to compensate for, leading to a pronounced performance
+decline in younger and middle-aged adults wearing the suit.
+Furthermore, we evaluate age differences in the ability to transition from implicitly learned motor representations to explicit,
+conscious sequence knowledge through a combination of verbal
+recall and physical reproduction following initial implicit practice.
+We anticipate that older adults demonstrate the poorest explicit
+sequence recall (Verwey et al., 2011) and that the peripheral impairments imposed by the suit disrupt the formation of explicit
+sequence representations in younger and middle-aged adults. We
+predict that the increased cognitive load required to compensate for
+the suit’s restrictions hinders the transition from implicit learning to
+explicit memory.
+Finally, we hypothesize that older adults show poorer retention
+test performance for the motor sequence compared with younger
+and middle-aged adults due to age-related declines in sensory,
+motor, and cognitive functions, which are known to affect memory
+consolidation (King et al., 2013). We also expect that the age
+simulation suit negatively affects retention performance, as the
+peripheral impairments challenge the consolidation of motor
+memories.
+Method
+Power Analysis
+Conducting a power analysis for linear mixed models (LMMs)
+can be complex due to the models’ flexibility and the variety of
+parameters involved. To estimate the required sample size for our
+study, we conducted a power analysis for an interaction effect in a
+mixed-design analysis of variance (between-within interaction),
+which closely resembles the structure of our experimental design.
+The within-subjects factor is the performance improvement from the
+first to the last practice block of the implicit motor sequence learning
+task, and the between-subjects factor consists of the five groups
+(young without suit, young with suit, middle aged without suit,
+middle aged with suit, old). Previous studies examining similar
+interaction effects in motor sequence learning have reported a broad
+range of effect sizes (Meissner et al., 2016; Shea et al., 2006; Vieweg
+et al., 2023). Based on these findings, we conservatively assumed a
+small effect size of f = .10 for our study.
+Using G*Power 3.1 (Faul et al., 2007), we calculated the required
+sample size with an expected small effect size of f = .10, a significance level of α = .05, and a correlation among repeated
+measures of r = .85. The analysis indicated that a total sample size of
+70 participants would achieve a power of approximately 81.3% to
+detect the interaction effect. Our study included 74 participants,
+suggesting that we have sufficient power to detect the effects of
+interest.
+Participants
+The study included a total of 74 participants. Within the young
+and middle-aged groups, participants were randomly assigned to
+either the age simulation suit group or the no-suit group. Specifically,
+among young adults, 15 participants wore the suit (eight men, seven
+women), and 14 did not wear the suit (seven men, seven women).
+Middle-aged adults were equally divided, with 15 participants in the
+suit group (six men, nine women) and 15 in the no-suit group (seven
+men, eight women). The older adults (n = 15, 10 men and five
+women) did not wear the suit. All participants were of Caucasian
+European descent and live in medium-sized towns located in western
+Germany. Further demographics are presented in Table 1. The young
+participants were students of Sports Science at Saarland University,
+while the middle-aged and older participants were recruited from
+local sports clubs and through word-of-mouth recommendation.
+Exclusion criteria included the presence of neurological diseases
+or severe physical impairments at the time of testing, the use of
+Table 1
+Demographics by Group
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Without suit
+With suit
+Old (n = 15)
+Variable
+Young (n = 14)
+Test statistic
+Middle (n = 15)
+Young (n = 15)
+Middle (n = 15)
+Age (years)
+Age range (years)
+Sport (minimum/week)
+Distance visual acuity
+Height (cm)
+Arm span (cm)
+22.14 (±2.48)
+19–27
+412.14 (±173.31)a,b,c,g
+1.36 (±0.25)a,b,c
+174.21 (±9.36)
+175.00 (±11.82)
+45.67 (±9.30)
+32–59
+243.33 (±126.92)a,d,e,f
+1.25 (±0.36)d,e,f
+174.07 (±12.03)
+172.8 (±13.63)
+21.87 (±2.34)
+18–26
+329.00 (±169.67)d,g
+0.83 (±0.26)a,d
+176.27 (±9.07)a
+175.4 (±11.30)
+45.13 (±9.77)
+30–59
+212.33 (±119.41)b,f,h
+0.82 (±0.28)b,e,g
+176.20 (±8.95)b
+174.8 (±9.16)
+70.20 (±7.72)
+60–86
+306.33 (±209.54)c,e,h
+0.94 (±0.46)c,f,g
+172.13 (±6.10)a,b
+174.20 (±12.24)
+F = 23.23, p < .001
+F = 62.16, p < 001
+F = 3.82, p = .004
+F = 0.83, p = .506
+Note. Mean (±standard deviation). The distance visual acuity tests were performed in the suit for the “suit” groups. Test statistics refer to analyses of variance conducted between groups for the
+different variables. Significant pairwise comparisons are indicated by identical subscript letters within a row. Bold values indicate statistically significant results (p < .05).
+864
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+865
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+medication affecting the central nervous system, and engaging in less
+than 60 min of sports activity per week. All participants had normal or
+corrected-to-normal vision. The handedness of the participants was
+determined using the Edinburgh Handedness Inventory, revealing
+that 66 participants were right handed and eight were left handed. The
+young adult participants received course credits for study participation, while the middle-aged and older participants received a
+compensation of €20. All participants provided written informed
+consent. The study was approved by the Ethics Committee of the
+Faculty of Empirical Human Sciences and Economics at Saarland
+University (Protocol No. 17-08). Data collection took place between
+2022 and 2024 in Germany.
+Materials
+Age Simulation Suit
+The age simulation suit used in this study is the “GERT” model
+developed by Moll (2021). This suit is designed to mimic various
+peripheral sensory and motor constraints frequently experienced
+in the aging process. “GERT” includes special goggles that cause
+blurred vision, alter color perception, and narrow visual fields,
+thereby mimicking age-related vision deficits. Earmuffs are used to
+simulate high-frequency hearing loss characteristics in aging. A
+neck brace limits head and neck mobility, while knee and elbow
+bandages restrict joint flexibility and range of motion. Additionally,
+a weighted upper body vest (10 kg) and limb weights (2.3 kg
+weights on each ankle and 1.5 kg on each wrist) simulate decreased
+muscle strength. The suit utilizes oversized overshoes with a thick,
+soft foam sole to induce instability and an unsteady walking pattern.
+Special gloves reduce grip ability and fine-motor control of the
+hands (see Figure 1).
+10-Element Gross-Motor Task
+The study involved a 10-element gross-motor sequence task. Twelve
+lights from the Fitlight system (Fitlight, 2022; Silvestri et al., 2023) were
+mounted on a wall (see Figure 2). The numbering of the lights was not
+visible to the participants and was solely used for programming purposes. Ten lights were relevant for the implicit learning task. The
+sequence of light illumination was fixed across all trials and was as
+follows: 2-11-6-4-5-9-3-1-10-7. As soon as a light has been touched, the
+subsequent light is illuminated, indicating the next target. Participants
+were instructed to touch each light as quickly as possible.
+The Fitlight system was controlled via tablet or smartphone using the
+Fitlight app (Fitlight, 2021), which also recorded individual response
+times in milliseconds (ms) for each sequence during the task. Lights
+were deactivated upon physical contact, with the lowest sensitivity
+setting, and a 0.05-s delay between the deactivation of one light and the
+illumination of the next. The color of illumination for all lights was set
+to blue. Each trial started from a starting line 1 m in front of the wall and
+was initiated by a traffic light countdown on light Position 1. After the
+traffic light counted down from red, yellow, to green, the first light was
+illuminated in blue, indicating the start of the sequence. Once participants had crossed the starting line and deactivated the first light, they
+continued moving directly from one target to the next without returning
+to the starting line. For working on the entire sequence, participants had
+to walk a total distance of about 14 m to touch the 10 elements in
+each trial.
+Figure 1
+Age Suit Model “GERonTologic Simulator” (Moll, 2021)
+Note.
+See the online article for the color version of this figure.
+Cognitive Assessment
+To evaluate cognitive abilities among participants, the following
+cognitive tests were administered: the Montreal Cognitive Assessment
+(Nasreddine et al., 2005), the Digit Symbol Substitution Test (Wechsler,
+1981), the Digit Span tasks (forward and backward; Wechsler, 1981),
+and the Figural Speed Test (Schmiedek et al., 2010). Detailed descriptions of these assessments and their results are provided in
+Supplemental Material S1.
+Procedure
+Young and middle-aged participants were randomly assigned
+to either the age simulation suit group or the control group
+without the suit. The group of older participants in the study
+performed the experimental procedures without wearing the age
+suit. This choice was made because the suit’s simulated aging
+effect of approximately 30 years (Moll, 2021) would make the
+older participants unreasonably advanced in age and could also
+lead to physical risks (i.e., stumbling or falling) in the motor
+sequence learning task.
+Day 1
+After providing written informed consent, participants completed
+questionnaires on demographics and health status. Additionally,
+they were administered the Edinburgh Handedness Inventory
+(Oldfield, 1971), the Bewegungs- und Sportaktivität questionnaire
+866
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+Note. Participants did not see the numbers while working on the task. See the online article for
+the color version of this figure.
+(Fuchs et al., 2015) to evaluate their physical activity and sports
+participation, and the Wahrgenommene Körperliche Verfassung
+questionnaire (Kleinert, 2006) to assess their perceived physical
+state. After completing the questionnaires, participants in the age
+suit groups put on the complete “GERT” suit (Moll, 2021). All
+participants underwent far visual acuity tests using the Landolt C
+chart (Precision Vision, 2021).
+A 5-min motor warm-up phase followed, during which participants were encouraged to move freely within the testing room (e.g.,
+walking, light jogging, shoulder and arm movements) to physically
+prepare for the task and, if applicable, to get used to moving with the
+age simulation suit.
+Subsequent to the motor warm-up period, participants were
+provided with instructions to execute the gross-motor sequence task,
+aiming to strike the 10-element sequence as quickly as possible.
+They were free to choose which hand to use for hitting the lights and
+whether they approached them by walking, running, or jumping.
+As this was an implicit learning task, participants were not informed
+initially that the same sequence would be assessed repeatedly.
+Participants performed the gross-motor sequence task, starting each trial
+behind a line 1 m in front of the wall. Upon the traffic light countdown,
+the first light illuminated, allowing the participant to begin the sequence.
+After striking all 10 lights, a 1-min break followed before the next trial
+started. This procedure was repeated for a total of 28 trials. The trials
+were grouped into seven blocks of four trials each, and after every block,
+participants were allowed a 2–4-min break as needed. Upon completing
+all 28 trials, participants were given a 10-min break. During this break,
+they completed an additional round of the perceived physical state
+questionnaire (Wahrgenommene Körperliche Verfassung questionnaire; Kleinert, 2006). The results of the Wahrgenommene Körperliche
+Verfassung questionnaire are presented in Supplemental Material S2.
+After the break, a recall test was administered. During the test, the
+experimenter asked each participant to recall the sequence, and participants were instructed to indicate the light positions in the correct order
+from 1 to 10. To do so, they were allowed to walk up to the lights and
+physically point to each position while naming the light’s position
+within the sequence (from 1 to 10). Note that this test came as a surprise
+to participants because they had not been instructed that there was a
+fixed sequence of lights in each trial or that they would have to
+memorize it. This test concluded the first session. Participants returned
+for a subsequent session the following day.
+Day 2
+On the second day of testing, anthropometric measures of height
+and arm span were collected for each participant. Participants of the
+“suit” groups put on the age simulation suit. To assess retention
+performance after a sleep-filled consolidation phase, participants
+performed eight trials (two blocks of four trials) of the same 10-element
+sequence as practiced on Day 1. To assess cognitive abilities, participants subsequently completed the Montreal Cognitive Assessment,
+Digit Span task, Figural Speed test, and Digit Symbol test. At the end of
+Session 2, young and middle-aged participants performed a transfer
+test for the motor sequence task to examine potential context effects
+(see Supplemental Material S3). Participants who initially learned the
+sequence with the age suit now executed eight trials without the suit
+and vice versa. Older adults did not perform the transfer test because
+they did not wear an age simulation suit in the present study.
+Statistical Analysis
+To investigate the effect of age group, the age simulation suit, and
+time on motor sequence learning performance during the acquisition
+phase, an LMM was computed. The dependent variable was the
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 2
+Setup of the 10-Element Gross-Motor Sequence Task Including Arrangement and
+Distances of the Fitlights
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+867
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+response time in ms for each trial, recorded from the moment the
+first light was struck until the tenth and final light was struck. For
+analysis, these response times were averaged across each block (four
+trials in each block). The fixed effects included group (with five
+levels: young without suit, young with suit, middle aged without
+suit, middle aged with suit, old), time (a continuous variable representing the seven blocks), and their interaction (Group × Time).
+A random intercept for participants was included to account for
+interindividual variability, with trial blocks modeled as repeated
+measures. To further investigate the differences between the experimental groups, contrasts were calculated by systematically adjusting
+the reference group. This allowed for direct comparisons between
+each group, enabling a detailed examination of differences between
+groups.
+To investigate group differences in the ability to transition from
+implicitly learned motor representations to explicit, conscious
+sequence knowledge after the acquisition phase, a Kruskal–Wallis
+test was conducted. The test was used due to nonnormality in the
+recall data, assessing differences in explicit sequence recall across
+the five groups. The dependent variable was the explicit sequence
+recall score, measured both through verbal recall and physical
+reproduction following the implicit acquisition phase. Post hoc
+pairwise comparisons were conducted using Dunn’s test with
+Bonferroni correction for multiple comparisons to further explore
+significant group differences. In our study, the recall score was assessed by scoring each participant’s ability to accurately reproduce
+the sequence of lights in both correct positions and correct order. The
+scoring system was designed to account for both perfect matches and
+partial sequence accuracy. The scoring rules were as follows: Points
+were awarded for recalling sequences of lights in the correct order. If a
+sequence was recalled in the correct order and at the correct position,
+points equal to the length of the correct sequence were awarded. If a
+sequence was recalled in the correct order but started at the wrong
+position, the points were reduced by 1. Participants also earned points
+for recalling individual lights in the correct position. For example, if
+the correct sequence was 2, 11, 6, 4, 5, 9, 3, 1, 10, 7, and the
+participant recalled 3, 11, 6, 1, 5, 10, 7, 2, 4, 9, the chunk 11, 6 was
+correctly recalled at Positions 2 and 3, earning 2 points. The chunk 10,
+7 was correctly recalled but started at the wrong position (Positions 6
+and 7 instead of 9 and 10), earning 2 − 1 = 1 point. The number 5 was
+correctly recalled at the fifth position, earning 1 point. The total recall
+score for this sequence would therefore be 4.
+To analyze retention performance, another LMM was conducted.
+The dependent variable was the response time, and the fixed effects
+included group (with five levels), time (with two levels: last block of
+acquisition and first block of retention), and their interaction. The
+model also included a random intercept for participants, accounting
+for interindividual variability, with repeated measures across time.
+As with the first model, pairwise comparisons for the retention
+performance analysis were conducted using contrasts. The reference
+group was systematically adjusted to allow for specific pairwise
+comparisons between the groups and across time points. Significance
+levels were set at α = .05 for all analyses.
+Transparency and Openness
+Our study complies with the Journal Article Reporting Standards
+guidelines (Appelbaum et al., 2018), detailing sample size determination, manipulations, and all measured variables. None of the
+data met our predetermined exclusion criteria (described below), so
+all analyses were conducted using the full data set. The study was
+preregistered. However, it should be noted that the study was initially preregistered with three groups: young without suit, young
+with suit, and older adults. The middle-aged groups (with and
+without the suit) were later added to provide more comprehensive
+insights into age-related differences across the lifespan. The preregistration, deidentified data, materials, and analytic scripts are
+publicly available on the Open Science Framework at https://osf.io/
+zxb46/. The statistical analyses were conducted using R Statistical
+Software (Version 4.4.0) for Windows (R Core Team, 2023). The
+main analyses were conducted using the R package lme4 (Bates et
+al., 2015, Version 1.1.35.2).
+Results
+The main analyses included the full sample with all five
+experimental groups. Note that a supplementary analysis examining baseline age-related differences, including only the three
+groups without the suit, is provided in Supplemental Material S4.
+This analysis showed that all groups demonstrated implicit
+learning, as indicated by performance improvements over time.
+However, young adults performed faster than both middle-aged
+and older adults, who did not differ significantly from each other.
+This suggests that age-related differences in execution performance already emerge in middle adulthood. For full statistical
+details, see Supplemental Material S4.
+Performance During Acquisition and Motor Sequence
+Learning
+The analyses were based on the seven acquisition blocks shown in
+Figure 3. The LMM showed strong explanatory power, with a
+marginal R2 = .57 (fixed effects only) and a conditional R2 = .92
+(fixed and random effects combined), indicating that a large proportion of variance in the data was accounted for. The model revealed a significant main effect of time (b = −222.36, 95% CI
+[−279.52, −165.21], SE = 29.16), t(442.00) = −7.63, p < .001,
+indicating that response times decreased significantly over the
+course of the blocks across all groups. In addition, there was a
+significant main effect of group on response times, indicating that
+motor sequence performance varied significantly across the different
+groups (b = 14512.38, 95% CI [11720.88, 17303.87], SE =
+1430.10), t(294.11) = 10.15, p < .001.
+Differences Between Age Groups Without the Suit
+Contrasts revealed that younger adults without the suit demonstrated significantly faster response times compared with both middleaged adults without the suit (b = 34130.24, 95% CI [21256.97,
+47003.50], SE = 6669.63), t(442.00) = 5.12, p < .001, and older
+adults (b = 45648.71, 95% CI [32775.44, 58521.98], SE = 6669.63),
+t(442.00) = 6.84, p < .001. Younger adults without the suit had the
+fastest response times, reflecting superior motor sequence performance. Middle-aged adults without the suit did not perform significantly different from older adults.
+868
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+Note. Blocks 1–7 represent the mean response times across the acquisition phase, while “Ret” shows
+the mean response time for the first block of the retention phase, assessed on the second day. See the
+online article for the color version of this figure.
+Effects of the Age Simulation Suit
+The age simulation suit significantly impaired performance in both
+younger and middle-aged adults. Younger adults wearing the suit still
+performed significantly better than older adults (b = 34567.96, 95%
+CI [21918.59, 47217.33], SE = 6553.62), t(442.00) = 5.28, p < .001,
+as well as middle-aged adults both without the suit (b = 23049.48,
+95% CI [10400.11, 35698.85], SE = 6553.62), t(442.00) = 3.52, p <
+.001, and with the suit (b = 47759.24, 95% CI [35109.87, 60408.61],
+SE = 6553.62), t(442.00) = 7.29, p < .001. However, their response
+times were notably slower than those of younger adults without the
+suit (b = −11081.75, 95% CI [−23954.02, 1792.52], SE = 3386.87),
+t(442.00) = −3.27, p < .001, indicating that the suit had a significant
+impact on their performance.
+Middle-aged adults wearing the suit exhibited significantly slower
+response times compared with middle-aged adults without the suit
+(b = 24709.76, 95% CI [12060.39, 37359.13], SE = 6553.62),
+t(442.00) = 3.77, p < .001. Furthermore, their performance was
+slower than that of older adults (b = 13191.28, 95% CI [541.91,
+25840.65], SE = 6553.62), t(442.00) = 2.01, p = .045.
+Group × Time Interaction
+The interaction between group and time was also significant (b =
+−42.70, 95% CI [−58.83, −26.57], SE = 8.23), t(442.00) = −5.19,
+p < .001. Contrasts indicated that this effect was primarily driven by
+two results: Older adults showed a significantly greater improvement in response times over the course of the blocks compared with
+younger adults, both without the suit (b = −126.06, SE = 38.26),
+t(439.00) = −3.30, p = .001, and with the suit (b = −84.15, SE =
+37.60), t(439.00) = −2.24, p = .026. Additionally, middle-aged
+adults wearing the age simulation suit demonstrated a significantly
+stronger improvement in response times compared with middle-aged
+adults without the suit (b = 153.05, SE = 37.60), t(439.00) = 4.07, p <
+.001, and compared with younger adults, both with and without the
+suit. The detailed statistical results for the contrasts of the interaction
+effects are presented in Table 2.
+Recall Performance After Acquisition
+The distribution of explicit sequence recall scores for each
+experimental group is displayed in Figure 4 using box plots. A
+Kruskal–Wallis test revealed significant differences in explicit
+sequence recall after the acquisition phase across the groups,
+χ2(4, N = 74) = 351.73, p < .001, η2 = 0.17. Post hoc pairwise
+comparisons using Dunn’s test with Bonferroni correction revealed significant group differences for all comparisons, except
+between younger adults with the suit and middle-aged adults
+without the suit (see Table 3).
+Retention Performance
+The right-hand side of Figure 3 displays the mean averaged
+response times for the first retention block for each group. To
+analyze retention performance, another LMM was conducted,
+with time specifically referring to the comparison between the last
+block of acquisition and the first block of retention. The model
+showed strong explanatory power with R2 = .51 (marginal) and
+R2 = .95 (conditional).
+The analysis revealed a significant main effect of group on
+response times (b = 7705.19, 95% CI [5876.19, 9534.20], SE =
+935.02), t(80.18) = 8.24, p < .001, indicating significant differences
+in response times between the experimental groups. Contrasts revealed the same general response time differences that were already
+observed during the acquisition phase.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 3
+Average Performance Across Blocks for Respective Groups During Acquisition
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+869
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 2
+Interaction Effects of Group × Time on Response Times
+Comparison
+Estimate (b)
+SE
+t
+95% CI
+p
+LL UL
+Young vs. old
+Young (suit) vs. old
+Middle aged vs. old
+Middle aged (suit) vs. old
+Young vs. middle aged (suit)
+Young (suit) vs. middle aged (suit)
+Young vs. middle aged
+Young (suit) vs. middle aged
+Middle aged vs. middle aged (suit)
+Young vs. young (suit)
+38.26
+37.60
+37.60
+37.60
+38.26
+37.60
+38.26
+37.60
+37.60
+38.26
+−126.06
+−84.15
+−52.69
+68.90
+−194.96
+−153.05
+−73.37
+−31.46
+−121.59
+−41.91
+−3.30
+−2.24
+−1.40
+1.83
+−5.10
+−4.071
+−1.918
+−0.837
+−3.23
+−1.095
+.001
+.026
+.162
+.067
+<.001
+<.001
+.056
+.403
+.001
+.274
+−51.33
+−10.72
+20.74
+142.33
+−120.23
+−79.62
+1.36
+41.97
+−48.16
+32.82
+−200.79
+−157.58
+−126.12
+−4.53
+−269.68
+−226.48
+−148.10
+−104.89
+−195.02
+−116.64
+Note. In each comparison, the reference group is listed first. “Young” and “middle aged” refer to the groups without the age simulation suit. SE =
+standard error; CI = confidence interval; LL = lower limit; UL = upper limit. Bold values indicate statistically significant results (p < .05).
+The main effect of time was not significant, suggesting no significant overall change in response times between the last block of
+acquisition and the first block of retention. The interaction between
+group and time was also not significant, indicating that implicit
+knowledge of the sequence, as evidenced by response times, was
+retained to a similar extent across all groups.
+Discussion
+This study examined the effects of age and an age simulation
+suit on gross-motor sequence learning, focusing on a full-body
+movement task. While previous research indicates that implicit motor
+sequence learning is generally preserved with age, older adults typically show slower execution and poorer retention performance (King
+et al., 2013). However, these findings have mostly been based on
+small-scale, seated tasks. To increase ecological validity, we employed
+a 10-element gross-motor sequence task emphasizing whole-body
+control, balance, and coordination. We also included a middle-aged
+group, as procedural learning may begin to decline during this stage of
+life (Meissner et al., 2016). We also employed an age simulation suit,
+which allowed us to simulate peripheral impairments typically associated with aging.
+Figure 4
+Box Plots of Recall Scores by Group
+Note. Each box represents the distribution of recall scores across the different experimental groups,
+with the median recall score shown as a horizontal line inside each box. The upper and lower edges of
+the boxes represent the interquartile range, while the whiskers extend to 1.5 times the interquartile
+range. See the online article for the color version of this figure.
+870
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 3
+Post Hoc Pairwise
+Acquisition
+Comparisons for Explicit Recall After
+Comparison
+z r p
+Young vs. old
+Young (suit) vs. old
+Middle aged vs. old
+Middle aged (suit) vs. old
+Young vs. middle aged (suit)
+Young (suit) vs. middle aged (suit)
+Young vs. middle aged
+Young (suit) vs. middle aged
+Middle aged vs. middle aged (suit)
+Young vs. young (suit)
+18.12
+9.21
+10.70
+5.98
+12.25
+3.24
+7.61
+−1.48
+4.72
+9.06
+2.11
+1.07
+1.24
+0.70
+1.42
+0.38
+0.88
+−0.17
+0.55
+1.05
+<.001
+<.001
+<.001
+<.001
+<.001
+.020
+<.001
+1.00
+<.001
+<.001
+All groups exhibited implicit learning, as evidenced by faster
+response times over time, with younger adults outperforming middleaged and older adults in execution performance. However, the age
+simulation suit significantly impaired execution performance. Middleaged adults wearing the suit demonstrated the slowest response times,
+performing worse than their peers without the suit and older adults.
+Despite these performance differences, retention of the learned motor
+sequence was comparable across all groups, with participants not
+showing any significant performance decrements from the last
+acquisition block on Day 1 to the first retention block on Day 2.
+Additionally, the age simulation suit diminished explicit recall
+performance in both younger and middle-aged adults, indicating
+that peripheral impairments can hinder the transition from implicit
+learning to explicit recall.
+Acquisition
+The superior performance of younger adults without the age
+simulation suit aligns with extensive literature indicating that
+younger adults typically outperform older adults in motor sequence
+tasks (Shea et al., 2006; Verwey, 2010). This advantage is likely due to
+preserved cognitive and motor functions in younger adults, including
+faster processing speed, greater working memory capacity, and more
+efficient motor control systems (King et al., 2013; Salthouse, 1996).
+Their superior sensory and motor abilities (Hunter et al., 2016; S.-C. Li
+& Dinse, 2002), combined with stronger cognitive functions, as reflected in higher scores on cognitive background measures (see
+Supplemental Material S1), contributed to their superior performance.
+Young adults with the suit performed worse than young adults
+without the suit. This suggests that peripheral sensorimotor impairments can adversely affect gross-motor sequence execution.
+However, their performance remained superior to that of middleaged and older adults, which may indicate that younger adults were
+able to partially compensate for the suit-induced constraints due to
+their intact cognitive-motor capacities. Alternatively, or additionally, this result may reflect limitations in the degree to which the age
+simulation suit accurately mimics age-related sensorimotor decline
+in younger individuals.
+The significant performance difference between young adults
+with and without the suit contrasts with previous research by
+Note. Results of Dunn’s test with Bonferroni correction (z value, p value)
+and the effect size (r). Bold values indicate statistically significant results
+(p < .05).
+Vieweg et al. (2023). This might be due to the complexity of the
+gross-motor sequence task, aligning with the sensorimotor integration theory, which posits that tasks requiring integration of
+multiple sensory inputs and motor outputs are particularly susceptible to disruptions from peripheral impairments (K. Z. H. Li &
+Lindenberger, 2002).
+Middle-aged participants without the suit and older adults did not
+differ in gross-motor sequence learning, showing similar learning
+curves and overall performance in response times. Our finding is
+consistent with Gaillard et al. (2009), who also observed no significant differences in sequence learning abilities between these age
+groups. However, we had expected that the middle-aged participants
+would exhibit faster overall response times in the gross-motor task
+during execution due to their generally better motor and sensory
+abilities. The lack of difference in response times could be explained
+by several factors. Older adults may develop compensatory strategies that help maintain motor performance, resulting in response
+times comparable to those of middle-aged adults (Gaillard et al.,
+2009). Additionally, the older participants in our study were more
+physically active compared with the middle-aged groups, which
+may have contributed to their preserved motor function (VoelckerRehage & Niemann, 2013).
+Middle-aged adults wearing the age simulation suit had the
+slowest response times, performing slower than both middle-aged
+adults without the suit and older adults. This suggests that the
+combination of age-related motor declines beginning in midlife and
+the peripheral impairments simulated by the suit collectively contributed to the observed performance deficits. The findings underscore
+the particular vulnerability of middle-aged adults to additional sensorimotor challenges. This finding supports the resource theory of
+cognitive aging, which posits that available cognitive resources
+diminish with age, reducing compensatory capabilities (Salthouse,
+1996). Alternatively, the particularly poor performance of middle-aged
+adults wearing the suit may reflect an oversimulation effect, where the
+combination of early age-related decline and additional peripheral
+constraints exceeds typical aging-related impairments.
+Despite differences in overall performance, all groups demonstrated implicit motor sequence learning, as evidenced by improvements over time, indicating that implicit learning processes are
+relatively preserved across the lifespan (D. V. Howard & Howard,
+1992; Shea et al., 2006). The ability to learn and improve on the
+gross-motor sequence task, regardless of age or the presence of
+peripheral impairments, underscores the robustness of procedural
+memory systems, which are less susceptible to age-related decline
+and sensorimotor constraints (King et al., 2013). Although all groups
+showed implicit learning and improvement over time, the interaction
+effect revealed that middle-aged adults wearing the suit demonstrated
+a steeper improvement in their learning curve over time compared
+with middle-aged adults without the suit and the two younger groups.
+However, this effect is likely attributable to their slower baseline
+response times, which allowed more room for improvement. In
+addition, the steeper improvement may reflect a gradual acclimatization to the suit. Although all participants completed a 5-min warmup period before the task, this may not have been sufficient for full
+adaptation, particularly for middle-aged adults, who might require
+more time to adjust to the physical constraints. Therefore, part of the
+observed learning effect may reflect growing familiarity with the suit
+rather than pure motor sequence learning. This interpretation aligns
+with previous findings suggesting that perceptual-motor recalibration
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+871
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+remains relatively intact in older adults, particularly under
+challenging or novel conditions, but may require more time to
+unfold (Brand & de Oliveira, 2023; Vandevoorde & Orban de
+Xivry, 2019).
+Older adults also exhibited steeper learning curves compared with
+both young groups, but this was most likely due to less room for
+further improvement in the young groups.
+Recall Performance
+The present study also investigated the effects of age and age
+simulation on explicit sequence recall following implicit grossmotor sequence learning. Participants were not informed that they
+would later be asked to recall the sequence, precluding intentional
+encoding strategies. Younger adults without the age simulation suit
+exhibited the highest recall performance, significantly outperforming
+middle-aged adults without the suit and older adults. Middle-aged
+adults without the suit showed intermediate recall ability, while
+older adults had the lowest recall scores. Notably, the age simulation suit significantly reduced recall performance in both
+younger and middle-aged adults. Younger adults wearing the suit
+performed even at a level comparable to middle-aged adults
+without the suit, indicating that the suit effectively mimicked agerelated declines in explicit recall ability.
+These findings align with previous research indicating that aging
+negatively impacts the ability to transition from implicitly learned
+motor sequences to explicit, conscious recall, even when explicit
+encoding is not prompted (Verwey et al., 2011). The reduced
+explicit recall in older participants may be attributed to their less
+efficient encoding and retrieval of higher order sequence information, which is critical for sequence learning, and their stronger
+reliance on associative learning and external cues (Verwey et al.,
+2011). The present study extends these observations by demonstrating that simulated peripheral sensorimotor deficits can impair
+explicit recall in younger and middle-aged adults, despite implicit
+learning processes remaining intact. The age simulation suit primarily imposes peripheral sensory and motor constraints, not
+affecting central cognitive processes (Moll, 2021; Vieweg &
+Schaefer, 2020). The induced peripheral deficits appear to interfere
+with the incidental formation of explicit sequence representations.
+It is possible that the additional effort required to compensate for
+the suit-related constraints consumes cognitive resources that would
+otherwise be available for incidental memory encoding (Wickens,
+2008). The increased cognitive load may hinder the incidental
+consolidation of explicit knowledge. This is consistent with theories
+suggesting that tasks requiring substantial attentional resources are
+more susceptible to declines due to increased cognitive load or aging
+(Craik & Byrd, 1982; Shanks & St. John, 1994).
+Because participants were not aware that they would need to
+recall the sequence later, any explicit memory formation relied on
+incidental learning processes that can be sensitive to the distribution
+of attentional resources during task performance (Frensch & Miner,
+1994; Stadler, 1995). Increased motor task complexity and motor
+demands can interfere with the ability to extract and encode higher
+order sequence information (Bo et al., 2009). In the present study,
+the full-body sequence task required participants to engage their
+entire body, combining gross-motor coordination with spatial
+navigation and balance. The suit may have elevated the physical
+difficulty of the task to a level wherein participants’ attentional
+focus shifted predominantly to immediate motor execution rather
+than to the underlying sequence pattern.
+Middle-aged adults without the suit already demonstrated reduced
+incidental explicit recall compared with younger adults, which may
+reflect the beginning of subtle declines in sensorimotor processing
+efficiency (K. Z. H. Li & Lindenberger, 2002). When wearing the
+suit, middle-aged adults’ performance declined further, approaching
+that of older adults. This may suggest that the combination of agerelated sensorimotor integration challenges and peripheral impairments imposed by the suit exacerbated difficulties in forming explicit
+sequence representations. This interpretation does not preclude an
+attentional resource explanation. On the contrary, it is likely that the
+additional effort required to manage the physical constraints of the
+suit diverted attentional resources away from incidental encoding
+processes. Thus, both sensorimotor limitations and increased cognitive load may have jointly contributed to the impaired explicit
+recall observed in the groups wearing the suit.
+Retention Performance
+We initially hypothesized that retention performance would be
+poorer in the older group due to age-related declines in sensory,
+motor, and cognitive functions. However, our findings revealed
+that all groups, regardless of age or the use of the age simulation
+suit, maintained similar response time performance on the day
+following acquisition.
+Our findings stand in contrast to previous research, such as the
+studies conducted by Shea et al. (2006) and King et al. (2013), which
+have documented a decline in motor sequence retention performance among older adults compared with their younger counterparts. One possible explanation for this finding is that, in grossmotor sequence learning, once a sequence is learned implicitly, the
+retention of this motor memory might be more robust against agerelated declines and peripheral impairments. Gross-motor tasks
+often involve larger, more ingrained movement patterns that rely
+heavily on procedural memory, which is known to be more resistant
+to decay compared with other types of memory (Doyon & Benali,
+2005). The physical nature of these tasks may engage deep motor
+circuits in the brain that are less susceptible to the effects of aging
+and peripheral constraints, such as those simulated by the suit
+(Robertson, 2007).
+Furthermore, the consolidation of motor sequences in grossmotor tasks may benefit from the repetitive, whole-body engagement that characterizes these types of activities. This could lead to a
+stronger, more durable motor memory that is less affected by agerelated changes or the temporary impairments imposed by the age
+simulation suit. As a result, the retention of gross-motor sequences
+might be more consistent across different age groups, reflecting
+the resilience of procedural learning and memory in these types
+of tasks.
+Notably, as no explicit recall test was administered on Day 2, the
+retention assessment was based solely on task performance and
+thus primarily reflects implicit memory processes. While preserved
+response times suggest stable implicit retention of the learned
+sequence across groups, no conclusions can be drawn regarding
+the retention of explicit sequence knowledge over time.
+872
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Limitations and Future Directions
+This study has limitations that should be considered when interpreting the results. The age simulation suit used in this study was
+intended to model peripheral physical constraints associated with
+aging, such as reduced joint mobility, muscle strength, and sensory
+acuity, without altering central cognitive functions. However, the
+simulation may not affect all individuals equally (Moll, 2021). The
+suit does not simulate the full complexity of biological aging,
+including neurocognitive decline, fatigue, or motivational changes.
+Therefore, the suit is not a comprehensive model of aging but rather
+a tool to isolate the impact of peripheral impairments on age-related
+performance differences.
+In addition, the age range within the middle-aged group was quite
+broad, spanning from 30 to 59 years. This wide age range may have
+introduced variability in the cognitive and motor decline experienced by participants, potentially masking more specific age-related
+trends within this group. Another limitation of this study are differences between groups in the level of physical activity. The older
+adults engaged in more minutes of physical activity per week
+compared with the middle-aged adults, which may have contributed
+to their preserved motor function and potentially biased the results.
+This should be taken into account when interpreting the findings
+because representative samples of older adults typically engage in
+less physical activity than the subjects tested in the present study
+(Moschny et al., 2011).
+In future studies, exploring the role of physical activity across
+different age groups may reveal whether regular exercise mitigates
+age-related declines in gross-motor sequence learning. Utilizing
+neuroimaging techniques like electroencephalography could
+uncover the neural mechanisms underlying gross-motor sequence
+learning and how they are affected by aging and peripheral impairments. Additionally, varying the complexity of motor tasks
+might help determine optimal training strategies for enhancing
+motor learning in different age groups. Assessing explicit sequence
+recall also after the retention test on Day 2 would show whether age
+differences in explicit recall remain stable or decrease over time and
+with additional practice. Finally, investigating the contributions of
+various sensory modalities to gross-motor sequence learning could
+lead to targeted interventions that improve performance by addressing
+specific sensory system impairments.
+Conclusion
+Our study revealed that implicit gross-motor sequence learning is
+preserved across different age groups, but execution performance
+and explicit recall are significantly influenced by age and peripheral
+impairments simulated by an age simulation suit. Younger adults
+demonstrated superior execution performance, and while the age
+simulation suit impaired their performance, they still outperformed
+middle-aged and older adults. Middle-aged adults wearing the suit
+showed the lowest performance level, performing worse than both
+their unsuited peers and older adults, highlighting their vulnerability
+to additional sensorimotor challenges.
+Despite variations in execution and recall performance, all groups
+retained the learned motor sequences similarly, suggesting that the
+retention of gross-motor skills is robust against age-related declines
+and peripheral impairments. The suit’s impact on explicit recall
+indicates that peripheral constraints can increase cognitive load,
+hindering the incidental formation of explicit memory even when
+implicit learning remains unaffected.
+These findings underscore the complex interplay between age,
+peripheral impairments, and motor learning. They highlight the need
+to consider both cognitive and sensorimotor factors when developing strategies to support motor function and learning across the
+lifespan.
+References
+Aizenstein, H. J., Butters, M. A., Clark, K. A., Figurski, J. L., Andrew
+Stenger, V., Nebes, R. D., Reynolds, C. F., III, & Carter, C. S. (2006).
+Prefrontal and striatal activation in elderly subjects during concurrent
+implicit and explicit sequence learning. Neurobiology of Aging, 27(5),
+741–751. https://doi.org/10.1016/j.neurobiolaging.2005.03.017
+Anstey, K. J., Hofer, S. M., & Luszcz, M. A. (2003). A latent growth curve
+analysis of late-life sensory and cognitive function over 8 years: Evidence
+for specific and common factors underlying change. Psychology and
+Aging, 18(4), 714–726. https://doi.org/10.1037/0882-7974.18.4.714
+Anstey, K. J., Luszcz, M. A., & Sanchez, L. (2001). Two-year decline in
+vision but not hearing is associated with memory decline in very old adults
+in a population-based sample. Gerontology, 47(5), 289–293. https://doi.org/
+10.1159/000052814
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., &
+Rao, S. M. (2018). Journal article reporting standards for quantitative
+research in psychology: The APA Publications and Communications
+Board task force report. American Psychologist, 73(1), 3–25. https://
+doi.org/10.1037/amp0000191
+Baltes, P. B., & Lindenberger, U. (1997). Emergence of a powerful connection between sensory and cognitive functions across the adult life span:
+A new window to the study of cognitive aging? Psychology and Aging,
+12(1), 12–21. https://doi.org/10.1037/0882-7974.12.1.12
+Bates, D., Mächler, M., Bolker, B., & Walker, S. (2015). Fitting linear
+mixed-effects models using lme4. Journal of Statistical Software, 67(1),
+1–48. https://doi.org/10.18637/jss.v067.i01
+Bennett, T., & Gaines, J. (2010). Believing what you hear: The impact of
+aging stereotypes upon the old. Educational Gerontology, 36(5), 435–445.
+https://doi.org/10.1080/03601270903212336
+Bennett, I. J., Madden, D. J., Vaidya, C. J., Howard, J. H., Jr., & Howard,
+D. V. (2011). White matter integrity correlates of implicit sequence
+learning in healthy aging. Neurobiology of Aging, 32(12), 2317.e1–2317.e12.
+https://doi.org/10.1016/j.neurobiolaging.2010.03.017
+Blischke, K., & Malangré, A. (2017). Task complexity modulates sleep-related
+offline learning in sequential motor skills. Frontiers in Human Neuroscience,
+11, Article 374. https://doi.org/10.3389/fnhum.2017.00374
+Bo, J., Borza, V., & Seidler, R. D. (2009). Age-related declines in visuospatial working memory correlate with deficits in explicit motor sequence
+learning. Journal of Neurophysiology, 102(5), 2744–2754. https://doi.org/
+10.1152/jn.00393.2009
+Brand, M. T., & de Oliveira, R. F. (2023). Perceptual-motor recalibration is
+intact in older adults. Human Movement Science, 87, Article 103047.
+https://doi.org/10.1016/j.humov.2022.103047
+Brown, R. M., Robertson, E. M., & Press, D. Z. (2009). Sequence skill
+acquisition and off-line learning in normal aging. PLOS ONE, 4(8), Article
+e6683. https://doi.org/10.1371/journal.pone.0006683
+Craik, F. I. M., & Byrd, M. (1982). Aging and cognitive deficits. In F. I. M.
+Craik & S. Trehub (Eds.), Aging and cognitive processes (pp. 191–211).
+Springer. https://doi.org/10.1007/978-1-4684-4178-9_11
+Cronin, T., Arshad, Q., & Seemungal, B. M. (2017). Vestibular deficits in
+neurodegenerative disorders: Balance, dizziness, and spatial disorientation. Frontiers in Neurology, 8, Article 538. https://doi.org/10.3389/fneur
+.2017.00538
+Daselaar, S. M., Rombouts, S. A. R. B., Veltman, D. J., Raaijmakers,
+J. G. W., & Jonker, C. (2003). Similar network activated by young and old
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+873
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+adults during the acquisition of a motor sequence. Neurobiology of Aging,
+24(7), 1013–1019. https://doi.org/10.1016/S0197-4580(03)00030-7
+Dohm-Hansen, S., English, J. A., Lavelle, A., Fitzsimons, C. P., Lucassen, P. J.,
+& Nolan, Y. M. (2024). The ‘middle-aging’ brain. Trends in Neurosciences,
+47(4), 259–272. https://doi.org/10.1016/j.tins.2024.02.001
+Doyon, J., & Benali, H. (2005). Reorganization and plasticity in the adult
+brain during learning of motor skills. Current Opinion in Neurobiology,
+15(2), 161–167. https://doi.org/10.1016/j.conb.2005.03.004
+Faul, F., Erdfelder, E., Lang, A. G., & Buchner, A. (2007). G*Power 3: A
+flexible statistical power analysis program for the social, behavioral, and
+biomedical sciences. Behavior Research Methods, 39(2), 175–191. https://
+doi.org/10.3758/BF03193146
+Feeney, J. J., Howard, J. H., Jr., & Howard, D. V. (2002). Implicit learning
+of higher order sequences in middle age. Psychology and Aging, 17(2),
+351–355. https://doi.org/10.1037/0882-7974.17.2.351
+Ferreira, D., Correia, R., Nieto, A., Machado, A., Molina, Y., & Barroso, J.
+(2015). Cognitive decline before the age of 50 can be detected with
+sensitive cognitive measures. Psicothema, 27(3), 216–222. https://doi.org/
+10.7334/psicothema2014.192
+Fitlight. (2021). Fitlight (Version 2.5.14) [Mobile app]. Google Play Store.
+https://play.google.com/store/apps/details?id=com.fitlight.fitlight
+Fitlight. (2022). Fitlight system [Apparatus and software]. https://www.fitli
+ghttraining.com/
+Flöel, A., Breitenstein, C., Hummel, F., Celnik, P., Gingert, C., Sawaki, L.,
+Knecht, S., & Cohen, L. G. (2005). Dopaminergic influences on formation
+of a motor memory. Annals of Neurology, 58(1), 121–130. https://doi.org/
+10.1002/ana.20536
+François, M., Morice, A. H. P., Blouin, J., & Montagne, G. (2011). Agerelated decline in sensory processing for locomotion and interception.
+Neuroscience, 172, 366–378. https://doi.org/10.1016/j.neuroscience.2010
+.09.020
+Frensch, P. A., & Miner, C. S. (1994). Effects of presentation rate and
+individual differences in short-term memory capacity on an indirect
+measure of serial learning. Memory & Cognition, 22(1), 95–110. https://
+doi.org/10.3758/BF03202765
+Freund, A. M., & Baltes, P. B. (2002). Life-management strategies of
+selection, optimization, and compensation: Measurement by self-report
+and construct validity. Journal of Personality and Social Psychology,
+82(4), 642–662. https://doi.org/10.1037/0022-3514.82.4.642
+Fuchs, R., Klaperski, S., Gerber, M., & Seelig, H. (2015). Messung der
+Bewegungs- und Sportaktivität mit dem BSA-Fragebogen [Measurement
+of physical activity and sports activity using the BSA questionnaire].
+Zeitschrift für Gesundheitspsychologie, 23(2), 60–76. https://doi.org/10
+.1026/0943-8149/a000137
+Gaillard, V., Destrebecqz, A., Michiels, S., & Cleeremans, A. (2009). Effects
+of age and practice in sequence learning: A graded account of ageing,
+learning, and control. European Journal of Cognitive Psychology, 21(2–
+3), 255–282. https://doi.org/10.1080/09541440802257423
+Genzel, L., Quack, A., Jäger, E., Konrad, B., Steiger, A., & Dresler, M. (2012).
+Complex motor sequence skills profit from sleep. Neuropsychobiology,
+66(4), 237–243. https://doi.org/10.1159/000341878
+Gerhardy, T. H., Schlomann, A., Wahl, H. W., Mombaur, K., Sloot, L. H., &
+Schmidt, L. I. (2024). Aging in 10 minutes: Do age simulation suits mimic
+physical decline in old age? Comparing experimental data with established
+reference data. Experimental Aging Research, 50(5), 692–704. https://
+doi.org/10.1080/0361073X.2023.2256630
+Gerhardy, T. H., Schlomann, A., Wahl, H. W., & Schmidt, L. I. (2022).
+Effects of age simulation suits on psychological and physical outcomes: A
+systematic review. European Journal of Ageing, 19(4), 953–976. https://
+doi.org/10.1007/s10433-022-00722-1
+Ghisletta, P., & Lindenberger, U. (2005). Exploring structural dynamics
+within and between sensory and intellectual functioning in old and very
+old age: Longitudinal evidence from the Berlin Aging Study. Intelligence,
+33(6), 555–587. https://doi.org/10.1016/j.intell.2005.07.002
+Gilmore, G. C., Spinks, R. A., & Thomas, C. W. (2006). Age effects in coding
+tasks: Componential analysis and test of the sensory deficit hypothesis.
+Psychology and Aging, 21(1), 7–18. https://doi.org/10.1037/0882-7974.21
+.1.7
+Glass, J. M. (2007). Visual function and cognitive aging: Differential role of
+contrast sensitivity in verbal versus spatial tasks. Psychology and Aging,
+22(2), 233–238. https://doi.org/10.1037/0882-7974.22.2.233
+Goble, D. J., Coxon, J. P., Wenderoth, N., Van Impe, A., & Swinnen, S. P.
+(2009). Proprioceptive sensibility in the elderly: Degeneration, functional consequences and plastic-adaptive processes. Neuroscience and
+Biobehavioral Reviews, 33(3), 271–278. https://doi.org/10.1016/j.neu
+biorev.2008.08.012
+Gudberg, C., Wulff, K., & Johansen-Berg, H. (2015). Sleep-dependent motor
+memory consolidation in older adults depends on task demands.
+Neurobiology of Aging, 36(3), 1409–1416. https://doi.org/10.1016/j.neuro
+biolaging.2014.12.014
+Gunning-Dixon, F. M., Head, D., McQuain, J., Acker, J. D., & Raz, N. (1998).
+Differential aging of the human striatum: A prospective MR imaging study.
+American Journal of Neuroradiology, 19(8), 1501–1507.
+Heggenberger, A. (2025). Age simulation effects on full-body motor sequence
+learning [Preregistration, data, materials, and analysis code]. Open Science
+Framework. https://doi.org/10.17605/OSF.IO/ZXB46
+Howard, D. V., & Howard, J. H., Jr. (1989). Age differences in learning serial
+patterns: Direct versus indirect measures. Psychology and Aging, 4(3),
+357–364. https://doi.org/10.1037/0882-7974.4.3.357
+Howard, D. V., & Howard, J. H., Jr. (1992). Adult age differences in the rate of
+learning serial patterns: Evidence from direct and indirect tests. Psychology
+and Aging, 7(2), 232–241. https://doi.org/10.1037/0882-7974.7.2.232
+Howard, D. V., & Howard, J. H., Jr. (2001). When it does hurt to try: Adult
+age differences in the effects of instructions on implicit pattern learning.
+Psychonomic Bulletin & Review, 8(4), 798–805. https://doi.org/10.3758/
+BF03196220
+Howard, J. H., Howard, D. V., Dennis, N. A., & Kelly, A. J. (2008). Implicit
+learning of predictive relationships in three-element visual sequences by
+young and old adults. Journal of Experimental Psychology: Learning,
+Memory, and Cognition, 34(5), 1139–1157. https://doi.org/10.1037/a00
+12797
+Huang, Q., & Tang, J. (2010). Age-related hearing loss or presbycusis.
+European Archives of Oto-Rhino-Laryngology, 267(8), 1179–1191.
+https://doi.org/10.1007/s00405-010-1270-7
+Hunter, S. K., Pereira, H. M., & Keenan, K. G. (2016). The aging neuromuscular system and motor performance. Journal of Applied Physiology,
+121(4), 982–995. https://doi.org/10.1152/japplphysiol.00475.2016
+Jackson, G. R., & Owsley, C. (2003). Visual dysfunction, neurodegenerative
+diseases, and aging. Neurologic Clinics, 21(3), 709–728. https://doi.org/
+10.1016/S0733-8619(02)00107-X
+Janacsek, K., Fiser, J., & Nemeth, D. (2012). The best time to acquire new
+skills: Age-related differences in implicit sequence learning across the
+human lifespan. Developmental Science, 15(4), 496–505. https://doi.org/
+10.1111/j.1467-7687.2012.01150.x
+Kempler, L., & Richmond, J. L. (2012). Effect of sleep on gross motor
+memory. Memory, 20(8), 907–914. https://doi.org/10.1080/09658211
+.2012.711837
+Kennedy, K. M., & Raz, N. (2005). Age, sex and regional brain volumes
+predict perceptual-motor skill acquisition. Cortex, 41(4), 560–569. https://
+doi.org/10.1016/S0010-9452(08)70196-5
+Khaing, Z. Z., Chandrasekaran, A., Katta, A., & Reed, M. J. (2023). The
+brain and spinal microvasculature in normal aging. The Journals of
+Gerontology: Series A, 78(8), 1309–1319. https://doi.org/10.1093/gerona/
+glad107
+King, B. R., Fogel, S. M., Albouy, G., & Doyon, J. (2013). Neural correlates
+of the age-related changes in motor sequence learning and motor adaptation in older adults. Frontiers in Human Neuroscience, 7, Article 142.
+https://doi.org/10.3389/fnhum.2013.00142
+874
+HEGGENBERGER, VIEWEG, AND SCHAEFER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Kleinert, J. (2006). Adjektivliste zur Erfassung der wahrgenommenen
+körperlichen Verfassung (WKV): Skalenkonstruktion und erste psychometrische Befunde [Adjective list for assessing perceived physical state
+(PEPS): Scale construction and psychometric results]. Zeitschrift Für
+Sportpsychologie, 13(4), 156–164. https://doi.org/10.1026/1612-5010.13
+.4.156
+Kuehn, E., Perez-Lopez, M. B., Diersch, N., Döhler, J., Wolbers, T., &
+Riemer, M. (2018). Embodiment in the aging mind. Neuroscience and
+Biobehavioral Reviews, 86, 207–225. https://doi.org/10.1016/j.neubiorev
+.2017.11.016
+Leversen, J. S. R., Haga, M., & Sigmundsson, H. (2012). From children to
+adults: Motor performance across the life-span. PLOS ONE, 7(6), Article
+e38830. https://doi.org/10.1371/journal.pone.0038830
+Li, K. Z. H., & Lindenberger, U. (2002). Relations between aging sensory/
+sensorimotor and cognitive functions. Neuroscience and Biobehavioral
+Reviews, 26(7), 777–783. https://doi.org/10.1016/S0149-7634(02)
+00073-8
+Li, S.-C., & Dinse, H. R. (2002). Aging of the brain, sensorimotor, and
+cognitive processes. Neuroscience and Biobehavioral Reviews, 26(7),
+729–732. https://doi.org/10.1016/S0149-7634(02)00059-3
+Lindenberger, U., & Ghisletta, P. (2009). Cognitive and sensory declines in
+old age: Gauging the evidence for a common cause. Psychology and
+Aging, 24(1), 1–16. https://doi.org/10.1037/a0014986
+Malangré, A., & Blischke, K. (2016). Sleep-related offline improvements in
+gross motor task performance occur under free recall requirements.
+Frontiers in Human Neuroscience, 10, Article 134. https://doi.org/10
+.3389/fnhum.2016.00134
+Malangré, A., Leinen, P., & Blischke, K. (2014). Sleep-related offline
+learning in a complex arm movement sequence. Journal of Human
+Kinetics, 40(1), 7–20.
+Marcucci, L., & Reggiani, C. (2020). Increase of resting muscle stiffness, a
+less considered component of age-related skeletal muscle impairment.
+European Journal of Translational Myology, 30(2), 223–233. https://
+doi.org/10.4081/ejtm.2020.8982
+Meissner, S. N., Keitel, A., Südmeyer, M., & Pollok, B. (2016). Implicit
+motor sequence learning and working memory performance changes
+across the adult life span. Frontiers in Aging Neuroscience, 8, Article 89.
+https://doi.org/10.3389/fnagi.2016.00089
+Moll, W. (2021). GERonTologic simulator GERT [Apparatus]. https://www
+.age-simulation-suit.com/
+Morita, Y., Ogawa, K., & Uchida, S. (2012). The effect of a daytime 2-hour
+nap on complex motor skill learning. Sleep and Biological Rhythms, 10(4),
+302–309. https://doi.org/10.1111/j.1479-8425.2012.00576.x
+Morrison, J. H., & Baxter, M. G. (2012). The ageing cortical synapse:
+Hallmarks and implications for cognitive decline. Nature Reviews
+Neuroscience, 13(4), 240–250. https://doi.org/10.1038/nrn3200
+Moschny, A., Platen, P., Klaassen-Mielke, R., Trampisch, U., & Hinrichs, T.
+(2011). Physical activity patterns in older men and women in Germany: A
+cross-sectional study. BMC Public Health, 11(1), Article 559. https://
+doi.org/10.1186/1471-2458-11-559
+Murphy, C., Schubert, C. R., Cruickshanks, K. J., Klein, B. E. K., Klein,
+R., & Nondahl, D. M. (2002). Prevalence of olfactory impairment in
+older adults. JAMA, 288(18), 2307–2312. https://doi.org/10.1001/jama
+.288.18.2307
+Nasreddine, Z. S., Phillips, N. A., Bédirian, V., Charbonneau, S., Whitehead,
+V., Collin, I., Cummings, J. L., & Chertkow, H. (2005). The Montreal
+Cognitive Assessment, MoCA: A brief screening tool for mild cognitive
+impairment. Journal of the American Geriatrics Society, 53(4), 695–699.
+https://doi.org/10.1111/j.1532-5415.2005.53221.x
+Nemeth, D., & Janacsek, K. (2011). The dynamics of implicit skill consolidation in young and elderly adults. The Journals of Gerontology:
+Series B, 66B(1), 15–22. https://doi.org/10.1093/geronb/gbq063
+Novak, A. C., & Deshpande, N. (2014). Effects of aging on whole body and
+segmental control while obstacle crossing under impaired sensory conditions.
+Human Movement Science, 35, 121–130. https://doi.org/10.1016/j.humov
+.2014.03.009
+Nusbaum, N. J. (1999). Aging and sensory senescence. Southern Medical
+Journal, 92(3), 267–275. https://doi.org/10.1097/00007611-19990
+3000-00002
+Oldfield, R. C. (1971). The assessment and analysis of handedness: The
+Edinburgh inventory. Neuropsychologia, 9(1), 97–113. https://doi.org/10
+.1016/0028-3932(71)90067-4
+Precision Vision. (2021). Landholt C. https://www.precision-vision.com/produ
+ct-category/etdrs/etdrs-charts/other-etdrs-charts/landolt-c-other-etdrs-charts/
+R Core Team. (2023). R: A language and environment for statistical
+computing (Version 4.3.2) [Computer software]. https://www.R-proje
+ct.org/
+Raz, N. (2009). Decline and compensation in aging brain and cognition:
+Promises and constraints. Neuropsychology Review, 19(4), 411–414.
+https://doi.org/10.1007/s11065-009-9122-1
+Raz, N., Rodrigue, K. M., Kennedy, K. M., Head, D., Gunning-Dixon, F., &
+Acker, J. D. (2003). Differential aging of the human striatum: Longitudinal
+evidence. American Journal of Neuroradiology, 24(9), 1849–1856.
+Roberts, K. L., & Allen, H. A. (2016). Perception and cognition in the ageing
+brain: A brief review of the short- and long-term links between perceptual
+and cognitive decline. Frontiers in Aging Neuroscience, 8, Article 39.
+https://doi.org/10.3389/fnagi.2016.00039
+Robertson, E. M. (2007). The serial reaction time task: Implicit motor skill
+learning? The Journal of Neuroscience, 27(38), 10073–10075. https://
+doi.org/10.1523/JNEUROSCI.2747-07.2007
+Rubin, G. S., Roche, K. B., Prasada-Rao, P., & Fried, L. P. (1994). Visual
+impairment and disability in older adults. Optometry and Vision Science,
+71(12), 750–760. https://doi.org/10.1097/00006324-199412000-00005
+Salthouse, T. A. (1996). The processing-speed theory of adult age differences
+in cognition. Psychological Review, 103(3), 403–428. https://doi.org/10
+.1037/0033-295X.103.3.403
+Schaefer, S., Bill, D., Hoor, M., & Vieweg, J. (2023). The influence of age
+and age simulation on task-difficulty choices in motor tasks. Aging,
+Neuropsychology, and Cognition, 30(3), 429–454. https://doi.org/10
+.1080/13825585.2022.2043232
+Schmiedek, F., Lövdén, M., & Lindenberger, U. (2010). Hundred days of
+cognitive training enhance broad cognitive abilities in adulthood: Findings
+from the COGITO study. Frontiers in Aging Neuroscience, 2, Article 27.
+https://doi.org/10.3389/fnagi.2010.00027
+Schneider, B. A., Pichora-Fuller, K., & Daneman, M. (2010). Effects of
+senescent changes in audition and cognition on spoken language comprehension. In S. Gordon-Salant, R. Frisina, A. Popper, & R. Fay (Eds.),
+The aging auditory system (Vol. 34, pp. 167–210). Springer. https://
+doi.org/10.1007/978-1-4419-0993-0_7
+Seidler, R. D. (2010). Neural correlates of motor learning, transfer of
+learning, and learning to learn. Exercise and Sport Sciences Reviews,
+38(1), 3–9. https://doi.org/10.1097/JES.0b013e3181c5cce7
+Shanks, D. R., & St. John, M. F. S. (1994). Characteristics of dissociable
+human learning systems. Behavioral and Brain Sciences, 17(3), 367–395.
+https://doi.org/10.1017/S0140525X00035032
+Shea, C. H., Park, J.-H., & Braden, H. W. (2006). Age-related effects in
+sequential motor learning. Physical Therapy, 86(4), 478–488. https://
+doi.org/10.1093/ptj/86.4.478
+Silvestri, F., Campanella, M., Bertollo, M., Albuquerque, M. R.,
+Bonavolontà, V., Perroni, F., Baldari, C., Guidetti, L., & Curzi, D.
+(2023). Acute effects of Fitlight training on cognitive-motor processes
+in young basketball players. International Journal of Environmental
+Research and Public Health, 20(1), Article 817. https://doi.org/10
+.3390/ijerph20010817
+Simon, J. R., Stollstorff, M., Westbay, L. C., Vaidya, C. J., Howard, J. H., Jr.,
+& Howard, D. V. (2011). Dopamine transporter genotype predicts implicit
+sequence learning. Behavioural Brain Research, 216(1), 452–457. https://
+doi.org/10.1016/j.bbr.2010.08.043
+AGE SIMULATION AND MOTOR SEQUENCE LEARNING
+875
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Spencer, R. M. C., Gouw, A. M., & Ivry, R. B. (2007). Age-related decline of
+sleep-dependent consolidation. Learning & Memory, 14(7), 480–484.
+https://doi.org/10.1101/lm.569407
+Stadler, M. A. (1995). Role of attention in implicit learning. Journal of
+Experimental Psychology: Learning, Memory, and Cognition, 21(3), 674–
+685. https://doi.org/10.1037/0278-7393.21.3.674
+Toni, I., Rowe, J., Stephan, K. E., & Passingham, R. E. (2002). Changes of
+cortico-striatal effective connectivity during visuomotor learning.
+Cerebral Cortex, 12(10), 1040–1047. https://doi.org/10.1093/cercor/12
+.10.1040
+Vandevoorde, K., & Orban de Xivry, J.-J. (2019). Internal model recalibration does not deteriorate with age while motor adaptation does.
+Neurobiology of Aging, 80, 138–153. https://doi.org/10.1016/j.neurobiola
+ging.2019.03.020
+Van Impe, A., Coxon, J. P., Goble, D. J., Wenderoth, N., & Swinnen, S. P.
+(2009). Ipsilateral coordination at preferred rate: Effects of age, body side
+and task complexity. NeuroImage, 47(4), 1854–1862. https://doi.org/10
+.1016/j.neuroimage.2009.06.027
+van Wieringen, A., Van Wilderode, M., Van Humbeeck, N., & Krampe, R.
+(2022). Coupling of sensorimotor and cognitive functions in middle- and
+late adulthood. Frontiers in Neuroscience, 16, Article 1049639. https://
+doi.org/10.3389/fnins.2022.1049639
+Verwey, W. B. (2010). Diminished motor skill development in elderly:
+Indications for limited motor chunk use. Acta Psychologica, 134(2), 206–
+214. https://doi.org/10.1016/j.actpsy.2010.02.001
+Verwey, W. B., Abrahamse, E. L., Ruitenberg, M. F. L., Jiménez, L., & de
+Kleine, E. (2011). Motor skill learning in the middle-aged: Limited
+development of motor chunks and explicit sequence knowledge.
+Psychological Research, 75(5), 406–422. https://doi.org/10.1007/s004
+26-011-0320-0
+Vieweg, J., Panzer, S., & Schaefer, S. (2023). Effects of age simulation and
+age on motor sequence learning: Interaction of age-related cognitive and
+motor decline. Human Movement Science, 87, Article 103025. https://
+doi.org/10.1016/j.humov.2022.103025
+Vieweg, J., & Schaefer, S. (2020). How an age simulation suit affects motor
+and cognitive performance and self-perception in younger adults.
+Experimental Aging Research, 46(4), 273–290. https://doi.org/10.1080/
+0361073X.2020.1766299
+Voelcker-Rehage, C. (2008). Motor-skill learning in older adults—A
+review of studies on age-related differences. European Review of Aging
+and Physical Activity, 5(1), 5–16. https://doi.org/10.1007/s11556-008-
+0030-9
+Voelcker-Rehage, C., & Niemann, C. (2013). Structural and functional brain
+changes related to different types of physical activity across the life span.
+Neuroscience and Biobehavioral Reviews, 37(9, Pt. B), 2268–2295.
+https://doi.org/10.1016/j.neubiorev.2013.01.028
+Wechsler, D. (1981). The psychometric tradition: Developing the Wechsler
+Adult Intelligence Scale. Contemporary Educational Psychology, 6(2),
+82–85. https://doi.org/10.1016/0361-476X(81)90035-7
+Wickens, C. D. (2008). Multiple resources and mental workload. Human
+Factors, 50(3), 449–455. https://doi.org/10.1518/001872008X288394
+Willingham, D. B., Salidis, J., & Gabrieli, J. D. E. (2002). Direct comparison
+of neural systems mediating conscious and unconscious skill learning.
+Journal of Neurophysiology, 88(3), 1451–1460. https://doi.org/10.1152/jn
+.2002.88.3.1451
+Wilson, J. K., Baran, B., Pace-Schott, E. F., Ivry, R. B., & Spencer, R. M. C.
+(2012). Sleep modulates word-pair learning but not motor sequence
+learning in healthy older adults. Neurobiology of Aging, 33(5), 991–1000.
+https://doi.org/10.1016/j.neurobiolaging.2011.06.029
+Zhang, C., Hua, T., Li, G., Tang, C., Sun, Q., & Zhou, P. (2008). Visual function
+declines during normal aging. Current Science, 95(11), 1544–1550.
+Received December 19, 2024
+Revision received June 5, 2025
+Accepted June 8, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

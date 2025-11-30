@@ -1,0 +1,1413 @@
+﻿Age Differences in Spatial Navigation Stem From a Preference for Familiar
+Routes Rather Than Impaired Landmark-Dependent Strategies
+Paul F. Hill1, Skyelynn Bermudez1, Joshua D. Garren1, Andrew S. McAvan2, Jingyi Zheng3,
+Carol A. Barnes1, 4, and Arne D. Ekstrom1, 4
+1 Department of Psychology, University of Arizona
+2 Department of Psychology, Vanderbilt University
+3 Department of Mathematics and Statistics, Auburn University
+4 Evelyn F. McKnight Brain Institute, University of Arizona
+A leading hypothesis in the field of aging and navigation is that older adults are selectively impaired on tasks
+that require allocentric (landmark-based) strategies to navigate, resulting in a shift toward more egocentric
+(self-based) strategies. However, most evidence in humans comes from studies that restrict body-based
+sensorimotor cues that are essential to both egocentric and allocentric navigation. In the present study,
+young and older adults navigated a virtual environment in each of two conditions: a stationary desktop
+condition that relied on visual input and an immersive condition that enabled unrestricted ambulation and
+sensorimotor feedback during navigation. Both age groups performed worse when initially learning
+locations from novel compared with familiar locations—often considered a hallmark of allocentric navigation. The cost of switching from familiar to novel start locations was equal between age groups, pointing
+to a null effect of age on allocentric strategies. Older adults also employed distal landmarks to a comparable
+extent to young adults, suggesting that landmark-dependent strategies did not differ by age. However, older
+adults were more likely to replicate previously taken paths, potentially indicative of a preference for
+egocentric strategies. The path replication effect was significantly attenuated in the immersive condition,
+particularly in the presence of geometric boundary cues that could be used to infer distance. Age differences
+in spatial navigation may therefore be driven in part by a selective bias for navigating familiar routes,
+although these differences were lessened in the presence of multimodal visual and sensorimotor cues. The
+present study highlights that navigation is a complex cognitive construct that draws on multiple parallel
+systems and strategies that cannot be easily explained by a simple allocentric–egocentric dichotomy.
+Public Significance Statement
+Spatial navigation, which is essential for well-being and independence, declines during healthy aging. A
+prevailing hypothesis is that impaired navigation in older age stems from selective deficits in allocentricbased wayfinding strategies. In the present study, we used advanced virtual reality techniques to reveal
+that age-related differences in spatial navigation are more nuanced and likely arise from a combination of
+factors rather than being solely attributable to impairments in allocentric navigation.
+Keywords: spatial navigation, aging, allocentric, egocentric, virtual reality
+Supplemental materials: https://doi.org/10.1037/pag0000927.supp
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First August 28, 2025.
+Hannes Zacher served as action editor.
+Paul F. Hill https://orcid.org/0000-0002-9983-0842
+De-identified data and analysis scripts are posted on https://osf.io/5vbzn/.
+The ideas and data appearing in this article have previously been disseminated in a preprint (https://doi.org/10.31234/osf.io/b7n6s). This research
+was supported by the Alzheimer’s Association (Grant AARF-22-926755)
+awarded to Paul F. Hill and National Institute on Aging, National Institutes of
+Health (Grant R01AG003376) awarded to Carol A. Barnes and Arne D.
+Ekstrom.
+Paul F. Hill played a lead role in data curation, formal analysis, investigation, project administration, validation, visualization, and writing–original
+draft, a supporting role in funding acquisition, and an equal role in conceptualization and writing–review and editing. Skyelynn Bermudez played a
+supporting role in data curation, investigation, and project administration.
+Joshua D. Garren played a supporting role in investigation and project
+administration. Andrew S. McAvan played a lead role in software and a
+supporting role in conceptualization and writing–review and editing. Jingyi
+Zheng played a supporting role in formal analysis, software, and visualization. Carol A. Barnes played a lead role in funding acquisition and an
+equal role in writing–review and editing. Arne D. Ekstrom played a lead
+role in methodology and resources and an equal role in conceptualization,
+funding acquisition, supervision, writing–original draft, and writing–
+review and editing.
+Correspondence concerning this article should be addressed to Paul F.
+Hill or Arne D. Ekstrom, Department of Psychology, University of Arizona,
+1503 East University Boulevard, Tucson, AZ 85721, United States. Email:
+paulhill@arizona.edu or adekstrom@arizona.edu
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 913–928
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000927
+913
+914
+HILL ET AL.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Past research suggests that successful navigation of new spatial
+environments declines with healthy aging, although the reasons for
+this finding remain unresolved (Lester et al., 2017). Spatial navigation is often considered to rely on two complementary strategies.
+Allocentric or “placed-based” navigation requires learning the
+relationships between external spatial cues, such as landmarks or
+environmental boundaries, which in turn are thought to underlie
+the computation of novel and more efficient routes. Egocentric or
+“route-based” navigation involves self-reference to landmarks
+and typically relies more on traveling familiar, well-learned
+routes and is often considered to be less flexible and efficient than
+allocentric navigation. One hypothesis in the field of aging is that
+allocentric-based navigation is impaired in older age, resulting in
+a preference for more egocentric-based navigation strategies
+(Colombo et al., 2017; Iaria et al., 2003; Li & King, 2019; Moffat
+et al., 2006).
+The ability to form a cognitive map of the environment, which is
+central to most models of allocentric navigation, is generally believed
+to involve the integration of external (e.g., landmarks, boundaries)
+and body-based (e.g., motor efference copy, proprioceptive, vestibular) sensory cues (Campbell et al., 2018; O’Keefe & Nadel, 1978;
+Siegel & White, 1975). Prior studies in humans, however, have relied
+overwhelmingly on experimental paradigms that require participants
+to navigate a two-dimensional virtual reality (VR) environment
+rendered on a computer monitor (Daugherty et al., 2015; Iaria
+et al., 2009; Moffat & Resnick, 2002; Moffat et al., 2007; Zhong
+et al., 2017). These types of “desktop VR” paradigms rely primarily on visual input while restricting the types of body-based
+sensory cues that are central to allocentric and egocentric forms of
+spatial navigation. Experimental studies employing desktop VR can
+also be confounded by age differences in prior experience with using
+a joystick or keyboard and mouse to navigate a first-person virtual
+environment. Finally, many of these studies do not directly test how
+landmarks are integrated during body and head movements. A critical
+gap in the literature, therefore, concerns whether age differences in
+navigation strategies persist when body-based cues are available to
+support navigation (McAvan et al., 2021).
+Age differences in allocentric navigation may also be dependent
+on the types of visual cues available within the environment. Human
+studies of spatial navigation often require participants to learn the
+relationships between discrete landmarks, such as a unique building
+or street sign. There is growing evidence, however, that older adults
+may be selectively disadvantaged at using these types of visual
+landmarks to orient in space (Colmant et al., 2023; West et al.,
+2023). Instead, older adults may be more adept at using spatial cues
+that convey the relative lengths, distances, and angles between largescale surfaces within the environment, such as walls or walkways.
+Studies employing these types of geometric spatial cues have shown
+that older adults are just as likely as younger individuals to orient
+using putative allocentric search strategies (Bécu et al., 2020, 2023).
+An overarching aim of the present study, therefore, was to examine
+the extent to which age differences in navigation strategy preferences are affected by the availability of enriched visual and bodybased sensorimotor cues.
+The Morris water maze (MWM) task is a commonly used
+assessment of allocentric navigation and spatial memory (Morris
+et al., 1982). Originally developed for rodents, the MWM task
+involves learning the locations of hidden objects within an environment surrounded by distal landmark cues. Successful performance
+on the task requires participants to learn and subsequently remember
+the location of hidden objects with reference to the distal cues, which
+is generally considered to depend on externally referenced allocentric
+memory processes. Virtual adaptations of the MWM task developed
+for human participants and administered on a desktop computer have
+been used extensively to examine putative allocentric navigation
+abilities in aged humans. Older adults are consistently observed to
+remember locations with respect to distal landmarks less accurately
+than do younger individuals on the MWM task (Daugherty & Raz,
+2017; Daugherty et al., 2015; Hill et al., 2024; Iaria et al., 2009;
+McAvan et al., 2021; Moffat & Resnick, 2002; Moffat et al., 2007;
+Zhong et al., 2017). By contrast, older adults are generally observed to
+perform just as well as younger individuals during conditions in
+which visual cues indicate the location of a previously “hidden” target
+(i.e., visible platform trials).
+When employing the MWM and other spatial tasks, however, it is
+important to note that allocentric and egocentric navigation strategies are difficult to isolate and common behavioral measures often
+involve a combination of strategies and spatial reference frames
+(Ekstrom et al., 2014; Johnsen & Rytter, 2021; Wolbers & Wiener,
+2014). In the present study, we considered multiple measures of
+putative allocentric navigation to reduce the potential influence of
+this issue. One such measure involves manipulating the familiarity
+of the navigation start positions such that participants are cued to
+locate hidden targets from familiar (i.e., well-learned) and novel
+locations (Eichenbaum et al., 1990; Kolarik et al., 2018; McAvan
+et al., 2021; Wolbers & Wiener, 2014). The assumption is that
+performance on familiar and novel start trials should be relatively
+similar in those individuals using an allocentric reference frame to
+infer the location of a hidden target. By contrast, those individuals
+who rely more heavily on an egocentric reference frame should
+perform reasonably well when taking a well-learned route from a
+familiar start position but show reduced performance when navigating from a novel start position, which places a greater emphasis
+on the distal landmark cues.
+In the present study, we examined the impact of enriched visual
+and body-based sensory cues on spatial memory as young and
+older adults navigated a virtual MWM environment (Figure 1).
+Participants were trained to find the locations of hidden targets in
+a virtual outdoor environment in each of two VR conditions: a
+desktop VR condition that required using a keyboard and mouse
+to navigate and an immersive and ambulatory VR condition that
+enabled unrestricted self-motion during navigation (see Hill
+et al., 2024). We employed a version of the virtual MWM in
+which four distal landmarks were clearly visible outside of the
+navigable space in all environments. We tested older and young
+adults on memory for a hidden target location from both a novel
+and familiar (repeated) start location during both acquisition and
+delayed probe trials.
+On a subset of delayed probe trials, we rotated one of the distal
+mountain cues to test participant reliance on the stable three
+mountain cues or the single (moved) mountain. Greater reliance
+on the single moved mountain cue might suggest a greater
+reliance on a beaconing strategy. In a subset of participants (N =
+48), a circular boundary was located outside of the navigable
+arena to serve as a geometric spatial cue (Figure 1B). Critically,
+the distal mountain cues and circular boundary wall were intended to convey unique sources of spatial information during
+navigation. Whereas the distal mountain cues could be used to
+AGING AND SPATIAL NAVIGATION STRATEGIES
+915
+infer relative directions within the otherwise featureless environment, the circular boundary was meant aid in the estimation
+of relative distances within the navigable environment. The
+experimental design therefore allowed us to test whether age
+differences in navigation strategies are differentially affected
+by the inclusion of geometric spatial cues (boundary vs. no
+boundary) and/or body-based sensory cues (immersive VR vs.
+desktop VR).
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 1
+Virtual Morris Water Maze Task Design
+Note. (A) Visual depiction of the immersive and desktop virtual reality conditions. The assignment of the respective
+environments (snow, desert) to each virtual reality condition (desktop, immersive) was fully counterbalanced across
+participants, as was the testing order of the respective conditions. (B) First-person depiction of the available spatial
+cues in the no boundary (distal mountains only) and boundary (distal mountains and perimeter wall) conditions. (C)
+During the spatial acquisition blocks, participants were trained to locate the spatial positions of three hidden target
+objects (color coded). Immediately following each spatial learning block, participants were cued to recall the location
+of the hidden object without feedback (immediate probe trials). Following the learning blocks, participants completed
+eight visible target trials to rule out potential age-related motivational and/or sensorimotor confounds. Participants
+completed 12 delayed probe trials without feedback, during which they were cued to locate the hidden target when
+starting from a familiar (solid bars) or novel (dashed bars) location. In a subset of the delayed probe trials, a singular
+mountain cue was rotated 20° clockwise or counterclockwise unbeknownst to the participant. Figure adapted from
+“Age Differences in Spatial Memory Are Mitigated During Naturalistic Navigation,” by P. F. Hill, S. Bermudez, A. S.
+McAvan, J. D. Garren, M. D. Grilli, C. A. Barnes, and A. D. Ekstrom, 2024, Aging, Neuropsychology, and Cognition,
+31(6), p. 1110 (https://doi.org/10.1080/13825585.2024.2326244). CC BY 4.0. HMD = head mounted display. See the
+online article for the color version of this figure.
+916
+HILL ET AL.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Materials and Method
+Transparency and Openness
+We report exclusionary criteria and describe all manipulations
+and measures that were collected. De-identified data and analysis
+code are available from the first author upon request, and a link to
+these materials is provided in the author note (Hill, 2025). The study
+design and analysis procedure were not preregistered. The data
+presented here were also presented in a previous article with a focus
+on the impact of virtual testing modality on age differences in spatial
+memory (Hill et al., 2024). The focus of the current article is instead
+on testing hypotheses related to spatial strategy and age, an issue not
+covered in the previous article. The descriptions of the participant
+information and VR procedures overlap heavily with the descriptions given in that report and are partially summarized here. The
+analyses and behavioral findings described below are novel and
+have not been reported previously.
+Participants
+We recruited 45 young and 46 older adults from the University of
+Arizona and surrounding communities. Participants were recruited
+in two separate waves to be enrolled in the no-boundary (20 young,
+20 older) and boundary (24 young, 24 older) versions of the MWM
+task (see the Procedures section). One older adult voluntarily withdrew from the study due to a scheduling conflict; one young and one
+older adult withdrew after experiencing mild motion sickness during
+the VR task. The final participant sample included 44 young adults
+(18–31 years; M = 21.50 years; SD = 3.23; 27 females) and 44 older
+adults (63–80 years; M = 70.48 years; SD = 4.89; 21 females). The
+final sample size (N = 88) was informed by an a priori power
+analysis conducted in G*Power employing between-repeated
+measures. The sample was selected to ensure power of 0.85 (at
+p < .05) to detect Medium Age Group × VR Condition interactions
+( f = .25) in a 2 (age group) × 2 (VR condition) analysis of variance
+(ANOVA). Given the novelty of our study design, we elected to
+perform a power analysis based on a conservative (medium) effect
+size estimate to avoid underestimating the sample size needed to
+detect a meaningful two-way interaction. A chi-square analysis
+confirmed that the distribution of gender did not significantly differ
+between the young and older adult groups (χ2 = 1.14, p = .285).
+All participants gave informed consent in accordance with the
+University of Arizona’s Institutional Review Boards and were
+compensated at the rate of $18 per hour. All participants had normal
+or corrected-to-normal color vision and normal or corrected-tonormal hearing and reported no history of cardiovascular problems,
+neurological conditions, or motion sickness.
+All older adult participants completed a neuropsychological test
+battery on a day prior to the experimental VR session. The test
+battery included multiple tests and scores in each of five broad
+cognitive domains: memory (California Verbal Learning Test–II
+Long Delay Free Recall, Delis et al., 2000; Rey–Osterrieth Complex
+Figure Test Long Delay Free Recall, Rey, 1941), executive function
+(Trail Making Tests A and B total time; Reitan & Wolfson, 1985),
+language (F-A-S fluency, Spreen & Benton, 1977; category fluency,
+Benton, 1968; Boston Naming Test, Goodglass et al., 2001), visuospatial abilities (Wechsler Adult Intelligence Scale 4th edition Block
+Design Test, Wechsler, 2009; Rey–Osterrieth Complex Figure Test
+copy score, Rey, 1941), and verbal intelligence (Wechsler Adult
+Intelligence Scale 4th edition Vocabulary and Similarities; Wechsler,
+2009). Participants were excluded from entry into the study if they
+scored greater than 1 SD below age-appropriate norms on any memory
+test or greater than 1 SD below age norms on any two other tests.
+These criteria were employed to minimize the likelihood of
+including older individuals with mild cognitive impairment (Bondi
+et al., 2008; Jak et al., 2009). Scores on the neuropsychological
+assessments did not differ between older adults enrolled in the
+boundary and no-boundary conditions (Supplemental Table 1).
+Older adults in the respective boundary and no-boundary conditions also did not differ in years of education obtained, t(40.98) =
+−0.45, p = .657 (boundary, M = 17.42 years, SD = 2.02; no
+boundary, M = 17.65 years, SD = 1.42).
+Procedure
+Participants performed virtual adaptations of the MWM task. The
+virtual environments and experimental tasks were built in Unity 3D
+(Unity Technologies ApS, San Francisco, California) using the
+Landmarks VR navigation package (Starrett et al., 2021). All
+participants performed the task in each of two virtual conditions. In
+the immersive VR condition, participants were equipped with a
+wireless head mounted display (HTC Vive Pro Eye) and a handheld
+HTC Vive controller. This setup was used to simulate an immersive
+experience of being in a mountainous environment while simultaneously allowing for unrestricted locomotion and body-based
+sensory cues during navigation. Participants also completed an
+analogous version of the task on a desktop computer while seated in
+a behavioral testing room. This desktop VR condition required using
+a keyboard and mouse to navigate the two-dimensional environment.
+The order of the respective immersive and desktop VR conditions was
+fully counterbalanced across all participants. Additional technical
+specifications for the respective VR conditions are described by Hill
+et al. (2024).
+Each virtual environment was rendered with a unique floor (snow
+covered or desert, counterbalanced across the respective desktop
+and immersive VR conditions) and four distally rendered mountains
+located on the horizon. These distinctive renderings were meant to
+reduce interference and potential carryover effects from the preceding
+virtual session such that participants would treat the two environments
+independently. The navigable environment in both the desktop and
+immersive VR conditions was approximately 5 × 5 m in size, with the
+full visible space spanning approximately 750 × 750 m. A subsample
+of young (N = 20) and older (N = 20) adult participants performed a
+version of the task in which the distal mountains were the sole source
+of spatial information within the environment (i.e., no-boundary
+condition). A separate sample of young (N = 24) and older (N = 24)
+adult participants completed an identical version of the task apart from
+a circular wall (20 m in diameter) placed around the perimeter of the
+navigable space in addition to the four distal mountain cues (i.e.,
+boundary condition).
+Participants were trained to learn the location of three hidden
+objects placed at fixed positions within the 5 × 5-m navigable space.
+Each virtual environment was associated with three unique 3D
+rendered objects (book, Rubik’s cube, teapot in the snow-covered
+environment; alarm clock, mug, rotary phone in the desert environment). The objects were presented on pedestals at approximately
+chest height. Participants completed 16 consecutive learning trials for
+each target location. Prior to each trial in the immersive VR condition,
+AGING AND SPATIAL NAVIGATION STRATEGIES
+917
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+the headset displayed a blank screen while an experimenter guided the
+participant along a random path for 30 s. This disorientation phase
+was meant to prevent participants from tracking their locations and
+movements from the previous trial. A similar disorientation phase was
+included in the desktop VR condition, during which participants
+viewed a blank screen for 30 s before starting the next trial.
+Following the 30-s disorientation, participants were placed at one
+of eight predetermined starting positions. Each block of 16 study
+trials was organized into four subblocks, each corresponding to a
+unique start position (e.g., four consecutive trials from Position 1,
+followed by four consecutive trials from Position 5). Each study trial
+began with visual instructions indicating the navigation goal (e.g.,
+“Please find the book”). Participants then freely navigated while
+searching for the hidden object that remained invisible for the first
+30 s of the trial.
+To encourage spatial learning, participants were instructed to
+remember the fixed positions of the hidden objects and to navigate to
+this location and respond via button press before 30 s had elapsed.
+This button press was treated as a spatial memory response, and the
+location and timestamp of the response were recorded in the data
+output. Upon making a response, the object became visible to permit
+spatial updating during the study trials. If a button response was not
+made, the target object would appear after 30 s, and the participants’
+location at the time the object became visible was logged in the data
+output. At the end of each 16-trial spatial learning block, participants
+were placed in a novel start position and instructed to navigate to the
+location of the hidden target (immediate probe trials). Unlike the
+immediately preceding study trials, the object did not appear after
+30 s, nor did the object appear upon making a button press.
+Following the three study blocks, participants completed one
+block of eight visible target trials. During these trials, objects were
+placed in their original studied locations and remained visible for the
+entire duration of the trial. This was meant to serve as a control for
+motivational and sensorimotor differences while performing the task
+(Moffat & Resnick, 2002; Morris et al., 1982). The results of the
+visible target trials are summarized in the Supplemental Materials
+and described in more detail by Hill et al. (2024).
+After completing eight visible target trials, participants performed
+12 delayed probe trials to assess delayed spatial recall of the hidden
+target locations. As with the immediate probe trials, the target object
+did not appear after 30 s nor did it appear after a button press.
+Participants were thus required to navigate to the location of the
+hidden target object based solely on their memory. Upon reaching
+this location, participants made a button press to record their location
+and timestamp. In a separate set of three delayed probe trials (one trial
+for each hidden target object), we rotated the position of a single
+mountain cue 20° clockwise or counterclockwise to assess potential
+age differences in the relative use and weighting of distal landmark
+cues during navigation (see Analytic Approach). For these trials, we
+rotated the mountain with an angular orientation closest to that of the
+hidden target object when standing in the center of the arena. This
+was done to ensure the mountain was clearly visible when facing the
+hidden target location.
+Analytic Approach
+Position and rotation data were recorded throughout the entire
+experiment at a sampling rate of approximately 10 Hz. All statistical
+analyses were conducted with R software (R Core Team, 2022). All
+t tests were two-tailed and performed using the t.test function in the
+base R package. Welch’s unequal variance t tests were performed
+when assumptions of equal variance were not met. Multiple regression
+analyses were conducted using the lm function in the base R package.
+ANOVAs were conducted using the afex package (Singmann et
+al., 2016), and the Greenhouse–Geisser procedure (Greenhouse &
+Geisser, 1959) was used to correct degrees of freedom for nonsphericity when necessary. Post hoc tests on significant effects
+from the ANOVAs were conducted using the emmeans package
+(Lenth, 2018) and corrected for multiple comparisons using the
+Holm-Bonferroni procedure where appropriate. Bayesian mixedeffects regression models for circular data were performed using
+the bpnme package in R (Cremers et al., 2018). Unless otherwise
+specified, we report the results of three-way mixed-factorial ANOVAs
+with between-subject factors of age group (young, older) and cue type
+(boundary, no boundary) and the within-subject factor of VR condition
+(desktop, immersive). Bayes factor values (BF10) were computed using
+the BayesFactor package (Morey et al., 2022) and interpreted using the
+categorical labels proposed by Jeffreys (1961).
+Switching Between Familiar and Novel Routes
+During the study phase, young and older adult participants were
+trained to learn target locations by navigating from fixed locations
+within the respective virtual environments. These locations were
+organized in a blocked format such that each starting location was
+repeated over four consecutive trials for a given target before moving
+to a novel start position and repeating this process for the same target.
+This blocked format was meant to ensure participants learned a
+specific start location by having participants repeatedly navigate from
+this location. Participants were therefore cued to recall hidden target
+locations from familiar (i.e., previously learned) and novel start
+positions. Prior studies have employed familiar and novel start
+positions as an assay of egocentric and allocentric navigation
+strategies, respectively (Eichenbaum et al., 1990; Kolarik et al.,
+2018; McAvan et al., 2021; Wolbers & Wiener, 2014).
+We tested whether older adults would show greater “switching
+costs” when taking a novel compared with a familiar route to locate
+the hidden target (Harris & Wolbers, 2014; Harris et al., 2012), a
+proxy for egocentric navigation strategies. Spatial memory was
+operationalized as the Euclidean distance (in virtual meters) between
+the remembered and true location of each target object (i.e., spatial
+distance error). To maximize route familiarity, performance on
+familiar trials was computed as the mean distance error on the fourth
+consecutive trial initiated from a given location within the environment (i.e., the fourth and final trial of each block). Performance
+on novel trials was similarly computed as the mean spatial distance
+error on trials immediately following each familiar trial (i.e., the first
+trial of the next block, including immediate probe trials).
+We also examined whether young and older adults differed in
+their tendency to replicate familiar, previously learned paths when
+switching to a novel start position. We reasoned that participants
+preferring more of an egocentric or route-based strategy would tend
+to replicate familiar paths even when navigating from a novel start
+position. This should result in greater familiar-to-novel path similarity compared with those preferring a more allocentric strategy
+(Iggena et al., 2023). We quantified path replication as the spatial
+distance between navigation paths taken on consecutive familiar
+(i.e., fourth and final trial of a given block) and novel (i.e., first trial
+918
+HILL ET AL.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+of the next block) trials. Navigation paths were defined as the vector
+of XY coordinates of the VR headset over the duration of a given
+trial. Consecutive paths were aligned to obtain a common starting
+coordinate (0, 0). To account for differences in path length, we used
+a nonlinear dynamic time warping algorithm to find the optimal
+match between each respective pair of navigation trajectories using
+the dtw package in R (Giorgino, 2009) function. This analysis thus
+yielded a measure of dissimilarity between respective paths, with
+higher scores indicating less similarly (or more allocentric) and lower
+scores indicating more similar trajectories (or more egocentric).
+Landmark-Based Navigation During Delayed
+Probe Trials
+Successful allocentric navigation requires encoding the spatial
+relationships between stable landmarks within the environment.
+One possibility is that older adults are less likely than young adults
+to orient toward the distal mountain cues when attempting to locate
+the hidden target. To examine this possibility, we computed the trialwise angular difference between participant heading at the time of
+retrieval (button press) during the delayed probe trials and the heading
+error for each of the respective distal mountain cues, yielding four
+estimates of landmark error. Landmark error was computed separately
+for each of the respective distal mountain cues (yielding four landmark error estimates). For each trial, we identified the smallest of the
+four landmark error estimates and used these values as the dependent
+variable in a mixed-effect regression analysis. This approach was
+motivated by the assumption that the most salient distal cues used
+to orient within the environment would yield the smallest angular
+distance error. We similarly computed the trial-wise angular difference between participant heading at retrieval and the correct heading
+of the hidden target object (target error). Target and landmark error
+values could thus range from 0° to 360°.
+We used Bayesian mixed-effect regression models for circular
+data (Cremers et al., 2018) to examine whether young and older
+adults differed in their tendency to orient toward the distal mountain
+cues and/or hidden target during the delayed probe trials (Cremers &
+Klugkist, 2018; Du et al., 2023). We constructed separate models for
+landmark and target error. For each model, we entered heading error
+(transformed to range from −180° to 180° then converted to radians)
+as the dependent variable. Age group, VR condition, and cue type
+were entered into the model as fixed-effect predictors, and bysubject intercept terms were entered as random effects (angular
+error – age group + subject). We used the bpnme package in R
+(Cremers, 2020) to run a Bayesian Markov chain Monte Carlo
+sampler with 1,000 iterations for the mixed-effects model to
+calculate the posterior estimates of the landmark and target errors
+for each age group, VR condition, and cue type, the circular means,
+and 95% higher posterior density (HPD) interval of the respective
+angular error estimates.
+We next examined the subset of probe trials in which a single
+distal mountain cue was rotated 20° clockwise or counterclockwise.
+We computed the distance error between a given object’s remembered location and the hypothetical location of that object if it were
+rotated 20° commensurate with the rotated mountain cue (rotated
+error). We then divided the rotated error by the sum of the rotated error
+and the true distance error between the estimated and true (unrotated)
+location of that target object: error index = rotation error/(rotation
+error + true error). Values approaching 0 signify greater weighting
+of the rotated mountain cue (i.e., beacon strategy), and values
+approaching 1 indicate greater weighting of the three stationary
+mountain cues (i.e., allocentric strategy). Due to a programming
+error, the direction (clockwise vs. counterclockwise) of the cue
+rotations was not properly recorded in the desktop condition.
+Analysis of the rotated mountain cues was therefore restricted to
+the immersive VR condition.
+Results
+Older Adults Do Not Show Selectively Worse
+Performance Compared With Young Adults When
+Finding a Hidden Target From a Novel Start
+Location Compared With a Familiar One
+The ability to switch between familiar and novel routes to locate
+hidden targets is often used as a proxy for allocentric navigation
+strategies in the MWM task (Eichenbaum et al., 1990; Kolarik et al.,
+2018; McAvan et al., 2021; Wolbers & Wiener, 2014). Here, we
+tested whether older adults would show worse performance compared with young adults when navigating to the hidden target from a
+novel start position compared with a well-learned and familiar start
+position within the environment. To this end, we submitted the mean
+distance error during the acquisition trials to a four-way mixedfactorial ANOVA with factors of age group (young, older), VR
+condition (immersive, desktop), cue type (boundary, no boundary),
+and start position (novel, familiar). This analysis revealed a significant main effect of start position, F(1,84) = 60.47, p = 1.7−11,
+partial η2 = .419, BF10 = 78.546. Post hoc tests confirmed that this
+effect was driven by increased distance error when starting from a
+novel start position compared with starting from a familiar start
+position, t(84) = −7.78, p < .001.
+Critically, the interaction between age group and start position
+was not significant, and a Bayes value suggested strong evidence in
+favor of the null hypothesis, F(1,84) = 0.46, p = .499, partial η2 =
+.005, BF10 = .167. The respective interactions between start position
+and VR condition, F(1,84) = 1.49, p = .226, partial η2 = .017, BF10 =
+.183, and between start position and cue type, F(1,84) = 1.24, p =
+.269, partial η2 = .015, BF10 = .197, were also nonsignificant, with
+strong Bayes evidence in favor of the null hypothesis. Indeed,
+familiar versus novel effect size estimates were largely similar for
+young and older adults across the respective VR and cue type
+conditions (see Table 1). These findings suggest that older adults are
+not selectively impaired when attempting to locate the hidden target
+from a novel start location compared with young adults.
+During the delayed probe trials, participants were prompted to
+locate each of the respective hidden targets from memory following a delay while navigating from novel start locations (i.e.,
+starting locations not encountered during the spatial learning
+phase). On a subset of delayed probe trials (two of 12 total trials),
+participants were prompted to locate the hidden target when
+starting from a familiar location encountered during the spatial
+learning phase. We submitted the mean distance error during the
+delayed probe trials to a four-way ANOVA with factors of age
+group (young, older), VR condition (immersive, desktop), cue type
+(boundary, no boundary), and start position (novel, familiar). The
+four-way ANOVA revealed a significant main effect of start position,
+F(1,84) = 114.91, p = 5.7−16, partial η2 = .578 which, in contrast to
+the study trials, was driven by greater distance error when starting
+AGING AND SPATIAL NAVIGATION STRATEGIES
+919
+Study trials
+Immersive, boundary
+Immersive, no boundary
+Desktop, boundary
+Desktop, no boundary
+Delayed probe trials
+Immersive, boundary
+Immersive, no boundary
+Desktop, boundary
+Desktop, no boundary
+−3.13**
+−5.15***
+−2.05*
+−2.20*
+3.12**
+3.62***
+1.42
+2.54*
+0.99 (.11)
+1.62 (.12)
+0.82 (.16)
+1.78 (.18)
+1.59 (.15)
+2.69 (.16)
+1.35 (.25)
+2.36 (.27)
+1.22 (.11)
+2.03 (.12)
+1.03 (.18)
+2.02 (.19)
+1.25 (.12)
+2.25 (.13)
+1.17 (.19)
+1.99 (.21)
+−3.32**
+−3.34**
+−1.82
+−2.03*
+2.53*
+5.72***
+4.52***
+6.14***
+1.53 (.11)
+2.44 (.12)
+2.54 (.16)
+3.44 (.18)
+2.18 (.15)
+3.27 (.16)
+3.32 (.25)
+4.04 (.27)
+1.78 (.11)
+2.71 (.12)
+2.72 (.18)
+3.66 (.19)
+1.93 (.12)
+2.57 (.13)
+2.72 (.19)
+3.16 (.21)
+Note. Estimated marginal means (with standard error). Values from two-sided paired t tests comparing distance error on familiar and novel start trials are
+presented.
+*
+p < .05. ** p < .01. *** p < .001.
+from a familiar compared with novel start position, t(84) = 10.72, p <
+.001. The interaction between cue type and start position was also
+significant, F(1,84) = 8.26, p = .005, partial η2 = .090. Post hoc tests
+confirmed that this interaction was driven by significantly larger
+switching costs in the no-boundary, t(84) = 9.20, p < .001, compared
+with the boundary, t(84) = 5.82, p < .001, conditions. Note that a
+permutation test accounting for the unbalanced number of familiar
+and novel trials produced an equivalent pattern of results (see
+Supplemental Materials).
+The three-way interaction between age group, VR condition, and
+start position was also significant, F(1,84) = 4.25, p = .042, partial
+η2 = .048. To unpack this interaction, we ran a follow-up Age × Start
+Position ANOVAs separately for the immersive and desktop VR
+conditions. The interaction between age and start position was
+significant in the desktop VR condition, F(1,86) = 11.01, p = .001,
+partial η2 = .113, and was driven by a significantly larger effect
+of start position in older, t(86) = 7.43, p < .001, compared with
+younger, t(86) = 2.74, p = .007, individuals. The analysis of the
+immersive VR condition revealed a significant main effect of start
+position, F(1,86) = 49.37, p = 4.7−10, partial η2 = .365. Importantly,
+the interaction between age and start position when navigating in the
+immersive VR environment was not significant, F(1, 86) = 0.28, p =
+.596, partial η2 = .003. These results suggest that, in contrast to the
+study trials, participants generally performed worse (i.e., greater
+distance error) when attempting to locate the hidden target from a
+familiar start position compared with a novel start position following
+a delay. One possibility is that this pattern of effects relates to
+interference, a possibility we explore in the discussion. Notably,
+though, age differences in finding the hidden target from a novel
+compared with a familiar position were only evident in desktop VR
+and not present in either of the two immersive VR conditions tested
+(boundary and no boundary) (Figure 2).
+Age Differences in Path Rigidity When Switching
+Between Familiar and Novel Start Positions During
+Spatial Learning Are Attenuated in Immersive VR
+We next examined whether young and older adults differed in
+their tendency to replicate previously learned paths when switching
+from a familiar to a novel start position during the study phase
+(see Figure 3). We submitted mean path dissimilarity (see the
+Analytic Approach section) to a three-way mixed-factorial ANOVA
+with factors of age group (young, older), VR condition (immersive,
+desktop), and cue type (boundary, no boundary). This analysis revealed significant main effects of age, F(1,84) = 57.39, p = 4.3−11,
+partial η2 = .406; VR condition, F(1,84) = 68.90, p = 1.5−12, partial
+η2 = .451; and cue type, F(1,84) = 18.84, p = 3.9−5, partial η2 = .183.
+The interaction between age and VR condition was also significant,
+F
+(1,84) = 19.34, p = 3.2−5, partial η2 = .187. Critically, these effects
+remained significant when controlling for age- and VR-related differences in angular rotations (see Supplemental Materials).
+Post hoc pairwise comparisons of age group and VR condition
+revealed significant differences between all levels of these interacting variables. We note that effect size estimates were maximal
+when comparing young and older adults in the desktop VR condition (young > older contrast), immersive VR: t(84) = −4.72, p <
+.001; desktop VR: t(84) = −7.44, p < .001, and when comparing
+immersive and desktop performance in young adults (immersive >
+desktop contrast), young: t(84) = −8.98, p < .001; older: t(84) =
+−2.76, p = .007. These results suggest that older adults were
+generally more likely to stick with a familiar path compared with
+young adults but that this age difference was significantly reduced in
+the immersive VR condition. Critically, reduced age differences in
+the immersive VR condition were driven by a tendency for young
+adults to take more familiar (i.e., egocentric) routes rather than a
+shift toward more novel (i.e., allocentric) routes in older adults (see
+Figure 3B).
+The three-way interaction between age group, VR condition, and
+cue type (boundary vs. no boundary) was not significant, F(1,84) =
+2.56, p = .113, partial η2 = .030. Prior work, however, suggests that
+the presence of environmental boundaries might moderate age
+differences in allocentric navigation (Bécu et al., 2020, 2023).
+Motivated by these prior findings, we submitted mean path dissimilarity to Exploratory Age × Cue Type ANOVAs separately for
+the desktop and immersive VR conditions to examine whether the
+presence of boundaries might moderate any of the observed age
+differences in path dissimilarity. The analysis of the immersive VR
+condition revealed a significant interaction between age group
+and cue type, F(1,84) = 4.72, p = .033, partial η2 = .053. Post hoc
+comparisons revealed significant age differences in path similarity
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 1
+Mean Distance Error (With Standard Error) When Navigating From Familiar and Novel Start Positions
+Condition
+Young adult
+Older adult
+Familiar
+Novel
+t value
+Familiar
+Novel
+t value
+920
+HILL ET AL.
+Note. (A) On study trials, distance error was greater when starting from a novel position. The
+size of this effect was not moderated by age group, virtual reality condition, or cue type. (B) On
+delayed probe trials, distance error was greater when starting from a familiar position. This effect
+was significantly larger in the absence of the boundary cue. Likewise, age differences in the
+magnitude of these novel-to-familiar switching costs were significant in the desktop virtual
+reality condition, but not when navigating in the immersive virtual reality environment. See the
+online article for the color version of this figure.
+in the no-boundary condition, t(84) = −4.67, p < .001, BF10 =
+248.893, along with a null effect of age in the boundary condition,
+t(84) = −1.89, p = .062, BF10 = 1.421. The interaction between
+age group and VR condition was not significant in the desktop VR
+condition, F(1,84) = 0.61, p = .436, partial η2 = .007, and post hoc
+tests confirmed that the effect of age was highly significant in both
+the boundary, t(84) = −4.94, p < .001, and no-boundary, t(84) =
+−5.66, p < .001, desktop VR conditions. Although they should be
+interpreted cautiously, these results suggest that the presence of
+the perimeter boundary mitigated the tendency of older adults to
+replicate a previously learned path when navigating from a novel
+start location, but only in the immersive VR condition.
+Older Adults Orient Toward Landmarks as Effectively
+as Younger Adults but Show Greater Angular Error
+When Orientating Toward the Hidden Target
+We next examined whether older adults were impaired at using
+the distal landmarks to navigate. To this end, we examined whether
+young and older adults differed in their relative tendency to orient in
+the direction of the distal mountain cues during the delayed probe
+trials (i.e., landmark error, see the Analytic Approach section).
+Landmark error was numerically but not significantly lower in older
+adults (M = 0.29 radians, 95% HPD 0.25–0.35) compared with
+young adults (M = 0.36 radians, 95% HPD 0.30–0.42). Landmark
+error did not significantly differ between the immersive (M = 0.28
+radians, 95% HPD 0.24–0.32) and desktop (M = 0.38 radians, 95%
+HPD 0.32–0.45) VR conditions or between the boundary (M = 0.35
+radians, 95% HPD 0.30–0.45) and no-boundary (M = 0.30 radians,
+95% HPD 0.25–0.35) conditions. These findings suggest that older
+adults were able to orient to each of the four landmarks comparably
+with young adults.
+We next considered how young and older adults might orient
+differently toward the hidden targets. Consistent with past reports of
+greater spatial distance error in older adults when locating hidden
+targets (Hill et al., 2024; McAvan et al., 2021), angular target error
+was reliably lower in young adults (M = 0.55 radians, 95% HPD
+0.45–0.66) compared with older adults (M = 1.02 radians, 95% HPD
+0.79–1.32). Angular target error was also lower in the boundary
+condition (M = 0.44 radians, 95% HPD 0.37–0.52) compared with
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 2
+Distance Error “Switching Costs” When Starting From Familiar Start Position
+Compared With Novel Start Position
+AGING AND SPATIAL NAVIGATION STRATEGIES
+921
+Note. (A) Example routes taken on consecutive trials initiated from a well-learned and familiar start position (left panels) and a novel start position (right
+panels). The paths were realigned to create a common starting coordinate. The top row illustrates high path dissimilarity, which is indicative of an allocentric
+strategy. The bottom row illustrated highly similar paths, which is indicative of an egocentric strategy. (B) Bar plot (top panel) illustrating the effect of age group
+on mean path distance (i.e., path dissimilarity) separately for virtual reality (VR) condition and cue type. Age differences in path similarity were significantly
+attenuated in the immersive VR condition compared with the desktop VR condition. The spaghetti plots (bottom panel) emphasize that attenuated age effects in
+the immersive VR condition were driven by increased path similarity among young adults. See the online article for the color version of this figure.
+the no-boundary condition (M = 1.32 radians, 95% HPD 1.00–
+1.63). Target errors in the immersive (M = 0.66 radians, 95% HPD
+0.54–0.79) and desktop (M = 0.82 radians, 95% HPD 0.61–1.01)
+VR conditions did not reliably differ, as indicated by overlapping
+95% HPD intervals. These findings suggest that older adults performed worse at orienting toward the target, although this did not
+appear to relate to an inability to orient toward the landmarks.
+Older Adults Do Not Show a Selective Tendency to Rely
+on a Single Landmark Compared With Young Adults
+External landmarks can often act as reference points or “beacons”
+when located near a goal location. Navigating toward these fixed
+landmarks moves the navigator closer to the goal location without
+placing any explicit demands on egocentric stimulus-motor associations or more abstracted allocentric representations (Waller &
+Lippa, 2007; Wiener et al., 2013). Although young and older adults
+did not differ in their tendency to orient toward the distal landmarks,
+the above analyses do not rule out the possibility that older adults
+were over reliant on using a single landmark to navigate (beacon
+strategy) rather than triangulating spatial positions based on multiple
+landmarks (allocentric strategy) (see Wiener et al., 2013). To
+address this possibility, we rotated the single distal mountain cue
+with the angular orientation closest to that of the hidden target on a
+subset of the delayed probe trials. We reasoned that among those
+participants relying on a single mountain cue to locate the hidden
+target, distance error would predictably rotate along with the moved
+mountain (Figure 4A). Alternatively, participants who triangulate
+their position using multiple distal mountain cues should be less
+affected by the single rotated mountain (see McAvan et al., 2021).
+The rotation indices for each age group and cue type are illustrated in Figure 4B. A two-way ANOVA with factors of age group
+(young, older) and cue type (boundary, no boundary) showed no
+significant main effect of age group, F(1,81) = 0.48, p = .493, partial
+η2 = .006, BF10 = .272, as well as a nonsignificant Age Group × Cue
+Type interaction, F(1,81) = 0.53, p = .468, partial η2 = .007, BF10 =
+.362. These findings suggest that older adults did not rely on a single
+mountain cue to a greater extent than young adults. The main effect
+of cue type was also not significant, F(1,81) = 0.87, p = .353, partial
+η2 = .011, BF10 = 1.25, though the Bayes value suggested weak or
+“anecdotal” evidence for the alternative hypothesis.
+To further explore the effects of the rotated mountain cue, we
+performed one-sample t tests (two-tailed) to compare rotation
+indices against a hypothetical mean of 0.50 separately for each age
+group and cue type. Values at or below 0.5 would suggest a tendency to use a single landmark to a greater extent than the collection
+of the three landmarks. Error indices were significantly greater than
+0.50 among older adults in the boundary condition (M = 0.52, SD =
+0.04), t(22) = 2.38, p = .026, suggesting a potential greater reliance
+on an allocentric strategy. Rotation indices in young adults did not
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 3
+Path Replication During Spatial Learning
+922
+HILL ET AL.
+Note. (A) A singular distal mountain cue was rotated 20° clockwise or counterclockwise on a subset
+of the delayed probe trials. The blue and red dots indicate the actual and hypothetical rotated location of
+the hidden target, respectively. (B) Rotation indices did not significantly differ between age groups or
+cue types. (C) Rotation indices negatively covaried with distance errors estimated during the delayed
+probe trials. This negative association was moderated by cue type, with a stronger negative association
+observed in the no-boundary condition compared with the boundary condition. See the online article
+for the color version of this figure.
+significantly differ from 0.5 in either of the cue type conditions,
+boundary: M = 0.52, SD = 0.07, t(22) = 1.50, p = .148; no
+boundary: M = 0.52, SD = 0.05, t(18) = 1.68, p = .110, nor did they
+differ from 0.5 among older adults in the no-boundary condition
+(M = 0.50, SD = 0.03), t(19) = 0.52, p = .607. These results suggest
+that, although young and older adults show a relatively equal
+weighting of the rotated and unmoved mountain cues, older adults
+might show a slight preference for using multiple stationary
+landmarks when additional boundary cues are also present.
+Individual Differences in Reliance on Multiple
+Landmarks Relate to the Precision of Remembering the
+Hidden Target Independent of Age
+In a final set of analyses, we examined whether individual differences in rotation indices were related to the precision of spatial
+memories for target locations during the nonrotated delayed probe
+trials. We reasoned that those who rely more heavily on the collection
+of unmoved landmarks to orient within the environment (allocentric
+strategy) would be able to remember target locations more precisely
+than those who relied more heavily on a single rotated cue (beacon
+strategy). To test this idea, we performed a multiple regression
+analysis with mean distance error on the delayed probe trials as the
+dependent variable and rotation indices, age group, cue type, and the
+respective two- and three-way interaction terms as independent
+variables. This analysis revealed a significant negative linear relationship between distance error and rotation indices (β = −8.63),
+F
+(1,77) = 28.23, p = 1.0−6. Critically, the interaction between age
+group and rotation indices was not significant, F(1,77) = 0.79, p =
+.378. This pattern of results suggests that, regardless of age, participants who were more likely to use multiple unmoved mountains to
+locate the hidden target on rotated probe trials generally performed
+better on the nonrotated delayed probe trials.
+We also found a significant interaction between rotation indices
+and cue type, F(1,81) = 4.67, p = .034. To unpack these results further,
+we computed partial correlations between distance error and rotation
+indices separately for the boundary and no-boundary conditions
+while controlling for age group (Figure 4C). This revealed a robust
+and significant negative correlation between distance error and
+rotation indices in the no-boundary condition (rpartial = −.61,
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 4
+Rotated Mountain Trials
+AGING AND SPATIAL NAVIGATION STRATEGIES
+923
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+p = 3.3−5). A nonsignificant negative correlation was also evident in
+the boundary condition that was comparatively weaker than that
+observed in the no-boundary condition (rpartial = −.29, p = .054). In
+other words, those who relied on multiple mountains to a greater
+extent when the boundary was present did not show the same
+advantage when finding the target compared with trials on which the
+boundary was not present.
+Discussion
+To test the hypothesis that older adults have a selective deficit in
+allocentric navigation, we examined spatial strategies in a sample of
+young and older adults as they navigated a virtual MWM environment. This paradigm has a long history of being used to examine
+spatial strategies and age-related differences in spatial memory in
+rodents (Barnes et al., 1980; Gallagher et al., 2015). Studies using
+virtual adaptations of the MWM in humans suggest that older adults
+often experience navigation difficulties. This is often suggested to be
+linked to a selective deficit in hippocampal-mediated allocentric
+wayfinding strategies, which is frequently accompanied by a shift
+toward a preference for egocentric-based navigation strategies in
+older age (Colombo et al., 2017; Li & King, 2019). It bears special
+mention, however, that egocentric and response-based strategies
+have been conflated in some past studies of the MWM, and debate
+remains regarding the extent to which allocentric and egocentric
+measures can be cleanly dissociated (Ekstrom et al., 2014; Johnsen
+& Rytter, 2021). In the present study, we considered multiple
+measures of putative allocentric and egocentric navigation to reduce
+the potential influence of this confound and isolate the specific factors
+that might best account for age differences in navigation performance.
+Moreover, the design of our experimental conditions allowed us to
+test whether age differences in navigation performance are differentially affected by the inclusion of geometric spatial cues (boundary
+vs. no boundary) and/or idiothetic sensorimotor cues (immersive VR
+vs. desktop VR).
+Evidence for age differences in putative allocentric versus egocentric navigation preferences was mixed. Young and older adults
+did not differ when navigating from a novel start location compared
+with a familiar start location on the spatial acquisition trials. The two
+age groups also did not differ when using distal landmarks to guide
+navigation during the delayed probe trials. However, older adults
+were more likely than younger individuals to replicate previously
+learned paths when navigating from a novel start position, consistent
+with a preference for familiar routes and egocentric navigation. The
+size of this age effect, however, was significantly attenuated in the
+immersive version of the task, particularly when a circular boundary
+cue was included within the environment. Taken together, our results suggest that the effects of age on spatial navigation are complex
+and cannot be fully explained in terms of a simple “deficit” in
+allocentric navigation.
+The clearest evidence in support of an age-related preference for
+egocentric strategy use was observed with our path replication
+analyses. Older adults were more likely than young adults to
+replicate a well-learned path when switching between familiar and
+novel start positions. As described in the foregoing paragraph,
+however, these age differences were significantly attenuated when
+tested in the immersive VR condition, particularly when a boundary
+cue was present. Interestingly, this age effect was driven by
+younger individuals. Whereas older adults did not reliably differ
+between the two VR conditions, young adults were more likely to
+replicate a previously learned path in the immersive version of the
+task, when the full range of ambulatory cues was available (see
+Figure 3, bottom panel). Body-based cues have been suggested to
+exert a disproportionate influence on egocentric tasks that require
+monitoring one’s own position in space (Huffman & Ekstrom,
+2021; Tuena et al., 2022). The enriched ambulatory cues in the
+immersive VR condition may have biased young adults toward
+repeating more familiar paths when navigating to the hidden target
+locations. An alternative (though not mutually exclusive) possibility is that young adults were more likely to adopt landmarkdependent strategies when navigating in the absence of body-based
+cues in the desktop VR environment, resulting in a greater tendency
+to navigate novel paths when starting from a new start position.
+Though speculative, this interpretation is consistent with our observation that landmark error was reliably reduced in the primarily visual
+desktop VR condition compared with the ambulatory immersive VR
+condition (see Figure 5A).
+It is not readily apparent why path replication in older adults was
+not similarly affected by VR modality. One possibility is that the
+influence of body-based cues on egocentric strategy preferences is
+weakened in older age, potentially due to reduced sensorimotor
+acuity or changes in gait patterns and functional mobility (Hill &
+Ekstrom, 2025). Alternatively, older adults may have been less
+likely than young individuals to navigate novel paths in the desktop
+VR condition due to a comparative lack of computer fluency and
+gaming experience (Charness & Boot, 2022; Hill et al., 2024).
+However, another possibility is that age differences in path replication reflect a general failure in older adults to accurately update
+their spatial position orientation toward fixed landmarks when
+navigating from a novel location (Merhav & Wolbers, 2019;
+Rosenzweig et al., 2003). Nevertheless, the path replication analysis
+suggests that older adults were more likely than their younger
+counterparts to stick with a familiar route in both VR conditions, even
+when doing so was less efficient and more likely to result in spatial
+errors (i.e., when navigating from a novel start position). We caution,
+however, that this pattern of results should not be taken to infer a
+selective deficit in allocentric navigation, per se. Instead, these results
+may simply reflect a deficit in spatial updating or a preference for
+taking the more familiar, albeit less efficient, path.
+Allocentric wayfinding strategies are typically evaluated based on
+the ability to use novel paths and shortcuts to reach a spatial goal.
+Critically, these novel paths are almost always designed to offer a
+more efficient alternative to taking a familiar but less direct route to
+reach the same goal. As a consequence, most experimental paradigms
+conflate path familiarity with path inefficiency. This represents a
+critical and often overlooked confound in studies assessing agerelated differences in allocentric/egocentric navigation. Older adults
+are generally more risk averse than young adults and are more likely
+to engage in familiarity-seeking behaviors to avoid more uncertain
+outcomes (Albert & Duffy, 2012; Frank & Seaman, 2023; Spreng &
+Turner, 2021). Thus, behaviors that resemble allocentric deficits in
+older age may simply reflect a preference for more familiar and
+predictable routes. Developing novel experimental methods to
+dissociate between path familiarity and efficiency is necessary to
+adjudicate between these respective sources of navigation errors
+in older age.
+During the delayed probe trials, both young and older adults
+showed an advantage when recalling the hidden target from a novel
+924
+HILL ET AL.
+Note. Angular distance between participant heading and (A) distal mountain landmarks and (B) hidden target location at the time a memory response was
+made during the delayed probe trials. The polar histograms in the left panels illustrate the distribution of landmark and target error (in degrees) collapsed across
+the virtual reality conditions and cue types. The bar plots in the right panels illustrate the circular means of landmark and target error (in radians) separately for
+each age group, virtual reality condition, and cue type. The error bars represent the 95% higher posterior density derived from the circular mixed-effects
+regression models. See the online article for the color version of this figure.
+compared with a familiar start location. This novelty advantage was
+significantly greater in older adults compared with younger individuals
+when navigating in the desktop VR environment. The two age groups
+did not significantly differ, however, when navigating in the immersive VR environment. We reported a similar novelty advantage
+in an independent sample of young and older adults navigating an
+immersive VR MWM similar to that reported here (McAvan et al.,
+2021). We note, however, that this prior study did not involve a direct
+comparison with desktop VR and, unlike the current paradigm,
+provided continuous visual feedback during the delayed probe trials,
+which may have enabled spatial updating during retrieval. One
+possibility is that navigating from novel locations introduced a degree
+of proactive interference, resulting in less precise spatial memory
+retrieval when navigating from familiar locations that were encountered during the spatial acquisition period. In other words, participants
+may have updated their spatial representations when tested from novel
+locations, and this may have interfered with spatial memories that were
+encoded during the spatial acquisition period. At present, the reasons
+for this effect are unclear, and additional work is necessary to replicate
+and further parse the source of this novelty advantage.
+Impaired spatial navigation in older age has also been proposed to
+stem from inefficiencies in using discrete landmarks to learn and
+subsequently navigate spatial environments (Colmant et al., 2023;
+West et al., 2023). This form of “landmark-dependent” navigation is
+often suggested to rely on hippocampal-mediated allocentric computations (Lester et al., 2017; Li & King, 2019). To examine whether
+older adults were less efficient than young adults at using the distal
+landmarks, we computed the angular distance between participant
+heading at the time a memory response was made on the delayed
+probe trials and the heading of the closest distal mountain cue.
+Critically, young and older adults did not significantly differ in their
+tendency to orient toward one of the distal landmarks, with older
+adults even showing a slight numerical advantage. Moreover, both
+age groups were more likely to orient toward the distal mountain cue
+than the actual location of the hidden target.
+It is worth noting, however, that the statistically equivalent orienting to landmarks in young and older adults does not rule out the
+possibility that older adults were simply relying on a single distal
+cue as a beacon to guide spatial memory. To address this possibility,
+we rotated the distal mountain cue closest to the hidden target
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 5
+Heading Error at Retrieval
+AGING AND SPATIAL NAVIGATION STRATEGIES
+925
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+location on a subset of the delayed probe trials. We reasoned that
+those using a beacon strategy would rotate their memory response
+commensurate to the rotation of the distal landmark. Spatial performance on the rotated mountain trials did not differ between
+young and older adults, suggesting that neither age group was more
+likely to rely single landmark during navigation. Moreover, performance on the rotated mountain trials predicted spatial distance
+error on the delayed probe trials, and this association was independent of age. Taken together, our results suggest that observed age
+differences in spatial memory could not be explained solely in terms
+of a deficit in landmark-dependent navigation (cf. Colmant et al.,
+2023; West et al., 2023).
+It has been proposed that healthy older adults may preferentially
+rely on geometric spatial cues over discrete landmarks to navigate.
+Indeed, recent studies suggest that age differences in allocentric
+navigation are eliminated when geometric cues, such as environmental boundaries, are available to guide navigation (Bécu et al.,
+2020, 2023). We tested this idea by having a subset of young and
+older adult participants navigate a version of the MWM environment that included a circular boundary wall, which served as a
+geometric cue. Young and older adults were less likely to replicate
+familiar paths when navigating from a novel start location in the
+boundary condition compared with the no-boundary condition. That
+is, both age groups were less likely to replicate a previously learned
+path when geometric spatial cues were included within the environment. We also note that, within the immersive VR condition, age
+differences in path replication were eliminated in the boundary
+condition. We caution that this analysis was exploratory and should
+thus be interpreted cautiously. Nevertheless, the pattern is largely
+consistent with prior studies that suggest age differences in allocentric-based navigation strategies are attenuated when geometric
+cues are available to guide navigation (Bécu et al., 2020, 2023; see
+also Hill, 2023).
+Inclusion of the boundary wall did not affect the tendency to
+orient toward the discrete landmarks, regardless of age or VR
+condition (Figure 5A, right panel). This result contrasts with findings
+from a recent eye-tracking study that reported older adults spent
+less time fixating on landmarks when geometric cues were present
+(Bécu et al., 2023). We note that the circular boundary cue in our
+study—which was selected to mimic the circular enclosures often
+present in rodent (Eichenbaum et al., 1990; Gallagher et al., 2015;
+Morris et al., 1982) and human (Daugherty et al., 2015; Gazova et
+al., 2013; Iggena et al., 2023; Moffat et al., 2006) adaptations of the
+MWM—differed from the types of asymmetric geometry cues
+used in prior studies, such as the Y-maze (Bécu et al., 2023) and
+rectangular enclosures (Bécu et al., 2023). Asymmetries in the
+angles and lengths of rectangular boundaries convey both directional
+and distance information, which may have been sufficient to guide
+navigation even in the absence of discrete landmark cues. By contrast,
+the circular wall and distal mountain cues used in our study provided
+distinct yet complementary information about the environment. The
+distal mountain cues could be used to infer relative directions within
+the otherwise sparse environment but were too far (∼750 m) to allow
+for distance estimations. The circular boundary wall, while directionally uninformative, could be used to estimate relative distances
+within the navigable arena.
+One possibility is that young and older adults use a combination
+of landmark and geometric cues to orient, but only when the respective
+cues provide complementary information about the environment, as
+was the case in our boundary condition. This interpretation may
+explain the performance advantage observed in both age groups when
+navigating in the boundary condition, as indicated by reduced angular
+target error (Figure 5B, right panel) and spatial distance error (Hill
+et al., 2024) compared with the no-boundary condition. Consequently,
+reliance on any given spatial cue to guide behavior is likely lessened
+when alternative cues are also present to optimize spatial performance.
+This may account for our observation that the correlation between
+distance error (a proxy for optimal navigation performance) and
+landmark-guided orientation (as assessed on the rotated mountain
+trials) was significantly weakened by the presence of a boundary wall
+in both young and older adults (Figure 4C).
+The principal aim of the present study was to identify whether age
+differences in navigation strategies are affected by the modality of
+the virtual testing environment. Prior studies of aging and navigation
+in humans have relied overwhelmingly on experimental paradigms
+that assess wayfinding on desktop computers or mobile platforms
+(Coutrot et al., 2018; Diersch & Wolbers, 2019). This type of
+“desktop VR” approach offers several advantages, including relative
+ease of implementation, minimal space requirements, reduced need
+for specialized equipment, and compatibility with functional neuroimaging environments, such as functional magnetic resonance imaging.
+Desktop VR is also effective when examining many of the purely
+cognitive phenomena that support successful navigation, such as spatial
+memory or landmark perception. A major limitation of desktop VR is
+its restriction of natural body-based movements and sensorimotor
+feedback (e.g., vestibular, proprioceptive, motor efference copy), which
+are critical for real-world navigation (Hill & Ekstrom, 2025; Plácido et
+al., 2022). Furthermore, cross-sectional studies of navigation may be
+confounded by group differences in visuomotor dexterity and/or prior
+experience with computerized gaming equipment (Charness & Boot,
+2022; Hill et al., 2024). The ability to freely walk and rotate one’s body
+in an immersive VR environment can provide a more ecologically valid
+platform for capturing dynamic cognitive and sensorimotor interactions during more naturalistic navigation behavior (Hill & Ekstrom,
+2025) in a carefully controlled laboratory environment.
+Nevertheless, we cannot rule out the possibility that age differences in prior exposure to VR headsets and other forms of immersive media may have influenced the observed age differences in
+navigation strategies, particularly path replication. Factors such as
+the restricted field of view (∼110° horizontal FoV in the VR headset
+vs. ∼180° in real-world binocular vision) or mild discomfort from
+dizziness or eye strain may have disproportionately affected navigation performance in the older adult group. Examining spatial
+behavior in real-world contexts could help address some of the
+limitations of immersive VR. We note though that while this
+approach would offer the highest ecological validity, it would also
+sacrifice the experimental control and manipulation achievable
+when using immersive VR techniques in a controlled laboratory
+setting. We acknowledge that many of the foregoing interpretations
+are based on nonsignificant effects of age on allocentric navigation
+and that null results do not necessarily reflect the true absence of an
+effect. Follow-up studies are therefore necessary to independently
+replicate and validate our findings. We are encouraged, however,
+that the present findings are largely consistent with those reported
+by a previous study from our laboratory that failed to identify age
+differences in putative allocentric strategy preferences in a separate
+926
+HILL ET AL.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+sample of young and older adults navigating in immersive VR
+(McAvan et al., 2021). We also note that null effects of age on
+spatial strategy were typically supported by strong evidence for the
+null based on Bayesian statistics.
+To summarize, spatial navigation is a complex and multifaceted
+behavior that draws on multiple parallel cognitive, sensory, and
+motor systems (Ekstrom & Hill, 2023). Past work has suggested that
+impaired spatial navigation in older age may arise primarily from an
+allocentric deficit. As we have described above, however, allocentric and egocentric navigation strategies are difficult to isolate,
+and there is also growing evidence that allocentric and egocentric
+sensory signals elicited during navigation recruit partially overlapping brain circuits (for review, see Wang et al., 2020), further
+complicating attempts to dichotomize these variables. Here, we
+show that older adults were more likely than young individuals to
+replicate a familiar path, even when this type of route-based egocentric strategy was less efficient and more likely to produce spatial
+errors. This age difference was significantly attenuated, however,
+when geometric and body-based motor and vestibular cues were
+available during navigation. Critically, we did not identify any
+evidence to suggest that spatial errors in older age stem from a
+failure to attend to stable landmarks within the environment, which
+is a key component of putative allocentric navigation. These results
+underscore the limitations of using a simple allocentric–egocentric
+dichotomy to explain the complexity of spatial behaviors observed
+in older age.
+References
+Albert, S. M., & Duffy, J. (2012). Differences in risk aversion between young
+and older adults. Neuroscience and Neuroeconomics, 2012(1), Article 3.
+https://doi.org/10.2147/NAN.S27184
+Barnes, C. A., Nadel, L., & Honig, W. K. (1980). Spatial memory deficit in
+senescent rats. Canadian Journal of Psychology, 34(1), 29–39. https://
+doi.org/10.1037/h0081022
+Bécu, M., Sheynikhovich, D., Ramanoël, S., Tatur, G., Ozier-Lafontaine, A.,
+Authié, C. N., Sahel, J.-A., & Arleo, A. (2023). Landmark-based spatial
+navigation across the human lifespan. eLife, 12, Article e81318. https://
+doi.org/10.7554/eLife.81318
+Bécu, M., Sheynikhovich, D., Tatur, G., Agathos, C. P., Bologna, L. L.,
+Sahel, J.-A., & Arleo, A. (2020). Age-related preference for geometric
+spatial cues during real-world navigation. Nature Human Behaviour, 4(1),
+88–99. https://doi.org/10.1038/s41562-019-0718-z
+Benton, A. L. (1968). Differential behavioral effects in frontal lobe disease.
+Neuropsychologia, 6(1), 53–60. https://doi.org/10.1016/0028-3932(68)
+90038-9
+Bondi, M. W., Jak, A. J., Delano-Wood, L., Jacobson, M. W., Delis, D. C., &
+Salmon, D. P. (2008). Neuropsychological contributions to the early
+identification of Alzheimer’s disease. Neuropsychology Review, 18(1),
+73–90. https://doi.org/10.1007/s11065-008-9054-1
+Campbell, M. G., Ocko, S. A., Mallory, C. S., Low, I. I. C., Ganguli, S., &
+Giocomo, L. M. (2018). Principles governing the integration of landmark
+and self-motion cues in entorhinal cortical codes for navigation. Nature
+Neuroscience, 21(8), 1096–1106. https://doi.org/10.1038/s41593-018-
+0189-y
+Charness, N., & Boot, W. R. (2022). A grand challenge for psychology:
+Reducing the age-related digital divide. Current Directions in Psychological
+Science, 31(2), 187–193. https://doi.org/10.1177/09637214211068144
+Colmant, L., Bierbrauer, A., Bellaali, Y., Kunz, L., Van Dongen, J., Sleegers,
+K., Axmacher, N., Lefèvre, P., & Hanseeuw, B. (2023). Dissociating
+effects of aging and genetic risk of sporadic Alzheimer’s disease on path
+integration. Neurobiology of Aging, 131, 170–181. https://doi.org/10
+.1016/j.neurobiolaging.2023.07.025
+Colombo, D., Serino, S., Tuena, C., Pedroli, E., Dakanalis, A., Cipresso, P.,
+& Riva, G. (2017). Egocentric and allocentric spatial reference frames in
+aging: A systematic review. Neuroscience and Biobehavioral Reviews, 80,
+605–621. https://doi.org/10.1016/j.neubiorev.2017.07.012
+Coutrot, A., Silva, R., Manley, E., De Cothi, W., Sami, S., Bohbot, V. D.,
+Wiener, J. M., Hölscher, C., Dalton, R. C., Hornberger, M., & Spiers, H. J.
+(2018). Global determinants of navigation ability. Current Biology,
+28(17), 2861–2866. https://doi.org/10.1016/j.cub.2018.06.009
+Cremers, J. (2020). bpnreg: Bayesian projected normal regression models
+for circular data (R package Version 2.0.1). https://CRAN.R-project.org/
+package=bpnreg
+Cremers, J., & Klugkist, I. (2018). One direction? A tutorial for circular
+data analysis using R with examples in cognitive psychology. Frontiers
+in Psychology, 9, Article 2040. https://doi.org/10.3389/fpsyg.2018
+.02040
+Cremers, J., Mulder, K. T., & Klugkist, I. (2018). Circular interpretation of
+regression coefficients. British Journal of Mathematical and Statistical
+Psychology, 71(1), 75–95. https://doi.org/10.1111/bmsp.12108
+Daugherty, A. M., & Raz, N. (2017). A virtual water maze revisited: Twoyear changes in navigation performance and their neural correlates in
+healthy adults. NeuroImage, 146, 492–506. https://doi.org/10.1016/j.neu
+roimage.2016.09.044
+Daugherty, A. M., Yuan, P., Dahle, C. L., Bender, A. R., Yang, Y., & Raz, N.
+(2015). Path complexity in virtual water maze navigation: Differential
+associations with age, sex, and regional brain volume. Cerebral Cortex,
+25(9), 3122–3131. https://doi.org/10.1093/cercor/bhu107
+Delis, D. C., Kramer, J. H., Kaplan, E., & Ober, B. A. (2000). California
+verbal learning test (2nd ed.). The Psychological Corportation.
+Diersch, N., & Wolbers, T. (2019). The potential of virtual reality for
+spatial navigation research across the adult lifespan. Journal of
+Experimental Biology, 222(Suppl_1), jeb187252. https://doi.org/10
+.1242/jeb.187252
+Du, Y. K., McAvan, A. S., Zheng, J., & Ekstrom, A. D. (2023). Spatial
+memory distortions for the shapes of walked paths occur in violation of
+physically experienced geometry. PLOS ONE, 18(2), Article e0281739.
+https://doi.org/10.1371/journal.pone.0281739
+Eichenbaum, H., Stewart, C., & Morris, R. G. (1990). Hippocampal
+representation in place learning. The Journal of Neuroscience, 10(11),
+3531–3542. https://doi.org/10.1523/JNEUROSCI.10-11-03531.1990
+Ekstrom, A. D., Arnold, A. E. G. F., & Iaria, G. (2014). A critical review of
+the allocentric spatial representation and its neural underpinnings: Toward
+a network-based perspective. Frontiers in Human Neuroscience, 8, Article
+803. https://doi.org/10.3389/fnhum.2014.00803
+Ekstrom, A. D., & Hill, P. F. (2023). Spatial navigation and memory: A
+review of the similarities and differences relevant to brain models and
+age. Neuron, 111(7), 1037–1049. https://doi.org/10.1016/j.neuron.20
+23.03.001
+Frank, C. C., & Seaman, K. L. (2023). Aging, uncertainty, and decision
+making—A review. Cognitive, Affective & Behavioral Neuroscience,
+23(3), 773–787. https://doi.org/10.3758/s13415-023-01064-w
+Gallagher, M., Burwell, R., & Burchinal, M. (2015). Severity of spatial
+learning impairment in aging: Development of a learning index for performance in the Morris water maze. Behavioral Neuroscience, 129(4),
+540–548. https://doi.org/10.1037/bne0000080
+Gazova, I., Laczó, J., Rubinova, E., Mokrisova, I., Hyncicova, E., Andel, R.,
+Vyhnalek, M., Sheardova, K., Coulson, E. J., & Hort, J. (2013). Spatial
+navigation in young versus older adults. Frontiers in Aging Neuroscience,
+5, Article 94. https://doi.org/10.3389/fnagi.2013.00094
+Giorgino, T. (2009). Computing and visualizing dynamic time warping
+alignments in R: The dtw package. Journal of Statistical Software, 31(7),
+1–24. https://doi.org/10.18637/jss.v031.i07
+AGING AND SPATIAL NAVIGATION STRATEGIES
+927
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Goodglass, H., Kaplan, E., & Barresi, B. (2001). The assessment of aphasia
+and related disorders. Lippincott Williams & Wilkins.
+Greenhouse, S. W., & Geisser, S. (1959). On methods in the analysis of
+profile data. Psychometrika, 24(2), 95–112. https://doi.org/10.1007/BF02
+289823
+Harris, M. A., Wiener, J. M., & Wolbers, T. (2012). Aging specifically
+impairs switching to an allocentric navigational strategy. Frontiers in
+Aging Neuroscience, 4, Article 29. https://doi.org/10.3389/fnagi.20
+12.00029
+Harris, M. A., & Wolbers, T. (2014). How age-related strategy switching
+deficits affect wayfinding in complex environments. Neurobiology of
+Aging, 35(5), 1095–1102. https://doi.org/10.1016/j.neurobiolaging.2013
+.10.086
+Hill, P. F. (2023). When landmarks are not enough. eLife, 12, Article e87771.
+https://doi.org/10.7554/eLife.87771
+Hill, P. F. (2025). AgingNavigationVR_mountains2 [Data set]. Open Science
+Framework. https://doi.org/10.17605/OSF.IO/5VBZN
+Hill, P. F., Bermudez, S., McAvan, A. S., Garren, J. D., Grilli, M. D., Barnes,
+C. A., & Ekstrom, A. D. (2024). Age differences in spatial memory are
+mitigated during naturalistic navigation. Aging, Neuropsychology, and
+Cognition, 31(6), 1106–1130. https://doi.org/10.1080/13825585.2024
+.2326244
+Hill, P. F., & Ekstrom, A. D. (2025). A cognitive-motor framework for
+spatial navigation in aging and early-stage Alzheimer’s disease. Cortex,
+185, 133–150. https://doi.org/10.1016/j.cortex.2025.02.003
+Huffman, D. J., & Ekstrom, A. D. (2021). An important step toward
+understanding the role of body-based cues on human spatial memory for
+large-scale environments. Journal of Cognitive Neuroscience, 33(2), 167–
+179. https://doi.org/10.1162/jocn_a_01653
+Iaria, G., Palermo, L., Committeri, G., & Barton, J. J. S. (2009). Age differences
+in the formation and use of cognitive maps. Behavioural Brain Research,
+196(2), 187–191. https://doi.org/10.1016/j.bbr.2008.08.040
+Iaria, G., Petrides, M., Dagher, A., Pike, B., & Bohbot, V. D. (2003).
+Cognitive strategies dependent on the hippocampus and caudate nucleus in
+human navigation: Variability and change with practice. The Journal of
+Neuroscience, 23(13), 5945–5952. https://doi.org/10.1523/JNEUROSCI
+.23-13-05945.2003
+Iggena, D., Jeung, S., Maier, P. M., Ploner, C. J., Gramann, K., & Finke, C.
+(2023). Multisensory input modulates memory-guided spatial navigation
+in humans. Communications Biology, 6(1), Article 1167. https://doi.org/
+10.1038/s42003-023-05522-6
+Jak, A. J., Bondi, M. W., Delano-Wood, L., Wierenga, C., Corey-Bloom, J.,
+Salmon, D. P., & Delis, D. C. (2009). Quantification of five neuropsychological approaches to defining mild cognitive impairment. The American
+Journal of Geriatric Psychiatry, 17(5), 368–375. https://doi.org/10.1097/
+JGP.0b013e31819431d5
+Jeffreys, H. (1961). Theory of probability (3rd ed.). Oxford University Press.
+Johnsen, S. H. W., & Rytter, H. M. (2021). Dissociating spatial strategies in
+animal research: Critical methodological review with focus on egocentric
+navigation and the hippocampus. Neuroscience and Biobehavioral
+Reviews, 126, 57–78. https://doi.org/10.1016/j.neubiorev.2021.03.022
+Kolarik, B. S., Baer, T., Shahlaie, K., Yonelinas, A. P., & Ekstrom, A. D.
+(2018). Close but no cigar: Spatial precision deficits following medial
+temporal lobe lesions provide novel insight into theoretical models of
+navigation and memory. Hippocampus, 28(1), 31–41. https://doi.org/10
+.1002/hipo.22801
+Lenth, R. (2018). Emmeans: Estimated marginal means, aka least-squares
+means. R Package Version 1.3.0. https://CRAN.R-project.org/package=e
+mmeans
+Lester, A. W., Moffat, S. D., Wiener, J. M., Barnes, C. A., & Wolbers, T.
+(2017). The aging navigational system. Neuron, 95(5), 1019–1035. https://
+doi.org/10.1016/j.neuron.2017.06.037
+Li, A. W. Y., & King, J. (2019). Spatial memory and navigation in ageing: A
+systematic review of MRI and fMRI studies in healthy participants.
+Neuroscience and Biobehavioral Reviews, 103, 33–49. https://doi.org/10
+.1016/j.neubiorev.2019.05.005
+McAvan, A. S., Du, Y. K., Oyao, A., Doner, S., Grilli, M. D., & Ekstrom, A.
+(2021). Older adults show reduced spatial precision but preserved strategy-use during spatial navigation involving body-based cues. Frontiers in
+Aging Neuroscience, 13, Article 640188. https://doi.org/10.3389/fnagi
+.2021.640188
+Merhav, M., & Wolbers, T. (2019). Aging and spatial cues influence the
+updating of navigational memories. Scientific Reports, 9(1), Article 11469.
+https://doi.org/10.1038/s41598-019-47971-2
+Moffat, S. D., Elkins, W., & Resnick, S. M. (2006). Age differences in
+the neural systems supporting human allocentric spatial navigation.
+Neurobiology of Aging, 27(7), 965–972. https://doi.org/10.1016/j.neuro
+biolaging.2005.05.011
+Moffat, S. D., Kennedy, K. M., Rodrigue, K. M., & Raz, N. (2007).
+Extrahippocampal contributions to age differences in human spatial
+navigation. Cerebral Cortex, 17(6), 1274–1282. https://doi.org/10.1093/
+cercor/bhl036
+Moffat, S. D., & Resnick, S. M. (2002). Effects of age on virtual
+environment place navigation and allocentric cognitive mapping.
+Behavioral Neuroscience, 116(5), 851–859. https://doi.org/10.1037/
+0735-7044.116.5.851
+Morey, R. D., Rouder, J. N., Jamil, T., Urbanek, S., Forner, K., & Ly, A.
+(2022). BayesFactor: Computation of Bayes factors for common designs.
+https://richarddmorey.github.io/BayesFactor/
+Morris, R. G. M., Garrud, P., Rawlins, J. N. P., & O’Keefe, J. (1982). Place
+navigation impaired in rats with hippocampal lesions. Nature, 297(5868),
+681–683. https://doi.org/10.1038/297681a0
+O’Keefe, J., & Nadel, L. (1978). The hippocampus as a cognitive map.
+Oxford University Press.
+Plácido, J., de Almeida, C. A. B., Ferreira, J. V., de Oliveira Silva, F.,
+Monteiro-Junior, R. S., Tangen, G. G., Laks, J., & Deslandes, A. C.
+(2022). Spatial navigation in older adults with mild cognitive impairment
+and dementia: A systematic review and meta-analysis. Experimental
+Gerontology, 165, 111852. https://doi.org/10.1016/j.exger.2022.111852
+R Core Team. (2022). R: A language and environment for statistical
+computing. R Foundation for Statistical Computing. http://www.R-proje
+ct.org/
+Reitan, R. M., & Wolfson, D. (1985). The Halstead-Reitan neuropsychological
+test battery: Therapy and clinical interpretation. Neuropsychology Press.
+Rey, A. (1941). L’examen psychologique dans les cas d’encéphalopathie
+traumatique. (Les problems.) [The psychological examination in cases
+of traumatic encepholopathy. Problems]. Archives de Psychologie, 28,
+215–285.
+Rosenzweig, E. S., Redish, A. D., McNaughton, B. L., & Barnes, C. A. (2003).
+Hippocampal map realignment and spatial learning. Nature Neuroscience,
+6(6), 609–615. https://doi.org/10.1038/nn1053
+Siegel, A. W., & White, S. H. (1975). The development of spatial
+representations of large-scale environments. Advances in Child Development and Behavior, 10, 9–55. https://doi.org/10.1016/S0065-
+2407(08)60007-5
+Singmann, H., Bolker, B., Westfall, J., & Aust, F. (2016). Afex: Analysis of
+factorial experiments (R package Version 0.22-1). https://CRAN.R-proje
+ct.org/package=afex
+Spreen, O., & Benton, A. L. (1977). Neurosensory center comprehensive
+examination for aphasia. Neuropsychology Laboratory.
+Spreng, R. N., & Turner, G. R. (2021). From exploration to exploitation:
+A shifting mental mode in late life development. Trends in Cognitive
+Sciences, 25(12), 1058–1071. https://doi.org/10.1016/j.tics.2021.09
+.001
+928
+HILL ET AL.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Starrett, M. J., McAvan, A. S., Huffman, D. J., Stokes, J. D., Kyle, C. T.,
+Smuda, D. N., Kolarik, B. S., Laczko, J., & Ekstrom, A. D. (2021).
+Landmarks: A solution for spatial navigation and memory experiments in
+virtual reality. Behavior Research Methods, 53(3), 1046–1059. https://
+doi.org/10.3758/s13428-020-01481-6
+Tuena, C., Riva, G., Murru, I., Campana, L., Goulene, K. M., Pedroli, E., &
+Stramba-Badiale, M. (2022). Contribution of cognitive and bodily navigation cues to egocentric and allocentric spatial memory in hallucinations
+due to Parkinson’s disease: A case report. Frontiers in Behavioral
+Neuroscience, 16, Article 992498. https://doi.org/10.3389/fnbeh.2022
+.992498
+Waller, D., & Lippa, Y. (2007). Landmarks as beacons and associative cues:
+Their role in route learning. Memory & Cognition, 35(5), 910–924. https://
+doi.org/10.3758/BF03193465
+Wang, C., Chen, X., & Knierim, J. J. (2020). Egocentric and allocentric representations of space in the rodent brain. Current Opinion in Neurobiology,
+60, 12–20. https://doi.org/10.1016/j.conb.2019.11.005
+Wechsler, D. (2009). Wechsler memory scale (4th ed.). The Psychological
+Corporation.
+West, G. L., Patai, Z. E., Coutrot, A., Hornberger, M., Bohbot, V. D., &
+Spiers, H. J. (2023). Landmark-dependent navigation strategy declines
+across the human life-span: Evidence from over 37,000 participants.
+Journal of Cognitive Neuroscience, 35(3), 452–467. https://doi.org/10
+.1162/jocn_a_01956
+Wiener, J. M., de Condappa, O., Harris, M. A., & Wolbers, T. (2013).
+Maladaptive bias for extrahippocampal navigation strategies in aging
+humans. The Journal of Neuroscience, 33(14), 6012–6017. https://doi.org/
+10.1523/JNEUROSCI.0717-12.2013
+Wolbers, T., & Wiener, J. M. (2014). Challenges for identifying the neural
+mechanisms that support spatial navigation: The impact of spatial scale.
+Frontiers in Human Neuroscience, 8, Article 571. https://doi.org/10.3389/
+fnhum.2014.00571
+Zhong, J. Y., Magnusson, K. R., Swarts, M. E., Clendinen, C. A., Reynolds,
+N. C., & Moffat, S. D. (2017). The application of a rodent-based Morris
+water maze (MWM) protocol to an investigation of age-related differences
+in human spatial learning. Behavioral Neuroscience, 131(6), 470–482.
+https://doi.org/10.1037/bne0000219
+Received October 31, 2024
+Revision received June 20, 2025
+Accepted June 23, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

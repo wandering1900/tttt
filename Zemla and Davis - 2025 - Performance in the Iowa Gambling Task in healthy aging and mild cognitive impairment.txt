@@ -1,0 +1,1449 @@
+﻿Performance in the Iowa Gambling Task in Healthy Aging and
+Mild Cognitive Impairment
+Jeffrey C. Zemla1 and Hasker P. Davis2
+1 Department of Psychology, Syracuse University
+2 Department of Psychology, University of Colorado at Colorado Springs
+The Iowa Gambling Task is a common tool for assessing complex decision making in healthy adults and
+clinical populations. Previous work has found that performance varies among younger adults, cognitively
+healthy older adults, and individuals with mild cognitive impairment (MCI), a syndrome often precedes
+dementia. However, performance on the task depends on many factors, including risk preference, sensitivity
+to gains and losses, and memory for past outcomes, which makes it difficult to understand what causes these
+differences. Here, we fit a computational cognitive model to the data which allows us to attribute differences
+in behavior to specific cognitive mechanisms. Experiment 1 (N = 90) compares cognitively healthy older
+adults to those with MCI, while Experiment 2 (N = 1,645) compares healthy adults of all ages. We find that
+healthy older adults and those with MCI exhibit different profiles in the task. Healthy aging is associated
+with a larger learning rates (we attribute to a recency bias), use of a perseverative strategy, and increased
+sensitivity to gains over losses. Individuals with MCI learned at a slower rate, but showed no qualitative
+differences in task strategy. The results have implications for understanding why decision making is
+impaired in the earliest clinical phases of cognitive decline.
+Public Significance Statement
+This research finds differences in decision making between healthy aging and clinical impairments to
+aging (mild cognitive impairment). The findings are relevant to researchers interested in the mechanisms
+that underlie impairments in decision making.
+Keywords: mild cognitive impairment, aging, decision making, risk, computational modeling
+Older adults frequently choose among options with uncertain
+outcomes, and these decisions can have a crucial impact on wellbeing. For example, deciding where to invest money among many
+options with uncertain outcomes can affect whether one is prepared
+for retirement or unexpected expenses. Though older adults typically have more experience making these sorts of decisions than
+younger adults, some research has found that older adults are more
+risk seeking (Mata et al., 2011).
+Learning to make good decisions can be further complicated by
+mild cognitive impairment (MCI), a clinical syndrome of declines in
+cognition that often precedes a diagnosis of dementia and affects a
+fifth of adults over the age of 60 (Petersen, 2016). MCI can have a
+significant impact on a person’s daily life, but little research has
+focused on why decision making is impaired in those with MCI. One
+reason for this is that the most prevalent symptom of MCI is a
+decline in memory (Petersen et al., 1999). Popular cognitive screeners
+such as the Montreal Cognitive Assessment (Nasreddine et al., 2005)
+evaluate many different domains of cognition (e.g., memory, language, executive functioning), but do not include explicit decisionmaking tasks. When decision making is studied in MCI, it is often in
+applied contexts, such as decisions about medical treatment or
+financial reasoning (Martin et al., 2019; Okonkwo et al., 2007). In
+contrast, cognitive psychology has traditionally characterized decision
+making through more abstract tasks such as intertemporal choice and
+lottery preferences. Little research has explored whether those with
+MCI show declines in laboratory tasks, though some work has found
+that those with MCI are less normative decision makers than cognitively healthy older adults. For example, individuals with MCI may
+be more susceptible to framing effects (Zamarian et al., 2010) and rely
+more on intuitive than analytical thinking (Zemla, 2025).
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First August 11, 2025.
+Hannes Zacher served as action editor.
+Jeffrey C. Zemla https://orcid.org/0000-0001-7334-4961
+Raw data, behavioral analyses, model code, payout tables, and additional
+figures are available at https://osf.io/9ny2x/. A portion of this work was
+presented as a poster at the 44th Annual Conference of the Cognitive Science
+Society. The authors thank Nate Haines for help with using hBayesDM and
+model diagnostics. They also thank Joe Austerweil, Mike Kalish, David
+Kellen, and Eneida Weinman for their feedback.
+Jeffrey C. Zemla played a lead role in conceptualization, formal analysis,
+investigation, methodology, visualization, writing–original draft, and writing–
+review and editing and an equal role in data curation. Hasker P. Davis played a
+supporting role in methodology and writing–review and editing and an equal
+role in data curation.
+Correspondence concerning this article should be addressed to Jeffrey
+C. Zemla, Department of Psychology, Syracuse University, 442 Marley
+Education Center, Syracuse, NY 13210, United States. Email: jczemla@
+syr.edu
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 833–847
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000925
+833
+834
+ZEMLA AND DAVIS
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+One laboratory task that is widely used to assess complex decision
+making is the Iowa Gambling Task (IGT; Bechara et al., 1994,
+2000). In this task, participants repeatedly select among four decks
+of cards and receive a variable reward with each selection.
+Participants try to maximize their earnings by learning which decks
+have the best payouts. Performance depends on many factors such as
+risk preference, sensitivity to gains and losses, and memory for past
+outcomes. Several computational models of the task have been
+developed (Busemeyer & Stout, 2002; Haines et al., 2018; Ligneul,
+2019; Worthy, Pang, & Byrne, 2013), which have been used to
+explain differences between typical and impaired decision making
+in clinical populations (Ahn et al., 2016; Busemeyer & Stout, 2002;
+Yechiam et al., 2005).
+Healthy older adults typically show only modest performance
+differences on the task compared to younger adults (Beitz et al.,
+2014; Denburg et al., 2005; Fein et al., 2007) or occasionally no
+significant difference (Isella et al., 2008; Wood et al., 2005).
+Computational models have revealed that while behavioral differences between older and younger adults may be small, older adults
+may rely on different cognitive and behavioral strategies to complete
+the task (Beitz et al., 2014; Wood et al., 2005). Few articles have
+explored whether participants with MCI or dementia are impaired at
+the task. Zamarian et al. (2011) found that individuals with MCI do
+poorly at the task and do not learn to choose from the better decks
+over time, while Sinz et al. (2008) found nearly identical results for
+individuals with Alzheimer’s disease. Similarly, Jacus et al. (2018)
+and Bayard et al. (2015) also found that those with MCI or
+Alzheimer’s disease perform worse than healthy adults, though no
+differences were detected between individuals with MCI and those
+with Alzheimer’s disease. Prior work has not used computational
+models to understand behavior in those with MCI or Alzheimer’s
+disease. These differences expose a gap in our understanding: What
+accounts for performance differences in the IGT in the earliest
+phases of cognitive decline? As an early harbinger of dementia, MCI
+presents a test case to examine how behavior transitions from
+healthy to impaired decision making.
+Here, we present data and model fits from two experiments. In the
+first experiment, we find that cognitively healthy older adults
+perform significantly better in the IGT than those with MCI. This
+study is the first, to our knowledge, to conduct a model-based
+analysis among those with MCI, helping to identify the source of
+impairments in the task. Specifically, we find lower learning rates
+in those with MCI compared to cognitively healthy adults. We
+interpret these parameters as reflecting learning and memory processes, while we do not find differences in parameters reflecting task
+strategy. Though a small number of prior studies have observed
+behavioral differences in the IGT in those with MCI (Bayard et al.,
+2015; Jacus et al., 2018; Zamarian et al., 2011), behavioral analyses
+alone are insufficient to make claims about cognitive mechanisms
+given the interactive nature of the task (confounding many cognitive
+processes). We also provide the first publicly available IGT data set
+among those with MCI (see additional online material at https://osf
+.io/9ny2x/).
+In the second experiment, we provide context for these findings
+by examining differences across the lifespan of cognitively healthy
+adults. Using a large cross-sectional data set of healthy adults (ages
+18–91), we find that performance is stable until around age 60 and
+shows more pronounced differences after that. This is attributed to
+both qualitative differences in task strategy and to differential
+sensitivity to gains and losses. While some prior work has conducted
+model-based analyses in aging populations, our analysis allows for a
+direct comparison to Experiment 1 as they employ the same model.
+Together, our results suggest that both healthy older adults and those
+with MCI differ from younger adults on the task, but that the deficits
+in healthy aging are distinct from those in MCI and attributable to
+different cognitive mechanisms.
+Overview and Models of the Iowa Gambling Task
+The IGT is a multiarmed bandit task where participants select
+from one of four decks of cards and incur a gain and/or loss with
+each selection. Two of the decks have a negative expected value
+(“bad” decks) while the other two decks have a positive expected
+value (“good” decks). Participants have 100 trials to maximize their
+earnings, which can be done by learning which decks have higher
+payouts. Performance on the task is typically assessed behaviorally,
+for example, by examining whether the proportion of selections
+from good decks increases over time. However behavioral measures
+alone are not sufficient to describe the cognitive mechanisms by
+which participants learn or behave. This is in part because different
+task strategies can result in equivalent behavior (e.g., similar rates of
+selecting from good decks; Wood et al., 2005).
+As a result, there has been much interest in using computational
+models of the IGT to infer why behavior differs between individuals
+or groups. In other words, modeling allows one to attribute differences in behavior to differences in cognitive mechanisms.
+Models of the IGT may include parameters that map to psychologically relevant properties of decision making, such as how people
+value gains relative to losses (i.e., a utility function) and how they
+update their beliefs in response to positive and negative feedback
+(i.e., a learning rates). Estimates of these parameters can help
+explain why groups may display similar behavior in aggregate
+despite differences in the cognitive mechanisms and strategies used
+to perform the task (Wood et al., 2005). Reinforcement learning
+models provide a natural way to model behavior in the IGT, and
+many variants have been proposed. Each model assumes that individuals track the value of each deck over time, but the mechanisms
+for updating the value of each deck differ across models. For
+example, Steingroever et al. (2013b) implemented a utility function
+for the value of gains and losses while some models do not include a
+utility function (Busemeyer & Stout, 2002). Other models include a
+mix of behavioral strategies: Worthy, Pang, and Byrne (2013)
+incorporated a perseverative component that emulates a “win-staylose-shift” strategy, and Ligneul (2019) incorporated a sequential
+exploration strategy. Detailed comparisons of IGT models are
+presented elsewhere (Haines et al., 2018; Steingroever et al., 2013a).
+Here, the data is fit to the Outcome-Representation Learning
+(ORL) model (Haines et al., 2018). This model was chosen because
+the literature suggests that it provides a good fit to behavioral data
+and allows adequate parameter recovery, and because the parameters of the model are relevant to psychological theories of older and
+cognitively impaired adults. Another attractive feature of the model
+is that it incorporates many mechanisms seen in previous models
+while allowing for flexible parameterization over these mechanisms.
+For example, it includes a perseverative component like that in
+Worthy, Pang, and Byrne (2013) and an expected value component like that of Busemeyer and Stout (2002). However, under
+certain parameterizations these components can have no impact
+PERFORMANCE IN THE IOWA GAMBLING TASK
+835
+on behavior and the model is reduced (e.g., the model subsumes
+an expected value model while allowing for additional mechanisms to influence behavior).
+A summary of the model is provided here for convenience (see
+Haines et al., 2018, for additional information). In the ORL model,
+the expected value of a deck is updated after each selection from that
+deck using the δ rule. Separate learning rate parameters are used for
+gains and losses:
+EV
+jðt + 1Þ = ( EVjðtÞ + Arew · ðxðtÞ − EVjðtÞÞ, if xðtÞ ≥ 0
+EV
+jðtÞ + Apun · ðxðtÞ − EVjðtÞÞ, if xðtÞ < 0 , (1)
+EVj(t) indicates the expected value of deck j at trial t, Arew and Apun are
+the learning rates for net gains and losses (respectively), and x(t)
+represents the net gain or loss from the participant’s selection on trial t.
+The optimal learning rates depend in part on the volatility of the
+environment (Behrens et al., 2007), that is, the variance in gains and
+losses. Values of the learning rates close to zero indicate slow
+updating of prior beliefs after encountering new information, while
+values close to one indicate a strong bias toward recent outcomes.
+The relative weight given to Arew and Apun reflects sensitivity to
+gains and losses. Though not a separate free parameter, we calculate
+Adiff = Arew − Apun to explore differences in this sensitivity. Larger
+values of Adiff indicate a greater influence of wins on the deck’s
+value, while smaller values indicate a greater influence of losses on
+the deck’s value.
+The ORL model augments a traditional expected value model by
+separately tracking the expected frequency of wins from each deck:
+EF
+jðt + 1Þ
+= ( EFjðtÞ + Arew · ðsgnðxðtÞÞ − EFjðtÞÞ, if xðtÞ ≥ 0
+EF
+jðtÞ + Apun · ðsgnðxðtÞÞ − EFjðtÞÞ, if xðtÞ < 0
+, (2)
+EF
+j(t) denotes the expected frequency of winning from deck j at trial
+t, and sgn(x(t)) indicates the sign (but not the magnitude) of the net
+outcome (1, 0, or −1). This component of the model represents a
+qualitatively different strategy to tracking expected value. Attending
+to the expected frequency could be an effective task strategy
+because it is simpler than tracking expected value, but this
+strategy can be detrimental if a deck has frequent losses punctuated by occasional large gains, or vice versa—which is indeed
+the case for some decks in the IGT. The ORL model also includes
+a fictive error signal that is used to update each of the decks that
+were not chosen ( j′):
+EF
+j′ðt + 1Þ
+<>>>:
+s
+=
+8>>><>>>
+EF
+j′ðtÞ + Apun · 
+EF
+j′ðtÞ + Arew · 
+− sgnðxðtÞÞ
+3
+− EF
+j
+EF
+j′ðtÞ + Arew · 
+′ðtÞ, if xðtÞ ≥ 0
+′ðtÞ, if xðtÞ < 0
+− sgnðxðtÞÞ
+3
+− EF
+j
+: (3)
+This fictive learning signal allows the ORL model to account for
+rapid reversal learning common in the IGT. Specifically, the task is
+designed so that Deck B emerges as a frequent choice for healthy
+participants early in the task because the first eight cards from this
+deck are net gains. However, on the ninth card, a large loss is
+incurred that more than wipes out all previous gains from that deck.
+Healthy participants rapidly update their beliefs to reflect that Deck
+B is no longer a good choice, and models without a fictive error
+signal have some difficulty mimicking this rapid reversal learning
+(Haines et al., 2018).
+Finally, the model also includes a perseverative component that
+increases the probability of selecting the same deck multiple times in
+a row. This component can help capture the behavior of participants
+who engage in a simple “win-stay, lose-switch” strategy:
+1
+1 + K
+1 + K
+, if DðtÞ = j
+PS
+jðtÞ
+1 + K
+, if DðtÞ ≠ j
+PS
+jðt + 1Þ =
+8>><>>:
+1
+1 + K
+, if DðtÞ = j
+PS
+jðtÞ
+1 + K
+, if DðtÞ ≠ j
+, (4)
+PS
+j(t) indicates the perseveration value of deck j on trial t. K is a
+parameter typically estimated from the data, but for both experiments reported below K is fixed to one.1 D(t) indicates the deck
+selected on trial t.
+After each trial, the value of the decks are updated as a weighted
+combination of the expected value, expected frequency, and perseveration components:
+V
+jðt + 1Þ = EVjðt + 1Þ + βF · EFjðt + 1Þ + βP · PSjðt + 1Þ, (5)
+Vj(t) indicates the overall value of deck j on trial t. βF and βP are
+weights on the expected frequency and perseveration components,
+respectively, and indicate the relative emphasis a participant places
+on each of these strategies. High positive values of βF indicate a
+preference for selecting from decks with high win frequency
+(regardless of magnitude). Values of βP greater than zero indicate a
+tendency to repeatedly select from the same deck, while values less
+than zero indicate a tendency to switch decks. On any trial, the
+predicted probability of selecting from deck j is proportional to the
+value of that deck, using an exponentiated Luce choice rule (i.e.,
+softmax):
+Pr½Dðt + 1Þ = j = eVjðt+1Þ
+P4 k=1 eVkðt+1Þ:
+rs of the ORL model may corres
+(6)
+The parameters of the ORL model may correspond to psychologically relevant mechanisms that vary with age, including memory
+(Arew and Apun), positivity bias (Adiff), and differences in task
+strategies that vary in computational complexity (βF and βP).
+However, these interpretations are somewhat speculative, since
+converging evidence from independent tasks remains limited. We
+predicted that Arew and Apun would be larger for older adults than
+younger adults, and larger for those with MCI than cognitively
+healthy older adults. Larger values indicate a greater influence of
+recent outcomes on deck value, and values close to one have been
+interpreted as rapid forgetting of past trial outcomes (Steingroever et
+al., 2013a, 2013b). These predictions were made because working
+memory declines with healthy aging and in MCI (Kirova et al.,
+2015). We also predicted that older adults would show a larger bias
+toward gains than losses (larger Adiff) compared to younger adults,
+but that individuals with MCI would show lower Adiff than healthy
+1 In Experiment 1, a strong, systematic trade-off between βP and K was
+observed, which makes identifiability of these two parameters infeasible. In
+the model analyses presented here, the value of K was fixed to one in order to
+obtain more reliable estimates of βP.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+836
+ZEMLA AND DAVIS
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+older adults. These predictions are motivated by evidence for
+increased attention toward and memory for positive stimuli in older
+adults compared to younger adults (i.e., the positivity effect; Mather
+& Carstensen, 2005), but a diminished positivity effect in those with
+Alzheimer’s disease (Kalenzaga et al., 2016). Apart from memory
+and attention, there are also age-related differences in sensitivity to
+losses. For example, older adults tend to be more loss averse than
+younger adults (Mrkva et al., 2020). Horn (2024) noted that older
+adults experience a greater ratio of losses than gains in life, and may
+compensate for this by placing a higher weight on negative than
+positive information to avoid losses, and in some domains older
+adults have demonstrated a negativity bias in learning (Frank &
+Kong, 2008). This work would suggest an alternative hypothesis
+that healthy older adults may show smaller values for Adiff than
+younger adults.
+Finally, we predicted that older adults would show larger values
+for βF and βP compared to younger adults, and that those with MCI
+would show larger values compared to cognitively healthy adults.
+These parameters have been described as reflecting use of cognitive
+strategies other than maximizing long-term expected value (Haines
+et al., 2018). These predictions are motivated by prior work which
+has found older adults, relative to younger adults, engage in cognitively simpler task strategies that require less information (Mata et
+al., 2007, 2010). We expected this to be accentuated with MCI. In
+addition, older adults and those with MCI are known to have
+increased rates of perseveration (Corbo et al., 2024; Lemaire &
+Leclère, 2014).
+Experiment 1
+Transparency and Openness
+The study was approved by the Institution Review Board at the
+University of Wisconsin–Madison, Protocol 2020-0408 titled
+“Individual Differences in Explanation.” All data and analysis code
+are available in the additional online material (https://osf.io/9ny2x/).
+All eligible participants who responded to the recruitment ad were
+provided a link to participate, and all available data were used for
+data analysis except as noted. The study was not preregistered.
+Information about the race and ethnicity of participants has been lost
+due to a data linkage error.
+Participants
+One hundred five participants were recruited for an online study
+from the Alzheimer’s Prevention Registry (https://www.endalznow
+.org; Langbaum et al., 2020). Data were collected in 2020, and
+participants were based in the United States. The recruitment ad
+targeted older adults who had previously reported a diagnosis of
+MCI, as well as healthy older adults who had no history of cognitive
+impairment. During the study, participants self-reported any cognitive impairment diagnoses they had received from a list of six
+diagnoses (MCI, Lewy Body Dementia, Alzheimer’s disease,
+Huntington’s disease, Parkinson’s disease, and medicationinduced delirium), plus an open-ended response to indicate any
+additional cognitive impairments. Twelve participants were
+excluded for having other diagnoses (e.g., Alzheimer’s disease) or
+comorbidities in addition to MCI. Three more participants were
+excluded as outliers for repetitive behavior (selecting the same
+deck in the IGT task more than 75 times).2 Of the remaining 90
+participants, 45 reported having received a diagnosis of MCI (ages
+56–85, Mage 67.0) and 45 were cognitively healthy (ages 56–77,
+M
+age 67.1, one age unknown). Additional demographics are
+provided in Table 1.
+Procedure
+Participants completed several tasks as part of a separate research
+project (Zemla, 2025). These tasks included reading short vignettes
+and explaining a “surprising event,” semantic and letter fluency
+tasks (e.g., Troyer et al., 1997), the cognitive reflection test
+(Frederick, 2005), and a subjective cognitive decline scale (modified
+from Miebach et al., 2019). Afterward, participants were redirected
+to a new page with the IGT. An open-source implementation of the
+task from Margevicius (2015) was used.
+In the IGT, participants saw four decks of cards labeled A, B, C,
+and D (Figure 1). Participants completed 100 trials. On each
+trial, participants selected a card from any of the decks and either
+won or lost money. Participants began with $2,000 and were told
+to “win as much money as possible” and that “you are free to
+switch from one deck to the other at any time, and as often as
+you wish.” Feedback after each selection indicated the amount
+won, lost, net gain or loss, and their total cash pile remaining
+(Figure 1). Decks A and B had a negative expected value (the
+“bad” decks), while Decks C and D had a positive expected value
+(the “good” decks). The full payout table, indicating the win and
+loss for every draw, is available in the additional online material
+(https://osf.io/9ny2x/). A summary of the deck properties is
+shown in Table 2.
+Behavioral Results
+As a cursory check, we compared performance between MCI and
+cognitively healthy participants on ancillary tasks. Individuals with
+MCI scored lower than cognitively healthy adults on the letter
+fluency task, semantic fluency task, and the cognitive reflection test,
+and scored higher than healthy participants on the subjective
+cognitive decline scale (all p < .06 controlling for age). See
+additional online material (https://osf.io/9ny2x/) for a summary of
+these results or Zemla (2025) for more extensive analyses.
+Overall, healthy participants did not choose significantly more
+from good decks than those with MCI, Mhealthy = 53.5, MMCI =
+50.1, t(86.3) = 1.23, p = .22, Cohen’s d = 0.26. Both groups lost
+money overall, however those with MCI lost significantly more
+money (in dollars), Mhealthy = −112, MMCI = −459, t(87.9) = 2.3,
+p = .02, Cohen’s d = 0.49. The mean response time per trial was
+2,286 ms, and there was no significant difference in response
+times between groups, Mhealthy = 2,009 ms, MMCI = 2,563 ms,
+t(48.6) = 1.12, p = .27, Cohen’s d = 0.24. Approximately, 80% of
+trials resulted in a net gain, 19% in a net loss, and 1% in no net
+change. This asymmetric distribution partially reflects learning by
+the participants, but also reflects the payout table (see additional
+2 This cut-off was chosen to identify those who did not engage in the task
+as directed. The most selected deck of each participant was chosen an
+average of 42.5 times (SD = 13.9), so a cut-off of 75 reflects slightly more
+than 2 standard deviations from the mean. These participants may have
+“clicked through” the experiment rather than engage with the task.
+PERFORMANCE IN THE IOWA GAMBLING TASK
+837
+Number of participants
+Age
+56–60
+61–70
+71–80
+81–85
+Unknown
+Gender
+Female
+Male
+Education
+High school degree
+Some college
+College graduate
+Postgraduate
+Unknown
+45 (50)
+5 (11.1)
+22 (48.9)
+17 (37.8)
+0 (0.0)
+1 (2.2)
+26 (57.8)
+19 (42.2)
+1 (2.2)
+8 (17.8)
+19 (42.2)
+17 (37.8)
+0 (0.0)
+45 (50)
+8 (17.8)
+20 (44.4)
+14 (31.1)
+3 (6.7)
+0 (0.0)
+33 (73.3)
+12 (26.7)
+2 (4.4)
+15 (33.3)
+15 (33.3)
+12 (26.7)
+1 (2.2)
+90 (100)
+13 (14.4)
+42 (47.8)
+31 (34.4)
+3 (3.3)
+1 (1.1)
+59 (65.6)
+31 (34.4)
+3 (3.3)
+23 (25.6)
+34 (37.8)
+29 (43.3)
+1 (1.1)
+Note.
+MCI = mild cognitive impairment.
+online material at https://osf.io/9ny2x/) in which net gains are
+more common.
+The data were fit to a mixed-effects logistic regression model,
+with deck choice (good or bad) as the dependent variable and trial
+number, diagnosis (healthy or MCI), and their interaction as predictors. Age was included as an additional covariate, and a random
+intercept was included for each participant. All variables were
+centered to ensure the model would converge. Selections from good
+decks increased as the task progressed (i.e., with increased trial
+number), z = 8.57, p < .0001, OR = 1.21; however, this also
+interacted with participant diagnosis, z = −4.10, p < .0001, OR =
+.91. Cognitively healthy participants showed larger improvements over the course of the experiment relative to those with MCI
+(Figure 2). Main effects of age and diagnosis were not significantly associated with deck selection (both p > .15).
+Cognitively healthy older adults showed a pattern of behavior that
+is typical and expected in the IGT (Figure 3). Selections from Decks
+A and B decrease over time, while selections from Decks C and D
+increase. These patterns were confirmed with four logistic regression models (one for each deck) with trial number as a predictor (all
+p < .001) and participant as a random intercept. Early in the task,
+Deck B is the most selected deck. This pattern is common in the
+IGT, as the first eight cards from this deck are gains. It is not until the
+ninth card from Deck B that participants incur a large loss.
+Participants with MCI showed less typical results (Figure 3). While
+selections from Deck A decrease (p < .0001), there is a slight
+Figure 1
+A Screenshot of the Iowa Gambling Task as Shown to Participants in Experiment 1
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 1
+Demographics for Experiment 1
+Demographic
+Cognitively healthy N (%)
+MCI N (%)
+Total N (%)
+Note. The screenshot is from the open-source implementation of the Iowa Gambling Task from
+Margevicius (2015), which is based on the task from Bechara et al. (1994). See the online article for
+the color version of this figure.
+838
+ZEMLA AND DAVIS
+Table 2
+Summary of Deck Statistics in Experiment 1
+Deck characteristic
+Deck A
+Deck B
+Deck C
+Deck D
+Expected value
+Expected % of wins
+Expected % of losses
+Expected % of break-even trials
+−25
+50%
+50%
+0%
+−25
+90%
+10%
+0%
+25
+62.5%
+12.5%
+25%
+25
+90%
+10%
+0%
+increase in selections over time from Decks B (p = .08), and a
+similarly marginal increase in selections from Decks C (p = .07) and
+D (p = .07).
+Model Results
+The ORL model was fit using hBayesDM 1.1.1 (Ahn et al., 2017),
+which implements a hierarchical Bayesian model in Stan (Carpenter
+et al., 2017) to estimate both group-level and participant-level
+posterior distributions simultaneously for each of the four parameters in the model (Arew, Apun, βF, and βP). The hierarchical aspect of
+the model allows for heterogeneity within the group. In other words,
+we do not assume that all participants complete the task in the same
+way. It is possible, for example, that some participants rely on a
+perseverative strategy and have a high value for βP, while other
+participants from the same group have a very low value for this
+parameter and do not perseverate. Below, we focus our discussion
+on the group-level parameters to understand whether there are any
+systematic differences between groups.
+All of the default settings in hBayesDM were used for parameter
+estimation (four Markov chains, 4,000 samples per chain including
+1,000 burn-in samples, no thinning), except that the code was
+Note. Percentages refer to the percentage of cards in the deck (regardless
+of the win or loss magnitude).
+Figure 2
+Selections From Good and Bad Decks by Group
+modified to constrain K = 1 (see Footnote 1). Separate models were
+fit for the cognitively healthy and MCI groups. Trace plots of the
+resultant Markov chains were inspected visually for convergence
+(see additional online material at https://osf.io/9ny2x/), with all Rˆ in
+the range 1.0001–1.001. Model fit was assessed by plotting the onestep-ahead posterior predictions and visually comparing these to the
+behavioral data (shown in the additional online material at https://
+osf.io/9ny2x/).
+Posterior parameter estimates for each group are shown in
+Figure 4. Ninety-five percent high density interval regions (HDI;
+Hyndman, 1996) were used to examine whether the differences in
+group-level parameters were credible. Cognitively healthy older
+adults had larger values for both reward learning rates, Arew (Mhealthy =
+0.695, MMCI = 0.427, 95% HDI [0.102, 0.433], Cohen’s d = 1.07) and
+A
+pun (Mhealthy = 0.166, MMCI = 0.115, 95% HDI [0.019, 0.087],
+Cohen’s d = 1.00). No credible differences were observed for βF
+(Mhealthy = 0.817, MMCI = 0.921, 95% HDI [−0.676, 0.488],
+Cohen’s d = 0.08) or βP (Mhealthy = 1.90, MMCI = .861, 95% HDI
+[−0.102, 2.121], Cohen’s d = 0.38).
+We also computed the difference in learning rates (i.e., Adiff =
+A
+rew − Apun) for each group to measure sensitivity to gains relative
+to losses. While both groups had a credibly higher learning rate
+for gains relative to losses (i.e., Adiff > 0), the difference was
+larger for cognitively healthy older adults relative to those with
+MCI (Mhealthy = 0.529, MMCI = 0.313, 95% HDI [0.054, 0.378],
+Cohen’s d = 0.91).
+As described earlier, ancillary measures were collected as part of a
+separate research project (animal fluency, letter fluency, cognitive
+reflection test, and subjective cognitive decline scale; Zemla, 2025).
+We compared performance on these tasks to participant-level
+parameter values using maximum a posteriori estimates. Four
+participants were missing data on these tasks. Arew was correlated
+with animal fluency, r(86) = .23, p = .03, and subjective cognitive
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. (Left) The proportion of participants choosing from a good deck is shown for each trial and group. Loess
+trend lines for each group are shown. (Right) The difference in proportion of good deck choices between the two
+groups is shown for each trial. Values below zero indicate that the MCI group chose more often from the good
+decks, while values above zero indicate the healthy group chose more often from the good decks. MCI = mild
+cognitive impairment. See the online article for the color version of this figure.
+PERFORMANCE IN THE IOWA GAMBLING TASK
+839
+Note. Loess trend lines are shown for visualization. Red indicates healthy participants and blue indicates MCI. MCI = mild
+cognitive impairment. See the online article for the color version of this figure.
+decline, r(86) = −.28, p = .009. Apun was correlated with animal
+fluency, r(86) = .22, p = .044, and subjective cognitive decline,
+r(86) = −.23, p = .038. Adiff was correlated with animal fluency,
+r(86) = .21, p = .049, and subjective cognitive decline, r(86) = −.26,
+p = .014. While these analyses were not planned, they provide some
+supporting evidence that the learning rate parameters are related to
+memory processes as we have suggested. All other correlations were
+not significant (all p > .069).
+Discussion
+Both groups showed evidence of learning by choosing more often
+from the good decks over time, in contrast to prior work that has
+found individuals with MCI do not improve at the task over time
+(Zamarian et al., 2011). However, cognitively healthy adults
+showed steeper improvements than those with MCI. The marginal
+probability of selecting from the good decks did not differ
+between groups, though those with MCI lost significantly more
+money. Performance did not vary with age after controlling for
+diagnosis.
+While we observed some differences in model parameters, these
+differences diverged from our predictions. The cognitively healthy
+group had larger learning rates for both rewards (Arew) and losses
+(Apun) compared to those with MCI, indicating more rapid updating of a deck’s value in response to gains or losses but also a
+stronger influence of recent outcomes on deck selection. No
+differences in the weights on expected frequency (βF) and perseveration (βP) were observed between groups. This may indicate
+that despite differences in learning rate, those with MCI do not
+rely on qualitatively different task strategies than cognitively
+healthy older adults. Both groups had larger learning rates for
+gains relative to losses (Adiff greater than zero), indicating that
+learning is affected more by gains than losses, but healthy participants had larger values of Adiff than those with MCI.
+The results are limited only to older adults, and do not indicate
+how healthy aging may affect performance relative to younger
+adults. We address this in Experiment 2 by using a previously
+collected data set to test for differences across the lifespan, providing
+context to help interpret the results. Afterward, we discuss the results
+from both experiments wholistically.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 3
+The Proportion of Selections From Each Deck on Each Trial
+840
+ZEMLA AND DAVIS
+Note. Posterior distributions indicate that cognitively healthy older adults (blue) had larger values of Arew, Apun, and Adiff
+compared to participants with mild cognitive impairment (red). There were no credible differences in βF or βP. See the online
+article for the color version of this figure.
+Experiment 2
+Transparency and Openness
+The study was approved by the Institution Review Board at the
+University of Colorado, Colorado Springs, Protocol 12-229 titled
+“Cognition Across the Lifespan: 5–95 years of age.” All data and
+analysis code are available in the additional online material (https://
+osf.io/9ny2x/). All available data were used for data analysis. The
+study was not preregistered. A portion of the data have been previously reported in Beitz et al. (2014) and a very small portion was
+reported in Wood et al. (2005), though the analyses presented here
+are novel.
+Participants
+The data set consists of 1,645 participants who were at least 18
+years (M = 35.9, range = 18–91). Ages skewed younger (interquartile range 20–50 years; see the additional online material at
+https://osf.io/9ny2x/ for a histogram of ages at 1-year increments).
+Additional demographics are provided in Table 3.
+Procedure
+The data were collected between 2001 and 2017 from the second
+author’s lab. Data were collected in Colorado Springs, Colorado,
+United States. All testings were conducted in person in quiet testing
+rooms. Participants included students receiving course credit and
+older adults recruited from the university gerontology center for
+10 dollars per hour. Participants were tested individually lasting
+approximately an hour. Participants reported no history of neurological disease, head trauma, learning disability, psychiatric illness, or
+drug use that they thought might affect their cognition. Participants
+were told that they would be given several tests of general cognitive
+functioning, including memory and reasoning tests.
+Participants completed the IGT, but a different implementation
+than Experiment 1 was used (Bechara, 2007) which uses a different
+payout table (found in the additional online material at https://osf.io/
+9ny2x/). A summary of the deck properties is shown in Table 4. The
+general patterns remain the same: Decks A and B had a negative
+expected value while Decks C and D had a positive expected value,
+Table 3
+Demographics for Experiment 2
+Demographic
+N (%)
+Age
+18–19 376 (22.9)
+20–29 586 (35.6)
+30–39 139 (8.4)
+40–49 132 (8.0)
+50–59 85 (5.2)
+60–69 121 (7.4)
+70–79 146 (8.9)
+80–89 56 (3.4)
+90–91 4 (0.2)
+Gender
+Male 476 (28.9)
+Female 1,168 (71)
+Unknown 1 (0.1)
+Education
+8 or fewer years 6 (0.3)
+9–12 years 115 (7.0)
+12–16 years 1,378 (83.8)
+More than 16 years 125 (7.6)
+Unknown 21 (1.3)
+Race/ethnicity
+White/NonHispanic 1,115 (67.8)
+African American 55 (3.3)
+Hispanic/Latino 124 (7.5)
+East Asian 31 (1.9)
+West Asian 10 (0.6)
+Native American 6 (0.4)
+Pacific Islander 9 (0.5)
+Multiple race/ethnicity 116 (7.1)
+Other 6 (0.3)
+Unknown 8 (0.5)
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 4
+Posterior Distributions of Parameters in Experiment 1
+PERFORMANCE IN THE IOWA GAMBLING TASK
+841
+regression). This mirrors the behavior of cognitively healthy older
+adults in Experiment 1. Proportions of deck selections (collapsed
+across age) are shown in Figure 5. As in Experiment 1, the distribution of win frequencies was asymmetric: 77% trials results in a
+net gain, 16% in a net loss, and 1% in no net change.
+We expected behavior in the task to differ with age, and that these
+differences would accelerate with advanced age. This hypothesis
+was tested with a mixed-effects logistic regression model predicting
+deck choice (good or bad) from trial number, age, and age-squared
+(participant was treated as a random intercept). We include the
+quadratic effect of age based on visual inspection of the data (see
+Figure 6, left) and prior work (e.g., Fein et al., 2007 also find evidence
+of a quadratic relationship). Fixed effect variables were standardized
+and mean centered to ensure the model would converge. Participants
+selected from the good decks more often as the trial number
+increased, z = 68.7, p < .0001, OR = 1.45, 95% confidence interval
+(CI) [1.44, 1.46]. Age-squared was a significant negative predictor
+of selecting from a good deck, z = 5.02, p < .0001, OR = 0.9, 95%
+CI [0.86, 0.94], but age (not squared) was not, p = .17, OR = 1.04,
+Table 4
+Summary of Deck Statistics in Experiment 2
+Deck characteristic
+Deck A
+Deck B
+Deck C
+Deck D
+Expected value
+Expected % of wins
+Expected % of losses
+Expected % of break-even trials
+−62.5
+26.7%
+71.6%
+1.7%
+−62.5
+90%
+10%
+0%
+31.25
+80%
+16.7%
+3.3%
+31.25
+90%
+10%
+0%
+and each of these pairs of decks differed in their proportion of wins.
+All data and analysis code are provided in the additional online
+material (https://osf.io/9ny2x/).
+Behavioral Results
+Participants selected less from Decks A and B over time while
+selections from Decks C and D increased (all p < .0001 from logistic
+Note. Percentages refer to the percentage of cards in the deck (regardless
+of the win or loss magnitude).
+Figure 5
+Proportion of Selections From Each Deck on Each Trial
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. Participants chose less from Decks A and B (the “bad” decks) and more from Decks C and D (the “good” decks) over
+time. Aggregate behavior of participants is shown (collapsed across age).
+842
+ZEMLA AND DAVIS
+Note. (Left) The marginal proportion of selections from good decks decreased with age. Note that the number
+of participants per age varies, with larger sample sizes for younger ages, reflected here in the size of each data
+point. Predictions from the quadratic logistic regression model (excluding the random effect of participant) are
+shown as a blue trend line. (Right) Participants chose from good decks more over time, but older participants
+learned to do so at a slower rate than younger adults. Ages are binned, and loess trend lines are shown for
+visualization. See the online article for the color version of this figure.
+95% CI [0.985, 1.088].3 Years of education is also a significant
+predictor when included as a covariate, z = 2.31, p = .032. Figure 6
+shows the proportion of selections from good decks for each age.
+Model Results
+A model was fit to the data using the same procedure as
+Experiment 1, except that all participants were treated as a single
+group (i.e., one hierarchical model for all participants). Trace plots
+of the resultant Markov chains were inspected visually for convergence (see additional online material at https://osf.io/9ny2x/),
+with all Rˆ in the range 1.0005–1.0036. We estimated the effect of
+age on each model parameter using regression. Based on the plots
+(Figure 7), we tested both simple linear regression (e.g., Arew ∼ Age)
+and a model that includes a quadratic term (e.g., Arew ∼ Age + Age2).
+In the results below, we report the quadratic model only when Akaike
+information criterion (AIC) indicates a better fit over the linear model
+(see additional online material at https://osf.io/9ny2x/ for a full model
+comparison). Instead of using the maximum likelihood estimate for
+each participant as the outcome variable, we fit separate regression
+models for each Markov chain sample, which allowed us to estimate a
+distribution for each regression slope. Independent and dependent
+variables were scaled to produce standardized regression coefficients
+for interpretability. This process resulted in 12,000 estimates for each
+regression slope. The distribution of estimates for each slope was
+assessed using a 95% HDI to see whether the coefficient credibly
+differed from zero.
+A
+rew increased with age (β = .16, 95% HDI [0.13, 0.19]). Apun
+increased with age (β = .61, 95% HDI [0.47, 0.75]) and then
+decreased with age-squared (β = −.61, 95% HDI [−0.75, −0.47]).
+Adiff also increased with age (β = .17, 95% HDI [0.13, 0.20]). βF
+decreased with age-squared (β = −.2, 95% HDI [−0.39, −0.01]), but
+not age. βP increased with age (β = .68, 95% HDI [0.60, 0.77]) and
+decreased with age-squared (β = −.54, 95% HDI [−0.63, −0.46]).
+These trends are shown in Figure 7, and parameters are summarized in
+Table 5. For all parameters, the oldest participants (e.g., 80+) appear
+to show more pronounced differences in model parameters, but the
+limited number of participants in this age range precludes a more
+detailed analysis (only 3.6% of participants were 80+).
+General Discussion
+In two experiments, we found differences in behavior on the IGT
+among younger adults, cognitively healthy older adults, and older
+adults with MCI. Notably, we found that individuals with MCI
+improved on the task over time, which contrasts with previous work
+that found no improvement (Zamarian et al., 2011). However, the
+proportion of selections from good decks increased for cognitively
+healthy older adults at a faster rate than those older adults with MCI.
+Individuals with MCI lost significantly more money in the task,
+though the marginal proportion of selections from good decks did
+not differ between groups. In the second experiment, we found that
+performance was worse in older adults, though the decrease with age
+was not linear and was steepest at the most advanced ages in our
+sample. The proportion of selections from good decks remained
+relatively stable from ages 18 to roughly 60 years.
+To evaluate differences in strategy and cognition, we fit the data
+from both experiments to the ORL reinforcement learning model of
+the task (Haines et al., 2018). A summary of the findings is presented
+in Table 6. We predicted that participants would shift toward simpler
+3 A nested model comparison revealed that a quadratic model provided a
+better fit to the data than a linear model, χ2(1) = 25.0, p < .0001, AICrestricted =
+208,469, AICfull = 208,446.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 6
+Proportion of Selections From Good Decks by Age
+PERFORMANCE IN THE IOWA GAMBLING TASK
+843
+Note. All parameters varied with age or age-squared (or both). Predictions from a simple linear regression model are
+shown as blue trend lines. The number of participants per age varied, with larger sample sizes for younger ages (reflected
+in the size of each data point). See the online article for the color version of this figure.
+task strategies with age and MCI, reflected in higher values of βP (a
+perseverative strategy) and βF (a frequency-tracking strategy). This
+prediction was only partially borne out. Younger adults had negative
+values of βP, indicating a tendency to switch decks, while older
+adults had larger and positive values for βP, indicating a tendency to
+perseverate on the same deck. One interpretation of this is that older
+adults engaged in a cognitively simpler strategy that leads to perseverative behavior, such as a win-stay-lose-shift strategy (Cassotti
+et al., 2011; Worthy, Hawthorne, & Otto, 2013), or strategic
+information sampling (e.g., repeated sampling of a single deck
+before switching to a different deck). In contrast, younger adults
+might be engaged in a more exploratory strategy, frequently
+switching between decks to gather information about all decks early
+on. However, it is also possible that perseveration is not strategic but
+automatic, for example, reflecting diminished inhibition in older
+adults. Both cognitively healthy older adults and those with MCI
+showed evidence of perseveration (positive values of βP), but we
+Table 5
+Summary of Model Parameter Associations With Age
+Mean β age2
+(standardized)
+Mean β age
+(standardized)
+Dependent variable
+found no difference between the two groups. This suggests that
+whether the difference is strategic or automatic, it is likely a consequence of healthy aging that does not worsen in MCI. Contrary to
+expectations, it was younger adults who had larger values of βF
+relative to older adults, indicating an emphasis on decks with high
+win frequency (not necessarily those with high expected value). We
+found no difference between cognitively healthy older adults and
+those with MCI for this parameter.
+These results hint at the possibility of differences in task strategy
+between older and younger adults, but not between healthy older
+adults and those with MCI. Rather, differences in performance
+between cognitively healthy adults and adults with MCI can be
+attributed to differences in learning rates and the relative influence of
+gains and losses. In Experiment 1, those with MCI had smaller
+values for both learning rate parameters (Arew and Apun). This was
+the opposite of what was expected, given that larger learning rates
+have been associated with rapid forgetting (Steingroever et al.,
+2013a, 2013b). It also seemingly contrasts with Smart and Krawitz
+(2015), who found those individuals with subjective cognitive
+decline (a preclinical measure that precedes MCI) rely more on
+recent outcomes than past ones compared to cognitively healthy
+adults.4 Though puzzling, one possibility is that a low learning rate
+in those with MCI means they update their beliefs too slowly.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+A
+rew
+A
+pun
+Adiff
+βF
+βP
+.16a
+.608a
+.166a
+.076
+.679a
+−.611a
+−.204a
+−.542a
+a A credible result (i.e., high density interval excludes zero). Quadratic
+terms are reported only when Akaike information criterion indicates a
+better fit over the linear model.
+Figure 7
+Parameter Values by Age
+4 Similar to our findings, Smart and Krawitz (2015) also reported a larger
+learning rate for healthy older adults than those with subjective cognitive
+decline. However this similarity is only superficial, as they used a different
+model of the IGT in which the learning rate parameter acts as a weight on the
+deck’s previous expected value, whereas in the ORL model (used here) the
+learning rates act as weights on the error signal associated with the current
+outcome. In other words, the parameter’s interpretation is the exact opposite
+of the one used in the ORL model.
+844
+ZEMLA AND DAVIS
+Consider that in cognitively healthy older adults and in those with
+subjective cognitive decline, both of which reflect performance
+declines less severe than MCI, prior work has found evidence for
+higher learning rates than younger adults (Smart & Krawitz, 2015;
+Wood et al., 2005). In contrast, prior work on those with
+Alzheimer’s disease and MCI found no evidence of learning on the
+task (Sinz et al., 2008; Zamarian et al., 2011). Though these works
+did not employ a computational model, a lack of learning is consistent with very low learning rates. The current work may fill in this
+gap, suggesting that decline in healthy older adults is associated with
+elevated learning rates while clinical impairment is associated with
+reduced learning rates, relative to younger adults.
+In Experiment 2, we found that the learning rate for wins
+increased with age, while the learning rate for losses increased with
+age but decreased in the oldest participants (quadratic term). Prior
+work using an IGT model with only a single learning rate has found
+larger learning rates for older adults than younger adults (Wood et
+al., 2005). While we predicted an increase in both learning rates with
+age and MCI, we instead found evidence of a parabolic relationship:
+learning rates for gains increase with age, but then decrease with
+MCI. Learning rates for both gains and losses were lowest at the
+most advanced ages of our sample in Experiment 2 (roughly ages
+80+; see Figure 7). Though these results buck the trend of
+increasing learning rates with age, one speculative possibility is
+that some of the oldest participants in Experiment 2 have an
+undiagnosed cognitive impairment. It is estimated that roughly
+half of individuals 80+ years old in the United States have MCI or
+dementia (Manly et al., 2022).
+We also observed that Adiff increases with healthy aging in
+Experiment 2, which means that gains have a larger influence than
+losses on a deck’s perceived value. One interpretation is that this
+reflects a positivity bias in memory or attention for older adults
+(Mather & Carstensen, 2005). A similar result and interpretation are
+provided by Wood et al. (2005), who found that older adults weight
+gains more than losses. Bauer et al. (2013) suggested, more generally, that older adults display a “hypersensitivity to rewards” in the
+IGT compared to younger adults. In Experiment 1, we found that
+Adiff is larger for cognitively healthy older adults than those with
+MCI. This may be evidence that the positivity bias in older adults
+diminishes with cognitive impairment in decision making. In the
+memory literature, individuals with Alzheimer’s disease show an
+attenuated positivity effect (Kalenzaga et al., 2016), though the
+diminishing positivity effect in MCI and Alzheimer’s disease has
+been debated (Gorenc-Mahmutaj et al., 2015; Werheid et al., 2011).
+In sum, we found evidence for qualitatively different cognitive
+mechanisms affecting behavior associated with healthy aging and
+MCI. Among cognitively healthy adults, age was associated with a
+stronger recency bias for gains, an increase in perseveration, a
+decrease in attention to win frequency, and a larger positivity bias.
+Compared to cognitively healthy older adults, individuals with MCI
+demonstrated a smaller positivity bias and lower learning rates.
+Limitations and Broader Implications
+One concern of the IGT is its external validity. Older adults
+routinely make decisions with uncertain outcomes (e.g., investments), but behavior in those contexts may differ from lab-based
+tasks. Notably, participants in our experiments did not use real
+money and were not paid based on performance, and the task itself
+had no personal relevance. While this is the norm for IGT studies,
+prior work has found that monetary incentives and personal relevance affect behavior of older adults in judgment and decisionmaking tasks (Hess, 2014; Touron et al., 2007). Care should be
+taken when generalizing our results to naturalistic decisions.
+Our two experiments were also conducted on different samples at
+different times and with different eligibility criteria. The sample
+sizes are also vastly different (N = 90 cf. N = 1,645), due to the
+nature of data collection of Experiment 2 (collected over a period of
+several years) and the difficulty in recruiting participants with MCI.
+We cannot rule out that sample differences affect behavior, which
+could limit the validity of cross-study comparisons. Similarly, the
+experiments varied in their payout table (see additional online
+material at https://osf.io/9ny2x/) and used different implementations
+of the IGT software.
+In both experiments, the order of cards within each deck was fixed
+across all participants (though the payout table differed between the
+two experiments; see additional online material at https://osf.io/
+9ny2x/). On the one hand, using a fixed payout table is standard
+practice for the IGT and facilitates comparison to previously
+published work that uses the same table. For example, the payout
+table in Experiment 1 is identical to that used by Bechara et al.
+(1994), and the payout table in Experiment 2 is identical to that used
+by Bechara and Damasio (2002). However not all experiments use a
+fixed payout table: Steingroever et al. (2015) compared three
+schemes, including the two used here and a third that includes some
+randomization. Using a fixed payout table raises a concern that
+differences in behavior are not due solely to differences in expected
+value and variance, but also due to the specific order of wins and
+losses chosen for a given experiment. If participants are sensitive to
+that order, behavior may not generalize across other procedures. In
+addition, the spatial arrangement of decks is always the same: Decks
+A and B (negative expected value) are always presented on the left,
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 6
+The Relative Direction for Each Model Parameter for Both Experiments
+Effect
+A
+rew
+Apun
+Adiff
+βF
+βP
+Healthy > MCI
+Young < Olda
+Experiment 1: Cognitively healthy older adults versus MCI
+Mean difference
+Experiment 2: Younger adults versus older adults
+Linear term
+Quadratic term
+Healthy > MCIa
+Young < Olda
+Healthy > MCI
+Young < Olda
+Old < Young
+No difference
+No difference
+Old < Young
+No difference
+Young < Olda
+Old < Young
+Note. In Experiment 2, we report the quadratic term only when Akaike information criterion indicates a better fit over the linear model. MCI = mild
+cognitive impairment.
+a A result that is consistent with our predictions stated in the introduction.
+PERFORMANCE IN THE IOWA GAMBLING TASK
+845
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+while Decks C and D (positive expected value) are always presented
+on the right. Again, this is standard practice for the IGT, but a
+practice that is inconsistent with counterbalancing norms in
+experimental research. This is likely to bias initial exploration,
+which can influence subsequent choices. For example, 52% of
+participants in Experiment 1 selected Deck A on the first trial and
+36% of participants in Experiment 2 selected Deck A on their first
+trial (chance is 25%). Other aspects of the task may influence
+behavior and parameter estimates as well. Wins were more frequent than losses, and the average win magnitude was smaller
+than the average loss (e.g., in Experiment 1 the observed average
+win was $73, while the average loss was $374). This asymmetry is
+partially by design (reflected in the payout table), but also because
+participants learn to select from better decks over time. It is not
+clear what effect these design choices have on behavior, or
+whether our findings generalize to more symmetric designs.
+It is also worth mentioning that while MCI has proved to be a
+useful clinical label, it is a heterogeneous syndrome that may result
+from many distinct pathologies (Portet et al., 2006). Differences in
+behavior and cognition among those with MCI may obscure the
+trajectory of individual pathologies. We have suggested that individuals with MCI provide a missing link between healthy aging
+and Alzheimer’s disease, but not all individuals with MCI will go
+on to develop Alzheimer’s disease. Future experiments may, for
+example, subdivide MCI participants based on their future diagnoses or biological profile when biomarker status is available (e.g.,
+MCI due to Alzheimer’s cf. MCI due to frontotemporal dementia).
+For the model analyses, we report fits to only a single reinforcement learning model (the ORL model) though many other
+models have been used in the literature (see Haines et al., 2018 for a
+review). We chose the ORL model both for its ability to accurately
+model behavior and its psychologically relevant parameters for
+these populations. Indeed, one-step-ahead posterior prediction
+checks indicate a good fit to the behavioral data (additional online
+data at https://osf.io/9ny2x/) and we did find meaningful parameter
+differences between populations. Still, claims derived from model
+analyses are reliable only to the extent that the model reflects the true
+cognitive processes used in the task.
+An appeal of analyzing the IGT with a computational model is
+that behavior is influenced by many cognitive processes, and a
+model offers the potential to decompose behavior into distinct
+cognitive processes. Throughout, we have proposed interpretations
+of the model parameters and how they relate to memory, learning,
+and task strategies. However, we justify these interpretations based
+on theory and appeal to prior literature rather than providing any
+external validation. Much of the literature on the ORL model
+focuses on how parameters vary among psychiatric groups, such as
+those with depression or substance abuse (Haines et al., 2018;
+Sullivan-Toole et al., 2022), without demonstrating whether the
+parameters are correlated with behavior in simple cognitive tasks.
+We provide only a limited test of validity, by showing that the
+learning rate parameters in Experiment 1 correlate modestly with
+semantic fluency and a subjective cognitive decline (both of which
+assess memory). This is an important area for additional research,
+given task-related differences among neurological and psychiatric
+populations.
+The IGT has been criticized because traditional measures of the
+task (e.g., number of selections from good decks) confound the
+influence of many different cognitive processes. While computational
+models provide one approach to resolving this issue, an alternative is
+to use simple laboratory tasks that reduce task complexity. For
+example, if differences between healthy and MCI participants on the
+IGT primarily reflect differences in learning and memory (as we
+suggest), then the two groups could behave similarly in one-shot
+gambles or other experiments that require no learning or memory. We
+see these approaches as complementary: some experiments are designed to isolate specific cognitive mechanisms, but in exchange they
+ignore potential interactions that might arise in more complicated tasks
+(e.g., real-world decision making typically does involve learning and
+memory). The two approaches may provide converging evidence for
+the cognitive mechanisms that underpin decision-making impairments
+in healthy aging and MCI, or they may highlight discrepancies that
+arise from examining the same construct in different contexts. A more
+wholistic understanding of how cognitive decline affects decision
+making be achieved by exploring various experimental designs and
+methodologies.
+The current experiments help explain how decision making in the
+IGT differs with healthy aging and MCI. While several studies have
+explored the IGT in aging populations (e.g., Beitz et al., 2014;
+Denburg et al., 2005; Fein et al., 2007; Isella et al., 2008; Wood et
+al., 2005), only a handful have explored performance in those with
+MCI or dementia (Jacus et al., 2018; Zamarian et al., 2011) and none
+have employed computational models for these populations. More
+broadly, decision making as a fundamental cognitive construct is
+often overlooked in MCI and related dementias, with cognitive
+screeners such as the Montreal Cognitive Assessment (Nasreddine
+et al., 2005) emphasizing tests of memory and executive functioning, but containing no questions relevant to decision making.
+These screeners are clearly more sensitive for diagnosing participants than the IGT, and our work is not intended to demonstrate the
+diagnostic value of the IGT. However, our results do show that
+behavior on the task is sensitive to early cognitive decline, and future
+work should test whether including a measure of a decision making
+on an existing screener could improve early diagnosis. Alzheimer’s
+disease and related dementias are growing in prevalence (Matthews
+et al., 2019), but interventions have shown little evidence of slowing
+or preventing cognitive decline (Aisen, 2019). Mounting evidence
+suggests that early detection of cognitive decline is critical to
+improving outcomes through both behavioral and pharmacological
+means (Aisen et al., 2022; Rasmussen & Langerman, 2019).
+Ultimately, advancements in our understanding of decision making
+with age have the potential to inform interventions that improve
+financial and medical decision making in older adults, and enhance
+the quality of life in those with age-related cognitive decline.
+References
+Ahn, W. Y., Dai, J., Vassileva, J., Busemeyer, J. R., & Stout, J. C. (2016).
+Computational modeling for addiction medicine: From cognitive models
+to clinical applications. In H. Ekhtiari & M. P. Paulus (Eds.), Progress in
+brain research (Vol. 224, pp. 53–65). Elsevier. https://doi.org/10.1016/bs
+.pbr.2015.07.032
+Ahn, W. Y., Haines, N., & Zhang, L. (2017). Revealing neurocomputational
+mechanisms of reinforcement learning and decision-making with the
+hBayesDM package. Computational Psychiatry, 1, 24–57. https://doi.org/
+10.1162/CPSY_a_00002
+Aisen, P. S. (2019). Failure after failure. What next in AD drug development?
+The Journal of Prevention of Alzheimer’s Disease, 6(3), Article 150.
+https://doi.org/10.14283/jpad.2019.23
+846
+ZEMLA AND DAVIS
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Aisen, P. S., Jimenez-Maggiora, G. A., Rafii, M. S., Walter, S., & Raman, R.
+(2022). Early-stage Alzheimer disease: Getting trial-ready. Nature
+Reviews Neurology, 18(7), 389–399. https://doi.org/10.1038/s41582-022-
+00645-6
+Bauer, A. S., Timpe, J., Edmonds, E. C., Bechara, A., Tranel, D., & Denburg,
+N. L. (2013). Myopia for the future or hypersensitivity to reward? Agerelated changes in decision making on the Iowa Gambling Task. Emotion,
+13(1), 19–24. https://doi.org/10.1037/a0029970
+Bayard, S., Jacus, J. P., Raffard, S., & Gély-Nargeot, M. C. (2015).
+Conscious knowledge and decision making under ambiguity in mild
+cognitive impairment and Alzheimer disease. Alzheimer Disease and
+Associated Disorders, 29(4), 357–359. https://doi.org/10.1097/WAD
+.0000000000000061
+Bechara, A. (2007). Iowa Gambling Task professional manual. Psychological
+Assessment Resources.
+Bechara, A., & Damasio, H. (2002). Decision-making and addiction (part
+I): Impaired activation of somatic states in substance dependent individuals when pondering decisions with negative future consequences.
+Neuropsychologia, 40(10), 1675–1689. https://doi.org/10.1016/S0028-
+3932(02)00015-5
+Bechara, A., Damasio, H., & Damasio, A. R. (2000). Emotion, decision
+making and the orbitofrontal cortex. Cerebral Cortex, 10(3), 295–307.
+https://doi.org/10.1093/cercor/10.3.295
+Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994).
+Insensitivity to future consequences following damage to human prefrontal cortex. Cognition, 50(1–3), 7–15. https://doi.org/10.1016/0010-
+0277(94)90018-3
+Behrens, T. E., Woolrich, M. W., Walton, M. E., & Rushworth, M. F. (2007).
+Learning the value of information in an uncertain world. Nature
+Neuroscience, 10(9), 1214–1221. https://doi.org/10.1038/nn1954
+Beitz, K. M., Salthouse, T. A., & Davis, H. P. (2014). Performance on
+the Iowa Gambling Task: From 5 to 89 years of age. Journal of
+Experimental Psychology: General, 143(4), 1677–1689. https://doi.org/
+10.1037/a0035823
+Busemeyer, J. R., & Stout, J. C. (2002). A contribution of cognitive decision
+models to clinical assessment: Decomposing performance on the Bechara
+gambling task. Psychological Assessment, 14(3), 253–262. https://doi.org/
+10.1037/1040-3590.14.3.253
+Carpenter, B., Gelman, A., Hoffman, M. D., Lee, D., Goodrich, B.,
+Betancourt, M., Brubaker, M. A., Guo, J., Li, P., & Riddell, A. (2017).
+Stan: A probabilistic programming language. Journal of Statistical
+Software, 76(1), 1–32. https://doi.org/10.18637/jss.v076.i01
+Cassotti, M., Houdé, O., & Moutier, S. (2011). Developmental changes of winstay and loss-shift strategies in decision making. Child Neuropsychology,
+17(4), 400–411. https://doi.org/10.1080/09297049.2010.547463
+Corbo, I., Troisi, G., Marselli, G., & Casagrande, M. (2024). The role of
+cognitive flexibility on higher level executive functions in mild cognitive
+impairment and healthy older adults. BMC Psychology, 12(1), Article 317.
+https://doi.org/10.1186/s40359-024-01807-5
+Denburg, N. L., Tranel, D., & Bechara, A. (2005). The ability to decide
+advantageously declines prematurely in some normal older persons.
+Neuropsychologia, 43(7), 1099–1106. https://doi.org/10.1016/j.neuro
+psychologia.2004.09.012
+Fein, G., McGillivray, S., & Finn, P. (2007). Older adults make less
+advantageous decisions than younger adults: Cognitive and psychological
+correlates. Journal of the International Neuropsychological Society,
+13(3), 480–489. https://doi.org/10.1017/S135561770707052X
+Frank, M. J., & Kong, L. (2008). Learning to avoid in older age. Psychology
+and Aging, 23(2), 392–398. https://doi.org/10.1037/0882-7974.23.2.392
+Frederick, S. (2005). Cognitive reflection and decision making. Journal of
+Economic Perspectives, 19(4), 25–42. https://doi.org/10.1257/0895330
+05775196732
+Gorenc-Mahmutaj, L., Degen, C., Wetzel, P., Urbanowitsch, N., Funke, J., &
+Schröder, J. (2015). The positivity effect on the intensity of experienced
+emotion and memory performance in mild cognitive impairment and
+dementia. Dementia and Geriatric Cognitive Disorders Extra, 5(2), 233–
+243. https://doi.org/10.1159/000381537
+Haines, N., Vassileva, J., & Ahn, W. Y. (2018). The outcome-representation
+learning model: A novel reinforcement learning model of the Iowa
+Gambling Task. Cognitive Science, 42(8), 2534–2561. https://doi.org/10
+.1111/cogs.12688
+Hess, T. M. (2014). Selective engagement of cognitive resources: Motivational
+influences on older adults’ cognitive functioning. Perspectives on
+Psychological Science, 9(4), 388–407. https://doi.org/10.1177/17456
+91614527465
+Horn, S. (2024). Adult age differences in value-based decision making.
+Current Opinion in Psychology, 55, Article 101765. https://doi.org/10
+.1016/j.copsyc.2023.101765
+Hyndman, R. J. (1996). Computing and graphing highest density regions.
+The American Statistician, 50(2), 120–126. https://doi.org/10.1080/
+00031305.1996.10474359
+Isella, V., Mapelli, C., Morielli, N., Pelati, O., Franceschi, M., & Appollonio,
+I. M. (2008). Age-related quantitative and qualitative changes in decision
+making ability. Behavioural Neurology, 19(1–2), 59–63. https://doi.org/
+10.1155/2008/893727
+Jacus, J. P., Gély-Nargeot, M. C., & Bayard, S. (2018). Ecological relevance
+of the Iowa Gambling Task in patients with Alzheimer’s disease and mild
+cognitive impairment. Revue Neurologique, 174(5), 327–336. https://
+doi.org/10.1016/j.neurol.2017.08.003
+Kalenzaga, S., Lamidey, V., Ergis, A. M., Clarys, D., & Piolino, P. (2016).
+The positivity bias in aging: Motivation or degradation? Emotion, 16(5),
+602–610. https://doi.org/10.1037/emo0000170
+Kirova, A. M., Bays, R. B., & Lagalwar, S. (2015). Working memory
+and executive function decline across normal aging, mild cognitive
+impairment, and Alzheimer’s disease. BioMed Research International,
+2015(1), Article 748212. https://doi.org/10.1155/2015/748212
+Langbaum, J. B., High, N., Nichols, J., Kettenhoven, C., Reiman, E. M., &
+Tariot, P. N. (2020). The Alzheimer’s prevention registry: A large internetbased participant recruitment registry to accelerate referrals to Alzheimer’sfocused studies. The Journal of Prevention of Alzheimer’s Disease, 7(4),
+242–250. https://doi.org/10.14283/jpad.2020.31
+Lemaire, P., & Leclère, M. (2014). Strategy repetition in young and older
+adults: A study in arithmetic. Developmental Psychology, 50(2), 460–468.
+https://doi.org/10.1037/a0033527
+Ligneul, R. (2019). Sequential exploration in the Iowa Gambling Task:
+Validation of a new computational model in a large dataset of young and
+old healthy participants. PLOS Computational Biology, 15(6), Article
+e1006989. https://doi.org/10.1371/journal.pcbi.1006989
+Manly, J. J., Jones, R. N., Langa, K. M., Ryan, L. H., Levine, D. A.,
+McCammon, R., Heeringa, S. G., & Weir, D. (2022). Estimating the
+prevalence of dementia and mild cognitive impairment in the US: The
+2016 health and retirement study harmonized cognitive assessment protocol project. JAMA Neurology, 79(12), 1242–1249. https://doi.org/10
+.1001/jamaneurol.2022.3543
+Margevicius, B. (2015). Iowa-Gambling-Task. GitHub. https://github.com/
+bdm4/Iowa-Gambling-Task
+Martin, R. C., Gerstenecker, A., Triebel, K. L., Falola, M., McPherson, T.,
+Cutter, G., & Marson, D. C. (2019). Declining financial capacity in mild
+cognitive impairment: A six-year longitudinal study. Archives of Clinical
+Neuropsychology, 34(2), 152–161. https://doi.org/10.1093/arclin/acy030
+Mata, R., Josef, A. K., Samanez-Larkin, G. R., & Hertwig, R. (2011). Age
+differences in risky choice: A meta-analysis. Annals of the New York
+Academy of Sciences, 1235(1), 18–29. https://doi.org/10.1111/j.1749-
+6632.2011.06200.x
+Mata, R., Schooler, L. J., & Rieskamp, J. (2007). The aging decision maker:
+Cognitive aging and the adaptive selection of decision strategies.
+Psychology and Aging, 22(4), 796–810. https://doi.org/10.1037/0882-
+7974.22.4.796
+PERFORMANCE IN THE IOWA GAMBLING TASK
+847
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Mata, R., von Helversen, B., & Rieskamp, J. (2010). Learning to choose:
+Cognitive aging and strategy selection learning in decision making.
+Psychology and Aging, 25(2), 299–309. https://doi.org/10.1037/a0018923
+Mather, M., & Carstensen, L. L. (2005). Aging and motivated cognition: The
+positivity effect in attention and memory. Trends in Cognitive Sciences,
+9(10), 496–502. https://doi.org/10.1016/j.tics.2005.08.005
+Matthews, K. A., Xu, W., Gaglioti, A. H., Holt, J. B., Croft, J. B., Mack, D.,
+& McGuire, L. C. (2019). Racial and ethnic estimates of Alzheimer’s
+disease and related dementias in the United States (2015–2060) in adults
+aged ≥65 years. Alzheimer’s & Dementia, 15(1), 17–24. https://doi.org/10
+.1016/j.jalz.2018.06.3063
+Miebach, L., Wolfsgruber, S., Polcher, A., Peters, O., Menne, F., Luther, K.,
+Incesoy, E., Priller, J., Spruth, E., Altenstein, S., Buerger, K., Catak, C.,
+Janowitz, D., Perneczky, R., Utecht, J., Laske, C., Buchmann, M.,
+Schneider, A., Fliessbach, K., … Wagner, M. (2019). Which features of
+subjective cognitive decline are related to amyloid pathology? Findings
+from the DELCODE study. Alzheimer’s Research & Therapy, 11(1),
+Article 66. https://doi.org/10.1186/s13195-019-0515-y
+Mrkva, K., Johnson, E. J., Gächter, S., & Herrmann, A. (2020). Moderating
+loss aversion: Loss aversion has moderators, but reports of its death are
+greatly exaggerated. Journal of Consumer Psychology, 30(3), 407–428.
+https://doi.org/10.1002/jcpy.1156
+Nasreddine, Z. S., Phillips, N. A., Bédirian, V., Charbonneau, S., Whitehead,
+V., Collin, I., Cummings, J. L., & Chertkow, H. (2005). The Montreal
+Cognitive Assessment, MoCA: A brief screening tool for mild cognitive
+impairment. Journal of the American Geriatrics Society, 53(4), 695–699.
+https://doi.org/10.1111/j.1532-5415.2005.53221.x
+Okonkwo, O., Griffith, H. R., Belue, K., Lanza, S., Zamrini, E. Y., Harrell,
+L. E., Brockington, J. C., Clark, D., Raman, R., & Marson, D. C. (2007).
+Medical decision-making capacity in patients with mild cognitive
+impairment. Neurology, 69(15), 1528–1535. https://doi.org/10.1212/01
+.wnl.0000277639.90611.d9
+Petersen, R. C. (2016). Mild cognitive impairment. Continuum, 22(2), 404–
+418. https://doi.org/10.1212/CON.0000000000000313
+Petersen, R. C., Smith, G. E., Waring, S. C., Ivnik, R. J., Tangalos, E. G., &
+Kokmen, E. (1999). Mild cognitive impairment: Clinical characterization
+and outcome. Archives of Neurology, 56(3), 303–308. https://doi.org/10
+.1001/archneur.56.3.303
+Portet, F., Ousset, P. J., Visser, P. J., Frisoni, G. B., Nobili, F., Scheltens, P.,
+Vellas, B., Touchon, J., & the MCI Working Group of the European
+Consortium on Alzheimer’s Disease (EADC). (2006). Mild cognitive
+impairment (MCI) in medical practice: A critical review of the concept and
+new diagnostic procedure. Report of the MCI Working Group of the
+European Consortium on Alzheimer’s Disease. Journal of Neurology,
+Neurosurgery & Psychiatry, 77(6), 714–718. https://doi.org/10.1136/jnnp
+.2005.085332
+Rasmussen, J., & Langerman, H. (2019). Alzheimer’s disease–Why we need
+early diagnosis. Degenerative Neurological and Neuromuscular Disease,
+9, 123–130. https://doi.org/10.2147/DNND.S228939
+Sinz, H., Zamarian, L., Benke, T., Wenning, G. K., & Delazer, M. (2008).
+Impact of ambiguity and risk on decision making in mild Alzheimer’s
+disease. Neuropsychologia, 46(7), 2043–2055. https://doi.org/10.1016/j
+.neuropsychologia.2008.02.002
+Smart, C. M., & Krawitz, A. (2015). The impact of subjective cognitive
+decline on Iowa Gambling Task performance. Neuropsychology, 29(6),
+971–987. https://doi.org/10.1037/neu0000204
+Steingroever, H., Fridberg, D. J., Horstmann, A., Kjome, K. L., Kumari, V.,
+Lane, S. D., Maia, T. V., McClelland, J. L., Pachur, T., Premkumar, P.,
+Stout, J. C., Wetzels, R., Wood, S., Worthy, D. A., & Wagenmakers, E. J.
+(2015). Data from 617 healthy participants performing the Iowa Gambling
+Task: A “many labs” collaboration. Journal of Open Psychology Data,
+3(1), Article e5.
+Steingroever, H., Wetzels, R., & Wagenmakers, E. J. (2013a). A comparison
+of reinforcement learning models for the Iowa Gambling Task using
+parameter space partitioning. The Journal of Problem Solving, 5(2),
+Article 2. https://doi.org/10.7771/1932-6246.1150
+Steingroever, H., Wetzels, R., & Wagenmakers, E. J. (2013b). Validating the
+PVL-Delta model for the Iowa Gambling Task. Frontiers in Psychology,
+4, Article 898. https://doi.org/10.3389/fpsyg.2013.00898
+Sullivan-Toole, H., Haines, N., Dale, K., & Olino, T. M. (2022). Enhancing
+the psychometric properties of the Iowa Gambling Task using full generative modeling. Computational Psychiatry, 6(1), 189–212. https://
+doi.org/10.5334/cpsy.89
+Touron, D. R., Swaim, E. T., & Hertzog, C. (2007). Moderation of older
+adults’ retrieval reluctance through task instructions and monetary incentives. The Journals of Gerontology: Series B, 62(3), P149–P155.
+https://doi.org/10.1093/geronb/62.3.P149
+Troyer, A. K., Moscovitch, M., & Winocur, G. (1997). Clustering and
+switching as two components of verbal fluency: Evidence from younger
+and older healthy adults. Neuropsychology, 11(1), 138–146. https://
+doi.org/10.1037/0894-4105.11.1.138
+Werheid, K., McDonald, R. S., Simmons-Stern, N., Ally, B. A., & Budson,
+A. E. (2011). Familiar smiling faces in Alzheimer’s disease: Understanding
+the positivity-related recognition bias. Neuropsychologia, 49(10), 2935–
+2940. https://doi.org/10.1016/j.neuropsychologia.2011.06.022
+Wood, S., Busemeyer, J., Koling, A., Cox, C. R., & Davis, H. (2005). Older
+adults as adaptive decision makers: Evidence from the Iowa Gambling
+Task. Psychology and Aging, 20(2), 220–225. https://doi.org/10.1037/
+0882-7974.20.2.220
+Worthy, D. A., Hawthorne, M. J., & Otto, A. R. (2013). Heterogeneity of
+strategy use in the Iowa Gambling Task: A comparison of win-stay/loseshift and reinforcement learning models. Psychonomic Bulletin & Review,
+20(2), 364–371. https://doi.org/10.3758/s13423-012-0324-9
+Worthy, D. A., Pang, B., & Byrne, K. A. (2013). Decomposing the roles of
+perseveration and expected value representation in models of the Iowa
+Gambling Task. Frontiers in Psychology, 4, Article 640. https://doi.org/10
+.3389/fpsyg.2013.00640
+Yechiam, E., Busemeyer, J. R., Stout, J. C., & Bechara, A. (2005). Using
+cognitive models to map relations between neuropsychological disorders
+and human decision-making deficits. Psychological Science, 16(12), 973–
+978. https://doi.org/10.1111/j.1467-9280.2005.01646.x
+Zamarian, L., Benke, T., Buchler, M., Wenter, J., & Delazer, M. (2010).
+Information about medications may cause misunderstanding in older
+adults with cognitive impairment. Journal of the Neurological Sciences,
+298(1–2), 46–51. https://doi.org/10.1016/j.jns.2010.08.061
+Zamarian, L., Weiss, E. M., & Delazer, M. (2011). The impact of mild
+cognitive impairment on decision making in two gambling tasks. The
+Journals of Gerontology: Series B, 66B(1), 23–31. https://doi.org/10
+.1093/geronb/gbq067
+Zemla, J. C. (2025). Increased reliance on heuristic thinking in mild cognitive
+impairment. Aging, Neuropsychology, and Cognition, 32(3), 360–375.
+https://doi.org/10.1080/13825585.2024.2405506
+Received October 17, 2024
+Revision received June 18, 2025
+Accepted June 19, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

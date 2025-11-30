@@ -1,0 +1,906 @@
+﻿BRIEF REPORT
+Beyond Baby Talk: Unique Vocal Dynamics Directed at Older Adults
+Weiyi Ma1, Timothy S. Killian1, Xinya Liang2, Diankun Gong3, and William Forde Thompson4
+1 School of Human Environmental Sciences, University of Arkansas
+2 Department of Rehabilitation, Human Resources and Communication Disorders, University of Arkansas
+3 Center for Information in Medicine, School of Life Science and Technology,
+University of Electronic Science and Technology of China
+4 Faculty of Society and Design, Bond University
+Humans instinctively adapt their speech dynamics based on their communication partner. Despite the
+significant developmental differences between infants and older adults, research on vocal communication
+directed toward older adults has primarily documented broad adjustments that enhance comprehension,
+often interpreted as mirroring baby talk. This study examined spoken, sung, and whispered vocalizations
+produced by young native English-speaking female adults directed at infants, older adults, and young adults.
+Three separate groups of speakers produced either spoken (19 speakers), sung (21 speakers), or whispered
+(19 speakers) vocalizations. Results showed distinct acoustic patterns in vocalizations directed toward older
+adults across all three vocal modes. Then, three separate groups of young native English-speaking listeners
+evaluated either the spoken (185 listeners), sung (194 listeners), or whispered (171 listeners) vocalizations
+and accurately identified the intended audience. These findings challenged the assumption of uniform
+communication strategies for infants and older adults. Furthermore, older adult–directed vocalizations were
+associated more with infants than with young adults. We propose that an assessment of the cognitive,
+hearing, emotional, and attentional needs and abilities of the audience is crucial in shaping communication
+dynamics, leading to distinct vocal dynamics for infants and older adults.
+Public Significance Statement
+This study shows that vocalizations directed toward older adults have unique acoustic features that differ
+from those used for infants across speech, singing, and whispering. Remarkably, listeners can accurately
+identify the intended audience of these vocalizations. These findings highlight the flexibility of human
+communication and the ways vocal behavior adapts to meet the needs of listeners at different life stages.
+Keywords: infant-directed speech, singing, whisper, vocal communication, acoustics
+Supplemental materials: https://doi.org/10.1037/pag0000924.supp
+The instinctive ability to adjust our speech dynamics according to
+our communication partner is essential for survival, enhancing
+effective communication, social bonds, teaching, learning, and care
+for vulnerable populations. This aligns with the Communication
+Accommodation Theory, which suggests that humans intuitively
+modulate tone, prosody, and vocabulary to establish rapport and
+promote mutual comprehension (e.g., Giles & Ogay, 2007). Thus,
+when talking to infants, adults use infant-directed speech, or “baby
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First July 31, 2025.
+Hannes Zacher served as action editor.
+Weiyi Ma https://orcid.org/0000-0002-2299-9834
+Deidentified data and materials for this study are available on the Open
+Science Framework (https://doi.org/10.17605/OSF.IO/Y9MP4). This study
+is not preregistered. The ideas and data appearing in the article have not been
+disseminated before. This study was approved by the institutional review
+board at the University of Arkansas under the protocol titled “The Acoustic
+Differences Between Child- and Adult-Directed Vocalizations” (Protocol
+No. 2108349413) for the vocalization solicitation task and under the protocol
+titled “Perception of Speech and Music” (Protocol No. 1710079572) for the
+perception task. All participants provided informed consent prior to participation, and the research adhered to ethical guidelines for the protection of
+human subjects. The authors declare no conflicts of interest.
+Weiyi Ma played a lead role in conceptualization, data curation, formal
+analysis, investigation, methodology, project administration, resources,
+supervision, validation, visualization, and writing–original draft. Timothy S. Killian played a supporting role in conceptualization, formal
+analysis, methodology, project administration, and writing–original draft.
+Xinya Liang played a supporting role in methodology and writing–
+original draft and an equal role in formal analysis. Diankun Gong played
+a supporting role in data curation. William Forde Thompson played a
+supporting role in formal analysis, methodology, resources, and writing–
+original draft.
+Correspondence concerning this article should be addressed to Weiyi
+Ma, School of Human Environmental Sciences, University of Arkansas,
+987 West Maple Street, Fayetteville, AR 72701, United States. Email:
+weiyima@uark.edu
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 945–955
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000924
+945
+946
+MA, KILLIAN, LIANG, GONG, AND THOMPSON
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+talk,” characterized by a slower rate, higher pitch level, wider pitch
+range, longer vowels and pauses, and singsong intonation (e.g., Cox
+et al., 2023; Fernald, 1989; Hilton et al., 2022; Kalashnikova &
+Burnham, 2018; Kuhl et al., 1997). These acoustic features help
+capture infants’ attention, nurture parent–infant bonds, and facilitate
+language comprehension and learning (e.g., Golinkoff et al., 2015;
+Graf Estes & Hurley, 2013; Han et al., 2022; Ma et al., 2011; Song
+et al., 2010).
+Vocal adaptations for older adults are often assumed to mirror
+infant-directed speech, with theoretical frameworks yet to distinguish
+between them (e.g., Harwood, 2007; Montepare et al., 1992;
+Österholm & Samuelsson, 2015). Thus, older adult–directed speech,
+or “elderspeak,” has also been referred to as “baby talk to adults”
+(Caporael, 1981; Caporael & Culbertson, 1986; Cavallaro et al., 2016;
+Österholm & Samuelsson, 2015), “secondary baby talk” (Caporael et
+al., 1983; Sachweh, 1998), or “infantilizing talk” (Whitbourne et al.,
+1995; Whitmer & Whitbourne, 1997). Researchers have claimed,
+“There is no evidence that baby talk to children and baby talk to
+elderly adults are paralinguistically distinguishable” (Caporael, 1981,
+p. 882). This view stems from the idea that speakers adjust their
+communication style for vulnerable individuals, using a similar
+strategy across different groups. Evidence supporting this binary
+communication hypothesis includes the presence of acoustic features
+common in both infant- and older adult–directed speech, such as a
+slower rate, higher pitch, and exaggerated intonation (e.g., Montepare
+et al., 1992; Plejert et al., 2014; Small et al., 2009; read Shaw &
+Gordon, 2021, for a review). That is, speakers may deploy one of two
+broad vocalization strategies: normal and enhanced. The acoustic
+parallels between infant- and older adult–directed speech may reflect
+communicative adaptations to accommodate listeners with varying
+cognitive or sensory processing needs, including those commonly
+observed in infants and older adults.
+However, vocal communication is likely more nuanced, adapting
+to the perceived cognitive, sensory, and attentional abilities of the
+listener. Ferreira’s (2019) speech production models distinguish
+between feedforward and feedback control. Feedforward control
+involves preplanned, automatic speech patterns that rely on stored
+motor patterns rather than real-time communication feedback.
+Feedback control adjusts speech in real time based on auditory and
+somatosensory feedback. Speakers modify prosody to meet listener
+needs, and repeated use of feedback mechanisms—such as when
+speaking to infants or older adults—leads to habitual adjustments,
+shifting control to feedforward mechanisms. Feedforward control
+may remain the default mode unless signs of comprehension difficulties trigger feedback control. Thus, despite surface similarities,
+speech directed at infants and older adults may be acoustically and
+perceptually distinct, reflecting speakers’ awareness of their audiences’ cognitive abilities. Infants are in the early stages of cognitive
+development, with rapid learning but limited language and cognitive
+skills. Older adults, despite potential age-related cognitive challenges, have a lifetime of experiences and cognitive abilities.
+Additionally, infants prefer infant-directed speech (e.g., Cooper &
+Aslin, 1990; Papousek et al., 1990), while older adults may perceive
+older adult–directed speech as patronizing (Ryan, MacLean, &
+Orange, 1994; Ryan, Meredith, & Shantz, 1994). These feedback
+mechanisms reinforce age-appropriate speech and discourage ageinappropriate styles, leading to feedforward control with potentially
+distinct acoustic features when speaking to infants and older adults.
+Additionally, feedforward control should allow speakers to adjust
+their speech patterns based on audience type without relying on realtime feedback.
+This study examined four key acoustic features (pitch level, pitch
+range, intensity, and rate) in infant-, older adult–, and young adult–
+directed vocalizations in three vocal modes: speech, whispering, and
+singing (Cox et al., 2023; Österholm & Samuelsson, 2015). These
+vocal modes were chosen because they are common methods of vocal
+communication, each with varying constraints on acoustic features.
+For example, fundamental frequency is constrained in singing and
+attenuated in whispering but varies in speech; intensity is constrained
+in whispering but not in speech or singing. This study therefore
+allowed us to assess how communicators adjust acoustic features
+under different communication constraints. We make three predictions. First, speakers would assess their audience’s age and cognitive,
+auditory, attentional, and emotional needs, activating the feedforward
+control to select an appropriate communication strategy. Thus, infantand older adult–directed vocalizations should be acoustically and
+perceptually distinct, even when addressing an imagined audience
+without real-time feedback. Second, acoustic data should exhibit both
+similarities across vocal modes and distinct acoustic adjustments
+specific to audience type and vocal mode. This aligns with the idea
+that vocal communication—whether in speech or music—may follow common adaptive strategies (Ma & Thompson, 2015). For
+example, older adult–directed vocalizations may emphasize stronger
+intensity and a slower rate across vocal modes. Additionally, certain
+acoustic features may be selectively emphasized based on the
+audience and vocal mode. For example, while pitch modulation can
+support speech processing (Rodero et al., 2017) and foster emotional
+bonding (Frick, 1985), emotional bonding may be less relevant in
+interactions with older adults compared to infants. Thus, in a vocal
+mode that prioritizes emotional expression—such as singing—older
+adult–directed vocalizations may exhibit less pitch modulation than
+infant-directed ones. Third, perception data should reveal that the
+likelihood of using these vocalizations for nontarget audiences varies
+by audience type. For example, older adult–directed vocalizations
+may be associated more with infants than with young adults due
+to their acoustic similarities observed in past research (Shaw &
+Gordon, 2021).
+Method
+Auditory Stimuli Preparation
+A vocalization solicitation task was conducted with three groups of
+female native English speakers, aged 18–20, from the University of
+Arkansas. All speakers had at least 1 year of babysitting or preschool
+instruction experience and regularly interacted with individuals over
+75 years old and children under 3, defined as spending at least 2 hr per
+week with each group over the past year. They were randomly assigned to produce spoken (19 participants), whispered (19 participants), or sung (21 participants) vocalizations. This study recruited
+young adults instead of nursing mothers as speakers to avoid nursing
+mothers’ potential overuse of infant-directed vocalizations, which can
+limit the study’s validity. This study was approved by the institutional
+review board at the University of Arkansas under Protocol No.
+2108349413, titled The Acoustic Differences Between Child- and
+UNIQUE VOCAL DYNAMICS DIRECTED AT OLDER ADULTS
+947
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Adult-Directed Vocalizations, for the vocalization solicitation task,
+and under Protocol No. 1710079572, titled Perception of Speech and
+Music, for the perception task. All participants provided written
+informed consent. This study was completed in 2021–2022 at the
+University of Arkansas.
+Auditory recordings were completed in a quiet room with an
+omnidirectional video-production microphone. For the spoken vocalizations, speakers read a passage from The Wonderful Wizard of
+Oz aloud three times, each time imagining they were speaking to a
+different audience, using the instruction, “speak naturally as if talking
+to an adult of your age or slightly older,” “to an infant or a child
+younger than three years of age,” and “to an old man who is older than
+75–80 years of age.” Three photos of Caucasian individuals—a
+young man (20–30 years old), an infant, and an older man (around 80
+years old)—were provided to facilitate vocalization. The recording
+procedure for whispered vocalizations mirrored that of speech,
+employing whispering instead. For sung vocalizations, speakers sang
+Happy Birthday three times while imagining singing to each type of
+audience. Generic lyrics suitable for all age groups were used
+(“Happy Birthday to You!” repeated four times; see the Supplemental
+Materials for more details). This study utilized imagined audiences to
+test the feedforward model, which proposes that speakers use preplanned, habitual strategies to adjust speech based on perceived
+audience type without relying on real-time communication feedback.
+Auditory Perception Task
+An auditory perception task was administered on other groups of
+native English speakers to assess their ability to identify the target
+audience of the recorded vocalizations.
+Participants
+Participants were native English speakers from the University
+of Arkansas. They were randomly assigned to the speech (185
+participants; M = 19.81 years, SD = 1.26; 179 females), song (194
+participants; M = 19.82 years, SD = 1.06; 192 females), or whisper
+(171 participants; M = 19.98 years, SD = 1.46; 167 females)
+condition, with each condition using spoken, whispered, or sung
+vocalizations, respectively. To minimize fatigue and improve
+response reliability, participants within each condition were randomly assigned to one of two subconditions, each containing vocalizations from half (or approximately half) of the speakers in the
+respective vocal mode. The sample sizes in each condition exceeded
+the minimum required (n = 43) based on a power analysis using
+G*Power, using within-subject repeated-measures analysis of variance (ANOVA; one group), three measures (infant-, older adult–,
+young adult–directed), a medium effect size ( f = .25), and a power of
+0.95 (Faul et al., 2007).
+Procedure
+Participants were tested individually in a quiet room. In the
+speech condition, on each trial, participants listened to a recorded
+vocalization and rated on three 7-point scales (1 = unlikely, 7 =
+highly likely), “Is she speaking to one of her peers?,” “to an infant/
+young child?,” and “to an elderly person?” Participants were not
+restricted from assigning the same rating across scales within a trial.
+This approach enabled us to determine (a) whether infant- and older
+adult–directed vocalizations were indistinguishable, as suggested by
+previous research (Caporael, 1981), and (b) whether the likelihood
+of using these vocalizations toward nontarget audiences varied
+across audience types. Each speaker’s three vocalizations were
+presented on three consecutive trials. We randomized the presentation order of speakers within each subcondition, the order of the
+three trials within a speaker, and the order of the three scales on each
+trial. The song and whisper conditions followed the same procedure,
+using “singing” or “whispering” in the instructions instead.
+Transparency and Openness
+The deidentified data and the materials reported herein are
+available at the Open Science Framework (https://doi.org/10.17605/
+OSF.IO/Y9MP4; Ma, 2025). This study is not preregistered.
+Results
+Acoustic Data
+Mean Pitch Level
+The mean pitch level of each vocalization was obtained using
+Praat (Pitch—Get Pitch). Due to their decreased emphasis on
+fundamental frequency, whispered vocalizations were excluded
+from pitch-related analyses. A 3 (Audience: Older Adult–, Infant-,
+Young Adult–Directed) × 2 (Mode: Spoken, Sung) mixed-model
+ANOVA showed significant main effects of audience, F(2, 76) =
+54.72, p < .001, and mode, F(1, 38) = 34.43, p < .001, while the
+Audience × Mode interaction was not significant, F(2, 76) = 1.41,
+p = .25. Then, within each vocal mode, three paired-samples t tests
+compared pitch level between audience types. Compared to infantdirected vocalizations, older adult–directed vocalizations had a
+significantly lower pitch level in both speech and singing (Table 1;
+Figure 1). Compared to young adult–directed vocalizations, older
+adult–directed vocalizations had a significantly higher pitch level in
+speech but a similar pitch level in singing. Additionally, three
+independent-samples t tests comparing pitch levels between vocal
+modes revealed significantly higher pitch levels in singing than in
+speech across all audience types (Table 2).
+Pitch Range
+The pitch range of each vocalization was calculated in Praat as the
+difference between its maximum and minimum pitch (Pitch − Get
+maximum/minimum pitch). Although Happy Birthday has a defined
+pitch range limiting significant variation, a 3 (Audience) × 2 (Mode)
+mixed-model ANOVA still revealed significant main effects of
+audience, F(2, 76) = 22.82, p < .001, and mode, F(1, 38) = 51.19,
+p < .001, and a significant Audience × Mode interaction, F(2, 76) =
+7.50, p = .001. Compared to infant-directed vocalizations, older
+adult–directed vocalizations had a narrower pitch range in both
+speech and singing (Table 1). Compared to young adult–directed
+vocalizations, older adult–directed vocalizations had a wider pitch
+range in speech but a similar pitch range in singing. Additionally,
+three independent-samples t tests comparing pitch range between
+vocal modes revealed a significantly narrower pitch range in singing
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 1
+Means and Standard Deviations of Acoustic Attributes and Paired-Samples t Tests Comparing Them Between Audience Types Within Each Vocal Mode
+Vocal mode
+Mean pitch level
+Pitch range
+Intensity
+MSD (rate)
+Lower in older adult–directed;
+t(18) = 5.31, p < .001
+Narrower in older adult–directed;
+t(18) = 5.02, p < .001
+Higher in older adult–directed;
+t(18) = 5.00, p < .001
+Wider in older adult–directed;
+t(18) = 3.23, p = .005
+Higher in infant-directed;
+t(18) = 11.61, p < .001
+Wider in infant-directed;
+t(18) = 5.49, p < .001
+Lower in older adult–directed;
+t(20) = 4.49, p < .001
+n.s.; t(20) = 1.04, p = .31
+Narrower in older adult–directed;
+t(20) = 3.59, p = .002
+n.s.; t(20) = .55, p = .59
+Higher in infant-directed;
+t(20) = 6.56, p < .001
+Higher in infant-directed;
+t(20) = 2.52, p = .020a
+Whispering was not included in pitch-related analyses.
+Spoken vocalizations
+Older adult–directed versus infant-directed
+Older adult–directed versus young adult–
+directed
+Infant-directed versus young adult–directed
+Sung vocalizations
+Older adult–directed versus infant-directed
+Older adult–directed versus young adult–
+directed
+Infant-directed versus young adult–directed
+Whispered vocalizations
+Older adult–directed versus infant-directed
+Older adult–directed versus young adult–
+directed
+n.s.; t(18) = .56, p = .58
+Stronger in older adult–directed;
+t(18) = 3.97, p < .001
+Stronger in infant-directed;
+t(18) = 3.28, p = .004
+Softer in older adult–directed;
+t(20) = 3.83, p = .001
+Stronger in older adult–directed;
+t(20) = 3.84, p = .001
+Stronger in infant-directed;
+t(20) = 7.54, p < .001
+Softer in older adult–directed;
+t(18) = 2.54, p = .021a
+n.s.; t(18) = 1.35, p = .19
+n.s.; t(18) = 1.39, p = .18
+Slower in older adult–directed;
+t(18) = 10.92, p < .001
+Slower in infant-directed;
+t(18) = 12.43, p < .001
+Slower in older adult–directed;
+t(20) = 4.04, p < .001
+Slower in older adult–directed;
+t(20) = 8.58, p < .001
+Slower in infant-directed;
+t(20) = 6.05, p < .001
+Slower in older adult–directed;
+t(18) = 2.95, p = .009
+Slower in older adult–directed;
+t(18) = 8.13, p < .001
+Infant-directed versus young adult–directed
+Stronger in infant-directed;
+t(18) = 4.55, p < .001
+Slower in infant-directed;
+t(18) = 9.13, p = .001
+Note. MSD = mean syllable duration; n.s. = no significant difference.
+a Marginal significance. The significance cutoff was set at .017 for three paired-samples t tests comparing vocalization intensity across modes. All p values are two-tailed.
+948
+MA, KILLIAN, LIANG, GONG, AND THOMPSON
+UNIQUE VOCAL DYNAMICS DIRECTED AT OLDER ADULTS
+949
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 1
+Acoustic Features of the Vocalizations
+Note. (A) Spoken vocalizations. Compared to infant-directed speech, older adult–directed
+speech had a lower pitch level and a narrower pitch range but similar intensity and rate (similar
+mean syllable duration [MSD]). Compared to young adult–directed speech, both older adult–
+directed and infant-directed speech had a higher pitch level, a wider pitch range, stronger
+(Figure continues)
+950
+MA, KILLIAN, LIANG, GONG, AND THOMPSON
+than in speech for older adult– and infant-directed vocalizations, but
+not for young adult–directed vocalizations (Table 2).
+Intensity
+The mean intensity (dB) was obtained for each vocalization using
+Praat (Intensity − Get intensity). A 3 (Audience) × 3 (Mode: Spoken,
+Whispered, Sung) mixed-model ANOVA showed significant main
+effects of audience, F(2, 112) = 38.65, p < .001, and mode, F(2, 56) =
+208.06, p < .001, and a significant Audience × Mode interaction, F(4,
+112) = 3.97, p = .005. Compared to infant-directed vocalizations,
+older adult–directed vocalizations had a softer intensity in whispering
+and singing but a similar intensity in speech (Table 1). Compared
+to young adult–directed vocalizations, older adult–directed vocalizations had greater intensity in speech and singing, but similar
+intensity in whispering. Additionally, three independent-samples
+t tests compared intensity between each pair of vocal modes.
+Analyses of the speech–whispering and singing–whispering pairs
+showed significantly greater intensity in both speech and singing
+compared to whispering across all audience types (Table 2). The
+speech–singing comparison revealed significantly greater intensity
+in singing than in speech for infant-directed vocalizations, but not
+for older adult– or young adult–directed vocalizations.
+Mean Syllable Duration
+The mean syllable duration (MSD) for each vocalization was
+calculated by dividing its duration by the number of syllables present.
+MSD indicates the rate of vocalization, with a longer MSD suggesting
+a slower rate. A 3 (Audience) × 3 (Mode) mixed-model ANOVA
+revealed significant main effects of audience, F(2, 112) = 130.27,
+p < .001, and mode, F(2, 56) = 95.11, p < .001, and a significant
+Audience × Mode interaction, F(4, 112) = 7.67, p < .001. Compared
+to infant-directed vocalizations, older adult–directed vocalizations
+had a slower rate in whispering and singing but a similar rate in
+speech (Table 1). Compared with young adult–directed vocalizations,
+older adult–directed vocalizations had a slower rate across all three
+vocal modes. Additionally, three independent-samples t tests compared MSD between each pair of vocal modes. Analyses of the
+singing–speech and singing–whispering pairs revealed significantly
+slower rates in singing compared to speech and whispering across all
+audience types (Table 2). Analyses of the speech–whispering pair
+showed that whispering was significantly or marginally slower than
+speech across all audience types.
+Auditory Perception Data
+In each condition (speech, song, whisper), for each audience type
+(older adult–, infant-, young adult–directed), data were analyzed in
+three steps: (a) calculating each listener’s average ratings for older
+adult–, infant-, and young adult–directed likeness; (b) conducting a
+repeated-measures ANOVA to test for differences among the three
+types of ratings (rating type); and (c) performing paired-samples
+t tests to identify specific differences.1
+The Speech Condition
+For older adult–directed speech, a repeated-measures ANOVA
+revealed a significant main effect of rating type, F(2, 368) = 558.39,
+p < .001, with ratings decreasing from older adult–directed likeness
+to infant-directed likeness, t(184) = 24.54, p < .001, then to young
+adult–directed likeness, t(184) = 7.53, p < .001 (Figure 2A). For
+infant-directed speech, the analyses also showed a significant main
+effect of rating type, F(2, 368) = 1172.81, p < .001, with ratings
+decreasing from infant-directed likeness to older adult–directed
+likeness, t(184) = 26.50, p < .001, then to young adult–directed
+likeness, t(184) = 17.92, p < .001. For young adult–directed speech,
+a significant main effect of rating type was again found, F(2, 368) =
+1293.31, p < .001, with ratings decreasing from young adult–
+directed likeness to older adult–directed likeness, t(184) = 32.02,
+p < .001, then to infant-directed likeness, t(184) = 11.24, p < .001.
+Ratings were highest for the intended target audiences, indicating
+that participants accurately identified them (see the Supplemental
+Material for mixed-model analyses).
+The Song Condition
+For older adult–directed singing, a repeated-measures ANOVA
+revealed a significant main effect of rating type, F(2, 386) = 525.16,
+p < .001, with ratings decreasing from older adult–directed likeness
+to infant-directed likeness, t(193) = 27.18, p < .001, then marginally
+decreasing to young adult–directed likeness, t(193) = 2.37, p = .019;
+a significance cutoff level of .017 was used (Figure 2B). For infantdirected singing, the analyses also showed a significant main effect
+of rating type, F(2, 386) = 613.66, p < .001, with ratings decreasing
+1 This auditory perception task was also administered to native Chinese
+speakers. A similar pattern of results emerged, indicating that listeners across
+cultures can identify the intended audience (see the Supplemental Material
+for details).
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 1 Note (continued). intensity, and a slower rate (longer MSD). (B) Sung vocalizations.
+Compared to infant-directed song, older adult–directed song had a lower pitch level, a narrower
+pitch range, softer intensity, and a slower rate (longer MSD). Compared to young adult–
+directed song, older adult–directed song had stronger intensity and a slower rate, but similar
+pitch level and range, while infant-directed song had higher pitch, wider pitch range, stronger
+intensity, and a slower rate. (C) Whispered vocalizations. Compared with infant-directed
+whisper, older adult–directed whisper had a softer intensity and a slower rate (longer MSD).
+Compared with young adult–directed whisper, older adult–directed whisper had a slower rate
+but similar intensity, while infant-directed whisper had a stronger intensity and a slower rate.
+The x-axis denotes pitch level (Hz), the y-axis intensity (dB), and the z-axis MSD in seconds (a
+shorter MSD reflects a faster rate). Circle radius reflects pitch range in spoken and sung
+vocalizations. Circles are first projected on the ground surface by pitch level and MSD, then
+elevated by intensity. For whispered vocalization, pitch level and range are excluded. See the
+online article for the color version of this figure.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 2
+Means and Standard Deviations of Mean Pitch, Pitch Range, Intensity, and Mean Syllable Duration, Along With Results of Independent-Samples Tests Comparing Acoustic Features
+Across Vocal Modes
+Acoustic feature
+Spoken vocalization
+Sung vocalization
+Spoken versus sung
+Mean pitch level
+Young adult–directed
+Older adult–directed
+Infant-directed
+Pitch range
+Young adult–directed
+Older adult–directed
+Infant-directed
+200.42 Hz ± 18.97
+218.32 Hz ± 22.66
+245.78 Hz ± 26.18
+284.98 Hz ± 110.35
+370.80 Hz ± 53.28
+426.21 Hz ± 24.98
+248.86 Hz ± 24.82
+256.04 Hz ± 43.12
+299.07 Hz ± 37.28
+246.54 Hz ± 57.32
+236.75 Hz ± 73.66
+294.40 Hz ± 60.66
+t(38) = 6.88, p < .001
+t(30.88) = 3.51, p = .001a
+t(38) = 5.18, p < .001
+t(26.44) = 1.36, p = .18a
+t(38) = 6.53, p < .001
+t(27.14) = 9.14, p < .001a
+Acoustic feature
+Spoken vocalization
+Sung vocalization
+Whispered vocalization
+Spoken versus sung
+Spoken versus whispered
+Sung versus whispered
+Intensity
+Young adult–directed
+Older adult–directed
+Infant-directed
+Mean syllable duration
+Young adult–directed
+Older adult–directed
+Infant-directed
+75.52 dB ± 3.33
+78.53 dB ± 3.78
+78.16 dB ± 3.20
+.24 s ± .03
+.41 s ± .07
+.38 s ± .05
+76.53 dB ± 4.10
+79.09 dB ± 5.00
+81.68 dB ± 4.60
+.47 s ± .11
+.82 s ± .16
+.72 s ± .18
+56.56 dB ± 3.33
+57.48 dB ± 4.25
+58.98 dB ± 4.07
+.29 s ± .04
+.47 s ± .10
+.42 s ± .06
+t(38) = .84, p = .40
+t(38) = .39, p = .70
+t(38) = 2.78, p = .008
+t(23.13) = 9.52, p < .001a
+t(27.54) = 10.47, p < .001a
+t(23.44) = 8.15, p < .001a
+t(36) = 17.37, p < .001
+t(36) = 15.90, p < .001
+t(36) = 16.44, p < .001
+t(36) = 4.74, p < .001
+t(36) = 2.52, p = .016
+t(36) = 2.00, p = .054b
+t(38) = 16.64, p < .001
+t(38) = 14.46, p < .001
+t(38) = 16.58, p < .001
+t(25.60) = 7.15, p < .001a
+t(38) = 7.81, p < .001
+t(24.73) = 7.17, p < .001
+Note. Whispering was not included in pitch-related analyses.
+a Levene’s test for equality of variances was significant. b Marginal significance. The significance cutoff was set at .017 for three paired-samples t tests comparing vocalization intensity across modes.
+All p values are two-tailed.
+UNIQUE VOCAL DYNAMICS DIRECTED AT OLDER ADULTS
+951
+952
+MA, KILLIAN, LIANG, GONG, AND THOMPSON
+
+
+
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 2
+Older Adult–, Young Adult–, and Infant-Directed Likeness Ratings for the Vocalizations
+(B)
+(C)
+(A)
+Note. (A) Speech condition. (B) Song condition. (C) Whisper condition. Error bars reflect SEM. In the speech
+condition, older adult–directed spoken vocalizations were rated highest for older adult–directed likeness, followed by
+infant-directed likeness, and lowest for young adult–directed likeness. Infant-directed spoken vocalizations received
+the highest ratings for infant-directed likeness, followed by older adult–directed likeness, and lowest for young adult–
+directed likeness. Young adult–directed spoken vocalizations received the highest ratings for young adult–directed
+likeness, followed by older adult–directed likeness, and lowest for infant-directed likeness. The same pattern of results
+was observed in song and whisper condition, except that in the whisper condition, older adult– and infant-directed
+likeness ratings did not differ from each other for young adult–directed whisper. SEM = standard error of the mean.
+UNIQUE VOCAL DYNAMICS DIRECTED AT OLDER ADULTS
+953
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+from infant-directed likeness to older adult–directed likeness, t(193) =
+20.96, p < .001, then to young adult–directed likeness, t(193) = 14.69,
+p < .001. For young adult–directed singing, a significant main effect
+of rating type was again found, F(2, 386) = 714.28, p < .001, with
+ratings decreasing from young adult–directed likeness to older adult–
+directed likeness, t(193) = 26.72, p < .001, then to infant-directed
+likeness, t(193) = 4.96, p < .001.
+The Whisper Condition
+For the older adult–directed whispering, a repeated-measures
+ANOVA revealed a significant main effect of rating type, F(2, 340) =
+524.79, p < .001, with ratings decreasing from older adult–directed
+likeness to infant-directed likeness, t(170) = 23.84, p < .001, then to
+young adult–directed likeness, t(170) = 7.78, p < .001 (Figure 2C).
+For infant-directed whispering, the analyses also showed a significant main effect of rating type, F(2, 340) = 636.41, p < .001, with
+ratings decreasing from infant-directed likeness to older adult–
+directed likeness, t(170) = 18.04, p < .001, then to young adult–
+directed likeness, t(170) = 18.76, p < .001. For young adult–directed
+whispering, a significant main effect of rating type was again found,
+F(2, 340) = 664.67, p < .001, with ratings decreasing from young
+adult–directed likeness to both infant-directed likeness, t(170) =
+30.04, p < .001, and older adult–directed likeness, t(170) = 27.56,
+p < .001. However, ratings did not differ between infant- and older
+adult–directed likeness, t(170) = .08, p = .94.
+Discussion
+This study examined spoken, sung, and whispered vocalizations
+directed toward older adults, infants, and young adults, testing three
+predictions: (a) older adult– and infant-directed vocalizations would
+be acoustically and perceptually distinct, (b) both acoustic similarities
+across vocal modes (spoken, sung, whispered) and distinct acoustic
+modulations that vary by audience type (older adult–, infant-, young
+adult–directed) and vocal modes should emerge, and (c) the likelihood
+of using a vocalization with a nontarget audience would vary by
+audience type; for instance, infant-directed vocalizations may be more
+closely associated with older adults than with young adults. Findings
+confirmed the first prediction, challenging the binary communication
+hypothesis and highlighting the nuanced adaptability of vocal communication and reinforcing Communication Accommodation Theory.
+Results are also compatible with the feedforward model, suggesting
+speakers adjust speech using preplanned strategies in the absence of
+real-time feedback. Additionally, compared to infant-directed vocalizations, older adult–directed ones had a reduced pitch level and range
+in speech and singing and reduced intensity and a slower rate in
+singing and whispering (but not speech); compared to young adult–
+directed vocalizations, older adult–directed ones had slower rates
+across all vocal modes, increased pitch level and range in speech (but
+not singing), and greater intensity in speech and singing (but not
+whispering). These findings confirmed the second prediction that both
+acoustic similarities across vocal modes and distinct modulations
+specific to audience type and vocal mode would emerge. Finally, older
+adult–directed vocalizations were associated more with infants than
+with young adults, supporting the third prediction that the likelihood
+of using a vocalization with a nontarget audience would vary by
+audience type.
+Older adult–directed speech exhibited pitch modulation that fell
+between infant- and young adult–directed speech, supporting the
+prediction that it maintains a moderately modulated pitch level and
+range. The heightened pitch modulation in infant-directed speech
+likely serves to capture attention and regulate arousal, given infants’
+limited awareness of speech goals. This may also reflect the vital role
+of pitch in emotional expression and bonding (Hennessy & Zhao,
+2023). Consistently, pitch differences were not observed between
+older adult– and young adult–directed singing, perhaps because song
+prioritizes emotional expression, but emotional bonding is less
+emphasized with older adults. Similarly, older adult–directed singing
+exhibited an intensity level that fell between infant- and young adult–
+directed singing. For older adults, increased intensity can compensate
+for age-related hearing loss. For infants, it may function to capture
+and maintain their attention, given their shorter attention spans.
+Additionally, the increased pitch level, pitch range, and intensity in
+infant-directed vocalizations may arise from the excitement of seeing
+an infant, as arousal amplifies these vocal acoustic features. Finally, a
+slow rate appears to be a defining feature of older adult–directed
+vocalizations, as they were slower than young adult–directed vocalizations across all three vocal modes and slower than infantdirected vocalizations in singing and whispering.
+Why did the modulation of acoustic features vary across audience
+types and vocal modes? First, it may relate to our vocal production
+capacity. For example, whispering lacks vocal fold vibration,
+naturally reducing intensity and limiting its modulation. Thus,
+compared to young adult–directed vocalizations, older adult–
+directed ones had greater intensity in speech and singing but not in
+whispering. Second, it may relate to the acoustic affordances of each
+vocal mode. Singing allows greater flexibility for acoustic modulation than speech. Thus, compared to infant-directed vocalizations,
+older adult–directed ones exhibited a broader range of acoustic
+modulations in singing (pitch level, pitch range, intensity, rate) than
+in speech (pitch level, pitch range). Third, it may reflect an energyefficient strategy, where speakers optimize acoustic features to
+achieve communication goals with minimal effort. This suggests an
+intuitive understanding of which acoustic features are most effective
+for each audience type and vocal mode. The lack of intensity and
+rate modulation in infant-directed speech (compared to older adult–
+directed speech) may indicate a recognition that pitch, rather than
+intensity or rate, is key for emotional bonding. Similarly, the lack of
+pitch modulation in older adult–directed singing (compared to
+young adult–directed singing) may reflect a recognition of a reduced
+emphasis on emotional bonding with older adults.
+Listeners were sensitive to acoustic cues, enabling them to
+identify the intended audience. This sensitivity likely arises from
+real-world experience of listening to vocalizations directed at different age groups, through which associations between acoustic
+features and audience types are formed. This sensitivity may also
+arise from recognizing vocal emotional cues—infant-directed vocalizations are highly expressive to foster emotional bonding
+(Trainor et al., 2000), older adult–directed ones tend to be neutral for
+clarity and respect, and young adult–directed vocalizations are
+generally the least expressive. Additionally, the distinctive acoustics
+of older adult–directed vocalizations may reflect a common skill
+among experienced language users. Listeners likely matched these
+prerecorded vocalizations to their own vocalization patterns for
+different audiences, indicating the internalization of the feedforward
+speech production model. These explanations are not mutually
+954
+MA, KILLIAN, LIANG, GONG, AND THOMPSON
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+exclusive; exposure to varied vocalizations shapes understanding of
+acoustic and emotional cues, while internalizing speech patterns
+enhances sensitivity.
+The likelihood of using these vocalizations toward nontarget
+audiences varied across audience types. Older adult–directed vocalizations were associated more with infants than with young adults,
+and vice versa for infant-directed vocalizations. This underscores the
+acoustic similarity between older adult– and infant-directed vocalizations (Shaw & Gordon, 2021). Additionally, young adult–
+directed vocalizations were associated more with older adults than
+infants, possibly reflecting cultural norms that emphasize honoring
+older adults and granting them adultlike treatment. Additionally,
+older adult– and infant-directed likeness ratings did not differ for
+young adult–directed whispering, suggesting that whispering has
+less perceptual distinctiveness than other vocal modes. Future
+research should examine older adult perceptions of these vocalizations to assess how age-related changes in hearing and cognition
+impact the ability to perceive these differences.
+In this study, participants rated each vocalization on three scales.
+Although ratings on one scale could influence others, this design
+was chosen to assess whether infant- and older adult–directed
+vocalizations were indistinguishable, as suggested by previous
+research (Caporael, 1981). To minimize potential systematic bias,
+we randomized scale order within trials and allowed overlapping
+ratings for each vocalization. Furthermore, although speakers were
+not explicitly told the purpose of their task, speakers were aware of
+their target audience, raising the question of whether this awareness
+influenced the observed acoustic differences. Future research should
+explore older adult–directed vocalizations in more naturalistic
+contexts. However, studying speech directed at specific audiences
+inherently involves introducing those audiences, making some level
+of participant awareness inevitable. Notably, although this study
+included only female speakers and predominately female listeners,
+the findings should be generalizable to males, as research shows that
+male speakers adjust speech to infants similarly to females (e.g.,
+Papousek et al., 1985). Finally, the study tested the feedforward
+model of speech production by having speakers vocalize to an
+imagined audience. While real-world interactions involve feedback,
+our findings suggest speakers rely on preplanned, habitual strategies
+when addressing infants and older adults, with the feedforward
+model likely extending to real-world communication to guide initial
+speech adjustments before incorporating feedback.
+Comparisons across vocal modes showed that singing had a
+higher pitch level, narrower pitch range, and slower rate than speech
+across all audience types—except in young adult–directed vocalizations, where pitch range did not differ. These three features—
+higher pitch level, stable pitch, and slower rate—align with those
+identified by a recent global-scale study distinguishing speech from
+song (Ozaki et al., 2024). Additionally, singing exhibited stronger
+intensity than speech for infant-directed vocalizations, but not for
+older adult– or young adult–directed ones, suggesting that infantdirected vocalizations have exceptionally strong acoustic modulation, likely to engage infants. Notably, singing had a slower rate than
+whispering across all audience types, suggesting that a slower rate
+may be a defining feature of song relative to various forms of speech.
+Furthermore, whispering was slower than speech, perhaps because
+the absence of vocal fold vibration and pitch variation prompts
+speakers to slow down for clarity—especially in contexts requiring
+caution or calm. Finally, whispering had softer intensity than both
+speech and singing, highlighting the reduced acoustic energy of
+whispered vocalizations.
+References
+Benton, M., Dockendorf, L., Jin, W., Liu, Y., & Edmondson, J. (2007). The
+continuum of speech rhythm: Computational testing of speech rhythm of
+large corpora from natural Chinese and English speech [Conference
+session]. Proceedings of ICPhS 16, Saarbrücken, Germany.
+Caporael, L. R. (1981). The paralanguage of caregiving: Baby talk to the
+institutionalized aged. Journal of Personality and Social Psychology,
+40(5), 876–884. https://doi.org/10.1037/0022-3514.40.5.876
+Caporael, L. R., & Culbertson, G. H. (1986). Verbal response modes of
+baby talk and other speech at institutions for the aged. Language &
+Communication, 6(1–2), 99–112. https://doi.org/10.1016/0271-5309(86)
+90009-1
+Caporael, L. R., Lukaszewski, M. P., & Culbertson, G. H. (1983). Secondary
+baby talk: Judgments by institutionalized elderly and their caregivers.
+Journal of Personality and Social Psychology, 44(4), 746–754. https://
+doi.org/10.1037/0022-3514.44.4.746
+Cavallaro, F., Seilhamer, M. F., Chee, Y. T. F., & Ng, B. C. (2016).
+Overaccommodation in a Singapore eldercare facility. Journal of
+Multilingual and Multicultural Development, 37(8), 817–831. https://
+doi.org/10.1080/01434632.2016.1142553
+Cooper, R. P., & Aslin, R. N. (1990). Preference for infant-directed speech in
+the first month after birth. Child Development, 61(5), 1584–1595. https://
+doi.org/10.2307/1130766
+Cox, C., Bergmann, C., Fowler, E., Keren-Portnoy, T., Roepstorff, A.,
+Bryant, G., & Fusaroli, R. (2023). A systematic review and Bayesian metaanalysis of the acoustic features of infant-directed speech. Nature Human
+Behaviour, 7(1), 114–133. https://doi.org/10.1038/s41562-022-01452-1
+Faul, F., Erdfelder, E., Lang, A. G., & Buchner, A. (2007). G*Power 3: A
+flexible statistical power analysis program for the social, behavioral, and
+biomedical sciences. Behavior Research Methods, 39(2), 175–191. https://
+doi.org/10.3758/BF03193146
+Fernald, A. (1989). Intonation and communicative intent in mothers’ speech
+to infants: Is the melody the message? Child Development, 60(6), 1497–
+1510. https://doi.org/10.2307/1130938
+Ferreira, V. S. (2019). A mechanistic framework for explaining audience
+design in language production. Annual Review of Psychology, 70(1),
+29–51. https://doi.org/10.1146/annurev-psych-122216-011653
+Frick, R. W. (1985). Communicating emotion: The role of prosodic features.
+Psychological Bulletin, 97(3), 412–429. https://doi.org/10.1037/0033-
+2909.97.3.412
+Giles, H., & Ogay, T. (2007). Communication accommodation theory. In B. B.
+Whaley & W. Samter (Eds.), Explaining communication: Contemporary
+theories and exemplars (pp. 293–310). Lawrence Erlbaum.
+Golinkoff, R. M., Can, D. D., Soderstrom, M., & Hirsh-Pasek, K. (2015).
+(Baby) talk to me: The social context of infant-directed speech and its
+effects on early language acquisition. Current Directions in Psychological
+Science, 24(5), 339–344. https://doi.org/10.1177/0963721415595345
+Graf Estes, K. G., & Hurley, K. (2013). Infant-directed prosody helps infants
+map sounds to meanings. Infancy, 18(5), 797–824. https://doi.org/10
+.1111/infa.12006
+Grieser, D. L., & Kuhl, P. K. (1988). Maternal speech to infants in a
+tonal language: Support for universal prosodic features in motherese.
+Developmental Psychology, 24(1), 14–20. https://doi.org/10.1037/0012-
+1649.24.1.14
+Han, M., De Jong, N. H., & Kager, R. (2022). Prosodic input and children’s
+word learning in infant- and adult-directed speech. Infant Behavior and
+Development, 68, Article 101728. https://doi.org/10.1016/j.infbeh.2022
+.101728
+UNIQUE VOCAL DYNAMICS DIRECTED AT OLDER ADULTS
+955
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Harwood, J. (2007). Understanding communication and aging. Sage
+Publications.
+Hennessy, V., & Zhao, T. C. (2023). Building the bond: Exploring the social
+functions of infant-directed speech and song. PsyArXiv. https://doi.org/10
+.31234/osf.io/sm4ux
+Hilton, C. B., Moser, C. J., Bertolo, M., Lee-Rubin, H., Amir, D., Bainbridge,
+C. M., Simson, J., Knox, D., Glowacki, L., Alemu, E., Galbarczyk, A.,
+Jasienska, G., Ross, C. T., Neff, M. B., Martin, A., Cirelli, L. K., Trehub,
+S. E., Song, J., Kim, M., … Mehr, S. A. (2022). Acoustic regularities in
+infant-directed speech and song across cultures. Nature Human Behaviour,
+6(11), 1545–1556. https://doi.org/10.1038/s41562-022-01410-x
+Kalashnikova, M., & Burnham, D. (2018). Infant-directed speech from seven
+to nineteen months has similar acoustic properties but different functions.
+Journal of Child Language, 45(5), 1035–1053. https://doi.org/10.1017/
+S0305000917000629
+Kuhl, P. K., Andruski, J. E., Chistovich, I. A., Chistovich, L. A.,
+Kozhevnikova, E. V., Ryskina, V. L., Stolyarova, E. I., Sundberg, U., &
+Lacerda, F. (1997). Cross-language analysis of phonetic units in language
+addressed to infants. Science, 277(5326), 684–686. https://doi.org/10
+.1126/science.277.5326.684
+Ma, W. (2025). Beyond baby talk: Unique vocal dynamics directed at older
+adults [Data set]. Open Science Framework. https://osf.io/y9mp4/
+Ma, W., Golinkoff, R. M., Houston, D., & Hirsh-Pasek, K. (2011).
+Word learning in infant- and adult-directed speech. Language Learning
+and Development, 7(3), 185–201. https://doi.org/10.1080/15475441.2011
+.579839
+Ma, W., & Thompson, W. F. (2015). Human emotions track changes in the
+acoustic environment. Proceedings of the National Academy of Sciences of
+the United States of America, 112(47), 14563–14568. https://doi.org/10
+.1073/pnas.1515087112
+Montepare, J. M., Steinberg, J., & Rosenberg, B. (1992). Characteristics
+of vocal communication between young-adults and their parents and
+grandparents. Communication Research, 19(4), 479–492. https://doi.org/
+10.1177/009365092019004005
+Österholm, J. H., & Samuelsson, C. (2015). Orally positioning persons with
+dementia in assessment meetings. Ageing and Society, 35(2), 367–388.
+https://doi.org/10.1017/S0144686X13000755
+Ozaki, Y., Tierney, A., Pfordresher, P. Q., McBride, J. M., Benetos, E.,
+Proutskova, P., Chiba, G., Liu, F., Jacoby, N., Purdy, S. C., Opondo, P.,
+Fitch, W. T., Hegde, S., Rocamora, M., Thorne, R., Nweke, F., Sadaphal,
+D. P., Sadaphal, P. M., Hadavi, S., … Savage, P. E. (2024). Globally,
+songs and instrumental melodies are slower and higher and use more stable
+pitches than speech: A registered report. Science Advances, 10(20), Article
+eadm9797. https://doi.org/10.1126/sciadv.adm9797
+Papousek, M., Bornstein, M. H., Nuzzo, C., Papousek, H., & Symmes, D.
+(1990). Infant responses to prototypical melodic contours in parental
+speech. Infant Behavior and Development, 13(4), 539–545. https://doi.org/
+10.1016/0163-6383(90)90022-Z
+Papousek, M., Papousek, H., & Bornstein, M. H. (1985). The naturalistic
+vocal environment of young infants: On the significance of homogeneity
+and variability in parental speech. In T. M. Field & N. A. Fox (Eds.), Social
+perception in infants (pp. 269–295). Ablex.
+Plejert, C., Jansson, G., & Yazdanpanah, M. (2014). Response practices in
+multilingual interaction with an older Persian woman in a Swedish residential home. Journal of Cross-Cultural Gerontology, 29(1), 1–23.
+https://doi.org/10.1007/s10823-013-9217-2
+Rodero, E., Potter, R. F., & Prieto, P. (2017). Pitch range variations improve
+cognitive processing of audio messages. Human Communication
+Research, 43(3), 397–413. https://doi.org/10.1111/hcre.12109
+Ryan, E. B., MacLean, M., & Orange, J. B. (1994). Inappropriate accommodation in communication to elders: Inferences about nonverbal correlates. International Journal of Aging and Human Development, 39(4),
+273–291. https://doi.org/10.2190/NPWX-3GDV-NG4B-KCA3
+Ryan, E. B., Meredith, S. D., & Shantz, G. B. (1994). Evaluative perceptions
+of patronizing speech addressed to institutionalized elders in contrasting
+conversational contexts. Canadian Journal on Aging/La Revue canadienne du vieillissement, 13(2), 236–248. https://doi.org/10.1017/S07149
+80800006048
+Sachweh, S. (1998). Granny darling’s nappies: Secondary babytalk in
+German nursing homes for the aged. Journal of Applied Communication
+Research, 26(1), 52–65. https://doi.org/10.1080/00909889809365491
+Shaw, C. A., & Gordon, J. K. (2021). Understanding elderspeak: An
+evolutionary concept analysis. Innovation in Aging, 5(3), Article igab023.
+https://doi.org/10.1093/geroni/igab023
+Small, J. A., Huxtable, A., & Walsh, M. (2009). The role of caregiver
+prosody in conversations with persons who have Alzheimer’s disease.
+American Journal of Alzheimer’s Disease and Other Dementias, 24(6),
+469–475. https://doi.org/10.1177/1533317509342981
+Song, J. Y., Demuth, K., & Morgan, J. (2010). Effects of the acoustic
+properties of infant-directed speech on infant word recognition. The
+Journal of the Acoustical Society of America, 128(1), 389–400. https://
+doi.org/10.1121/1.3419786
+Trainor, L. J., Austin, C. M., & Desjardins, R. N. (2000). Is infant-directed
+speech prosody a result of the vocal expression of emotion? Psychological
+Science, 11(3), 188–195. https://doi.org/10.1111/1467-9280.00240
+Whitbourne, S. K., Culgin, S., & Cassidy, E. (1995). Evaluation of infantilizing intonation and content of speech directed at the aged. International
+Journal of Aging and Human Development, 41(2), 109–116. https://
+doi.org/10.2190/J9XE-2GB6-H49G-MR7V
+Whitmer, R. A., & Whitbourne, S. K. (1997). Evaluation of infantilizing
+speech in a rehabilitation setting: Relation to age. International Journal of
+Aging and Human Development, 44(2), 129–136. https://doi.org/10.2190/
+RUJ0-LHQU-FW6W-GVYD
+Received December 4, 2024
+Revision received June 13, 2025
+Accepted June 14, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

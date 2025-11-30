@@ -1,0 +1,1076 @@
+﻿Psychology and Aging
+Continuous Updating via Self-Motion Compensates for Weak
+Allocentric Spatial Memory in Aging
+Andrea Castegnaro1, 2, Alexander Dior1, Neil Burgess1, 2, and John King3
+1 Institute of Cognitive Neuroscience, University College London
+2 Queen Square Institute of Neurology, University College London
+3 Department of Clinical, Educational and Health Psychology, University College London
+Navigational skills are essential for interacting with our environment, supported by multiple types of spatial
+representations. We investigated age-related differences in spatial memory using a virtual reality task that
+manipulated viewpoints between the encoding and retrieval of one or four-object locations. The task
+investigates compensatory mechanisms in aging, specifically how spatial updating via self-motion affects
+spatial memory. We tested 21 young adults (ages 19–36) and 23 older adults (ages 63–80). The task involved
+three movement conditions: same-viewpoint condition, where participants walked away and returned to the
+same viewpoint; shifted-viewpoint (walking) condition where participants walked to a different viewpoint,
+enabling continuous updates of their egocentric representations through self-motion; and shifted-viewpoint
+(teleport) condition where participants teleported to the other viewpoint, involving both a virtual translation
+and rotation of the participant’s view. Retrieval was tested by asking participants to place each object at its
+previously seen location. Average displacement error was affected by age group, object configuration, and
+movement condition, with an interaction between age and movement condition. Differences in movement
+conditions were primarily driven by older participants, who were most accurate from the same viewpoint. In
+shifted-viewpoint conditions, teleportation—where self-motion cues were absent—led to significantly greater
+errors than walking in the older group. Our results highlight the role of spatial updating in supporting spatial
+memory and suggest that age-related decline in allocentric representations can be mitigated by continuous
+updating of egocentric representations by self-motion. We speculate that the use of spatial updating might be
+impaired early in the progression to Alzheimer’s dementia due to entorhinal cortical pathology.
+© 2025 The Author(s) 2025, Vol. 40, No. 8, 890–901
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000926
+Public Significance Statement
+This study identifies spatial updating as a compensatory mechanism in aging for mitigating allocentric
+spatial deficits. This mechanism is a potential target for early detection of Alzheimer’s dementia, as it
+involves key brain regions affected early in the disease.
+Keywords: spatial memory, self-motion, spatial updating, virtual reality, healthy aging
+Supplemental materials: https://doi.org/10.1037/pag0000926.supp
+This article was published Online First August 11, 2025.
+Moshe Naveh-Benjamin served as action editor.
+Andrea Castegnaro https://orcid.org/0000-0003-1554-525X
+The ideas and data presented in this article have not been previously
+disseminated in any form, including but not limited to conferences, meetings,
+or online platforms. The authors declare that they have no competing interests.
+This work was supported by the Wellcome Trust Principal Research Fellowship (Grant 222457/Z/21/Z) awarded to Neil Burgess. Andrea Castegnaro
+was sponsored by University College London’s Institute for Communications
+and Connected Systems. Joint Dementia Research is funded by the Department of Health and delivered by the National Institute for Health and Care
+Research in partnership with Alzheimer Scotland, Alzheimer’s Research UK
+and the Alzheimer’s Society.
+Open Access funding provided by University College London: This work
+is licensed under a Creative Commons Attribution 4.0 International License
+(CC BY 4.0; https://creativecommons.org/licenses/by/4.0). This license
+permits copying and redistributing the work in any medium or format, as well
+as adapting the material for any purpose, even commercially.
+Andrea Castegnaro, John King, and Neil Burgess conceptualized the
+research. Andrea Castegnaro designed and implemented the software.
+Andrea Castegnaro and Alexander Dior recruited the participants,
+gathered and analyzed the data. Andrea Castegnaro and Neil Burgess
+interpreted the results. Andrea Castegnaro drafted the article. Andrea
+Castegnaro, John King, and Neil Burgess revised the article. John King
+and Neil Burgess supervised the work.
+Andrea Castegnaro played a lead role in conceptualization, formal
+analysis, methodology, software, visualization, and writing–original
+draft and an equal role in writing–review and editing. Alexander Dior
+played a supporting role in formal analysis and methodology. Neil
+Burgess played a lead role in funding acquisition, a supporting role in
+conceptualization, and an equal role in supervision and writing–review
+and editing. John King played a supporting role in conceptualization and
+methodology and an equal role in supervision and writing–review and
+editing.
+Correspondence concerning this article should be addressed to Andrea
+Castegnaro, Institute of Cognitive Neuroscience, University College London,
+Alexandra House, 17–19 Queen Square, London WC1N 3AZ, United
+Kingdom. Email: andrea.castegnaro.15@ucl.ac.uk
+890
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+891
+Navigational skills are essential for interacting with our environment, supported by the ability to form spatial representations. Humans
+and other mammals utilize two types of spatial representations:
+egocentric, which locates objects in a framework based on the observer’s location, and allocentric which involves interrelationship
+among environmental elements independent of the observer’s location (Banta Lavenex et al., 2011; Burgess, 2006; for a review see
+Colombo et al., 2017). These representations are largely relying on
+different neural substrates, with egocentric strategies mainly associated with the parietal lobe and subcortical structures such as the
+striatum (Whitlock et al., 2008), while allocentric strategies are
+primarily associated with the medial temporal lobe, including the
+hippocampus (Burgess et al., 2002; Ekstrom et al., 2014), entorhinal
+cortex (Alex, ander et al., 2023; McNaughton et al., 2006), and
+retrosplenial cortex, which plays a key role in transforming allocentric
+spatial information into egocentric representations (van Wijngaarden
+et al., 2020).
+Egocentric representation is continuously refined by spatial
+updating—the online integration of self-motion signals from
+vestibular, proprioceptive, motor-efference copy, and optic flow—
+to keep track of how the positions of environmental constituents
+such as objects and landmarks change as we move (Klatzky et al.,
+1998; R. F. Wang, 2016). Allocentric representation is preserved
+by anchoring relational codes to stable environmental landmarks
+and boundary geometry, thereby maintaining the metric distances
+and orientations among cues over time that are independent from
+the observer’s location (Byrne & Crawford, 2010). Spatial updating can operate in both egocentric and allocentric representations. In egocentric representations, each new displacement is
+simply subtracted from the current egocentric vectors. In an allocentric representation, however, the same self-motion vector
+must first be converted into world-centered coordinates before it
+can be used to update the observers’ position within a stable
+external map, making the process inherently more complex than in
+the egocentric case (Frances Wang, 2017; Rolls, 2020). The selfmotion signals that maintain egocentric accuracy therefore also
+contribute to the incremental construction and recalibration of
+allocentric maps, supported by the hippocampal–entorhinal neural
+substrate (McNaughton et al., 2006). Conversely, allocentric configurations can also be derived in the absence of physical movement
+when rich visual or contextual information specifies the spatial relations among environmental constituents (Ekstrom et al., 2014).
+In this framework spatial updating and allocentric processing are
+complementary: updating keeps egocentric codes synchronized with
+the external world in real time, while established allocentric maps
+provide a stable scaffold that can reset the updating process after
+disorientation (Burgess, 2006; Frances Wang, 2017).
+Age-related deficits in spatial processing typically manifest first in
+allocentric strategies, usually tested by encoding constituents of an
+environment from one viewpoint and retrieving them from another
+(Bohbot et al., 2012; Lithfous et al., 2014), with egocentric deficits
+appearing later (Gazova et al., 2013; Lopez et al., 2019). These deficits
+have been consistently associated with hippocampal atrophy (Driscoll
+et al., 2003; Raz et al., 2005) and hippocampal reduced activation
+(Moffat et al., 2006) occurring with natural aging. Lesion studies
+further support the role of the hippocampus in viewpoint-shifted
+spatial memory, showing severe impairments in spatial recall from
+novel viewpoints in patients with hippocampal damage (Hartley et al.,
+2007; King et al., 2002). However, recent evidence indicates that
+spatial memory impairments associated with hippocampal damage
+and aging may reflect an overall reduced precision in spatial memory
+rather than an absolute loss of allocentric representations. Patients
+with hippocampal lesions retain partial allocentric memory abilities in
+tasks analogous to the Morris water maze but exhibit less precise and
+more variable spatial responses, characterized by longer and more
+circuitous paths to the remembered target locations (Kolarik et al.,
+2018; McAvan et al., 2022). Similarly, older adults demonstrate
+reduced spatial precision but maintain effective use of allocentric
+strategies, as indicated by their continued reliance on stable distal
+landmarks (McAvan et al., 2021). Nevertheless, the field still lacks a
+clear consensus on what aspects of egocentric and allocentric memory
+are specifically affected in aging. Possible explanations for these
+differing findings involve compensatory mechanisms. For instance,
+proprioceptive and vestibular cues available in immersive virtual
+reality may help mitigate age-related declines in allocentric memory
+(Hill et al., 2024). Additionally, older adults may compensate by
+relying on geometric cues (Bécu et al., 2019; Bian & Andersen, 2013;
+Rodgers et al., 2012), potentially mediated by the entorhinal cortex’s
+role in continuously updating spatial representations using self-motion
+information (Bohbot et al., 2007; Iaria et al., 2009; Leo´n et al., 2016).
+This compensatory capacity suggests a resilience in egocentric processing that may offset allocentric decline.
+Given the lack of consensus on age-related differences in spatial
+representations and the proposed role of compensatory mechanisms,
+the present study aims to directly investigate these issues. Specifically,
+we examine how spatial updating via self-motion influences spatial
+memory performance in younger and older adults. To this end, we
+developed an immersive virtual reality task, Queen Square Virtual
+Reality (VR; Figure 1), designed to manipulate participants’ viewpoints between the encoding and retrieval of object locations within
+an environment (King et al., 2002). A same-viewpoint condition
+assesses spatial memory after having participants walk away from and
+return to the original encoding viewpoint, providing a baseline against
+which the effects of viewpoint shifts can be compared. In a shiftedviewpoint condition, participants walk between viewpoints, enabling
+them to perform spatial updating continuously through self-motion
+signals. Finally, we introduced a second shifted-viewpoint condition
+in which participants actively perform a “teleportation” via a button
+press, setting both their virtual position and orientation to the new
+viewpoint, removing self-motion inputs from vestibular, optic flow,
+and proprioceptive systems that normally drive spatial updating
+(Etienne & Jeffery, 2004).
+In the same-viewpoint condition, we expected minimal age-related
+performance differences as participants may rely on egocentric representations of object locations such as visual or motoric (e.g.,
+pointing or gaze) directions, which remain relatively intact in normal
+aging. Conversely, we expected age-related performance differences
+between the two shifted-viewpoint conditions. Specifically, in the
+shifted-viewpoint (walking) condition, participants could continuously update egocentric representations using self-motion cues,
+potentially supporting spatial accuracy despite viewpoint shifts. In
+contrast, the shifted-viewpoint (teleport) condition removes this
+continuous spatial updating, compelling participants to rely exclusively on allocentric representations. Thus, we hypothesized greater
+age-related impairments specifically in the teleport condition compared to the walking condition, reflecting the vulnerability of allocentric spatial representations to aging. Allocentric representations,
+of how objects are located relative to environmental cues, could
+892
+CASTEGNARO, DIOR, BURGESS, AND KING
+Figure 1
+The Queen Square Virtual Reality Task
+Note. (A) Training phase environment. (B) Testing phase environment. The testing environment features a rectangular room with
+a rounded corner. Participants were positioned on an L-shaped platform, elevated 1.8 m above the floor, with a red rope barrier to
+mitigate vertigo. Two viewpoints on the platform, highlighted by blue lighting, were aligned with directional arrows to indicate the
+participants’ forward-facing orientation. (C) Schematic of the testing procedure. Trials began with participants at one of two
+viewpoints, counterbalanced across participants. During the encoding phase, either one or four objects were presented for 7 or 30 s
+in total. After encoding, the objects disappeared, and participants received instructions for one of three conditions: (a) Sameviewpoint—walking away from and back to the same viewpoint, which allows for the use of both egocentric (self-referenced) and
+allocentric (world-referenced) spatial representations; (b) shifted-viewpoint (walking)—walking to the other viewpoint, which
+encourages reliance on allocentric representations, as participants experience a change in perspective but still benefit from
+continuous self-motion updating of egocentric representations; (c) shifted-viewpoint (teleport)—teleporting to the other viewpoint
+using the controller, involving an automatic translation and rotation. This condition prevents continuous updating of egocentric
+representations by self-motion information, compelling participants to rely more heavily on allocentric representations to recall
+object locations. In the retrieval phase, participants used a virtual pointer to recall the locations of the objects, one at a time. Icons for
+the objects in part (C) are free resources from https://Flaticon.com. See the online article for the color version of this figure.
+support retrieval of object locations in all three conditions. Importantly,
+allocentric representations are available irrespective of viewpoint shifts
+or whether self-motion information is present between encoding and
+retrieval. Consequently, because any performance difference observed
+between the same-viewpoint and shifted-viewpoint (walking) conditions could be attributed either to impaired spatial updating via selfmotion or to weakened allocentric representations, no specific
+hypothesis was formulated regarding their comparison.
+We incorporated two object configurations: one object and four
+objects. The one-object configuration simplifies the task, allowing us
+to assess basic comprehension and ability to perform spatial retrieval in
+various conditions without significant memory load. Conversely, the
+four-object configuration increases the memory load and, across the
+three conditions, reveals which types of representation are available to
+support this increased load. It is also worth noting that shifting
+viewpoint testing of multiple object locations affords the use of an
+allocentric representation of the objects compared to mental rotation
+of a single object around the viewpoint (King et al., 2002). We
+hypothesized that aging would impact performance in the multi-object
+shifted-viewpoint conditions, consistent with previous reports of more
+general age-related declines in working memory capacity (Castillo
+Escamilla et al., 2023).
+Method
+Participants
+A priori power analysis was conducted using G*Power to determine the required sample size for the analysis of variance (ANOVA)
+mixed design with three within factors and one between factors.
+Based on prior research, an estimated effect size (Cohen’s f ) of 0.31
+was used (Rodgers et al., 2012). The analysis assumed an α level of
+.05, power of 0.90, and a correlation of 0.25 among repeated measures. The results indicated a total sample size of 44 participants, with
+22 per age group, to detect significant effects. Young participants (n =
+21; 52% female) between ages 19–36 (M = 23.5, SD = 4.2) were
+recruited from the University College London Sona participant pool.
+Older adult participants (n = 23; 52% female) between ages 63–80
+(M = 72.3, SD = 5.20) were recruited through the “Join Dementia
+Research” online database. Exclusion criteria were the presence of
+any major medical or psychiatric disorder, elevated anxiety or
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+893
+depression symptoms assessed in a phone interview through the
+Generalized Anxiety Disorder–2 and Patient Health Questionnaire–2
+screening tools (Staples et al., 2019), epilepsy, a history of alcohol
+excess or any mobility or visual impairment which may compromise
+performance in immersive virtual reality testing.
+Ethical approval for the study titled “Investigating Spatial Memory
+Functions Using Immersive Virtual Reality (iVR)” was granted by the
+University College London Research Ethics Committee (ID No.
+SHaPS-2018-JK-027). Ethics were in line with the regulations outlined in the Declaration of Helsinki.
+Queen Square Virtual Reality Task
+The Queen Square VR task was administered using the HTC Vive
+PRO VR system, equipped with a wireless adapter to avoid cablerelated issues, tracking an area of 10.0 × 5.0 m2 for free movement.
+The VR environments were developed in Unity3D (Unity Software,
+Inc.) and Autodesk Maya (Autodesk Inc.). The entire task took
+approximately 50 min to complete.
+Training Phase
+Participants were trained in a separate virtual environment
+(Figure 1A) to understand the task mechanics. They practiced
+memorizing an object’s location for 7 s before it disappeared, then
+replaced it using the controller’s trigger button as a “laser pointer,”
+repeated three times with feedback (these objects were not used in
+testing). Next, they practiced teleporting to “active” viewpoints
+using the controller’s thumbpad, with a quick fade to black screen
+transition (<∼0.1 s) to mitigate motion sickness. Finally, they
+walked to different viewpoints following illuminated floor arrows,
+mirroring movement conditions in the tests. Participants could
+repeat any training steps before proceeding to the test phase (no
+training data were recorded).
+Testing Phase
+The testing environment featured a rectangular room (15 m × 12 m)
+with a rounded corner and an elevated L-shaped platform (1.8 m
+above the floor and opposite to the rounded corner, Figure 1B), where
+participants stood throughout the task. Note that participants were
+able to walk freely on the platform. Two viewpoints were marked on
+the platform to guide participant movements and orientation, allowing
+for walking distances of 6.0 m and 4.5 m along the L-shaped platform.
+The maximum possible shifted-viewpoint rotation was 125°. The
+setup ensured that participants were able to actively navigate the space
+along the platform, engaging in natural self-motion during walking
+conditions.
+At the start, each participant was assigned one of two viewpoints as
+the “same-viewpoint” in a counterbalanced design across participants.
+Consequently, the direction of the shifted-viewpoint transitions
+(i.e., from the same to the shifted viewpoint) remained consistent
+for each participant across all trials, and this directionality was
+counterbalanced between participants. Participants always began
+each trial from this same-viewpoint location. Each trial consisted
+of three steps (Figure 1C): (a) encoding, (b) movement manipulation, and (c) retrieval, where participants were asked to replace
+the objects in their original locations. Trials included either one or
+four objects.
+Participants completed a total of 30 trials for each combination of
+movement condition and object configuration, divided into three
+blocks with optional 2-min rest periods between blocks.
+The primary outcome measure was displacement error—the
+absolute distance in meters between the chosen and the actual object
+locations. The secondary outcome measure was retrieval time—the
+duration taken to place an object after receiving it via the virtual
+pointer.
+Encoding
+Participants were instructed via in-VR messages to memorize the
+locations of either one or four objects placed at pseudo-randomized
+coordinates on the floor. They had 10 s for single-object trials and 30
+s for four-object trials, with a timer displayed in the VR interface.
+After the allotted time, the objects and timer disappeared. Objects
+were placed at least 0.5 m apart to avoid overlap and occlusion.
+Objects were selected from a pool of 108 unique low-poly 3D
+models of everyday items (e.g., fruits, furniture, animals, plants,
+utensils), each scaled to fit within 0.8 m3. No objects were repeated
+across trials.
+Movement Condition
+Each trial included a movement manipulation (Figure 1C;
+Supplemental Video, Castegnaro et al., 2025): (a) “same-viewpoint”
+where participants walked along the platform’s side and returned to the
+starting viewpoint to control for the total amount of movement
+between encoding and retrieval; (b) “shifted-viewpoint (walking)”
+where participants walked to the other viewpoint, enabling continuous
+egocentric updating of spatial relationships; (c) “shifted-viewpoint
+(teleport)” where participants teleported, using the controller thumbpad button, to the other viewpoint, removing self-motion and environmental cues, thus requiring allocentric encoding due to disrupted
+egocentric cues. Note that the teleportation included both a virtual
+translation and rotation of the participants’ view. The environment
+remained visible throughout all movement conditions and participants’
+walking trajectories were guided by illuminated directional arrows
+placed on the elevated L-shaped platform (see Supplemental Video).
+During the walking movement conditions, participants were instructed
+to keep their gaze aligned with the arrows on the elevated platform in
+order to discourage any strategy of maintaining a constant visual
+reference to the object’s previous location while walking. To minimize
+differences in exposure durations across movement conditions, we
+deliberately included a delay of 15 s from when the object disappeared
+at the end of the encoding phase to when the first object was presented
+back to participants during the retrieval phase. This duration was
+determined based on a conservative estimate of average walking speed
+(0.8 m/s) for older adults to traverse the maximum required distance
+(∼12 m back and forth along the platform). This design decision
+ensured that even in the teleportation condition, participants would
+experience a minimum exposure time comparable to the walking
+conditions.
+Retrieval
+After the movement condition, participants were prompted to
+replace the previously seen objects. A virtual laser pointer was
+activated, with a randomly selected object from the encoding phase
+894
+CASTEGNARO, DIOR, BURGESS, AND KING
+appearing at its tip (Figure 1C). Participants aimed the laser at the
+desired location and confirmed placement with the trigger button;
+only one attempt was allowed per object. Objects were presented
+one at a time, and replacement was entirely self-paced (no time limit
+was imposed on the retrieval response).
+Neuropsychological Tests
+To ensure that any cognitive impairments observed were
+within normal limits for aging, older participants underwent the
+Addenbrooke’s Cognitive Examination III. Only those scoring
+above the established threshold of 88 out of 100 were included in
+the study. Additionally, to facilitate comparisons between different testing modalities, older participants were also assessed
+using a desktop version of an allocentric spatial memory test,
+commonly known as the Four Mountains Test (Hartley et al.,
+2007). This allowed us to directly compare performances on a
+traditional desktop test proven to be hippocampal-dependent with
+those on the immersive virtual reality test of allocentric spatial
+memory.
+Analysis
+Preprocessing, visualization and analysis were performed using
+Matlab Version 2020b. ANOVA analysis was conducted using SPSS.
+Object Location Memory Performance
+Prior to running parametric tests, all continuous variables were
+checked for normality assumptions. Normality was assessed using the
+Shapiro–Wilk test (Shapiro & Wilk, 1965; suitable for distributions
+with n < 100 data points), alongside analyses of skewness and
+kurtosis. For the mixed-design ANOVA, which explored the effects
+of movement conditions and object configurations between young
+and older controls, the Levene test confirmed equality of variances,
+followed by Mauchly’s test of sphericity to check the assumption of
+sphericity. Due to a temporary tracking system fault, five trials from
+five participants in the older group were excluded.
+Factors Influencing Memory for Object Locations
+Within Different Movement Conditions and
+Within Different Configurations
+A mixed ANOVA design was used to assess the effects of
+movement condition and object configuration on average displacement error, incorporating a three-way factor analysis within
+groups (movement condition, object configuration, block number) and a between-group factor of age (young and older adults).
+Analysis result for the block effect of the mixed ANOVA can be
+found in the Supplemental Materials. Planned within-group contrasts
+of the movement condition were performed using Helmert coding,
+allowing for comparisons between the average displacement errors of
+the same-viewpoint condition and the combined shifted-viewpoint
+conditions (across walking and teleporting), and then specifically
+between the two shifted-viewpoint conditions (walking vs. teleporting). Planned contrast on the different movement conditions
+within groups have been conducted a simple contrast coding. With
+this analysis choice the question asked, according to our hypothesis,
+was (a) does movement to different viewpoints affect memory for
+object locations? and (b) does a continuous spatial update of the one’s
+movement positively affect the retrieval for object locations from
+shifted viewpoints and does this benefit affect differently older individuals compared to younger ones?
+To assess potential ceiling effects in performance in each movement condition, reflecting flooring effects in displacement errors, we
+conducted an analysis of error distributions, including measures of
+skewness, clustering near the theoretical minimum, and statistical
+comparisons against the floor theoretical minimum (see Supplemental
+Analysis). To ensure that skewed distributions did not influence the
+statistical comparisons, we applied a log transformation to displacement errors (see Supplemental Analysis) before running the
+mixed ANOVA analysis.
+Association With Comparative Allocentric Memory Test
+An explorative analysis looked at the relation between the Four
+Mountains Test (4MT) score, which is a test of allocentric processing
+(Hartley et al., 2007), and the Queen Square VR displacement errors.
+Specifically, separate linear model has been fitted where the average
+displacement error per participant in each movement condition is the
+dependent variable and the score in the four mountains test is the
+independent variable. Outliers effect was reduced using a robust linear
+regression where the least-squares fitting is weighted using a Tukey’s
+bisquare on each data point. A Bonferroni correction was applied to
+account for multiple comparisons. Higher scores in 4MT are expected
+to be correlated to lower displacement errors in the allocentric conditions of the Queen Square VR task.
+Transparency and Openness
+All anonymized data, Matlab scripts, SPSS outputs used to produce
+the analysis and figures in this study have been made publicly
+available on the Github repository entitled QueenSquareVRAnalysis
+(Castegnaro et al., 2025). Please note these materials were not
+included in the peer-review process. Additional material is a video
+showcasing the three types of trials present in the study which is also
+been uploaded to said repository. There are no additional materials to
+share. The study design, hypotheses, and analytic plan were not
+preregistered.
+Results
+Differential Impact of Walking Versus Teleporting in
+Shifted-Viewpoint Conditions Between Age Groups
+We observed significant main effects on average displacement
+error due to age group: F(1, 42) = 18.07, p < .001, = 0.30; Figure 2A,
+object configuration: F(1, 42) = 63.95, p < .001, η2 p = 0.60;
+Figure 2B, and movement condition: F(2, 41) = 34.25, p < .001,
+η2 p = 0.45. A nonsignificant trend toward a main effect of block
+number was observed ( p = .53, see Supplemental Results for
+details). The older group performed worse (M = 1.61 m, SD =
+0.61 m) than the young group (M = 0.91 m, SD = 0.46 m) across
+all conditions. Performance was poorer in the four-object configuration (M = 1.55 m, SD = 0.70 m) compared to the single object (M =
+1.00 m, SD = 0.66 m).
+Helmert planned contrasts indicated better performance in the
+same-viewpoint condition (M = 0.88 m, SD = 0.36 m) compared to
+combined shifted-viewpoint conditions, M = 1.47 m, SD = 0.93 m;
+2 p
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+895
+Figure 2
+Participant Performance (Displacement Error) Across Conditions
+Note. All data are averaged over specified variables: (A) Performance by age group (young, older), averaged across object
+configurations and movement conditions. (B) Performance by object configuration (one or four objects), averaged across age
+groups and movement conditions. (C) Performance by movement condition, averaged across age groups and object configurations. (D) Performance by age group and movement condition, averaged across object configurations. Each violin plot was
+generated using kernel density estimation to show the probability density of the data at different values. Each circle represents the
+averaged displacement error for each participant. In each box, the large black dot marks the overall mean, and the dark grey bars
+mark the median and the 25th and 75th percentiles. Observations beyond the whisker length are outliers. A mixed analysis of
+variance revealed main effects of age group (A), object configuration (B) and movement condition (C) on displacement error.
+Planned contrast analysis revealed better performance across age groups in the same-view condition compared to the combined
+shifted-viewpoint conditions (C), and within shifted-viewpoint conditions, walking revealed better performance than teleporting
+(C) and no interaction between block and participant group. An interaction effect between movement condition and age group
+reveals that movement conditions did not affect the young group’s performance, while the older group performed best in the
+same-view condition, better in shifted-viewpoint when walking instead of teleporting (X symbol, D). See the online article for
+the color version of this figure.
+***
+p < .001.
+2 p
+2 p
+F(1, 42) = 40.04, p < .001, η2 p = 0.48; Figure 2C, and within shiftedviewpoint conditions, walking (M = 1.22 m, SD = 0.58 m) outperformed teleporting, M = 1.74 m, SD = 1.12 m; F(1, 42) = 26.53,
+p < .001, η2 p = 0.38; Figure 2C.
+There was a significant interaction effect between movement
+condition and age group, F(2, 41) = 12.91, p < .001, η2 p = 0.23,
+indicating differential impacts by movement conditions across age
+groups. Planned contrasts of the interaction effects revealed significant
+performance differences among older participants. Specifically, they
+performed significantly better in the same-viewpoint condition (M =
+1.04 m, SD = 0.26 m) compared to both shifted-viewpoint conditions:
+walking, M = 1.45 m, SD = 0.54 m, t(22) = −4.17, p < .001, η2 p =
+2 p
+2 p
+walking, M = 1.45 m, SD = 0.54 m, t(22) = −4.17, p < .001, η2 p =
+0.44, and teleporting, M = 2.36, SD = 1.15 m, t(22) = −6.15, p < .001,
+2 p
+η2 p = 0.63. In addition, within the shifted-viewpoint conditions, older
+participants performed better when walking compared to teleporting,
+t(22) = −6.16, p < .001, η2 p = 0.63. In contrast, the younger participants showed no significant differences between movement conditions (all ps > .05), indicating that movement conditions did not
+affect their performance.
+The interaction between object configuration and age group was
+not statistically significant, F(1, 42) = 4.01, p = .052, η2 p = 0.09,
+suggesting that the cognitive demands associated with increased
+object configuration difficulty did not differ significantly between
+the two age groups. The three-way interaction of movement condition, age group, and object configuration was not significant, nor
+was the full four-way interaction including block number.
+2 p
+896
+CASTEGNARO, DIOR, BURGESS, AND KING
+Direct assessment of potential ceiling effects revealed that while
+younger adults exhibited some clustering toward lower values, performance was not constrained by a ceiling effect (see Supplemental
+Results).
+To ensure that skewed distributions did not influence the statistical
+comparisons, we applied a log transformation to displacement errors
+before re-running the mixed ANOVA (see Supplemental Results). All
+main effects remained significant of age group, object configuration
+and movement condition remained highly significant (all p’s < .001),
+with increased effect sizes after transformation (age group: η2 p = 0.38;
+2 p
+2 p
+movement condition: η2 p = 0.60). Importantly, the interaction between
+age group and movement condition remained significant (p < .001).
+Planned contrast analysis (Supplemental Results) further revealed that
+younger participants performed better in the same-view condition
+compared to both shifted-viewpoint conditions (p < .01) but showed
+no difference between walking and teleporting in the shifted-viewpoint
+conditions. Older adults maintained the same performance pattern
+observed in the original analysis.
+Chance Performance and Retrieval Time Analysis
+To assess if findings were driven by random guessing, we conducted a Supplemental Analysis to determine chance performance
+levels (see Supplemental Materials for details). Using a bootstrapping
+approach, we established that both young and older adults performed
+well above chance levels across all movement conditions, including
+the shifted-viewpoint (teleport) condition (Supplemental Figure S1).
+In addition, an exploratory analysis examined the relationship
+between retrieval time and displacement error (see Supplemental
+Materials for details). While retrieval time was significantly longer in
+older adults compared to young participants (Supplemental Figure
+S5A), regression analyses revealed no significant relationship between
+retrieval time and displacement error in either age group (Supplemental
+Figure S5B).
+Association With Desktop Version of Allocentric Spatial
+Memory in Older Adults
+Separate linear regression models were conducted for the older
+group to explore the relationship between average displacement
+error in each movement condition across object configurations of the
+Queen Square VR task and the 4MT scores. We did not collect 4MT
+data for younger adults as it was not part of the cognitive screening
+procedure to ensure that participants were cognitively normal. After
+adjusting for multiple comparisons, only the shifted-viewpoint
+teleport condition, F(1, 21) = 15.2, p = .001, R2adjusted = 0.39;
+Figure 3C, and the shifted-viewpoint walking condition, F(1, 21) =
+12.6, p = .002, R2adjusted = 0.35; Figure 3B, showed significant
+negative associations with 4MT scores after Bonferroni correction,
+with the strongest effect observed in the teleport condition. For one
+unit increase of the 4MT performance the average displacement
+error decreased by 0.21 m in the shifted-viewpoint teleport condition
+while it decreased by 0.14 m in the shifted-viewpoint walking
+condition. The same-view condition approached significance but did
+not survive the multiple comparison correction (Figure 3A).
+Discussion
+In this study, we investigated compensatory mechanisms in aging
+on spatial memory for object locations from different viewpoints
+using an immersive virtual reality task. Our main findings indicate
+that performance worsened in conditions requiring shifted viewpoints, particularly in the teleport condition, and this effect was
+primarily driven by the older participants. These findings suggest that
+Figure 3
+Relationship Between Queen Square VR and Four Mountains Test in Older Adults
+Note. Linear regression model examining the relationship between Four Mountains Test performance (x-axis)—measured as the
+number of correct answers—and Queen Square VR performance (y-axis) for older participants. Queen Square VR performance is
+represented by each participant’s average displacement error in the (A) same-viewpoint (B) shifted-viewpoint walking and (C)
+shifted-viewpoint teleport condition, averaged across all object configurations. The solid line represents the fitted regression, and the
+dashed lines indicate the 95% confidence intervals for the slope. Higher Four Mountains Test performance is associated with lower
+displacement error in the shifted-view walking (p = .002, R2adjusted = 0.35) and shifted-viewpoint teleport conditions (p =
+.001, R2adjusted = 0.39). VR = virtual reality. See the online article for the color version of this figure.
+a Statistically significant after Bonferroni correction for multiple comparisons.
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+897
+the ability to update spatial representations through self-motion plays
+a critical role in mitigating age-related deficits in allocentric spatial
+memory.
+This work builds on extensive evidence that advancing age is
+associated with deficits in spatial processing in tasks where a shift of
+the participant viewpoint is involved (Fernandez-Baizan et al., 2020;
+Leo´n et al., 2016; Tasco´n et al., 2019). In line with expectations,
+participants were most accurate at object replacement when using the
+same viewpoint. Consistent with our hypothesis, in the shiftedviewpoint conditions, walking resulted in significantly better object
+replacement compared to teleporting—where self-motion cues are
+removed (Figure 2C). While allocentric representations are available in
+all three conditions, an egocentric representation might better explain
+the pattern of results. In the same-view condition, both egocentric and
+allocentric representations are available, allowing participants to
+accurately recall object locations. In the shifted-viewpoint walking
+condition, participants can update their egocentric representations
+through vestibular input, optic flow, and proprioception to maintain
+spatial accuracy. However, in the shifted-viewpoint teleport condition,
+the instantaneous change in position and orientation prevents the
+updating of egocentric representations leaving participants to rely on
+allocentric representations to recall object locations. Although it is
+theoretically possible that participants could have engaged in imagined
+perspective-taking to maintain egocentric representations following
+teleportation, the cost associated with such mental transformations is
+known to increase sharply with angular disparity, peaking near 120°,
+which is closely matched by the ∼125° shift in our teleport condition
+(Puls & May, 2020). In immersive VR, this cost is likely compounded
+by continuous sensory-motor input tied to participants’ real-world
+movements, which after teleportation may disrupt imagined realignment. Therefore, in the absence of continuous self-motion, participants
+were likely unable to rely on egocentric strategies alone.
+Notably, while this pattern of decreased performance in shifted
+viewpoints was present across age groups (Supplemental Figure
+S3C)—reflecting the known baseline cost of perspective shifts even
+in young adults (Kelly & McNamara, 2010; Zancada-Menendez et
+al., 2016)—it was primarily driven by older participants (Figure
+2D). The improved performance of older adults in the walking
+condition suggests that they effectively use self-motion information
+to update their egocentric representations, thereby compensating for
+weaker allocentric representations. In contrast, the absence of selfmotion cues in the teleportation condition prevents this egocentric
+updating, leading older adults to rely solely on their weaker allocentric representations, resulting in increased errors.
+Accounting for potential ceiling effects, particularly affecting
+performance in the young cohort, revealed that key effects not only
+remained significant but also showed stronger effect sizes (see
+Supplemental Results for details). Specifically, while both age groups
+showed performance decrements in shifted-viewpoint conditions,
+only older adults demonstrated a significant additional impairment
+when teleportation was used instead of walking (Supplemental Figure
+S3C). This pattern supports the interpretation that in shifted-viewpoint
+conditions, continuous self-motion information during walking provides significant benefits for spatial memory in older adults, enabling
+them to maintain better allocentric representations compared to
+teleportation. In contrast, younger adults can effectively compensate
+for the absence of such information during teleportation, exhibiting
+similar performance regardless of movement type when viewpoints
+change. Importantly, we ruled out that systematic directional biases
+induced by viewpoint shifts—previously identified in desktop VR and
+particularly pronounced in older participants (Segen et al., 2021)—
+could provide an alternative explanation for the age- and movementrelated differences (see Supplemental Analysis). Specifically, our
+analysis (Supplemental Table S1) revealed no significant effects or
+interactions on projected directional errors, indicating that systematic
+directional biases were not present in this task and did not contribute to
+the observed pattern of increased errors among older adults in teleport
+compared to walking conditions (Supplemental Figure S4).
+Previous work indicates that age-related allocentric decline is not
+uniform across paradigms (Hill et al., 2024; McAvan et al., 2021;
+Segen, Avraamides, et al., 2022). McAvan et al. (2021) showed that
+older adults can return accurately to a single hidden location in an
+ambulatory virtual Morris Water Maze; their task emphasizes path
+integration—updating the coordinates of a location that was previously visited—whereas our paradigm emphasizes spatial updating
+of one or more object locations relative to the broader environment
+without visiting those locations, a process that imposes a heavier
+representational load than tracking a single goal (Jahn et al., 2012;
+Wraga et al., 2000). In addition, McAvan et al. (2021) provided
+repeated training trials from multiple starting points before testing,
+whereas in our study each configuration had to be encoded on a single
+exposure and for a given time; the allocentric weakness we found
+might therefore be overcome when older adults can rehearse the layout
+(Castegnaro et al., 2022; Jansen et al., 2009; Sauzéon et al., 2016).
+Similarly, a desktop-VR viewpoint-shift study reported preserved
+accuracy in aging, yet the perspective rotation was 30°, smaller
+than the ∼90–145° shifts that reveal allocentric deficits in the present
+experiment and in other work (King et al., 2002; Muffato et al.,
+2019; Puls & May, 2020; Reinoso Medina et al., 2025; ZancadaMenendez et al., 2016). In addition, their task required a binary
+same/different judgment, whereas our task requires a continuous,
+metric reconstruction of the entire configuration. Because coarse
+categorical decisions can often be solved through recognition-based
+familiarity, such tasks might place weaker demands on allocentric
+recollection (Bastin & Van der Linden, 2005; Muffato et al., 2022).
+Together, we argue that allocentric decline is most evident when (a)
+multiple object/landmark relations must be encoded in a single shot
+and (b) the perspective shift exceeds a certain threshold at which
+mental-rotation or recognition strategies become taxing. Future
+studies should take these boundary conditions into account when
+designing and interpreting spatial memory tasks across the adult
+lifespan.
+To our best knowledge, this study is the first to explicitly link the
+weakness in allocentric strategies in older adults to continuous
+self-motion updates of spatial relationships using virtual reality,
+highlighting spatial updating as a mechanism that can help older
+adults to compensate for allocentric decline. We also examined
+whether older adults’ longer retrieval times (Supplemental Figure
+S5A) reflected greater uncertainty or a different response strategy
+rather than broader cognitive decline. However, our Supplemental
+Analysis (Supplemental Figure S5B) found no significant relationship
+between retrieval time and displacement error in either age group.
+Processing-speed theory propose that a central factor in adult cognitive aging is a reduction in the speed with which basic processing
+operations can be carried out, manifesting as longer completion times
+across a wide variety of tasks (Salthouse, 1996; Salthouse & FerrerCaja, 2003). Thus, the prolonged retrieval times found in older adults
+898
+CASTEGNARO, DIOR, BURGESS, AND KING
+likely reflect this domain-general slowing rather than higher uncertainty or different response strategies.
+The difficulties found by the older adults in the walking condition
+may be reflected within the normal range of aging in the decline of
+functionalities of the entorhinal cortex (Stangl et al., 2018) within the
+medial temporal lobe which support intrinsic self-motion related
+computations (Hafting et al., 2005; Sargolini et al., 2006). In addition,
+in the teleportation condition, where self-motion cues are absent,
+participants must rely more on allocentric processing to recall object
+locations. This allocentric processing is supported by brain structures
+such as the hippocampus, parahippocampal cortex (Burgess et al.,
+2002; Maguire, Burgess, et al., 1998; Maguire, Frith, et al., 1998), and
+the retrosplenial cortex which plays a key role in shifted-viewpoint
+memory (Bicanski & Burgess, 2016; Lambrey et al., 2012; Mitchell et
+al., 2018). Age-related decline in these structures, evidenced by a
+reduced activation when performing allocentric processing in navigation (Antonova et al., 2009; Moffat et al., 2006) could explain the
+greater accuracy difference observed in older participants between the
+walking and teleportation conditions.
+A potential confounding factor in the observed deficit among older
+participants in the shifted-viewpoint (walking) condition may be agerelated deterioration in the vestibular system. This deterioration can
+divert attention from navigation tasks to balance and postural control
+(Arshad & Seemungal, 2016), potentially reducing the attentional
+resources available for spatial updating. Teleportation, especially
+when involving both translational and rotational body-based cues, can
+induce disorientation (Cherep et al., 2020) due to abrupt changes in
+both position and orientation. However, our analysis confirmed
+performance above random guessing for both age groups, including
+teleportation (Supplemental Figure S1). This confirms that older
+adults’ increased errors in teleportation were not due to random
+responses but instead reflect difficulties in recalling object locations
+when self-motion cues were absent. The presence of environmental
+boundaries in our VR environment likely mitigated disorientation, as
+boundaries have been shown to help maintain orientation during
+teleportation (Kelly et al., 2022). We did not find any improvement of
+performance over time (Supplemental Figure S2), indicating that
+participants could adjust to the VR environment after the training
+phase. In this study, we did not record tracking data from the headmounted display, which could have provided proxies for balance and
+posture. Future studies should consider incorporating such measures
+to monitor vestibular function during VR tasks, thereby controlling
+for potential vestibular deficits.
+Our findings regarding the differential effects of teleporting and
+walking-induced viewpoint shifts in older adults may reflect distinctions between modality-dependent and modality-independent
+spatial representations (Huffman & Ekstrom, 2019; Steel et al., 2021).
+Modality-dependent spatial representations refer to spatial knowledge
+inherently tied to the sensory-motor modality through which it was
+originally encoded, requiring the reactivation of specific sensorymotor systems during spatial recall. Conversely, modality-independent, or amodal, spatial representations describe abstract cognitive
+maps that are not significantly influenced by the original encoding
+modality, allowing spatial knowledge to be expressed flexibly across
+different sensory modalities. In our study, older adults exhibited
+greater errors when teleporting disrupted the continuity of sensorymotor experiences compared to viewpoint shifts involving walking,
+consistent with an embodied cognition perspective emphasizing
+the integration of multimodal sensory information during spatial
+navigation. Previous studies indicate that multimodal sensory inputs
+significantly contribute to the formation of coherent spatial representations, particularly aiding in allocentric spatial memory performance in aged populations (Hill et al., 2024; McAvan et al., 2021)
+and in recruiting extrahippocampal strategies as shown in hippocampal lesion patients (Iggena et al., 2023). The instantaneous shift in
+viewpoint due to teleporting likely interrupts the integration of these
+multimodal cues, necessitating reliance on more abstract, amodal
+representations, which are less effectively maintained by older adults.
+This suggests not only that multimodal inputs enhance spatial memory
+performance, particularly under limited cognitive resources associated
+with aging (Huffman & Ekstrom, 2019), but also that these sensory
+inputs naturally form a unified representation in the brain, which is
+vulnerable to instantaneous discontinuities such as those introduced
+by teleporting (Steel et al., 2021). In contrast, younger participants,
+who typically show more efficient integration of sensory-motor
+information, exhibited no performance differences between teleporting and walking conditions, reflecting a resilience in both egocentric spatial updating and the modality-independent representation
+of spatial layouts. These findings underline the importance of multimodal integration in spatial memory and suggest that age-related
+declines may impair the ability to flexibly shift between modalitydependent and modality-independent spatial representations.
+Older adults’ performance on the Queen Square VR task was
+strongly correlated with performance on the 4MT, a hippocampaldependent allocentric spatial memory assessment requiring landscapes
+to be recognized from a shifted viewpoint on the basis of topographical
+layout rather than visual appearance (see Figure 3; Hartley et al.,
+2007). Notably, both shifted-viewpoint conditions showed significant
+associations with 4MT scores, but the strongest effect was observed in
+the teleport condition. This finding highlights the link between allocentric spatial processing and performance in the Queen Square VR
+task, suggesting that the teleport condition most effectively isolates
+allocentric demands when self-motion cues are removed. These results
+support the association between age-related deficits, hippocampal
+function and suggest how the task proposed in this study supports
+amodal representations related to allocentric cognitive processing.
+The higher cognitive load associated with remembering multiple
+object locations was found in the difference in performance (Figure 1B)
+between different object configuration, however, both young and older
+participants struggled similarly when memorizing four-object locations
+compared to one. This suggests that within our cohort, age-related
+decline did not significantly impact the ability to work with multiple
+objects within a scene, and the observed differences in movement
+conditions were not due to more general age-related declines in
+working memory capacity (Castillo Escamilla et al., 2023).
+Impairments in allocentric processing (Serino et al., 2014) and
+path integration (Segen, Ying, et al., 2022) have been observed early
+in the progression to Alzheimer’s dementia. Thus, future research
+could employ shifted-viewpoint tasks that assess both allocentric
+and self-motion related processing to investigate which is specifically impaired in patients with mild cognitive impairment with an
+incipient cause of Alzheimer’s dementia. Since the anterolateral
+entorhinal cortex—a region implicated early in neurodegeneration
+(Braak & Del Tredici, 2015)—is critical for processing object locations within contexts (Olsen et al., 2017; Yeung et al., 2019),
+deficits in self-motion-related updating might be instrumental in
+stratifying patients according to Alzheimer’s dementia progression.
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+899
+The present study has limitations. The sample size, though
+powered for detecting medium-sized effects, could have masked
+ceiling effects among younger participants or nonnormal distributions, potentially influencing the robustness and generalizability of
+our statistical analyses. Another limitation is the absence of precise
+timing data for each movement phase that could reveal extra time
+spent by participants re-orienting themselves—particularly after
+teleportation. We enforced a fixed minimum time between encoding
+and retrieval and we did not impose any upper limit on object
+replacement, ensuring each participant had an equal opportunity to reorient before placing the objects. Since retrieval time was not
+associated with displacement error in either age group (Supplemental
+Figure S5B), it is unlikely that faster or longer exploratory scanning
+could account for the observed age differences. Nonetheless, without
+continuous head-mounted display tracking we cannot exclude the
+possibility that younger adults engaged in more extensive visual
+scanning after teleportation—potentially allowing them to reacquire
+spatial landmarks more effectively and re-establish their environmental orientation. Future work should systematically integrate headmounted display tracking to disentangle scanning behaviors from
+memory performance. In line with the previous point, the absence of
+head-mounted display tracking data could have directly confirmed
+participants’ head orientation throughout the task, particularly during
+walking movements. Such data would be necessary to assess whether
+participants attempted to hold a constant visual reference to the
+previous object location—thereby reducing the need for spatial updating via self-motion cues. Although our design features, including
+directional arrows and the spatially scattered object configurations,
+likely reduced this behavior, future research would benefit from
+incorporating tracking to quantify it.
+In conclusion, the Queen Square VR task effectively detects agerelated declines in spatial memory, with older adults showing significant impairments in the shifted-viewpoint tasks, and specifically
+when updating of egocentric representations via self-motion cannot
+be used to compensate for weak allocentric representation. These
+findings highlight the role of spatial updating in mitigating spatial
+memory deficits in aging.
+References
+Alexander, A. S., Robinson, J. C., Stern, C. E., & Hasselmo, M. E. (2023).
+Gated transformations from egocentric to allocentric reference frames
+involving retrosplenial cortex, entorhinal cortex, and hippocampus.
+Hippocampus, 33(5), 465–487. https://doi.org/10.1002/hipo.23513
+Antonova, E., Parslow, D., Brammer, M., Dawson, G. R., Jackson,
+S. H. D., & Morris, R. G. (2009). Age-related neural activity during
+allocentric spatial memory. Memory, 17(2), 125–143. https://doi.org/
+10.1080/09658210802077348
+Arshad, Q., & Seemungal, B. M. (2016). Age-related vestibular loss: Current
+understanding and future research directions. Frontiers in Neurology, 7,
+Article 231. https://doi.org/10.3389/fneur.2016.00231
+Banta Lavenex, P., Lecci, S., Prêtre, V., Brandner, C., Mazza, C., Pasquier,
+J., & Lavenex, P. (2011). As the world turns: Short-term human spatial
+memory in egocentric and allocentric coordinates. Behavioural Brain
+Research, 219(1), 132–141. https://doi.org/10.1016/j.bbr.2010.12.035
+Bastin, C., & Van der Linden, M. (2005). The effects of aging on the
+recognition of different types of associations. Experimental Aging Research,
+32(1), 61–77. https://doi.org/10.1080/03610730500326291
+Bécu, M., Sheynikhovich, D., Tatur, G., Agathos, C. P., Bologna, L. L.,
+Sahel, J. A., & Arleo, A. (2019). Age-related preference for geometric
+spatial cues during real-world navigation. Nature Human Behaviour, 4(1),
+88–99. https://doi.org/10.1038/s41562-019-0718-z
+Bian, Z., & Andersen, G. J. (2013). Aging and the perception of egocentric
+distance. Psychology and Aging, 28(3), 813–825. https://doi.org/10.1037/
+a0030991
+Bicanski, A., & Burgess, N. (2016). Environmental anchoring of head
+direction in a computational model of retrosplenial cortex. The Journal of
+Neuroscience, 36(46), 11601–11618. https://doi.org/10.1523/JNEUROSCI
+.0516-16.2016
+Bohbot, V. D., Lerch, J., Thorndycraft, B., Iaria, G., & Zijdenbos, A. P. (2007).
+Gray matter differences correlate with spontaneous strategies in a human
+virtual navigation task. The Journal of Neuroscience, 27(38), 10078–10083.
+https://doi.org/10.1523/JNEUROSCI.1763-07.2007
+Bohbot, V. D., McKenzie, S., Konishi, K., Fouquet, C., Kurdi, V., Schachar,
+R., Boivin, M., & Robaey, P. (2012). Virtual navigation strategies from
+childhood to senescence: Evidence for changes across the life span.
+Frontiers in Aging Neuroscience, 4, Article 28. https://doi.org/10.3389/
+fnagi.2012.00028
+Braak, H., & Del Tredici, K. (2015). The preclinical phase of the pathological
+process underlying sporadic Alzheimer’s disease. Brain, 138(10), 2814–
+2833. https://doi.org/10.1093/brain/awv236
+Burgess, N. (2006). Spatial memory: How egocentric and allocentric combine.
+Trends in Cognitive Sciences, 10(12), 551–557. https://doi.org/10.1016/j.ti
+cs.2006.10.005
+Burgess, N., Maguire, E. A., & O’Keefe, J. (2002). The human hippocampus
+and spatial and episodic memory. Neuron, 35(4), 625–641. https://doi.org/
+10.1016/S0896-6273(02)00830-9
+Byrne, P. A., & Crawford, J. D. (2010). Cue reliability and a landmark stability
+heuristic determine relative weighting between egocentric and allocentric
+visual information in memory-guided reach. Journal of Neurophysiology,
+103(6), 3054–3069. https://doi.org/10.1152/jn.01008.2009
+Castegnaro, A., Dior, A., Burgess, N., & King, J. (2025). QueenSquareVRAnalysis [Anonymized data set, Matlab scripts, SPSS outputs, task
+demonstration video]. GitHub. https://github.com/Lenakeiz/QueenSquare
+VRAnalysis
+Castegnaro, A., Howett, D., Li, A., Harding, E., Chan, D., Burgess, N., &
+King, J. (2022). Assessing mild cognitive impairment using objectlocation memory in immersive virtual environments. Hippocampus, 32(9),
+660–678. https://doi.org/10.1002/hipo.23458
+Castillo Escamilla, J., Leo´n Estrada, I., Alcaraz-Iborra, M., & Cimadevilla
+Redondo, J. M. (2023). Aging: Working memory capacity and spatial
+strategies in a virtual orientation task. GeroScience, 45(1), 159–175.
+https://doi.org/10.1007/s11357-022-00599-z
+Cherep, L. A., Lim, A. F., Kelly, J. W., Acharya, D., Velasco, A.,
+Bustamante, E., Ostrander, A. G., & Gilbert, S. B. (2020). Spatial
+cognitive implications of teleporting through virtual environments.
+Journal of Experimental Psychology: Applied, 26(3), 480–492. https://
+doi.org/10.1037/xap0000263
+Colombo, D., Serino, S., Tuena, C., Pedroli, E., Dakanalis, A., Cipresso, P.,
+& Riva, G. (2017). Egocentric and allocentric spatial reference frames in
+aging: A systematic review. Neuroscience & Biobehavioral Reviews, 80,
+605–621. https://doi.org/10.1016/j.neubiorev.2017.07.012
+Driscoll, I., Hamilton, D., Petropoulos, H., Yeo, R. A., Brooks, W. M.,
+Baumgartner, R. N., & Sutherland, R. J. (2003). The aging hippocampus:
+Cognitive, biochemical and structural findings. Cerebral Cortex, 13(12),
+1344–1351. https://doi.org/10.1093/cercor/bhg081
+Ekstrom, A. D., Arnold, A. E. G. F., & Iaria, G. (2014). A critical review of
+the allocentric spatial representation and its neural underpinnings: Toward
+a network-based perspective. Frontiers in Human Neuroscience, 8, Article
+803. https://doi.org/10.3389/fnhum.2014.00803
+Etienne, A. S., & Jeffery, K. J. (2004). Path integration in mammals.
+Hippocampus, 14(2), 180–192. https://doi.org/10.1002/hipo.10173
+Fernandez-Baizan, C., Arias, J. L., & Mendez, M. (2020). Spatial memory
+assessment reveals age-related differences in egocentric and allocentric
+900
+CASTEGNARO, DIOR, BURGESS, AND KING
+memory performance. Behavioural Brain Research, 388, Article 112646.
+https://doi.org/10.1016/j.bbr.2020.112646
+Field, A. P., & Wilcox, R. R. (2017). Robust statistical methods: A primer for
+clinical psychology and experimental psychopathology researchers. Behaviour
+Research and Therapy, 98, 19–38. https://doi.org/10.1016/j.brat.2017.05.013
+Frances Wang, R. (2017). Spatial updating and common misinterpretations
+of spatial reference frames. Spatial Cognition and Computation, 17(3),
+222–249. https://doi.org/10.1080/13875868.2017.1304394
+Gazova, I., Laczo´, J., Rubinova, E., Mokrisova, I., Hyncicova, E., Andel, R.,
+Vyhnalek, M., Sheardova, K., Coulson, E. J., & Hort, J. (2013). Spatial
+navigation in young versus older adults. Frontiers in Aging Neuroscience,
+5, Article 94. https://doi.org/10.3389/fnagi.2013.00094
+Hafting, T., Fyhn, M., Molden, S., Moser, M. B., & Moser, E. I. (2005).
+Microstructure of a spatial map in the entorhinal cortex. Nature,
+436(7052), 801–806. https://doi.org/10.1038/nature03721
+Hartley, T., Bird, C. M., Chan, D., Cipolotti, L., Husain, M., VarghaKhadem, F., & Burgess, N. (2007). The hippocampus is required for shortterm topographical memory in humans. Hippocampus, 17(1), 34–48.
+https://doi.org/10.1002/hipo.20240
+Hill, P. F., Bermudez, S., McAvan, A. S., Garren, J. D., Grilli, M. D., Barnes,
+C. A., & Ekstrom, A. D. (2024). Age differences in spatial memory are
+mitigated during naturalistic navigation. Aging, Neuropsychology, and
+Cognition, 31(6), 1106–1130. https://doi.org/10.1080/13825585.2024.23
+26244
+Huffman, D. J., & Ekstrom, A. D. (2019). A modality-independent network
+underlies the retrieval of large-scale spatial environments in the human
+brain. Neuron, 104(3), 611–622. e7. https://doi.org/10.1016/j.neuron.2019
+.08.012
+Iaria, G., Palermo, L., Committeri, G., & Barton, J. J. S. (2009). Age
+differences in the formation and use of cognitive maps. Behavioural Brain
+Research, 196(2), 187–191. https://doi.org/10.1016/j.bbr.2008.08.040
+Iggena, D., Jeung, S., Maier, P. M., Ploner, C. J., Gramann, K., & Finke, C.
+(2023). Multisensory input modulates memory-guided spatial navigation
+in humans. Communications Biology, 6(1), Article 1167. https://doi.org/
+10.1038/s42003-023-05522-6
+Jahn, G., Wendt, J., Lotze, M., Papenmeier, F., & Huff, M. (2012). Brain
+activation during spatial updating and attentive tracking of moving targets.
+Brain and Cognition, 78(2), 105–113. https://doi.org/10.1016/j.bandc.2011
+.12.001
+Jansen, P., Schmelter, A., & Heil, M. (2009). Spatial knowledge acquisition
+in younger and elderly adults. Experimental Psychology, 57(1), 54–60.
+https://doi.org/10.1027/1618-3169/a000007
+Kelly, J. W., Doty, T. A., Cherep, L. A., & Gilbert, S. B. (2022). Boundaries
+reduce disorientation in virtual reality. Frontiers in Virtual Reality, 3,
+Article 882526. https://doi.org/10.3389/frvir.2022.882526
+Kelly, J. W., & McNamara, T. P. (2010). Reference frames during the
+acquisition and development of spatial memories. Cognition, 116(3),
+409–420. https://doi.org/10.1016/j.cognition.2010.06.002
+King, J. A., Burgess, N., Hartley, T., Vargha-Khadem, F., & O’Keefe, J.
+(2002). Human hippocampus and viewpoint dependence in spatial memory.
+Hippocampus, 12(6), 811–820. https://doi.org/10.1002/hipo.10070
+Klatzky, R. L., Loomis, J. M., Beall, A. C., Chance, S. S., & Golledge, R. G.
+(1998). Spatial updating of self-position and orientation during real,
+imagined, and virtual locomotion. Psychological Science, 9(4), 293–298.
+https://doi.org/10.1111/1467-9280.00058
+Kolarik, B. S., Baer, T., Shahlaie, K., Yonelinas, A. P., & Ekstrom, A. D.
+(2018). Close but no cigar: Spatial precision deficits following medial
+temporal lobe lesions provide novel insight into theoretical models of
+navigation and memory. Hippocampus, 28(1), 31–41. https://doi.org/10
+.1002/hipo.22801
+Lambrey, S., Doeller, C., Berthoz, A., & Burgess, N. (2012). Imagining
+being somewhere else: Neural basis of changing perspective in space.
+Cerebral Cortex, 22(1), 166–174. https://doi.org/10.1093/cercor/bhr101
+Leo´n, I., Tasco´n, L., & Cimadevilla, J. M. (2016). Age and gender-related
+differences in a spatial memory task in humans. Behavioural Brain
+Research, 306, 8–12. https://doi.org/10.1016/j.bbr.2016.03.008
+Lithfous, S., Dufour, A., Blanc, F., & Després, O. (2014). Allocentric but not
+egocentric orientation is impaired during normal aging: An ERP study.
+Neuropsychology, 28(5), 761–771. https://doi.org/10.1037/neu0000084
+Lopez, A., Caffò, A. O., Spano, G., & Bosco, A. (2019). The effect of aging
+on memory for recent and remote egocentric and allocentric information.
+Experimental Aging Research, 45(1), 57–73. https://doi.org/10.1080/
+0361073X.2018.1560117
+Maguire, E. A., Burgess, N., Donnett, J. G., Frackowiak, R. S. J., Frith, C. D.,
+& O’Keefe, J. (1998). Knowing where and getting there: A human navigation network. Science, 280(5365), 921–924. https://doi.org/10.1126/scie
+nce.280.5365.921
+Maguire, E. A., Frith, C. D., Burgess, N., Donnett, J. G., & O’Keefe, J.
+(1998). Knowing where things are parahippocampal involvement in encoding object locations in virtual large-scale space. Journal of Cognitive
+Neuroscience, 10(1), 61–76. https://doi.org/10.1162/089892998563789
+McAvan, A. S., Du, Y. K., Oyao, A., Doner, S., Grilli, M. D., & Ekstrom, A.
+(2021). Older adults show reduced spatial precision but preserved strategy-use during spatial navigation involving body-based cues. Frontiers in
+Aging Neuroscience, 13, Article 640188. https://doi.org/10.3389/fnagi
+.2021.640188
+McAvan, A. S., Wank, A. A., Rapcsak, S. Z., Grilli, M. D., & Ekstrom, A. D.
+(2022). Largely intact memory for spatial locations during navigation in an
+individual with dense amnesia. Neuropsychologia, 170, Article 108225.
+https://doi.org/10.1016/j.neuropsychologia.2022.108225
+McNaughton, B. L., Battaglia, F. P., Jensen, O., Moser, E. I., & Moser, M. B.
+(2006). Path integration and the neural basis of the “cognitive map”.
+Nature Reviews Neuroscience, 7(8), 663–678. https://doi.org/10.1038/
+nrn1932
+Mitchell, A. S., Czajkowski, R., Zhang, N., Jeffery, K., & Nelson, A. J. D.
+(2018). Retrosplenial cortex and its role in spatial cognition. Brain and
+Neuroscience Advances, 2. https://doi.org/10.1177/2398212818757098
+Moffat, S. D., Elkins, W., & Resnick, S. M. (2006). Age differences in the neural
+systems supporting human allocentric spatial navigation. Neurobiology of
+Aging, 27(7), 965–972. https://doi.org/10.1016/j.neurobiolaging.2005.05.011
+Muffato, V., Hilton, C., Meneghetti, C., De Beni, R., & Wiener, J. M. (2019).
+Evidence for age-related deficits in object-location binding during place
+recognition. Hippocampus, 29(10), 971–979. https://doi.org/10.1002/hi
+po.23099
+Muffato, V., Simonetto, A., Pellegrini, M., Tortora, C., & Meneghetti, C.
+(2022). Navigation ability in young, middle-aged and older adults: Different
+domains of knowledge and their relationship with visuospatial factors.
+Journal of Environmental Psychology, 81, Article 101820. https://doi.org/
+10.1016/j.jenvp.2022.101820
+Olsen, R. K., Yeung, L. K., Noly-Gandon, A., D’Angelo, M. C., Kacollja,
+A., Smith, V. M., Ryan, J. D., & Barense, M. D. (2017). Human anterolateral entorhinal cortex volumes are associated with cognitive decline in
+aging prior to clinical diagnosis. Neurobiology of Aging, 57, 195–205.
+https://doi.org/10.1016/j.neurobiolaging.2017.04.025
+Puls, K., & May, M. (2020). Disentangling spatial conflicts in mental perspective taking. Acta Psychologica, 207, Article 103078. https://doi.org/10
+.1016/j.actpsy.2020.103078
+Raz, N., Lindenberger, U., Rodrigue, K. M., Kennedy, K. M., Head, D.,
+Williamson, A., Dahle, C., Gerstorf, D., & Acker, J. D. (2005). Regional
+brain changes in aging healthy adults: General trends, individual differences and modifiers. Cerebral Cortex, 15(11), 1676–1689. https://doi.org/
+10.1093/cercor/bhi044
+Reinoso Medina, L., Thrasher, C. A., & Harburger, L. L. (2025). Evidence
+for age-related decline in spatial memory in a novel allocentric memory
+task. Aging, Neuropsychology, and Cognition, 32(1), 19–28. https://
+doi.org/10.1080/13825585.2024.2344866
+SELF-MOTION SUPPORTS SPATIAL MEMORY IN AGING
+901
+Rodgers, M. K., Sindone, J. A., III, & Moffat, S. D. (2012). Effects of age on
+navigation strategy. Neurobiology of Aging, 33(1), 202.e15–202.e22.
+https://doi.org/10.1016/j.neurobiolaging.2010.07.021
+Rolls, E. T. (2020). Spatial coordinate transforms linking the allocentric
+hippocampal and egocentric parietal primate brain systems for memory,
+action in space, and navigation. Hippocampus, 30(4), 332–353. https://
+doi.org/10.1002/hipo.23171
+Salthouse, T. A. (1996). The processing-speed theory of adult age differences
+in cognition. Psychological Review, 103(3), 403–428. https://doi.org/10
+.1037/0033-295X.103.3.403
+Salthouse, T. A., & Ferrer-Caja, E. (2003). What needs to be explained to
+account for age-related effects on multiple cognitive variables? Psychology
+and Aging, 18(1), 91–110. https://doi.org/10.1037/0882-7974.18.1.91
+Sargolini, F., Fyhn, M., Hafting, T., McNaughton, B. L., Witter, M. P.,
+Moser, M. B., & Moser, E. I. (2006). Conjunctive representation of
+position, direction, and velocity in entorhinal cortex. Science, 312(5774),
+758–762. https://doi.org/10.1126/science.1125572
+Sauzéon, H., N’Kaoua, B., Arvind Pala, P., Taillade, M., & Guitton, P. (2016).
+Age and active navigation effects on episodic memory: A virtual reality
+study. British Journal of Psychology, 107(1), 72–94. https://doi.org/10.1111/
+bjop.12123
+Segen, V., Avraamides, M. N., Slattery, T. J., & Wiener, J. M. (2022). Agerelated changes in visual encoding strategy preferences during a spatial
+memory task. Psychological Research, 86(2), 404–420. https://doi.org/10
+.1007/s00426-021-01495-5
+Segen, V., Colombo, G., Avraamides, M., Slattery, T., & Wiener, J. M. (2021).
+Perspective taking and systematic biases in object location memory. Attention,
+Perception, & Psychophysics, 83(5), 2033–2051. https://doi.org/10.3758/
+s13414-021-02243-y
+Segen, V., Ying, J., Morgan, E., Brandon, M., & Wolbers, T. (2022). Path
+integration in normal aging and Alzheimer’s disease. Trends in Cognitive
+Sciences, 26(2), 142–158. https://doi.org/10.1016/j.tics.2021.11.001
+Serino, S., Cipresso, P., Morganti, F., & Riva, G. (2014). The role of egocentric
+and allocentric abilities in Alzheimer’s disease: A systematic review. Ageing
+Research Reviews, 16(1), 32–44. https://doi.org/10.1016/j.arr.2014.04.004
+Shapiro, S. S., & Wilk, M. B. (1965). An analysis of variance test for normality
+(complete samples). Biometrika, 52(3–4), 591–611. https://doi.org/10.1093/
+biomet/52.3-4.591
+Šimkovic, M., & Träuble, B. (2019). Robustness of statistical methods when
+measure is affected by ceiling and/or floor effect. PLOS ONE, 14(8),
+Article e0220889. https://doi.org/10.1371/journal.pone.0220889
+Stangl, M., Achtzehn, J., Huber, K., Dietrich, C., Tempelmann, C., &
+Wolbers, T. (2018). Compromised grid-cell-like representations in old age
+as a key mechanism to explain age-related navigational deficits. Current
+Biology, 28(7), 1108–1115. e6. https://doi.org/10.1016/j.cub.2018.02.038
+Staples, L. G., Dear, B. F., Gandy, M., Fogliati, V., Fogliati, R., Karin, E.,
+Nielssen, O., & Titov, N. (2019). Psychometric properties and clinical
+utility of brief measures of depression, anxiety, and general distress: The
+PHQ-2, GAD-2, and K-6. General Hospital Psychiatry, 56, 13–18. https://
+doi.org/10.1016/j.genhosppsych.2018.11.003
+Steel, A., Robertson, C. E., & Taube, J. S. (2021). Current promises and
+limitations of combined virtual reality and functional magnetic resonance
+imaging research in humans: A commentary on Huffman and Ekstrom
+(2019). Journal of Cognitive Neuroscience, 33(2), 159–166. https://doi.org/
+10.1162/jocn_a_01635
+Tasco´n, L., Castillo, J., & Cimadevilla, J. M. (2019). Age-related differences
+in the elderly in a spatial recognition task. Memory, 27(10), 1415–1422.
+https://doi.org/10.1080/09658211.2019.1663216
+Uttl, B. (2005). Measurement of individual differences. Psychological Science,
+16(6), 460–467. https://doi.org/10.1111/j.0956-7976.2005.01557.x
+van Wijngaarden, J. B. G., Babl, S. S., & Ito, H. T. (2020). Entorhinalretrosplenial circuits for allocentric-egocentric transformation of boundary
+coding. eLife, 9, Article e59816. https://doi.org/10.7554/eLife.59816
+Wang, R. F. (2016). Building a cognitive map by assembling multiple path
+integration systems. Psychonomic Bulletin & Review, 23(3), 692–702.
+https://doi.org/10.3758/s13423-015-0952-y
+Wang, L., Zhang, Z., McArdle, J. J., & Salthouse, T. A. (2008).
+Investigating ceiling effects in longitudinal data analysis. Multivariate
+Behavioral Research, 43(3), 476–496. https://doi.org/10.1080/0027317
+0802285941
+Whitlock, J. R., Sutherland, R. J., Witter, M. P., Moser, M. B., & Moser, E. I.
+(2008). Navigating from hippocampus to parietal cortex. Proceedings of the
+National Academy of Sciences of the United States of America, 105(39),
+14755–14762. https://doi.org/10.1073/pnas.0804216105
+Wraga, M., Creem, S. H., & Proffitt, D. R. (2000). Updating displays after
+imagined object and viewer rotations. Journal of Experimental Psychology:
+Learning, Memory, and Cognition, 26(1), 151–168. https://doi.org/10.1037/
+0278-7393.26.1.151
+Yeung, L. K., Olsen, R. K., Hong, B., Mihajlovic, V., D’Angelo, M. C.,
+Kacollja, A., Ryan, J. D., & Barense, M. D. (2019). Object-in-place
+memory predicted by anterolateral entorhinal cortex and parahippocampal
+cortex volume in older adults. Journal of Cognitive Neuroscience, 31(5),
+711–729. https://doi.org/10.1162/jocn_a_01385
+Zancada-Menendez, C., Sampedro-Piquero, P., Lopez, L., & McNamara,
+T. P. (2016). Age and gender differences in spatial perspective taking.
+Aging Clinical and Experimental Research, 28(2), 289–296. https://
+doi.org/10.1007/s40520-015-0399-z
+Received October 10, 2024
+Revision received June 13, 2025
+Accepted June 23, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

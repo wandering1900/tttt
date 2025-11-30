@@ -1,0 +1,1606 @@
+﻿Gender Disparities in the Development of Information
+and Communication Technology (ICT) Literacy Across
+Adulthood: A Two-Wave Study
+Timo Gnambs and Mariann Schwaß
+Leibniz Institute for Educational Trajectories, Bamberg, Germany
+Despite the increasing importance of digital skills in modern society, the development of information
+and communication technology (ICT) literacy in adulthood has received limited attention, particularly
+regarding gender differences over the course of life. Therefore, this study investigated between-person
+differences and within-person changes in ICT literacy over approximately 9 years in a sample of N =
+2,266 adults from Germany. The result showed that younger adults exhibited higher ICT literacy than
+older adults, but within-person changes did not differ by age. On average, ICT literacy declined over
+time (Cohen’s d = −0.30). Men consistently demonstrated higher ICT literacy than women (Cohen’s
+d = 0.39), though gender did not influence changes in ICT literacy. Socioeconomic status did not
+robustly moderate these effects. These findings suggest that ICT literacy tends to decline across
+adulthood, while preexisting gender differences, likely rooted in earlier socialization processes, persist
+without substantial change.
+Public Significance Statement
+The study showed that younger adults and men exhibited higher information and communication
+technology literacy than older adults and women. While information and communication technology
+literacy declined over 9 years in all age groups, the gender gap was stable over 9 years.
+Keywords: information and communication technology literacy, digital competence, longitudinal, adulthood, gender
+Supplemental materials: https://doi.org/10.1037/pag0000923.supp
+Modern society is increasingly centered around online collaboration, remote learning, and digital work. In this context, the ability
+to effectively use information and communication technologies
+(ICT) is becoming more and more important. As individuals
+progress through different stages of adolescence and adulthood,
+their digital proficiencies can have a great impact on their educational attainment, employment opportunities, and overall quality
+of life (e.g., Chen et al., 2022; Lei et al., 2021; Livingstone et al.,
+2023). The development of digital competences across the life
+course has, however, received limited attention thus far, with some
+notable exceptions focusing on children and adolescents (Gnambs,
+2021; Lazonder et al., 2020; Senkbeil, 2022). But an understanding
+of how disparities in digital competencies, such as ICT literacy,
+emerge and persist across different life stages is essential for the
+development of effective interventions to reduce barriers for digital
+participation and to systematically address skill improvement.
+Cross-sectional research indicates that older adults are often at a
+disadvantage when it comes to digital skills (Llorente-Barroso et al.,
+2023; Olsson et al., 2019; Papí-Gálvez & La Parra-Casado, 2023; A.
+J. M. Van Deursen & van Dijk, 2019). This can have far-reaching
+implications such as difficulties in accessing essential online services,
+participating in the digital economy, maintaining independent living,
+and staying connected with family and friends. To gain a deeper
+understanding of how disparities in digital competencies emerge or
+change across adulthood, it is important to consider individual
+characteristics that contribute to and perpetuate these inequalities.
+One determinant that has been shown to contribute to digital disparities, at least among children and adolescents, is gender (Campos &
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First July 21, 2025.
+Gizem Hülür served as action editor.
+Timo Gnambs https://orcid.org/0000-0002-6984-1276
+Mariann Schwaß https://orcid.org/0009-0004-6569-053X
+The study was not preregistered. This article uses data from the National
+Educational Panel Study (NEPS; see Blossfeld & Roßbach, 2019). The NEPS
+is carried out by the Leibniz Institute for Educational Trajectories (Germany) in
+cooperation with a nationwide network. The raw data, including the study
+material, are available after registration at NEPS Network (2024). The analysis
+code is provided at https://osf.io/fvqth. A preprint of the article is available at
+https://osf.io/7p9mc_v2. The authors have no conflicts of interest to disclose.
+Timo Gnambs played a lead role in conceptualization, formal analysis,
+investigation, methodology, software, visualization, writing–original draft,
+and writing–review and editing. Mariann Schwaß played a supporting role in
+writing–original draft and writing–review and editing.
+Correspondence concerning this article should be addressed to Timo
+Gnambs, Leibniz Institute for Educational Trajectories, Wilhelmsplatz 3,
+96047 Bamberg, Germany. Email: timo.gnambs@lifbi.de
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 876–889
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000923
+876
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+877
+Scherer, 2024; Qazi et al., 2022; Siddiq & Scherer, 2019). Whether
+gender disparities can also explain changes in the digital divide among
+adults, however, is the focus of the present research. Adopting a
+developmental perspective, the study examines within-person changes
+in ICT literacy across approximately 9 years in a random sample of
+German adults aged between 26 and 67 years. The analyses focus on
+differential change trajectories for men and women to investigate
+gender-dependent heterogeneity in ICT literacy.
+Information and Communication Technology Literacy
+The concept of ICT literacy refers to a broad set of cognitive and
+technical skills required for the proficient use of digital technologies
+and communication tools, such as computers, smartphones, and
+internet platforms, to access, manage, integrate, evaluate, create,
+and communicate information in digital environments (Educational
+Testing Service, 2002). This definition outlines six key components
+of ICT literacy which are adopted in the theoretical frameworks of
+numerous international large-scale assessments (e.g., Fraillon &
+Duckworth, 2025; Senkbeil et al., 2013). The first component
+(access) pertains to the ability to operate diverse devices and
+software applications, enabling individuals to efficiently search for
+and retrieve information from digital sources. The capacity to
+organize and store digital information effectively (maintain) is an
+important requirement for individuals to be able to handle large
+volumes of data. The ability to synthesize information from multiple
+digital sources (integrate) enables individuals to compare, analyze,
+and combine content in meaningful ways. Furthermore, the ability to
+critically assess digital information (evaluate) allows individuals to
+determine the credibility, accuracy, and relevance of digital resources.
+Finally, ICT literacy encompasses the ability to produce new content
+using digital tools (create) and to share information effectively across
+diverse digital platforms (communicate). These components emphasize that ICT literacy goes beyond basic technical proficiency. It
+reflects a comprehensive ability to use digital tools and successfully
+manipulate information.
+The precise components subsumed under ICT literacy, however,
+can vary depending on the adopted theoretical framework (e.g.,
+Fraillon & Duckworth, 2025; Van Laar et al., 2017; Vuorikari et al.,
+2022). Adult literacy research, for example, frequently focuses on
+problem-solving abilities in technology-rich environments (Kirsch
+& Lennon, 2017) which emphasizes individuals’ ability to solve
+practical, work-related tasks in digital contexts, like filling out forms
+or troubleshooting software. But it does not cover informationrelated competencies, such as the ability to locate, process, and
+communicate information effectively (see Table 1). Newer definitions of ICT literacy, on the other hand, sometimes expand the scope
+of the concept to include additional skills, such as computational
+thinking or the ethical and responsible use of digital technologies
+(e.g., Fraillon & Duckworth, 2025; Vuorikari et al., 2022). In some
+cases, ICT literacy is also viewed as part of a more expansive set of
+21st century skills, which also encompass soft skills like creativity
+and critical thinking (Kain et al., 2024; Van Laar et al., 2017). The
+concept of ICT literacy has also significant overlap with related
+terms, such as critical online reasoning (Molerov et al., 2020), data
+literacy (Gebre, 2022), algorithmic literacy (Oeldorf-Hirsch &
+Neubaum, 2025), or artificial intelligence literacy (Pinski & Benlian,
+2024), which can result in jingle-jangle fallacies or a déjà-variable
+phenomenon (see Hanfstingl et al., 2024; Rubach, 2024)—whereby
+different concepts are labeled similarly or identical terms are used
+Table 1
+Description of ICT Literacy and Related Concepts
+Construct
+Description
+Further reading
+ICT literacy
+The ability to use digital technologies in everyday information
+environments purposefully and effectively for gathering, managing,
+evaluating, and communicating information.
+Fraillon and Duckworth (2025)
+Senkbeil et al. (2013)
+Problem-solving in technology-rich
+environments
+The ability to engage in goal-directed thinking and action with digital
+tools and resources to solve problems related to work and personal
+tasks.
+Kirsch and Lennon (2017)
+Twenty first century skills
+The abilities necessary for effective participation in a digital and
+knowledge-based society such as ICT literacy, collaboration,
+communication, creativity, critical thinking, and problem-solving.
+Kain et al. (2024)
+Van Laar et al. (2017)
+Computational thinking
+The ability to identify real-world problems and to evaluate and develop
+algorithmic solutions for these problems in a way a computer can
+carry out.
+Fraillon and Duckworth (2025)
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Critical online reasoning
+Data literacy
+The ability to effectively search for, evaluate, and verify digital
+information, particularly in contexts where credibility, bias, and
+source reliability are in question.
+The ability to read, interpret, create, and communicate data in various
+formats, including understanding how data is collected, analyzed,
+and used, as well as recognizing data quality, biases, and ethical
+considerations.
+The ability to understand how algorithms function and influence digital
+content, decision-making, and user experiences.
+The knowledge and skills needed to understand, use, and critically
+assess AI systems, including basic comprehension of how AI works,
+its capabilities and limitations, and the social, ethical, and legal
+implications of its use.
+Algorithmic literacy
+Artificial intelligence (AI) literacy
+Note.
+ICT = information and communication technology.
+Molerov et al. (2020)
+Gebre (2022)
+Oeldorf-Hirsch and Neubaum (2025)
+Pinski and Benlian (2024)
+878
+GNAMBS AND SCHWAß
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+refer to different concepts (see Table 1). Despite the ambiguity in
+terms, most definitions concur that ICT literacy is a general competence that comprises both declarative knowledge about digital
+technologies and procedural abilities that enable individuals to use
+digital environments effectively (Senkbeil, 2022; Senkbeil et al.,
+2013).
+ICT Literacy in Adulthood
+Digital technologies permeate nearly every aspect of daily
+activities, work, and societal participation. Therefore, proficiency in
+the use of ICT has become essential for routine tasks such as online
+banking, telehealth consultations, and digital communication. In the
+workplace, ICT literacy is critical for maintaining competitiveness
+in the job market (Van Laar et al., 2017). Workers across diverse
+sectors are increasingly required to demonstrate proficiency in
+complex software systems such as platforms for data management,
+project management, and digital collaboration. Consequently,
+higher ICT skills have become a sought-after competence in the
+workplace, leading to better employability and higher wages (e.g.,
+Eggenberger & Backes-Gellner, 2023; Falck et al., 2021). Notably,
+also older workers with stronger ICT skills often experience
+significant monetary returns, emphasizing the importance of digital
+competences throughout the life course (Lee et al., 2022). Beyond the
+professional realm, ICT literacy is also critical for preventing social
+exclusion (Ragnedda et al., 2022). By helping individuals to stay
+connected through digital communication platforms, individuals can
+maintain relationships with family, friends, and broader social networks, thus reducing the risk of social isolation that often accompanies aging. Consequently, those lacking adequate ICT skills are at a
+significant disadvantage in their personal and professional lives,
+underscoring the importance of ICT literacy for full participation in
+today’s digital society.
+At the same time, numerous studies identified a substantial digital
+divide in terms of access to, literacy in, and benefits derived from
+digital technologies (see Estrela et al., 2023; Siddiq & Scherer, 2019;
+Scherer & Siddiq, 2019; Qazi et al., 2022, for meta-analytic evidence). This divide often follows along demographic lines, with age
+being a particularly important factor (e.g., Ertl et al., 2020; Olsson
+et al., 2019; Papí-Gálvez & La Parra-Casado, 2023; A. J. M. Van
+Deursen & van Dijk, 2019). Age tends to increase the digital divide on
+at least three levels. The first level refers to reduced access to digital
+devices and the internet among older individuals. Although this firstlevel digital divide has diminished in recent decades and the majority
+of adults now have at least basic technical access to ICT (Vuorre &
+Przybylski, 2024; Zilian & Zilian, 2020), older adults still tend to own
+fewer types of digital devices and often have more limited internet
+access options compared to younger individuals (Quittschalle et al.,
+2020; A. J. M. Van Deursen & van Dijk, 2019). The second-level
+digital divide concerns disparities in digital skills. Older adults often
+have less exposure to formal ICT education and less frequent
+technology use over their lifetimes which can contribute to reduced
+proficiency in using modern technologies (e.g., Olsson et al., 2019).
+Some studies seem to support this conjecture showing lower ICT
+skills among older as compared to younger age groups (Van Laar
+et al., 2020). The respective age gap in ICT literacy is sometimes even
+larger as respective gaps for more traditional competence domains
+such as numeracy or reading (Ertl et al., 2020). The third level of the
+digital divide pertains to tangible benefits derived from digital media
+use. As age increases, individuals tend to reap less benefits from
+online activities such as digital communication than younger individuals (Van Deursen & Helsper, 2018). Taken together, the
+available findings suggest generational differences in the digital
+divide on all three levels. So far, it is unclear whether the observed
+increase in the digital divide of ICT literacy is a consequence of
+different socializations within different age groups or developmental
+processes associated with different life stages.
+Gender Differences in ICT Literacy
+According to widely shared gender norms, that is, simplistic and
+generalized beliefs about how men and women are expected to
+behave in certain contexts (Ellemers, 2018), modern technologies
+and computers are traditionally perceived as stereotypically male
+domains, where women are expected to perform less proficiently
+(Sieverding & Koch, 2009). The resulting gendered socialization
+processes then contribute to differences in interests and ICT skills
+between genders (see also Eccles & Wigfield’s, 2002, situated
+expectancy value theory). Such gendered stereotypes can also
+influence individuals’ self-perceptions, which, in turn, shape their
+engagement with ICT (Tellhed et al., 2023). Studies have shown that
+women frequently rate their digital competence lower than men do
+(Cai et al., 2017), even when controlling for their actual ICT skills
+(Gnambs, 2021). This tendency to undervalue their ICT skills can
+then negatively impact their digital engagement and impair further
+skill development (Senkbeil, 2022).
+While the expansion of mobile devices and digital services may
+have shifted these stereotypical perceptions to some degree, reducing
+the automatic association between ICT and men, gender differences in
+usage patterns remain (Bünning et al., 2023). In addition, women tend
+to shoulder a disproportionate share of domestic and caregiving
+responsibilities, leading to longer total work time per week compared
+to men (Kan et al., 2022), which might limit their time to develop
+digital skills. Men, on the other hand, are still more likely to work fulltime and hold technical occupations, providing them with more
+opportunities to acquire and practice ICT skills. This pattern is
+particularly evident among older adults, where women may have
+less exposure to ICT tasks due to less frequent engagement in
+digital activities at work, while men may make more frequent use
+of digital tools, which further reinforces their ICT competences
+(Bünning et al., 2023). In addition, more rigid gender stereotypes
+that were more prevalent some decades ago (Eagly et al., 2020),
+might further impact older women’s technology-related self-efficacy
+and, thus, their willingness to engage with digital environments.
+A broad body of research on gender differences in ICT literacy
+revealed, however, rather inconsistent findings. Among adolescents,
+some meta-analytic reviews showed higher ICT literacy among boys
+than girls (Long et al., 2023; Qazi et al., 2022), while others found
+reverse effects (Campos & Scherer, 2024; Siddiq & Scherer, 2019).
+Some research also suggests that gender differences in ICT literacy
+gradually emerge during adolescence. For example, Gnambs (2021)
+found negligible gender differences in ICT literacy disadvantaging
+boys at age 15, which grew more pronounced by age 18. In contrast,
+research on adult populations often showed that men tend to outperform women in areas like computer literacy and certain ICT skills
+(Long et al., 2023; Martínez-Cantos, 2017; Van Laar et al., 2020),
+although not consistently in all studies (Ertl et al., 2020). Some
+studies even indicate that the gender gap seems to be larger among
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+879
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+older people (Long et al., 2023). Taken together, the available
+findings point to notable gender differences in the digital divide,
+though the specific direction and magnitude of these effects vary
+across studies and age groups. While there is substantial research on
+adolescent ICT literacy, much less is known about how these gender
+differences develop throughout the life course. It remains unclear
+whether the gap between men’s and women’s digital skills widens
+over time, particularly in adulthood and older age.
+Objectives and Research Questions
+Most research on ICT literacy has been conducted from a crosssectional perspective, predominately focusing on adolescence (e.g.,
+Campos & Scherer, 2024; Lei et al., 2021; Livingstone et al., 2023;
+Siddiq & Scherer, 2019). However, there is limited knowledge
+about how ICT literacy evolves across the life course, particularly in
+adulthood. The present study aims to address this gap by investigating
+changes in ICT literacy within a diverse sample of adults aged 26–67
+years from Germany. Rather than simply examining between-person
+differences, this study emphasizes within-person changes in ICT
+literacy over a period of approximately 9 years. The research is guided
+by three major research questions (RQ).
+Social cognitive theory (Bandura, 1986) postulates that positive
+experiences with a task enhance self-efficacy, that is, an individual’s
+confidence in their ability to successfully perform similar tasks in
+the future. Higher self-efficacy can, in turn, boost motivation to
+engage in progressively challenging tasks, which allow for new
+learning opportunities. Similar assumptions are formulated in practice
+engagement theory (Reder et al., 2020) which assumes that individual’s proficiencies develop as a by-product of their engagement
+in practices at work, in the family, during leisure or other contexts.
+The thereby acquired proficiency affects the willingness to engage in
+such activities in return. Applied to ICT literacy, this theory suggests
+two dynamics: a generational divide between individuals, as older
+generations were exposed to fewer opportunities to engage with new
+technologies earlier in life, and lifelong growth within individuals, as
+the accumulation of experiences with digital technologies continues
+throughout life. In line with these assumptions and respective crosssectional research (e.g., Olsson et al., 2019; Papí-Gálvez & La ParraCasado, 2023; A. J. M. Van Deursen & van Dijk, 2019), we therefore
+expect to observe pronounced differences in ICT literacy between age
+groups at the initial measurement. Younger individuals are likely to
+demonstrate higher digital skills compared to older adults, with ICT
+skills gradually declining with the age of the respondents. In addition,
+also within-person ICT literacy is expected to increase, on average,
+over the observational period, as digital technologies become more
+integral to daily life. The necessity of using devices such as smartphones or computers for work and personal tasks has grown substantially, particularly during the COVID-19 pandemic. This increase
+in the use of digital technologies may have contributed to increases
+in ICT literacy in the population. However, since older adults tend
+to use digital devices less frequently (Quittschalle et al., 2020; A. J.
+M. Van Deursen & van Dijk, 2019) and are more likely to be retired,
+we expect younger participants to show greater increases in ICT
+literacy over the 9-year period compared to older individuals.
+RQ1a: ICT literacy at baseline decreases with the individuals’ age.
+RQ1b: ICT literacy increases within individuals across
+measurement waves, but less so with increasing age.
+Despite inconsistent findings on a gender gap in ICT literacy,
+particularly among youths (Campos & Scherer, 2024; Qazi et al.,
+2022; Siddiq & Scherer, 2019), studies on adults generally indicated
+that men tend to exhibit higher digital skills than women (Long
+et al., 2023; Martínez-Cantos, 2017; Van Laar et al., 2020). It is also
+plausible to assume that gender disparities in ICT literacy are more
+pronounced among older adults, who were more exposed to traditional gender roles for a longer time (Eagly et al., 2020). In addition,
+ICT literacy may increase more strongly among men than within
+women over time because men are more likely to be in full-time
+employment, often in technical fields. In contrast, women who are
+more frequently employed part-time and bear greater domestic and
+caregiving responsibilities (Kan et al., 2022) may have fewer
+opportunities to develop ICT skills (Bünning et al., 2023).
+RQ2a: ICT literacy at baseline is higher for men than women,
+more so for older individuals.
+RQ2b: The increase in ICT literacy within persons across
+measurement waves is stronger for men as compared to women.
+Gender does not influence skill development in isolation but
+interacts with other social categories such as ethnicity or social
+class (Codiroli Mcmaster & Cook, 2019; Collins, 2015). For
+example, individuals with higher cultural capital are often exposed
+to more egalitarian gender roles at work and their social circle and,
+thus, are less likely to accept traditional gender stereotypes (Davis &
+Greenstein, 2009). Women from higher socioeconomic backgrounds
+are also more likely to pursue careers in traditionally male-dominated
+fields such as science, technology, engineering, and mathematics
+(Codiroli Mcmaster, 2017). As a result, it is plausible that gender
+differences in ICT literacy are smaller among individuals with
+higher socioeconomic status, who are also more exposed to
+diverse technologies as part of their work, than among those with
+lower status.
+RQ3a: The gender difference in ICT literacy at baseline
+decreases with the socioeconomic status of the respondents.
+RQ3b: The gender difference in ICT literacy growth within
+persons is smaller among individuals with higher socioeconomic status than those with lower status.
+Most existing research on ICT literacy focuses on mean differences between social groups, such as men and women, while the
+distribution of ICT literacy within these groups, that is, the extent to
+which digital skills vary, remains unexplored. Research on cognitive
+abilities, however, indicates pronounced variance in cognitive
+functioning between the genders, with men more often observed at
+both tails of the competence distribution and women exhibiting more
+homogenous cognitive profiles (Hyde, 2014; Johnson et al., 2008).
+So far, it is unclear whether these findings also extend to ICT literacy
+and how factors such as age and socioeconomic status influence
+the variability of digital skills among men and women. Since there is
+no prior research on this topic and limited theoretical guidance for
+formulating precise hypotheses, we adopt an exploratory approach
+880
+GNAMBS AND SCHWAß
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+to examine the role of gender, age, and socioeconomic status in
+shaping the variance of ICT literacy over the 9-year period.
+Materials and Method
+Transparency and Openness
+We report how we determined our sample size and describe all
+data exclusions and manipulations in the study. The raw data,
+including the study material, are available after registration at NEPS
+Network (2024). In addition, the computer code to reproduce the
+presented findings and the results of the statistical analyses are
+available at https://osf.io/fvqth. The study was not preregistered.
+Information on the software used for the analyses can be found in
+Supplemental Material A.
+Sample and Procedure
+The National Educational Panel Study (NEPS) is an ongoing
+longitudinal study that follows representative samples of the German
+population over the course of their lives (Blossfeld & Roßbach,
+2019). Participants in the adult cohort, the focus of the present study,
+were selected using a two-stage cluster sampling approach to cover
+the target population of people living in Germany born between 1944
+and 1986 (see Aßmann et al., 2019 for details). They received annual
+surveys and cognitive tests in their private homes, administered by
+experienced interviewers from a professional survey institute. For this
+study, N = 2,266 respondents (49% women) who participated in
+the assessment of digital competencies were considered. The first
+assessment was conducted between October 2013 and April 2014,
+while the second assessment window was between September 2021
+and April 2022. The median time between the two assessments was
+8.92 years (Min = 8.47, Max = 9.46). The age of the participants in the
+first wave was roughly evenly distributed between 26 and 67 years,
+with a mean of 48.22 years (SD = 9.66). They had an average of 14.80
+years of education and most of them (85%) were employed in different occupations. The occupations of the respondents’ covered a
+wide range, including both blue-collar and white-collar jobs, with
+about 52% of the participants working in high-skilled occupations
+(i.e., International Standard Classification of Occupations 1–3)
+according to the International Standard Classification of Occupations
+(International Labour Organization, 2012). About 7% of the participants had a migrant background, meaning that they or at least one
+of their parents were born outside Germany. Most of them (70%)
+reported that they were married.
+Instruments
+ICT Literacy
+ICT literacy was measured with achievement tests developed
+specifically for the NEPS. Following established frameworks
+from international large-scale assessments (e.g., Educational
+Testing Service, 2002), the study adopted a literacy concept that
+focuses on the relevance of competencies for successful participation in modern societies. ICT literacy was conceptualized as a
+unidimensional construct based on the Educational Testing Service’s
+(2002) definition, which refers to four process components (i.e.,
+accessing, creating, managing, and evaluating information; see
+Senkbeil et al., 2013 for details). Each item referred to one or two
+process components and presented realistic problems to be solved
+using a software application. Therefore, all items integrated common technologies such as an internet browser, a search engine, or a
+spreadsheet into the task stimulus. The tests administered at the
+two measurement occasions contained 29 and 19 multiple-choice
+items, respectively, with up to six response options, including one
+correct option. Each item was scored as correct or incorrect. The
+second test also contained 14 interactive items (see Gnambs &
+Senkbeil, 2023). These represented software simulations that required
+participants to interact with technology and complete several steps to
+achieve a goal (e.g., open a web browser, navigate through a menu
+structure). The number of successful task completions represented the
+item score.
+On the first measurement occasion, all respondents received all
+items of the test. In contrast, the second test used a multistage design
+(Pohl, 2013). Thus, each respondent received only a subset of 20
+items, depending on their responses during the test. The test was
+administered on article in the first wave and on computer in the
+second wave. Both assessments were conducted individually at the
+respondents’ homes, supervised by experienced test administrators.
+In both waves, the test time was limited to 28 min.
+Both tests were scaled using the unidimensional partial credit
+model (Masters, 1982). Item responses at each wave showed a good
+fit to the item response model, essential unidimensionality, and
+negligible differential item functioning across various subgroups
+(see Gnambs & Senkbeil, 2023; Senkbeil & Ihme, 2015). Additional
+analyses reported in Supplemental Material B also confirmed the
+approximate measurement invariance of both tests across gender,
+age, and socioeconomic status. The marginal reliabilities of the tests
+were .80 and .71, respectively. To allow longitudinal mean-level
+comparisons, the two tests were placed on a common scale across
+waves using an independent bridge study in which respondents
+received both tests at the same time (see Gnambs & Senkbeil, 2023).
+The bridge study allowed both tests to be scaled concurrently, and
+then the tests administered in the present sample to be placed on a
+common metric using a mean/mean linking approach (see Fischer
+et al., 2016 for more details). Respondents’ digital competencies
+were given by 100 plausible values that were drawn for each
+respondent and allow acknowledging the uncertainty in the
+measurements (see Supplemental Material C).
+Gender
+The gender of the respondents was measured as a self-rating with
+two response options (0 = male, 1 = female). Additional gender
+categories (e.g., nonbinary) were not presented. However, respondents were allowed to skip the question without providing
+an answer.
+Socioeconomic Status
+Following previous research (Antonoplis, 2023), two indicators
+were created to represent socioeconomic status, namely, years in
+education and occupational prestige. As these two indicators are
+likely to vary with the age of the respondent (e.g., people get better
+jobs as they progress in their careers), information on socioeconomic status was used when the respondent was 30 years old. This
+age roughly corresponds to the age of the youngest participants in
+the sample and is also an age at which most people have completed
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+881
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+their education and have a job. As the NEPS aims to collect
+complete educational and occupational histories for all respondents,
+information on socioeconomic status was reconstructed from the
+biographical data for a respondent at a given age.
+The years in education of each respondent at age 30 were derived
+from an internationally comparable classification of educational
+qualifications (Brauns et al., 2003). Years of education represent the
+average number of years required to obtain a given qualification
+(e.g., bachelor’s degree). The indicator can take values between 9
+(equivalent to compulsory schooling) and 18 (equivalent to a
+master’s degree from a university). Doctoral degrees are not separately coded in this measure and, thus, are included in the highest
+category. Occupational prestige at age 30 was given by the international socioeconomic index of occupational status (Ganzeboom,
+2010), which is derived from the respondent’s job while taking into
+account the education required for the job and the income received.
+The international socioeconomic index of occupational status ranges
+from 10 (e.g., cleaning staff) to 98 (e.g., judges), with higher values
+reflecting higher socioeconomic status. For respondents out of the
+labor force at the age of 30, the corresponding values were taken from
+jobs held in adjacent years (i.e., between the ages of 27 and 33).
+Auxiliary Variables
+Control variables used in the analyses included the time lag (in
+years) between the two measurements of ICT literacy. In addition,
+the sampling weights provided in the NEPS were used to adjust for
+unequal sampling probabilities (see Hammon et al., 2016).
+Statistical Analyses
+The research questions were addressed using latent location-scale
+change score analyses, which model the latent competence scores
+at baseline and latent difference scores between the two measurements. Although an ongoing debate revolves around the appropriate
+analysis strategy for longitudinal two-wave data (e.g., Castro-Schilo
+& Grimm, 2018), there is a growing consensus that change score
+analyses are often preferable because they allow controlling for
+unobserved confounders (Lüdtke & Robitzsch, 2025). Age differences in ICT literacy at baseline and their change over 9 years were
+examined by regressing the competence scores at the first measurement and the difference between the two measurements on age.
+Potential nonlinear age trajectories were evaluated using piecewise
+age models that specified different linear age trajectories for five age
+groups (i.e., up to 30 years, between 30 and 40 years, between 40
+and 50 years, between 50 and 60 years, and over 60 years). Then,
+gender differences in ICT literacy were examined by including
+gender and its interactions with age and socioeconomic status as
+predictors of baseline and difference scores. These analyses were
+specified as location-scale models (Rigby & Stasinopoulos, 2005)
+with identity and log links for the mean and variance components,
+respectively. This allowed exploring whether gender explained not
+only mean ICT scores but also variance in ICT scores. In these
+models, ICT scores were z-standardized with respect to the first
+measurement. Therefore, the regression coefficients for the mean of
+ICT scores can be interpreted similarly to traditional standardized
+effect sizes in the normal metric. In contrast, the regression coefficients for the variance of ICT scores are reported in the logarithmic
+metric. These analyses were repeated for each plausible value of
+ICT literacy and then combined using Rubin’s rules to examine
+latent effects corrected for measurement error (Mislevy, 1991).
+The analyses adjusted for the varying time lag between the two
+measurements by including the time lag as a covariate in the models.
+Sampling weights were used to adjust for the disproportionate
+sampling probabilities. Missing values were imputed 100 times with
+classification and regression trees using chained equations (Doove
+et al., 2014). However, the missing rates were rather low for all
+variables (see Table 2). The analysis results of the multiple imputed
+data sets were combined using Rubin’s rules. A Type I error level of
+1% was assumed for all inference tests.
+Ethics Statement
+The study was conducted in full compliance with the ethical
+standards outlined in the Declaration of Helsinki and the requirements of the general data protection regulation in Germany. All data
+collection procedures and instruments were approved by a special
+data protection and security officer of the NEPS in line with national
+ethical and legal regulations. All participants provided written
+informed consent before study enrollment and could withdraw from
+the longitudinal study at any time.
+Results
+Descriptive Analyses
+ICT literacy scores were significantly (p < .01) negatively
+associated with respondents’ age (see Table 2) on both measurement
+occasions, r = −.47 and −.56, respectively, showing that it declined
+with age. Mean-level analyses of within-person change over 9 years
+mirrored this pattern, showing a small decrease in ICT literacy with
+Cohen’s d = −0.30, 99% CI [−0.37, −0.23]. In addition, the
+variance of ICT literacy decreased across measurement occasions by
+a factor of 0.72, 99% CI [0.60, 0.84]; see standard deviations in
+Table 2.
+To illustrate the age-related trajectories in ICT literacy, Figure 1
+plots the predicted effects of local polynomial regressions using
+either ICT scores at the first measurement or the difference in ICT
+scores between measurement occasions. The plot shows that the
+age-related differences in ICT literacy between respondents
+decreased almost linearly by about 2 SDs from respondents in their
+twenties to those in their sixties. In contrast, the 9-year change
+within persons showed no age-related variation. Rather, ICT literacy
+declined comparably across all age groups.
+Age-Related Change Trajectories
+The latent change score model without moderating effects of
+gender was identified by comparing a model with linear age effects
+on the latent baseline and difference scores with a latent change
+score model with piecewise age effects on both latent scores. Model
+comparisons using the Bayesian information criterion favored the
+simpler models with linear age over the more complex piecewise
+models for baseline digital competence scores (Bayesian information criterion = 5,823 vs. 5,852) and difference scores between
+measurements (Bayesian information criterion = 4,702 vs. 4,733).
+These results were also confirmed by nonsignificant likelihood ratio
+tests, F(8, 809.77) = 2.29, p = .020, and F(8, 266.20) = 0.96, p =
+.468, which also favored the simpler models with linear age effects.
+882
+GNAMBS AND SCHWAß
+Note. N = 2,266. Results are based on 100 plausible values and multiply imputed data sets. ICT = information and communication technology; MV =
+percentage of missing values.
+*
+p < .01.
+Therefore, a linear age trend was modeled in the subsequent
+analyses.
+On average, an age difference of 10 years corresponded to a
+difference in baseline ICT literacy of about −0.49 SD, 99% CI
+[−0.54, −0.43] (see Table 3); thus, ICT literacy declined continuously across age. In contrast, the decline in ICT literacy within
+persons over 9 years was more or less stable across ages, changing
+by only about −0.01 SD, 99% CI [−0.07, 0.09], over a 10-year
+period. The variance in ICT scores at baseline appeared to gradually
+decrease over 10 years by a factor of 0.95, 99% CI [0.90, 1.00].
+However, the respective effect was not significant, p = .018. The
+variance of the difference scores was not affected by the age of the
+respondents, as indicated by the nonsignificant age effect, B =
+−0.03, 99% CI [−0.04, 0.10] (see Table 3).
+Figure 1
+Age-Related Change of ICT Literacy in Adulthood
+Note. Predicted effects from local polynomial regression analyses (solid
+lines) with 99% confidence intervals (gray shadings). Bars on the x-axis
+represent the distribution of respondents. ICT scores were z-standardized
+with respect to the first measurement. ICT = information and communication
+technology. See the online article for the color version of this figure.
+Gender Differences in ICT Literacy
+The baseline model with linear age effects was extended to
+include a main effect of gender and its interaction with age. As
+summarized in Table 3, gender showed a main effect with men
+having higher ICT literacy than women, B = −0.37, 99% CI [−0.60,
+−0.13], but did not moderate age differences in baseline ICT scores.
+This effect is also shown in Figure 2 (top row, left column), which
+shows the predicted ICT scores for men and women. The plot shows
+that, over the observed age range of the respondents, the difference
+in ICT scores between gender remained almost constant, neither
+increasing nor decreasing. In contrast, the difference in ICT scores
+between the two measurements was not affected by gender, B =
+0.07, 99% CI [−0.19, 0.33]. Thus, the 9-year change within persons
+was comparable for men and women. Also, the variance in ICT
+scores showed no gender differences (see Table 3).
+Moderating Effects of Socioeconomic Status
+The two indicators of socioeconomic status, that is, years in
+education and occupational prestige, were evaluated in independent
+analyses to examine the robustness of the results to the chosen
+operationalization. The results summarized in Table 4 show that
+socioeconomic status did not moderate gender differences in ICT
+scores, either at baseline or for the 9-year difference score. However,
+both indicators showed main effects, suggesting an additive effect.
+Baseline digital competence scores increased by 0.24 standard units,
+99% CI [0.17, 0.31], for each additional year of education and by
+0.53 standard units, 99% CI [0.35, 0.71], for an increase of 1 SD in
+occupational prestige. The respective main effects are visualized in
+Figure 2 (top row) which shows the predicted ICT scores for respondents with 13 years of education (equivalent to a university
+entrance qualification or vocational master’s degree) and 16 years of
+education (equivalent to a bachelor’s degree). The chosen values of
+years in education correspond approximately to the first and third
+quartiles of the variable in the present sample. The plot shows that,
+regardless of the age of the respondents, the ICT scores were
+significantly higher for high status respondents compared to low
+status respondents. A similar pattern emerged for occupational
+prestige (see Table 4). Figure 2 (right plot) shows that the predicted
+effects were significantly smaller for respondents with low prestige,
+such as service or clerical workers, than for respondents with
+high prestige, such as managers or professionals. Again, the chosen
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 2
+Means, Standard Deviations, and Correlations Between Study Variables
+Variable
+M SD
+MV
+Correlation
+1 2 3 4 5 6
+1. ICT literacy in Wave 1
+2. ICT literacy in Wave 2
+3. Gender (0 = men, 1 = women)
+4. Years in education
+5. Occupational prestige
+6. Age (in years)
+0.00
+0.00
+0.00
+0.18
+0.71
+0.00
+1.00
+0.85
+0.50
+2.32
+18.58
+9.66
+0.00
+−0.28
+0.49
+14.65
+50.25
+48.26
+—
+.72*
+−.20*
+.47*
+.40*
+−.47*
+—
+−.13*
+.35*
+.29*
+−.56*
+—
+−.04
+−.08*
+.02
+—
+.52*
+−.12*
+—
+−.10*
+—
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+883
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 3
+Parameter Estimates of Latent Location-Scale Change Score Models for Age and Gender
+Model
+Age
+Gender
+Baseline ICT literacy
+Difference in ICT
+literacy
+Baseline ICT literacy
+Difference in ICT
+literacy
+B
+B
+B
+B
+SE
+SE
+SE
+SE
+0.69*
+−0.49*
+0.00
+−0.05
+−0.21*
+0.01
+−0.40*
+0.03
+0.05
+0.02
+0.04
+0.02
+0.06
+0.03
+0.06
+0.03
+Model for location
+Intercept
+Age
+Gender
+Age × Gender
+Model for scale
+Intercept
+Age
+Gender
+Age × Gender
+0.86*
+−0.48*
+−0.37*
+0.00
+−0.06
+0.00
+0.08
+−0.11*
+−0.25*
+−0.02
+0.07
+0.04
+−0.43*
+0.04
+0.05
+−0.02
+0.06
+0.03
+0.09
+0.04
+0.05
+0.03
+0.08
+0.04
+0.07
+0.04
+0.10
+0.05
+0.07
+0.04
+0.11
+0.05
+Note. Age in years was centered at 30 and divided by 10. Gender was coded 0 for men and 1 for women. Results for covariates are not presented. Based
+on 100 plausible values. ICT = information and communication technology; B = regression coefficient; SE = standard error of B.
+*
+p < .01.
+values of occupational prestige corresponded approximately to the
+first and third quartiles of the variable in the present sample.
+Figure 2 (bottom row) also shows that the differences in ICT
+scores between the two measurement occasions were moderated by
+socioeconomic status. Respondents with more years in education or
+higher prestige occupations exhibited a greater decline in ICT literacy than respondents with less education or lower prestige occupations, for whom the 9-year change was substantially smaller.
+Figure 2
+Predicted Age-Trajectories for Baseline ICT Literacy and Difference in ICT Literacy
+Note. Predicted effects from location-scale regression analyses (solid lines) with 99% confidence intervals (gray shadings). ICT scores were z-standardized
+with respect to the first measurement. ICT = information and communication technology. See the online article for the color version of this figure.
+884
+GNAMBS AND SCHWAß
+−0.26*
+−0.03
+0.07
+−0.20*
+0.05
+−0.01
+0.01
+0.07
+−0.48*
+0.04
+0.05
+−0.04
+0.00
+0.02
+−0.03
+0.01
+0.17
+−0.01
+0.13
+−0.07
+0.00
+−0.01
+−0.02
+0.02
+−0.46*
+0.03
+0.03
+0.00
+−0.01
+0.00
+0.00
+0.01
+0.90*
+−0.47*
+−0.40*
+0.53*
+0.01
+0.00
+−0.13
+−0.06
+−0.21*
+−0.02
+0.13
+−0.02
+−0.08
+−0.03
+−0.08
+0.07
+0.57*
+−0.44*
+−0.35*
+0.24*
+0.03
+−0.01
+−0.06
+0.00
+−0.31*
+0.04
+0.26*
+0.03
+−0.17*
+−0.02
+−0.08*
+0.04*
+0.07
+0.03
+0.10
+0.03
+0.05
+0.01
+0.04
+0.02
+0.06
+0.03
+0.09
+0.03
+0.04
+0.01
+0.03
+0.02
+0.09
+0.04
+0.12
+0.03
+0.06
+0.01
+0.04
+0.02
+0.09
+0.04
+0.13
+0.03
+0.06
+0.01
+0.04
+0.02
+0.06
+0.03
+0.09
+0.07
+0.04
+0.03
+0.10
+0.04
+0.06
+0.03
+0.08
+0.06
+0.04
+0.03
+0.08
+0.04
+0.07
+0.04
+0.10
+0.07
+0.05
+0.04
+0.10
+0.05
+0.07
+0.03
+0.10
+0.07
+0.05
+0.04
+0.10
+0.05
+Model for location
+Intercept
+Age
+Gender
+Socioeconomic status
+Age × Gender
+Age × Socioeconomic Status
+Gender × Socioeconomic Status
+Age × Gender × Socioeconomic Status
+Model for scale
+Intercept
+Age
+Gender
+Socioeconomic status
+Age × Gender
+Age × Socioeconomic Status
+Gender × Socioeconomic Status
+Age × Gender × Socioeconomic Status
+Note. Age in years was centered at 30 and divided by 10. Gender was coded 0 for men and 1 for women. Occupational prestige was z-standardized.
+Results for covariates are not presented. Based on 100 multiply imputed data. ICT = information and communication technology; B = regression
+coefficient; SE = standard error of B.
+*
+p < .01.
+The respective effects were B = −0.07, 99% CI [−0.14, 0.00] and
+B = −0.20, 99% CI [−0.39, −0.02], respectively (see Table 4).
+The variance in ICT scores was not robustly moderated by
+socioeconomic status (see Table 4). Neither years in education nor
+occupational prestige showed a significant main effect or interaction
+with gender. Although there was a small three-way interaction
+between gender, socioeconomic status, and age of B = 0.04, 99% CI
+[0.00, 0.09], on baseline ICT scores for years in education, this effect
+did not replicate for occupational prestige. Therefore, this unexpected effect was not investigated further.
+Discussion
+Although modern communication and information technologies
+play an increasingly important role in daily work and private life for
+many people, the question of how ICT literacy changes across the
+lifespan and what disparities emerge during adulthood remains
+underexplored. While research on the correlation between age and
+ICT literacy has grown in recent years (e.g., Ertl et al., 2020; Olsson
+et al., 2019; Van Laar et al., 2020), the present research is among the
+first to adopt a longitudinal perspective to examine both performance differences between age groups and also within-person
+changes. A particular focus of these investigations was on gender
+disparities and how they evolve over the life course. A longitudinal
+two-wave study of a large sample of German adults revealed four
+key findings. First, younger individuals exhibited significantly
+higher ICT literacy on average than older individuals. However, ICT
+literacy declined gradually within all respondents, regardless of their
+age. Second, gender differences in ICT literacy consistently favored
+men and remained stable across age groups and over time. Third,
+socioeconomic status did not moderate gender disparities in ICT
+literacy. Finally, variance in ICT literacy was not systematically
+linked to gender or socioeconomic status. These findings highlight
+that while ICT literacy is subject to a systematic decline in adulthood, preexisting gender inequalities established during earlier
+socialization processes persist across the life course.
+Toward an Explanation of Adult ICT Literacy Declines
+Interpreting within-person changes in ICT literacy over time is
+inherently challenging as individual psychological processes are
+often confounded with broader societal and technological developments that affect the population as a whole. Given the rapid pace
+of technological change, technologies once considered cutting-edge
+can quickly become obsolete, as seen in the widespread replacement
+of, for example, optical media (e.g., CDs and DVDs) by cloud
+storage and streaming services. Consequently, the observed decline
+in ICT literacy could, in part, reflect a mismatch between the
+assessment content and the prevalent technologies that were in use.
+Although the administered tests focused on core applications such as
+office software, email, and search engines (see Senkbeil et al., 2013)
+that remained broadly relevant throughout the observation period,
+other technologies such as real-time collaboration platforms gained
+prominence (particularly, in the context of remote work during the
+COVID-19 pandemic). Because such emerging tools were not
+considered in the assessment, newer ICT competencies may not
+have been adequately captured. In this case, the observed decline
+may not reflect a true loss of digital skill, but rather a shift in the
+types of skills being used. For example, participants may have
+gained proficiency in newer tools while simultaneously losing
+fluency in applications that became less central to their daily lives.
+Moreover, the effect could have been amplified by differential
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Table 4
+Parameter Estimates of Latent Location-Scale Change Score Models for Moderation of Socioeconomic Status
+Model
+Occupational prestige
+Years in education
+Baseline ICT
+literacy
+Difference in ICT
+literacy
+Baseline ICT
+literacy
+Difference in ICT
+literacy
+B
+SE
+B
+SE
+B
+SE
+B
+SE
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+885
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+relevance of specific technologies across age groups, for example,
+older adults relying more on traditional office software, while
+younger individuals preferring messaging software and mobile
+tools. Yet, the absence of age-related differences in longitudinal
+decline suggests that such age-specific shifts are unlikely to fully
+explain the observed pattern. Given that similar declines have been
+reported in cross-sectional panel research involving adolescent
+samples around the world (Fraillon et al., 2024), the findings may
+point to a genuine decline in the specific ICT skills measured, even
+as other, unmeasured digital competencies may have developed in
+parallel.
+From a psychological standpoint, the observed decline in ICT
+literacy can be interpreted through, Baltes’ (1993) lifespan theory on
+intelligence development. From this perspective, ICT literacy can be
+understood as a domain-specific competence, a form of crystallized
+intelligence, that, however, also relies on fluid cognitive skills
+such as problem-solving and processing capacity (Senkbeil, 2022).
+Consequently, its developmental trajectory is likely shaped by the
+combined pattern of fluid and crystallized intelligence (Baltes,
+1993). Fluid intelligence typically peaks in adolescence and begins
+to gradually decline after approximately age 15, while crystallized
+intelligence tends to increase slightly later and remains stable from
+around age 20. Combining these trajectories suggests a steep growth
+in ICT literacy until adolescence, followed by a plateau and a
+gradual decline starting from around age 50. Although this idea
+was originally proposed for reading and mathematical competencies (Lechner et al., 2021), it may also apply to ICT literacy.
+While this theory can explain the observed decline in ICT
+literacy—especially as the respondents in the present study were
+on average 48 years at the first measurement which represents the
+typical age the decline presumably onsets (Lechner, 2023)—it
+would also predict age-related variations in growth, consistent with
+our original hypothesis. However, contrary to this expectation, the
+findings indicate a uniform decline in ICT literacy across all age
+groups. Thus, current models of intelligence development (Baltes,
+1993) only partially account for the observed patterns of change in
+ICT development. These results suggest that further, still unknown,
+processes need to be considered to fully capture the patterns of ICT
+literacy development across adulthood.
+Toward an Explanation of Gender Inequalities in ICT
+Literacy
+When interpreting findings on gender differences in ICT literacy,
+it is essential to consider the age of the respondents, as the size and
+direction of these differences appear to shift over time. Metaanalyses focusing on students revealed a female advantage in ICT
+literacy (Campos & Scherer, 2024; Siddiq & Scherer, 2019) that was
+more pronounced in primary schools compared to secondary
+schools. In contrast, a meta-analysis that also included adult samples
+identified small effects favoring boys and men (Qazi et al., 2022).
+Similarly, longitudinal research has observed the emergence of a
+gender gap favoring boys during late adolescents (Gnambs, 2021),
+suggesting that gender disparities in ICT literacy may gradually
+evolve over the life course. Given that several studies with adult
+samples reported men to exhibit better digital skills than women
+(Long et al., 2023; Martínez-Cantos, 2017; Van Laar et al., 2020),
+we explored whether this trend continued in adulthood. We
+hypothesized that ICT literacy would be higher for men than for
+women, particularly as individuals grow older. However, our
+findings did not support this assumption. While men consistently
+demonstrated higher ICT literacy than women, the difference remained stable and did not grow with age or vary with baseline age or
+socioeconomic status. These results confirm a persistent digital
+divide in adulthood, favoring men.
+Several explanations could account for the stability of gender
+disparities in ICT literacy. First, despite some evidence to the
+contrary (Bünning et al., 2023), ICT practices among men and
+women might be more similar than different. Both genders frequently develop consistent habits and applications of ICT aligned
+with their professional or personal needs. As modern workplaces
+and daily life increasingly require similar uses of ICT, the observed
+gap may neither narrow significantly nor widen further. Second,
+many adults may reach a plateau in ICT literacy, achieving a level
+sufficient to effectively use available digital devices. Without
+pronounced deficits or active engagement in advanced training,
+their skills may remain stagnant. This plateau effect could contribute to the stable gender gap observed. Third, gender differences
+in ICT literacy often emerge during adolescence or earlier due to
+societal norms, gender stereotypes, and differences in opportunities or
+encouragement to engage with technology (see Gnambs, 2021). These
+early influences tend to establish baseline differences in ICT skills that
+may persist into adulthood unless new factors intervene.
+Therefore, the observed stability of gender differences in ICT
+literacy during adulthood might reflect the effect of stable ICT
+usage patterns, comparable demands on ICT skills in everyday
+contexts, and developmental processes already established during
+adolescence.
+Limitations and Future Research
+Despite several notable strengths of the present study, including
+the use of a large and diverse sample assessed in a repeated
+measurement design, several limitations should be considered that
+provide opportunities for future research. First, the study was
+unable to isolate periodic effects, as this would require a cohortsequential design (Estrada & Ferrer, 2019). One such periodic
+factor was the COVID-19 pandemic, which was ongoing during
+the second measurement occasion. Given that the pandemic led to
+an abrupt shift of workplaces and personal interactions into digital
+spaces, an increase in computer and internet use seemed likely.
+However, the present findings did not reveal a corresponding
+improvement in ICT skills during the second wave. This highlights
+an important factor: increased ICT usage does not automatically
+translate into enhanced skill development, even though it provides
+more learning opportunities. It is possible that the abrupt and
+involuntary nature of the pandemic-driven digitization may have
+worsened attitudes toward technology, thereby mitigating potential
+improvements in ICT literacy. Future research should investigate the
+development in ICT skills further to explore how contextual factors
+influence skill acquisition.
+Second, the conceptualization of ICT literacy in the present study
+focused primarily on diverse technical and operational aspects of
+using contemporary software and digital applications (Senkbeil
+et al., 2013). Other critical dimensions of digital competence such as
+the ability to critically evaluate online content, use social media
+responsibly, or manage social interactions in digital environments
+were not addressed. Yet, previous research indicates that gender
+886
+GNAMBS AND SCHWAß
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+disparities may vary across these dimensions. For example, girls
+have been found to outperform boys in areas related to communication and social networking, while boys tend to excel in tasks
+requiring technical knowledge and information processing (Aesaert &
+Van Braak, 2015; Christoph et al., 2015). Therefore, future research
+is encouraged to consider additional facets of digital competence to
+better capture the multifaceted nature of the concept (see Van Laar et
+al., 2017; Vuorikari et al., 2022).
+Finally, future studies should explore how factors such as inequalities in ICT access, motivation, stereotype beliefs, and anxiety
+may contribute to the persistence of gender disparities (see Karpiński
+et al., 2023). Integrating these concepts into a broader theoretical
+context could help identify protective factors that may reduce genderspecific differences in ICT literacy and improve gender equality.
+Moreover, incorporating behavioral measures such as frequency and
+intensity of technology use (beyond simple indicators of access or
+device ownership) may help uncovering mechanisms underlying the
+observed decline in ICT literacy over time.
+Conclusion
+A substantial digital divide persists in the German population that
+reflects both generational and gender-related inequalities. Notably,
+ICT literacy showed a decline across all generations, despite the
+rapid digitalization that was triggered by the recent pandemic. The
+stable gender gap across age groups and the life course underscores
+the importance of early socialization processes rooted in childhood
+and adolescence for the development of digital skills. These findings
+have profound implications, as digital competencies can exacerbate
+inequalities in educational achievement, economic mobility as well
+as social and civic participation, potentially widening existing social
+divides. Consequently, targeted strategies are required to address
+these disparities, particularly for ageing populations to catch up on
+ICT skills that enable active and effective participation in a digital
+society.
+References
+Aesaert, K., & Van Braak, J. (2015). Gender and socioeconomic related
+differences in performance based ICT competences. Computers &
+Education, 84, 8–25. https://doi.org/10.1016/j.compedu.2014.12.017
+Antonoplis, S. (2023). Studying socioeconomic status: Conceptual problems
+and an alternative path forward. Perspectives on Psychological Science,
+18(2), 275–292. https://doi.org/10.1177/17456916221093615
+Aßmann, C., Steinhauer, H. W., Würbach, A., Zinn, S., Hammon, A., Kiesl,
+H., & Blossfeld, H. P. (2019). Sampling designs of the National
+Educational Panel Study: Setup and panel development. In H.-P. Blossfeld
+& H.-G. Roßbach (Eds.), Education as a lifelong process: The German
+National Educational Panel Study (NEPS) (pp. 35–55). Springer VS.
+https://doi.org/10.1007/978-3-658-23162-0_3
+Baltes, P. B. (1993). The aging mind: Potential and limits. The Gerontologist,
+33(5), 580–594. https://doi.org/10.1093/geront/33.5.580
+Bandura, A. (1986). Social foundations of thought and action: A social
+cognitive theory. Prentice-Hall.
+Bengtsson, H. (2021). A unifying framework for parallel and distributed
+processing in R using futures. The R Journal, 13(2), 208–227. https://
+doi.org/10.32614/RJ-2021-048
+Blossfeld, H.-P., & Roßbach, H.-G. (2019). Education as a lifelong process:
+The German National Educational Panel Study (NEPS). Springer. https://
+doi.org/10.1007/978-3-658-23162-0
+Braun, H., & Von Davier, M. (2017). The use of test scores from large-scale
+assessment surveys: Psychometric and statistical considerations. LargeScale Assessments in Education, 5(1), Article 17. https://doi.org/10.1186/
+s40536-017-0050-x
+Brauns, H., Scherer, S., & Steinmann, S. (2003). The CASMIN educational classification in international comparative research. In J. H. P.
+Hoffmeyer-Zlotnik & C. Wolf (Eds.), Advances in cross-national
+comparison: A European working book for demographic and socioeconomic variables (pp. 221–244). Springer. https://doi.org/10.1007/
+978-1-4419-9186-7_11
+Bünning, M., Schlomann, A., Memmer, N., Tesch-Römer, C., & Wahl,
+H. W. (2023). Digital gender gap in the second half of life is declining:
+Changes in gendered internet use between 2014 and 2021 in Germany. The
+Journals of Gerontology: Series B, 78(8), 1386–1395. https://doi.org/10
+.1093/geronb/gbad079
+Burgette, L. F., & Reiter, J. P. (2010). Multiple imputation for missing data
+via sequential regression trees. American Journal of Epidemiology,
+172(9), 1070–1076. https://doi.org/10.1093/aje/kwq260
+Cai, Z., Fan, X., & Du, J. (2017). Gender and attitudes toward technology
+use: A meta-analysis. Computers & Education, 105, 1–13. https://doi.org/
+10.1016/j.compedu.2016.11.003
+Campos, D. G., & Scherer, R. (2024). Digital gender gaps in students’
+knowledge, attitudes and skills: An integrative data analysis across 32
+countries. Education and Information Technologies, 29(1), 655–693.
+https://doi.org/10.1007/s10639-023-12272-9
+Castro-Schilo, L., & Grimm, K. J. (2018). Using residualized change
+versus difference scores for longitudinal research. Journal of Social
+and Personal Relationships, 35(1), 32–58. https://doi.org/10.1177/02
+65407517718387
+Chalmers, R. P. (2018). Model-based measures for detecting and quantifying
+response bias. Psychometrika, 83(3), 696–732. https://doi.org/10.1007/
+s11336-018-9626-9
+Chalmers, R. P., Counsell, A., & Flora, D. B. (2016). It might not make a big
+DIF: Improved differential test functioning statistics that account for
+sampling variability. Educational and Psychological Measurement, 76(1),
+114–140. https://doi.org/10.1177/0013164415584576
+Chan, C., Leeper, T., Becker, J., & Schoch, D. (2023). rio: A Swiss-army
+knife for data file I/O (Version 1.2.3) [Computer software]. https://doi.org/
+10.32614/CRAN.package.rio
+Chen, N., Li, Z., & Tang, B. (2022). Can digital skill protect against job
+displacement risk caused by artificial intelligence? Empirical evidence
+from 701 detailed occupations. PLOS ONE, 17(11), Article e0277280.
+https://doi.org/10.1371/journal.pone.0277280
+Christoph, G., Goldhammer, F., Zylka, J., & Hartig, J. (2015). Adolescents’
+computer performance: The role of self-concept and motivational aspects.
+Computers & Education, 81, 1–12. https://doi.org/10.1016/j.compedu
+.2014.09.004
+Codiroli Mcmaster, N. (2017). Who studies STEM subjects at A level and
+degree in England? An investigation into the intersections between students’ family background, gender and ethnicity in determining choice.
+British Educational Research Journal, 43(3), 528–553. https://doi.org/10
+.1002/berj.3270
+Codiroli Mcmaster, N., & Cook, R. (2019). The contribution of intersectionality to quantitative research into educational inequalities. Review
+of Education, 7(2), 271–292. https://doi.org/10.1002/rev3.3116
+Collins, P. H. (2015). Intersectionality’s definitional dilemmas. Annual
+Review of Sociology, 41(1), 1–20. https://doi.org/10.1146/annurev-soc-
+073014-112142
+Davis, S. N., & Greenstein, T. N. (2009). Gender ideology: Components,
+predictors, and consequences. Annual Review of Sociology, 35(1), 87–105.
+https://doi.org/10.1146/annurev-soc-070308-115920
+Debelak, R., Appelbaum, S., Debeer, D., & Tomasik, M. J. (2023). Detecting
+differential item functioning in 2PL multistage assessments. Psych, 5(2),
+461–477. https://doi.org/10.3390/psych5020031
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+887
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Debelak, R., & Debeer, D. (2024). mstDIF: A collection of DIF tests for
+multistage tests (Version 0.1.8) [Computer software]. https://doi.org/10
+.32614/CRAN.package.mstDIF
+Debelak, R., & Strobl, C. (2019). Investigating measurement invariance by
+means of parameter instability tests for 2PL and 3PL models. Educational
+and Psychological Measurement, 79(2), 385–398. https://doi.org/10.11
+77/0013164418777784
+Doove, L. L., Van Buuren, S., & Dusseldorp, E. (2014). Recursive partitioning for missing data imputation in the presence of interaction effects.
+Computational Statistics & Data Analysis, 72, 92–104. https://doi.org/10
+.1016/j.csda.2013.10.025
+Dunn, L. M., & Dunn, L. M. (2004). Peabody Picture Vocabulary Test
+(PPVT) (German version). Hogrefe.
+Eagly, A. H., Nater, C., Miller, D. I., Kaufmann, M., & Sczesny, S. (2020).
+Gender stereotypes have changed: A cross-temporal meta-analysis of U.S.
+public opinion polls from 1946 to 2018. American Psychologist, 75(3),
+301–315. https://doi.org/10.1037/amp0000494
+Eccles, J. S., & Wigfield, A. (2002). Motivational beliefs, values, and goals.
+Annual Review of Psychology, 53(1), 109–132. https://doi.org/10.1146/
+annurev.psych.53.100901.135153
+Educational Testing Service. (2002). Digital transformation: A framework
+for ICT literacy.
+Eggenberger, C., & Backes-Gellner, U. (2023). IT skills, occupation specificity and job separations. Economics of Education Review, 92, Article
+102333. https://doi.org/10.1016/j.econedurev.2022.102333
+Ellemers, N. (2018). Gender stereotypes. Annual Review of Psychology, 69(1),
+275–298. https://doi.org/10.1146/annurev-psych-122216-011719
+Ertl, B., Csanadi, A., & Tarnai, C. (2020). Getting closer to the digital divide:
+An analysis of impacts on digital competencies based on the German
+PIAAC sample. International Journal of Educational Development, 78,
+Article 102259. https://doi.org/10.1016/j.ijedudev.2020.102259
+Estrada, E., & Ferrer, E. (2019). Studying developmental processes in
+accelerated cohort-sequential designs with discrete- and continuous-time
+latent change score models. Psychological Methods, 24(6), 708–734.
+https://doi.org/10.1037/met0000215
+Estrela, M., Semedo, G., Roque, F., Ferreira, P. L., & Herdeiro, M. T. (2023).
+Sociodemographic determinants of digital health literacy: A systematic
+review and meta-analysis. International Journal of Medical Informatics,
+177, Article 105124. https://doi.org/10.1016/j.ijmedinf.2023.105124
+Falck, O., Heimisch-Roecker, A., & Wiederhold, S. (2021). Returns to ICT
+skills. Research Policy, 50(7), Article 104064. https://doi.org/10.1016/j.re
+spol.2020.104064
+Fischer, L., Rohm, T., Gnambs, T., & Carstensen, C. H. (2016). Linking the
+data of the competence tests (NEPS Survey Paper No. 1). Leibniz Institute
+for Educational Trajectories. https://doi.org/10.5157/NEPS:SP01:1.0
+Fraillon, J., & Duckworth, D. (2025). Computer and information literacy
+framework. In J. Fraillon & M. Rožman (Eds.), IEA international
+computer and information literacy study 2023: Assessment framework
+(pp. 21–34). Springer. https://doi.org/10.1007/978-3-031-61194-0_2
+Fraillon, J., Liaw, Y.-L., & Strietholt, R. (2024). Student achievement in
+computer and information literacy and computational thinking. In J.
+Fraillon (Ed.), An international perspective on digital literacy: Results
+from ICILS 2023 (pp. 137–154). International Association for the
+Evaluation of Educational Achievement.
+Ganzeboom, H. B. G. (2010, May). A new international socio-economic
+index [ISEI] of occupational status for the International Standard
+Classification of Occupation 2008 [ISCO-08] constructed with data from
+the ISSP 2002–2007 [Conference session]. Annual Conference of
+International Social Survey Programme, Lisbon, Portugal.
+Gebre, E. (2022). Conceptions and perspectives of data literacy in secondary
+education. British Journal of Educational Technology, 53(5), 1080–1095.
+https://doi.org/10.1111/bjet.13246
+Gnambs, T. (2021). The development of gender differences in information
+and communication technology (ICT) literacy in middle adolescence.
+Computers in Human Behavior, 114, Article 106533. https://doi.org/10
+.1016/j.chb.2020.106533
+Gnambs, T., & Senkbeil, M. (2023). NEPS technical report for computer
+literacy: Scaling results for starting cohorts 4 and 6 (Wave 14) (NEPS
+Survey Paper No. 106). Leibniz Institute for Educational Trajectories.
+https://doi.org/10.5157/NEPS:SP106:1.0
+Grolemund, G., & Wickham, H. (2011). Dates and times made easy with
+lubridate. Journal of Statistical Software, 40(3), 1–25. https://doi.org/10
+.18637/jss.v040.i03
+Hammon, A., Zinn, S., Aßmann, C., & Würbach, A. (2016). Samples,
+weights, and nonresponse: The adult cohort of the national educational
+panel study (Wave 2 to 6) (NEPS Survey Paper No. 7). Leibniz Institute for
+Educational Trajectories, National Educational Panel Study. https://www
+.neps-data.de/Data-Center/Data-and-Documentation/SC6-Adults/105157-
+NEPSSC6601
+Hanfstingl, B., Oberleiter, S., Pietschnig, J., Tran, U. S., & Voracek, M.
+(2024). Detecting jingle and jangle fallacies by identifying consistencies
+and variabilities in study specifications—A call for research. Frontiers in
+Psychology, 15, Article 1404060. https://doi.org/10.3389/fpsyg.2024.14
+04060
+Hardt, K., Pohl, S., Haberkorn, K., & Wiegand, E. (2013). NEPS technical
+report for reading—Scaling results of starting cohort 6 for adults in main
+study 2010/11 (NEPS Working Paper No. 25). University of Bamberg,
+National Educational Panel Study. https://doi.org/10.5157/NEPS:WP25:
+1.0
+Haschke, L. I., Kähler, J., & Hahn, I. (2017). NEPS technical report for
+science: Scaling results of starting cohort 6 for adults (NEPS Survey
+Paper No. 19). Leibniz Institute for Educational Trajectories, National
+Educational Panel Study. https://doi.org/10.5157/NEPS:SP19:1.0
+Hyde, J. S. (2014). Gender similarities and differences. Annual Review of
+Psychology, 65(1), 373–398. https://doi.org/10.1146/annurev-psych-0102
+13-115057
+International Labour Organization. (2012). International Standard
+Classification of Occupations (ISCO-08). Volume I: Structure, group
+definitions and correspondence tables. https://www.ilo.org/sites/defau
+lt/files/wcmsp5/groups/public/@dgreports/@dcomm/@publ/documents/pu
+blication/wcms_172572.pdf
+Johnson, W., Carothers, A., & Deary, I. J. (2008). Sex differences in variability
+in general intelligence: A new look at the old question. Perspectives on
+Psychological Science, 3(6), 518–531. https://doi.org/10.1111/j.1745-6924
+.2008.00096.x
+Jordan, A.-K., & Duchhardt, C. (2013). NEPS technical report for
+mathematics—Scaling results of starting cohort 6—Adults (NEPS
+Working Paper No. 32). University of Bamberg, National Educational
+Panel Study. https://doi.org/10.5157/NEPS:WP32:1.0f
+Kain, C., Koschmieder, C., Matischek-Jauk, M., & Bergner, S. (2024).
+Mapping the landscape: A scoping review of 21st century skills literature
+in secondary education. Teaching and Teacher Education, 151, Article
+104739. https://doi.org/10.1016/j.tate.2024.104739
+Kan, M.-Y., Zhou, M., Kolpashnikova, K., Hertog, E., Yoda, S., & Jun, J.
+(2022). Revisiting the gender revolution: Time on paid work, domestic work,
+and total work in East Asian and Western societies 1985–2016. Gender &
+Society, 36(3), 368–396. https://doi.org/10.1177/08912432221079664
+Karpiński, Z., Di Pietro, G., & Biagi, F. (2023). Non-cognitive skills and
+social gaps in digital skills: Evidence from ICILS 2018. Learning and
+Individual Differences, 102, Article 102254. https://doi.org/10.1016/j.li
+ndif.2022.102254
+Khorramdel, L., von Davier, M., Gonzalez, E., & Yamamoto, K. (2020).
+Plausible values: Principles of item response theory and multiple imputations. In D. Maehler & B. Rammstedt (Eds.), Large-scale cognitive
+888
+GNAMBS AND SCHWAß
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+assessment: Methodology of educational measurement and assessment (pp.
+27–47). Springer. https://doi.org/10.1007/978-3-030-47515-4_3
+Kirsch, I., & Lennon, M. L. (2017). PIAAC: A new design for a new era.
+Large-Scale Assessments in Education, 5(1), Article 11. https://doi.org/10
+.1186/s40536-017-0046-6
+Lang, F. R., Kamin, S., Rohr, M., Stünkel, C., & Willinger, B. (2014).
+Erfassung der fluiden kognitiven Leistungsfähigkeit über die Lebensspanne
+im Rahmen der National Educational Panel Study [Assessment of fluid
+cognitive abilities across the life span in the National Educational Panel
+Study] (NEPS Working Paper 43). Leibniz Institute for Educational
+Trajectories. https://doi.org/10.5157/NEPS:WP43:1.0
+Lazonder, A. W., Walraven, A., Gijlers, H., & Janssen, N. (2020). Longitudinal
+assessment of digital literacy in children: Findings from a large Dutch singleschool study. Computers & Education, 143, Article 103681. https://doi.org/
+10.1016/j.compedu.2019.103681
+Lechner, C. M. (2023). Patterns and predictors of literacy and numeracy
+development during adulthood: Insights from two longitudinal assessment
+surveys. In S. Weinert, G. J. Blossfeld, & H.-P. Blossfeld (Eds.),
+Education, competence development and career trajectories (pp. 87–112).
+Springer. https://doi.org/10.1007/978-3-031-27007-9_4
+Lechner, C. M., Gauly, B., Miyamoto, A., & Wicht, A. (2021). Stability and
+change in adults’ literacy and numeracy skills: Evidence from two largescale panel studies. Personality and Individual Differences, 180, Article
+110990. https://doi.org/10.1016/j.paid.2021.110990
+Lee, J. W., Kwak, D. W., & Song, E. (2022). Can older workers stay
+productive? The role of ICT skills and training. Journal of Asian
+Economics, 79, Article 101438. https://doi.org/10.1016/j.asieco.2021
+.101438
+Lei, H., Xiong, Y., Chiu, M. M., Zhang, J., & Cai, Z. (2021). The relationship
+between ICT literacy and academic achievement among students: A metaanalysis. Children and Youth Services Review, 127, Article 106123.
+https://doi.org/10.1016/j.childyouth.2021.106123
+Livingstone, S., Mascheroni, G., & Stoilova, M. (2023). The outcomes of
+gaining digital skills for young people’s lives and wellbeing: A systematic
+evidence review. New Media & Society, 25(5), 1176–1202. https://doi.org/
+10.1177/14614448211043189
+Llorente-Barroso, C., Sánchez-Valle, M., & Viñarás-Abad, M. (2023). The
+role of the Internet in later life autonomy: Silver surfers in Spain. Humanities
+and Social Sciences Communications, 10(1), Article 56. https://doi.org/10
+.1057/s41599-023-01536-x
+Long, T. Q., Hoang, T. C., & Simkins, B. (2023). Gender gap in digital
+literacy across generations: Evidence from Indonesia. Finance Research
+Letters, 58, Article 104588. https://doi.org/10.1016/j.frl.2023.104588
+Lüdtke, O., & Robitzsch, A. (2025). ANCOVA versus change score for the
+analysis of two-wave data. Journal of Experimental Education, 93(2),
+363–395. https://doi.org/10.1080/00220973.2023.2246187
+Martínez-Cantos, J. L. (2017). Digital skills gaps: A pending subject for gender
+digital inclusion in the European Union. European Journal of Communication, 32(5), 419–438. https://doi.org/10.1177/0267323117718464
+Masters, G. N. (1982). A Rasch model for partial credit scoring.
+Psychometrika, 47(2), 149–174. https://doi.org/10.1007/BF02296272
+Mislevy, R. J. (1991). Randomization-based inference about latent variables
+from complex samples. Psychometrika, 56(2), 177–196. https://doi.org/10
+.1007/BF02294457
+Molerov, D., Zlatkin-Troitschanskaia, O., Nagel, M. T., Brückner, S.,
+Schmidt, S., & Shavelson, R. J. (2020). Assessing university students’
+critical online reasoning ability: A conceptual and assessment framework
+with preliminary evidence. Frontiers in Education, 5, Article 577843.
+https://doi.org/10.3389/feduc.2020.577843
+NEPS Network. (2024). National educational panel study, scientific use file
+of starting cohort adults. Leibniz Institute for Educational Trajectories.
+https://doi.org/10.5157/NEPS:SC6:15.0.0
+Oeldorf-Hirsch, A., & Neubaum, G. (2025). What do we know about
+algorithmic literacy? The status quo and a research agenda for a growing
+field. New Media & Society, 27(2), 681–701. https://doi.org/10.1177/
+14614448231182662
+Olsson, T., Samuelsson, U., & Viscovi, D. (2019). At risk of exclusion?
+Degrees of ICT access and literacy among senior citizens. Information,
+Communication & Society, 22(1), 55–72. https://doi.org/10.1080/136911
+8X.2017.1355007
+Papí-Gálvez, N., & La Parra-Casado, L. (2023). Age-based digital divide:
+Uses of the internet in people over 54 years old. Media and
+Communication, 11(3), 77–87. https://doi.org/10.17645/mac.v11i3.6744
+Pinski, M., & Benlian, A. (2024). AI literacy for users—A comprehensive
+review and future research directions of learning methods, components,
+and effects. Computers in Human Behavior: Artificial Humans, 2(1),
+Article 100062. https://doi.org/10.1016/j.chbah.2024.100062
+Pohl, S. (2013). Longitudinal multistage testing. Journal of Educational
+Measurement, 50(4), 447–468. https://doi.org/10.1111/jedm.12028
+Qazi, A., Hasan, N., Abayomi-Alli, O., Hardaker, G., Scherer, R., Sarker, Y.,
+Kumar Paul, S., & Maitama, J. Z. (2022). Gender differences in information and communication technology use & skills: A systematic review
+and meta-analysis. Education and Information Technologies, 27(3),
+4225–4258. https://doi.org/10.1007/s10639-021-10775-x
+Quittschalle, J., Stein, J., Luppa, M., Pabst, A., Löbner, M., Koenig, H. H., &
+Riedel-Heller, S. G. (2020). Internet use in old age: Results of a German
+population-representative survey. Journal of Medical Internet Research,
+22(11), Article e15543. https://doi.org/10.2196/15543
+R Core Team. (2025). R: A language and environment for statistical
+computing (Version 4.5.0) [Computer software]. R Foundation for
+Statistical Computing. https://www.R-project.org
+Ragnedda, M., Ruiu, M. L., & Addeo, F. (2022). The self-reinforcing
+effect of digital and social exclusion: The inequality loop. Telematics
+and Informatics, 72, Article 101852. https://doi.org/10.1016/j.tele.2022
+.101852
+Reder, S., Gauly, B., & Lechner, C. (2020). Practice makes perfect: Practice
+engagement theory and the development of adult literacy and numeracy
+proficiency. International Review of Education, 66(2–3), 267–288. https://
+doi.org/10.1007/s11159-020-09830-5
+Rigby, R. A., & Stasinopoulos, D. M. (2005). Generalized additive models
+for location, scale and shape. Applied Statistics, 54(3), 507–554. https://
+doi.org/10.1111/j.1467-9876.2005.00510.x
+Robitzsch, A., & Grund, S. (2024). miceadds: Some additional multiple
+imputation functions, especially for ‘mice’ (Version 3.17-44) [Computer
+software]. https://doi.org/10.32614/CRAN.package.miceadds
+Robitzsch, A., Kiefer, T., & Wu, M. (2024). TAM: Test analysis modules
+(Version 4.2-21) [Computer software]. https://doi.org/10.32614/CRAN
+.package.TAM
+Rubach, C. (2024). Jingle–jangle in the measurement of digital competences.
+MedienPädagogik, 57, 75–102. https://doi.org/10.21240/mpaed/57/2024
+.03.25.X
+Scherer, R., & Siddiq, F. (2019). The relation between students’
+socioeconomic status and ICT literacy: Findings from a meta-analysis.
+Computers & Education, 138, 13–32. https://doi.org/10.1016/j.compe
+du.2019.04.011
+Senkbeil, M. (2022). ICT-related variables as predictors of ICT literacy
+beyond intelligence and prior achievement. Education and Information
+Technologies, 27(3), 3595–3622. https://doi.org/10.1007/s10639-021-
+10759-x
+Senkbeil, M., & Ihme, J. M. (2015). NEPS technical report for computer
+literacy: Scaling results of starting cohort 6—Adults (NEPS Working
+Paper No. 61). Leibniz Institute for Educational Trajectories. https://
+doi.org/10.5157/NEPS:WP61:1.0
+Senkbeil, M., Ihme, J. M., & Wittwer, J. (2013). The test of technological and
+information literacy (TILT) in the National Educational Panel Study:
+Development, empirical testing, and evidence for validity. Journal for
+Educational Research Online, 5, 139–161. https://doi.org/10.25656/
+01:8428
+INFORMATION AND COMMUNICATION TECHNOLOGY LITERACY
+889
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Siddiq, F., & Scherer, R. (2019). Is there a gender gap? A meta-analysis
+of the gender differences in students’ ICT literacy. Educational
+Research Review, 27, 205–217. https://doi.org/10.1016/j.edurev.2019
+.03.007
+Sieben, S., & Lechner, C. M. (2019). Measuring cultural capital through
+the number of books in the household. Measurement Instruments for
+the Social Sciences, 1, Article 1. https://doi.org/10.1186/s42409-018-
+0006-0
+Sieverding, M., & Koch, S. C. (2009). (Self-)Evaluation of computer
+competence: How gender matters. Computers & Education, 52(3), 696–
+701. https://doi.org/10.1016/j.compedu.2008.11.016
+Tellhed, U., Björklund, F., & Kallio Strand, K. (2023). Tech-savvy men and
+caring women: Middle school students’ gender stereotypes predict interest
+in tech-education. Sex Roles: A Journal of Research, 88(7), 307–325.
+https://doi.org/10.1007/s11199-023-01353-1
+Van Buuren, S., & Groothuis-Oudshoorn, K. (2011). mice: Multivariate
+imputation by chained equations in R. Journal of Statistical Software,
+45(3), 1–67. https://doi.org/10.18637/jss.v045.i03
+Van Deursen, A. J. A. M., & Helsper, E. J. (2018). Collateral benefits of
+Internet use: Explaining the diverse outcomes of engaging with the
+Internet. New Media & Society, 20(7), 2333–2351. https://doi.org/10
+.1177/1461444817715282
+Van Deursen, A. J. M., & van Dijk, J. A. G. (2019). The first-level digital
+divide shifts from inequalities in physical access to inequalities in material
+access. New Media & Society, 21(2), 354–375. https://doi.org/10.1177/
+1461444818797082
+Van Laar, E., Van Deursen, A. J. A. M., Van Dijk, J. A. G. M., & De Haan, J.
+(2017). The relation between 21st-century skills and digital skills: A
+systematic literature review. Computers in Human Behavior, 72, 577–588.
+https://doi.org/10.1016/j.chb.2017.03.010
+Van Laar, E., Van Deursen, A. J. A. M., Van Dijk, J. A. G. M., & De Haan, J.
+(2020). Determinants of 21st-century skills and 21st-century digital skills
+for workers: A systematic literature review. SAGE Open, 10(1). https://
+doi.org/10.1177/2158244019900176
+Vuorikari, R., Kluzer, S., & Punie, Y. (2022). DigComp 2.2: The digital
+competence framework for citizens: With new examples of knowledge,
+skills and attitudes. European Union. Advance online publication. https://
+doi.org/10.2760/115376
+Vuorre, M., & Przybylski, A. K. (2024). Global well-being and mental health
+in the internet age. Clinical Psychological Science, 12(5), 917–935.
+https://doi.org/10.1177/21677026231207791
+Warm, T. A. (1989). Weighted likelihood estimation of ability in item
+response theory. Psychometrika, 54(3), 427–450. https://doi.org/10.1007/
+BF02294627
+Weirich, S., Haag, N., Hecht, M., Böhme, K., Siegle, T., & Lüdtke, O.
+(2014). Nested multiple imputation in large-scale assessments. LargeScale Assessments in Education, 2(9), 2–18. https://doi.org/10.1186/
+s40536-014-0009-0
+Wickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer.
+Wickham, H., François, R., Henry, L., Müller, K., & Vaughan, D. (2023).
+dplyr: A grammar of data manipulation (Version 1.1.4) [Computer
+software]. https://doi.org/10.32614/CRAN.package.dplyr
+Wickham, H., Vaughan, D., & Girlich, M. (2024). tidyr: Tidy messy data
+(Version 1.3.1) [Computer software]. https://doi.org/10.32614/CRAN.pa
+ckage.tidyr
+Zilian, S. S., & Zilian, L. S. (2020). Digital inequality in Austria: Empirical
+evidence from the survey of the OECD “Programme for the International
+Assessment of Adult Competencies.” Technology in Society, 63, Article
+101397. https://doi.org/10.1016/j.techsoc.2020.101397
+Received February 5, 2025
+Revision received June 10, 2025
+Accepted June 11, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

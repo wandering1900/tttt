@@ -1,0 +1,1488 @@
+﻿Eye Movement Evidence for Locus Coeruleus-Noradrenaline System
+Contributions to Age Differences in Attention
+Andy Jeesu Kim, Kristine Nguyen, Ying Tian, and Mara Mather
+School of Gerontology, University of Southern California
+Neuroimaging studies have shown that aging alters the brain mechanisms underlying attentional
+control, even when behavioral performance is equivalent between younger and older adults. Instead of
+attributing these changes to compensatory mechanisms, we investigated whether age-related neuromodulatory changes in the locus coeruleus-noradrenaline (LC-NA) system are underlying these effects.
+To test whether aging leads to LC-NA system hyperactivity, we combined two methodological approaches: an oculomotor visual search task to assess eye movements and the threat of unpredictable
+electric shock paradigm to induce sustained arousal. Using pupillometry, we found that arousal reduced
+evoked pupil responses in both age groups, demonstrating the expected pattern of lower phasic
+noradrenergic activity under arousal. Young adults made significantly more first fixations to the
+physically salient distractor under threat of shock compared to baseline conditions, unlike in older
+adults with no effect. This modulation of attentional priority was only observable immediately following shock delivery and dissipated over time. Additionally, we found moderate evidence supporting
+the null hypothesis that arousal does not modulate the speed of attention processing in either age group.
+These results suggest that arousal selectively modulates attentional priority maps in the early visual
+cortex but does not influence broader interactions across higher order attentional networks. While first
+fixation measures revealed age-related differences consistent with the hypothesis of LC-NA system
+hyperactivity in aging, pupillometry and processing speed measures showed age-equivalent effects.
+Together, these findings highlight the potential for age-related changes in the LC-NA system to
+modulate mechanisms of attentional control and demonstrate the utility of eye movement measures as a
+promising tool to track changes across the adult lifespan.
+Public Significance Statement
+As we age, the brain’s ability to filter relevant from distracting information changes. This study
+examined eye movements under stressful conditions to determine whether age-related shifts in
+attention reflect changes in the brain’s arousal system. Our findings demonstrate that aging alters
+how arousal influences which stimuli capture attention without affecting pupil responses or processing speeds.
+Keywords: eye movements, aging, attention, locus coeruleus, pupillometry
+Supplemental materials: https://doi.org/10.1037/pag0000930.supp
+Aging is commonly associated with declines in cognitive control,
+particularly the reduced ability to inhibit irrelevant or distracting
+information. A foundational account of these changes is the inhibitory
+deficit hypothesis (Hasher & Zacks, 1988), which posits that aging
+impairs inhibitory mechanisms across a broad range of cognitive
+tasks. While this framework has received extensive empirical
+support, accumulating evidence suggests a more nuanced picture.
+Recent meta-analyses indicate that age-related inhibitory deficits
+vary across different task contexts (Rey-Mermet & Gade, 2018), and
+in some cases, older adults may even show preserved or enhanced
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First August 7, 2025.
+Julia Spaniol served as action editor.
+Andy Jeesu Kim https://orcid.org/0000-0003-1124-0213
+Some of the baseline/nonarousal data have previously been published
+(Kim, Senior, et al., 2024). However, the ideas in this article are novel, and
+the baseline data were used as a control to the arousal data published here.
+This work is supported by the National Institute on Aging, National Institutes
+of Health (Grant F32-AG076288) awarded to Andy Jeesu Kim.
+Andy Jeesu Kim played a lead role in conceptualization, data curation,
+formal analysis, investigation, project administration, and writing–original
+draft and an equal role in funding acquisition. Kristine Nguyen played a
+supporting role in data curation, formal analysis, investigation, validation,
+and writing–review and editing. Ying Tian played a supporting role in data
+curation, formal analysis, investigation, validation, and writing–review and
+editing. Mara Mather played a lead role in resources, supervision, and
+writing–review and editing and an equal role in funding acquisition.
+Correspondence concerning this article should be addressed to Andy
+Jeesu Kim, School of Gerontology, University of Southern California,
+3715 McClintock Avenue, Los Angeles, CA 90089, United States. Email:
+andyk@usc.edu
+Psychology and Aging
+© 2025 American Psychological Association 2025, Vol. 40, No. 8, 929–944
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000930
+929
+930
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+attentional processes, pointing to possible compensatory mechanisms in older adults (Vallesi et al., 2021; Veríssimo et al., 2022).
+Nonetheless, neuroimaging studies have revealed that even when
+behavioral performance appears equivalent across young and older
+adults, the underlying neural mechanisms controlling inhibitory
+processing among older adults appear to be altered. For instance, in a
+Stroop interference functional magnetic resonance imaging task,
+older adults showed significantly greater frontal brain activation
+despite comparable inhibitory performance (Langenecker et al.,
+2004). Electroencephalography studies further reveal that while
+older adults demonstrate similar neural responses to task-relevant
+information, they exhibit prominent deficits in suppressing activity
+related to task-irrelevant stimuli that is specifically linked to declines
+in working memory performance (Gazzaley et al., 2005). Eventrelated potential studies also show reduced amplitudes and delayed
+peak latencies in older adults during attentional inhibition tasks,
+suggesting that aging does indeed lead to slower and less efficient
+inhibitory processing (Kropotov et al., 2016). These findings have
+led researchers to propose that increased brain activation in older
+adults reflects compensatory recruitment of additional brain resources to maintain performance and counteract declining inhibitory efficiency (Cabeza, 2002; Davis et al., 2008; Zanto &
+Gazzaley, 2017). Although such compensatory mechanisms in older
+adults may yield performance levels similar to that of young adults,
+the biological mechanisms underlying this adaptation remain
+unclear.
+One plausible contributor to age-related changes in inhibitory
+control is the altered functioning of neuromodulatory systems that
+support cognition (Krohn et al., 2023). The locus coeruleus (LC) is a
+brainstem nucleus that is the primary source of noradrenaline in the
+human brain, and the LC-noradrenaline (LC-NA) system regulates a
+wide range of cognitive functions, including attentional control
+(Berridge, 2008; Berridge & Waterhouse, 2003; Maness et al.,
+2022). Compared to young adults, older adults show increased
+distractibility by salient but irrelevant stimuli (Hasher & Zacks,
+1988; Kubo-Kawai & Kawai, 2010; Lustig et al., 2007; West &
+Alain, 2000; Zeef et al., 1996), a behavioral pattern that has been
+linked to reduced functional connectivity and decreased activation
+in the frontoparietal attention networks (Campbell et al., 2012;
+Geerligs et al., 2015; Grady et al., 2016; Kennedy & Mather, 2019;
+Madden, 2007; Nashiro et al., 2017). Previous studies have shown
+that the LC-NA system mediates these neural networks of attentional control (Bouret & Sara, 2004; Unsworth & Robison, 2017)
+and that disruptions in LC-NA system function may lead to broader
+downstream changes in cognitive processing (Maness et al., 2022).
+Recent advances in neuroimaging techniques have enabled researchers to quantify the structural integrity of the LC (Cassidy et al.,
+2022; Clewett et al., 2016; Dahl et al., 2019, 2022, 2023; Hämmerer
+et al., 2018). Notably, magnetic resonance imaging signal intensity
+of the LC has been associated with LC-NA system function and has
+been used as a biomarker for age-related dysfunction and neurodegenerative diseases (Betts et al., 2019; K. Y. Liu et al., 2020). LC
+signal intensity follows an inverted U-shaped trajectory across the
+human lifespan with increases during early and middle adulthood,
+peaking around age 60, and declining thereafter (K. Y. Liu et al.,
+2019). This trajectory suggests that age-related changes in attentional control may be directly linked to the structural and functional
+integrity of the LC. In aging, diminished LC magnetic resonance
+imaging contrast has been linked to poorer cognitive performance
+and increased risk for the progression of neurodegenerative diseases
+(Elman et al., 2021; Hämmerer et al., 2018). Functional connectivity
+studies further reveal altered LC functional connectivity in older
+adults (Jacobs et al., 2015; T.-H. Lee et al., 2018, 2020; Takahashi et
+al., 2015; Zhang et al., 2016). Collectively, these findings portray a
+dysfunctional LC-NA system in the aging human brain that disrupts
+critical cognitive processing mechanisms.
+In this article, we investigate whether age-related changes in the
+LC-NA system underlie observed alterations in attentional control
+mechanisms. Specifically, we draw on the arousal-biased competition (ABC) theory, which conceptualizes the LC-NA system’s role
+in mediating arousal to shape cognition. In this framework, the LCNA system modulates the neural representation of stimuli based on
+their existing attentional priority, amplifying high-priority information (“winner-take-more”) and suppressing low-priority information (“loser-take-less”) under conditions of heightened arousal
+(Mather & Sutherland, 2011). Thus, arousal dynamically sharpens
+competition among stimuli, enhancing the processing of intrinsically salient cues under signals of threat. The Glutamate Amplifies
+Noradrenergic Effect model poses that the biological basis of
+increased priority is because of local noradrenergic “hot spots”
+where norepinephrine and glutamate coactivation signals elevated
+attentional priority (Mather et al., 2016a, 2016b). In contrast,
+widespread noradrenaline release outside these hot spots suppresses
+processing, addressing observations of arousal-induced inhibition
+(Mather et al., 2016b). We leveraged this framework to examine
+whether age-related changes in attentional control are linked to
+alterations in the LC-NA system–mediated arousal responses.
+Recent work has shown that older adults exhibit higher LC activation during encoding of salient and negative stimuli compared
+with young adults (Ludwig et al., 2024), indicating that aging leads
+to increased noradrenergic activity. Based on these findings, we
+hypothesized that older adults exhibit sustained LC-NA system
+hyperactivity compared with young adults and that increased
+arousal will not enhance attentional prioritization of salient stimuli
+as seen in young adults.
+Prior studies have shown that arousal increases attention priority
+for salient or valenced stimuli in young adults but not in older adults
+when measuring motor response times (Allen et al., 2017; Svärd et
+al., 2014), recognition memory accuracy (Durbin et al., 2018;
+Gallant et al., 2020), and brain activation patterns (Gallant et al.,
+2022; T.-H. Lee et al., 2018). However, the brain mechanisms for
+this age-related difference remain unclear. Specifically, it is unknown
+whether older adults’ failure to prioritize salient stimuli under
+arousal reflects reduced modulation in early sensory regions or
+broader disruption in higher order cognitive processes. T.-H. Lee et
+al. (2018) found that arousal increased activation in the parahippocampal place area for both salient and nonsalient stimuli in
+older adults, suggesting that loss of selectivity toward salient stimuli
+was a result of generalized elevation in brain activity. Using a fear
+conditioning paradigm, they showed that arousal in older adults
+leads to widespread effects on cognitive processes regardless of
+stimulus relevance. In contrast, Gallant et al. (2022) observed that
+arousing scenes selectively increased brain activation in young
+adults but not in older adults, demonstrating that attentional
+selectivity under arousal was indeed based on stimulus priority.
+Gallant et al.’s findings suggest that the effects of arousal may
+specifically be targeting early sensory regions (e.g., visual cortex),
+and the attentional priority maps may be specifically targeted under
+LOCUS COERULEUS AND EYE MOVEMENTS
+931
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+elevated arousal (Itti & Koch, 2000, 2001). In this study, we employed two complementary methodological approaches to test our
+hypothesis that the LC-NA system exhibits hyperactivity in aging
+and to clarify how arousal modulates the attentional mechanisms
+underlying biased competition. Although prior work by T.-H. Lee et
+al. and Gallant et al. has identified similar age-related differences in
+the influence of arousal on attentional control, their findings
+diverged in terms of the specific mechanisms through which
+arousal alters stimulus prioritization. These differences imply
+distinct interpretations of how the LC-NA system mediates attentional networks.
+To address this gap, we measured eye movements in a visual
+search array that simultaneously presented multiple stimulus types
+(e.g., goal-directed, salient, nonsalient), allowing us to observe how
+arousal influences multiple types of mechanisms in both young and
+older adults. We implemented an oculomotor visual search task that
+required participants to make eye movements toward stimuli,
+capturing both the speed and direction of multiple saccades on each
+trial (Kim, Senior, et al., 2024). The initiation of eye movements in
+visual attention and perception involves a neural network, including
+the frontal eye fields, visual cortical region V4, superior colliculus,
+and mediodorsal thalamus (Armstrong et al., 2006; Bruce &
+Goldberg, 1985; Sommer & Wurtz, 2002, 2006). Importantly, all of
+these brain regions receive efferent projections from the LC
+(Kalwani et al., 2014; Li et al., 2018; Loughlin et al., 1986;
+McBurney-Lin et al., 2019; Pickel et al., 1974; Schwarz et al., 2015),
+and prior research has shown that the LC-NA system modulates
+visual attention via these circuits (Grefkes et al., 2010; Kalwani et
+al., 2014; M. Lee et al., 2020; Sawaguchi & Kikuchi, 1998). In
+rhesus macaques, using an α2-adrenergic receptor antagonist suppressed eye movements to remembered locations in a memoryguided saccade task (Sawaguchi & Kikuchi, 1998). Additionally,
+electrophysiological recordings from LC neurons showed activation
+during planned, saccadic eye movements to a target (Kalwani et al.,
+2014). However, it remains unclear how fluctuations in LC activity
+relate to changes in the direction and speed of eye movements in
+humans. Furthermore, eye movement metrics offer significantly
+greater reliability than motor responses, especially in aging populations in which motor variability is high (Kim, Grégoire, &
+Anderson, 2024). Notably, older adults show particularly high
+reliability in oculomotor capture by salient stimuli, which will be the
+primary measure of focus in this experiment. In addition to eye
+movements, we recorded baseline pupil size and stimulus-evoked
+pupil responses as indirect markers of LC activity. Prior research
+supports a robust link between LC activity and pupil dynamics in
+humans (DiNuzzo et al., 2019; Grueschow et al., 2021, 2022;
+Murphy et al., 2014) and showed a causal link between LC firing
+and pupil size in macaque monkeys (Joshi et al., 2016) and rodents
+(Breton-Provencher & Sur, 2019; Y. Liu et al., 2017). Furthermore,
+researchers have shown that evoked pupil dilations covary with
+transient increases in LC activity (de Gee et al., 2017; Joshi et al.,
+2016; Joshi & Gold, 2022; Murphy et al., 2014; Varazzani et al.,
+2015). Both eye tracking and pupillometry measures will be utilized
+to assess LC-NA system activity. Second, we manipulated state
+arousal using the threat of unpredictable shock paradigm in which
+an electric shock is administered at random times (Schmitz &
+Grillon, 2012). Unlike brief or predictable arousal manipulations
+in prior studies (Zsido´, 2024), this approach mimics elevated tonic
+noradrenergic activity more representative of hypothesized aging
+related hyperactivity. Prior studies using this paradigm in young
+adults have shown increased attentional priority for salient stimuli,
+reduced priority for reward-associated stimuli, and improved goaldirected attentional control (Kim & Anderson, 2020a, 2020b; Kim et
+al., 2021), aligning with the model of ABC (Mather & Sutherland,
+2011). However, this is the first application of this paradigm to
+investigate age differences among young and older adults.
+In this experiment, we measured the direction of the first saccade
+following the onset of the visual search array along with three
+indices of attention processing speed: total fixation time, saccadic
+latency, and dwell time. The location of the first fixation reveals
+whether attentional priority was allocated toward the goal-relevant
+target or the salient, task-irrelevant distractor. If arousal influences
+the first fixation location, this suggests that arousal biases attentional
+priority at the level of early sensory priority maps in the visual
+cortex, supporting the conclusions of Gallant et al. (2022). In
+contrast, if arousal modulates the speed of attention processing,
+these findings would suggest the modulation of higher order
+attentional control networks (Corbetta et al., 2008; Corbetta &
+Shulman, 2002), consistent with the conclusions of T.-H. Lee et al.
+(2018). We also considered the possibility that arousal may modulate all measures, indicating a more comprehensive impact of
+arousal and LC-NA hyperactivity on the attentional system across
+multiple stages of brain processing.
+Method
+Transparency and Openness
+The data and analytic code have been made publicly available on
+the Open Science Framework at https://osf.io/hmfzq (Kim, Nguyen,
+et al., 2024). The study design, hypotheses, and analytic plan were
+not preregistered.
+Participants and Sample Size Calculations
+For this experiment, we used a portion of a data set published in
+Kim, Senior, et al. (2024), which investigated age differences in
+mechanisms of attentional control without the threat of unpredictable
+shock. From this data set, we used the data from all participants who
+completed both the arousal and nonarousal blocks of the experiment
+using the identical oculomotor visual search task (14 young adults and
+18 older adults—only the nonarousal data were previously published).
+In the current experiment, our research goal was to investigate age
+differences in the mechanisms of ABC and its relationship with the
+LC-NA system. We conducted a power analysis to assess the adequate
+sample size required to probe this research question.
+Previous studies have never used the unpredictable threat of
+shock paradigm in an oculomotor visual search task with older
+adults. In Kim, Senior, et al. (2024), we identified that observing age
+differences in eye movement measures to assess mechanisms of
+biased competition resulted in a significant Age × First-Saccade
+Destination interaction effect with an effect size of η2 p = .187. In
+addition, older adults exhibit high reliability for attention capture by
+the salient distractor in the same oculomotor visual search task, r =
+0.890 [0.774, 0.948] (rS-B = 0.942 [0.877, 0.973]), that was even
+superior to the reliability for that in young adults (p = .016; Kim,
+Grégoire, & Anderson, 2024). Finally, T.-H. Lee et al. (2018)
+identified that inducing arousal with an auditory tone conditioned
+2 p
+932
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+2 p
+with electric shock in older adults revealed a significant main effect
+of arousal on older adults on neural activity in the hippocampal place
+area regardless of saliency type with an effect size of η2 p = .178.
+Given these effect sizes, we conducted a power analysis (G*Power
+3.1) and identified that to observe a within-between interaction in a
+mixed analysis of variance (ANOVA) at effect size f = 0.4, α = .05,
+and power (1 − β) = 0.9, a sample size of at least 34 young and older
+adults was required. Thus, we newly recruited 20 young adults and
+16 older adults to add to our preexisting data set for a total of 34
+young adults (female = 23, male = 10, prefer not to say = 1) aged
+18–30 inclusive (M = 21.2, SD = 2.9) and 34 older adults (female =
+26, male = 8) aged 55–80 inclusive (M = 69.0, SD = 7.2; see Table 1
+for self-reported ethnicity). We recruited young adults from the
+university Sona Systems subject pool for course credit and recruited
+older adults from the local communities for monetary compensation.
+We screened older adults for cognitive dysfunction using the
+telephone screening protocol and excluded individuals who scored
+below the cutoff threshold of 16 from the study (Gatz et al., 1995).
+All study protocols were approved by the University of Southern
+California Institutional Review Board (Noradrenergic Activity
+and Attention, UP-21-00711). All participants provided written,
+informed consent before participation. Data collection was completed during 2023–2024.
+Apparatus
+A custom-built Next-Level Gaming desktop computer (NextLevel Gaming, Los Angeles, California, United States) equipped
+with MATLAB software (MathWorks, Natick, Massachusetts,
+United States) and Psychophysics Toolbox extensions (Brainard,
+1997) was used to present the stimuli on a Sun Microsystems 4472
+(Oracle Corporation, Santa Clara, California, United States) cathode
+ray tube monitor (85 Hz refresh rate). The participants viewed the
+monitor from 70 cm in a dark, soundproof room. We employed the
+EyeLink 1000 Plus system (SR Research Ltd., Ottawa, Ontario,
+Canada) for eye tracking and ensured head position stability with a
+chin rest provided by the manufacturer (SR Research Ltd.).
+Electric shock was administered on the third and fourth fingers using
+a battery-powered transcutaneous aversive stimulator (Coulbourn
+Instruments, Allentown, Pennsylvania, United States; Model Number
+E13-22). Electrodes were attached to the participants’ fingers (BIOPAC
+Systems, Goleta, California, United States; EL507A) with the application of an electrode gel (BIOPAC Systems, GEL101A).
+Stimuli
+In the oculomotor search paradigm, every trial comprised a gazecontingent fixation display, a visual search array, and an intertrial
+Table 1
+Self-Reported Ethnicity Among Study Participants
+Ethnicity
+Young adult
+Older adult
+African American 4 2
+Asian 15 4
+Biracial 5 2
+White 7 24
+Other 3 2
+interval (see Figure 1). The fixation display comprised a fixation
+cross (0.7° × 0.7° visual angle) at the center of the screen. The
+fixation display remained on screen until eye position was registered
+within 1.3° of the center of the fixation cross for a continuous period
+of 500 ms (Kim & Anderson, 2022; Kim, Senior, et al., 2024). The
+visual search array was then presented for 2,000 ms or until a
+fixation on the target was registered. If a target was not fixated within
+the timeout limit, the words “Eye Error” would appear in the center
+of the screen for 500 ms. Finally, the intertrial interval comprised a
+blank screen for 1,000 ms. Participants were instructed to search for
+the unique shape among four stimuli (one circle among three
+diamonds or one diamond among three circles; see Figure 1). No
+motor responses were required, and oculomotor fixation on the
+target ended the trial immediately. The length and width of each of
+the shapes were 4.2° (visual angle), except for the circle with a
+diameter of 4.0° for all shapes to have approximately equal area.
+Each shape was placed at equal intervals along an imaginary circle
+with a radius of 9.1°. The color of the shapes was red or green. In
+addition, the color of the distractor on distractor-present trials was
+counterbalanced across all participants (red distractor among green
+shapes or green distractor among red shapes).
+Design and Procedure
+Participants first calibrated the intensity of the electric shock to an
+equal subjective intensity that is “unpleasant, but not painful,” as in
+prior studies (Kim & Anderson, 2020a, 2020b). Subjects were only
+connected to the shock device during this calibration process or
+when completing the shock block to allow for the arousal-inducing
+nature of the device to dissipate (Kim & Anderson, 2020b). The
+calibration procedure began at the lowest intensity (“feels like a
+tickle on your finger”) and increased step by step until the participant
+told the experimenter that the intensity had become “unpleasant, but
+not painful.” After calibration, participants completed 20 practice
+trials of the task they were going to complete, ensuring they
+understood the task instructions. Participants achieved a passing
+score of 90% accuracy to move forward, and the practice task would
+repeat until they reached this threshold. Participants then completed
+two blocks of the task: a no shock block and a shock block. Each
+block comprised four runs of 96 trials each, totaling 384 trials. We
+counterbalanced whether participants completed the shock block
+first or second.
+We fully counterbalanced the location of the target in distractorabsent trials and the location of the target and the location of the
+distractor in relation to the target in distractor-present trials. Trials
+were randomized across all participants and were distractor absent
+(no salient color distractor) or distractor present (one salient color
+distractor) equally often. The target shape also was the circle or
+diamond equally often, and the distractor color (red or green) was
+counterbalanced across participants.
+Data Analysis
+Eye position was calibrated to each run using 5-point calibration
+and was manually drift corrected online by the experimenter as
+necessary during the gaze-contingent fixation display (Kim &
+Anderson, 2022; Kim, Senior, et al., 2024). During the experiment,
+the X and Y positions of the eyes were continuously monitored in
+real time regarding the four stimulus positions, and fixations were
+LOCUS COERULEUS AND EYE MOVEMENTS
+933
+recorded during the experiment (fixations to every stimulus on each
+trial were logged and exported at the end of each run, as in Kim,
+Senior, et al., 2024; Kim & Anderson, 2020a, 2020b, 2022). The
+EyeLink 1000 Plus also exported an Eyelink Data file after each run
+that contained both sample information collected at 1,000 Hz and
+manually encoded event time stamps: presentation of the fixation
+stimulus, onset of the visual search array, fixation of each stimulus
+during visual search, and the end of the trial. Fixation of a stimulus
+was registered if eye position remained within a region extending
+1.0° around the stimulus for a continuous period of at least 50 ms for
+nontargets and distractors and at least 100 ms for the target (Kim &
+Anderson, 2022). No fixation times were three standard deviations
+below the mean for any of our participants and thus would not have
+changed results even if we had used the same threshold for target
+fixation. Saccades were defined as a minimum eye velocity
+threshold of 30° per second and a minimum acceleration threshold
+of 9,500° per second.
+Fixation times were defined as the time measured from the onset
+of the stimulus array until a valid fixation was registered for the
+target shape. Fixation times that exceeded three standard deviations
+of the mean for a condition for each participant were trimmed (Kim
+& Anderson, 2022; Kim, Senior, et al., 2024). First fixations were
+defined as the first stimulus that was initially registered as a fixation
+on each trial. First fixations to the target, nontarget stimuli, and
+distractor stimuli, in addition to accuracy and fixation times, were
+derived from the eye data recorded online during the experiment (see
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 1
+Sequence of Events in the Oculomotor Search Paradigm
+Note. The visual search task required participants to fixate on the unique shape (circle among diamonds or diamond among circles equally often) in salient (A)
+distractor-absent or (B) distractor-present trials. (C) The authors illustrate the timing of individual mechanisms of attentional control, including the measures
+acquired to assess them in a sample distractor-present trial (the eye represents gaze fixation for the purpose of the figure and is not a stimulus visible to
+participants). RT = reaction times; + = central fixation cross. See the online article for the color version of this figure.
+934
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+publicly available oculomotor data files in the Open Science
+Framework). Percent of saccades to the nontarget stimuli was
+corrected to provide a per-item estimate of fixation; on distractorabsent and distractor-present trials, the percentage of saccades was
+divided by 3 and 2, respectively. Dwell times were defined as the
+duration that the eyes remained within the fixation window of the
+stimulus and were also recorded online. Saccadic reaction times
+(sRTs) were computed as the time to initiate a saccade relative to
+the onset of the visual search array (Kim & Anderson, 2022; Kim,
+Senior, et al., 2024). Mean sRTs were computed offline from the
+EyeLink 1000 Eyelink Data output files using the edfmex
+MATLAB executable file and the “STARTSACC” code string
+from the event structure.
+Statistical analyses were completed using SPSS (IBM, Armonk,
+New York, United States). Cohen’s d measures of effect sizes were
+calculated using corrected standard deviations of the mean difference as output by SPSS. Mixed ANOVA analyses were conducted
+with age as a between-subjects factor and all other measures as a
+within-subjects measure. Post hoc t test analyses were completed
+using paired-sample comparisons for within-subjects measures and
+independent-sample comparisons for between-subjects measures.
+We also report 95% confidence intervals for nonsignificant effects of
+arousal to estimate its effect size for each measure. When identifying
+null effects of arousal, we conducted a Bayesian paired-samples t
+test using JASP (Version 0.18.3) to investigate the evidence in
+support of the null hypothesis: H0 = arousal does not modulate
+mechanisms of attentional control (Wagenmakers, Love, et al.,
+2018; Wagenmakers, Marsman, et al., 2018). The Bayes factor
+(BF10) measures the strength of evidence in support of the alternative hypothesis compared to the null hypothesis H0, and a BF10
+value of 1–0.33 reflects anecdotal evidence, 0.33–0.1 moderate
+evidence, and <0.1 strong evidence in favor of the null hypothesis.
+Results
+Arousal Does Not Modulate Goal-Directed Attentional
+Control in Either Young or Older Adults
+First-saccade destinations, or the stimulus that was first fixated at
+the onset of the visual search array, reveal whether a goal-directed or
+reflexive saccade was initiated following interactions between
+neural networks of attention (Corbetta & Shulman, 2002). Both
+goal-directed and reflexive saccades are programmed simultaneously at the onset of a visual search array (Case & Ferrera, 2007;
+Nummela & Krauzlis, 2011; Pierrot-Deseilligny et al., 1995; Schall,
+1995; Theeuwes et al., 1998). An initial saccade toward the target
+would reveal a goal-directed saccade was initiated, while a saccade
+toward nontarget stimuli would show a reflexive saccade was initiated as a product of interactions between multiple networks of
+attention and visual attention priority maps (Itti & Koch, 2000,
+2001). Greater first saccades toward the salient distractor compared
+to the average of nontarget stimuli would show oculomotor capture
+by the salient distractor compared with a within-subjects baseline.
+Previously, we identified that older adults made significantly less
+first saccades to the target stimuli compared with young adults,
+demonstrating age-related impairments in mechanisms of goaldirected attentional control (Kim, Senior, et al., 2024). Here, we
+investigated whether increased arousal modulates goal-directed
+attentional control in both age groups. First, in distractor-absent
+2 p
+2 p
+2 p
+trials, we conducted a 2 × 2 × 2 ANOVA analysis over factors age
+(young vs. older), first-saccade destination (target vs. nontargets),
+and arousal (no shock vs. shock). Distractor-absent trials allow for a
+more accurate assessment of mechanisms of goal-directed attentional control without interactions of bottom-up attentional control
+from the visual cortex induced by a physically salient stimulus (Itti
+& Koch, 2001). We found a significant main effect of age, F(1, 66) =
+11.34, p < .001, η2 p = .147, and first-saccade destination, F(1, 66) =
+1760.18, p < .001, η2 p = .964, and a significant Age × First-Saccade
+Destination interaction effect, F(1, 66) = 11.34, p < .001, η2 p = .147,
+replicating prior findings of impaired mechanisms of goal-directed
+attentional control in older adults (see Figure 2A and Supplemental
+Table 1). However, we did not observe a main effect of arousal, F(1,
+66) = 0.20, p = .660, nor any other interaction effects, Fs(1, 66) <
+0.20, ps > .660. The mean difference for the effects of arousal on
+first-saccade destinations to the target was 0.0% in young adults
+(95% CI [−1.76, 1.76]), t(33), p = 1.000, and 0.76% in older adults
+(95% CI [−2.27, 3.80]), t(33), p = .613. Bayesian analyses revealed
+moderate evidence that arousal does not modulate goal-directed
+attentional control in young, BF10 = 0.184 (error% = 0.041), and
+older adults, BF10 = 0.207 (error% = 0.040).
+Arousal Increases Oculomotor Capture by Salient
+Stimuli in Young Adults but Not in Older Adults
+In distractor-present trials, we can determine whether the attentional priority of salient stimuli overrides goal-directed attentional
+priority if the first-saccade destination is a reflexive saccade toward
+the distractor. If more reflexive first saccades go to the distractor
+compared to a nontarget showing an oculomotor capture effect, we
+can quantify the magnitude of attentional priority allocation toward
+the salient color stimuli. First, we conducted a 2 × 3 × 2 ANOVA
+analysis over factors age (young vs. older), first-saccade destination
+(target vs. nontargets vs. distractor), and arousal (no shock vs.
+shock) on distractor-present trials. We observed a significant main
+effect of age, F(1, 66) = 9.81, p = .003, η2 p = .129, and first-saccade
+destination, F(2, 132) = 245.37, p < .001, η2 p = .788, and a significant Age × First-Saccade Destination interaction effect, F(2,
+132) = 9.27, p < .001, η2 p = .123 (see Figure 2B). We observed no
+main effect of arousal, F(1, 66) = 0.13, p = .725, and no three-way
+interaction between factors age, arousal, and first-saccade destination, F(2, 132) = 2.62, p = .076. The mean difference for the
+effects of arousal on first-saccade destinations to the salient distractor was 2.82% in young adults (95% CI [0.59, 5.04]), t(33) =
+2.58, p = .015, and 0.03% in older adults (95% CI [−2.38, 2.43]),
+t(33) = 0.02, p = .981. Using Bayesian analyses, we identified
+moderate evidence that arousal does not modulate attention capture by
+the salient distractor in older adults, BF10 = 0.184 (error% = 0.041).
+Next, we calculated the oculomotor capture effect by subtracting
+the percentage of first fixations on a nontarget from the percentage of
+first fixations on the salient distractor to appropriately measure
+attention capture relative to a within-subject baseline (Wöstmann et
+al., 2022). Thus, a positive oculomotor capture effect would indicate
+increased attentional priority to specifically salient stimuli rather
+than a general increase in reflexive and random saccades. Furthermore,
+given that we did not identify a three-way interaction between
+factors age, arousal, and first-saccade destination across all trials, we
+investigated whether the ABC effect dissipates from receipt of an
+electric shock. In the nonarousal blocks for each participant, we
+2 p
+2 p
+2 p
+LOCUS COERULEUS AND EYE MOVEMENTS
+935
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. Bar graphs show first-saccade destinations on (A) distractor-absent and (B) distractor-present trials. Both age groups made more first
+saccades toward the target compared to nontarget shapes showing goal-directed attentional control and more first saccades toward the
+distractor compared to nontarget shapes showing attention capture by the distractor. Older adults made fewer first saccades toward the target
+than did young adults, indicating age-related impairments in goal-directed attentional control (see Supplemental Table 1). The threat of
+unpredictable shock increased distractibility by salient distractors in young adults, but not in older adults. Error bars reflect the standard error
+of the mean. See the online article for the color version of this figure.
+*
+p < .05. ** p < .01. *** p < .001.
+yoked the trials where shock was administered in the arousal block
+with the identical trials in the nonarousal block for each participant
+as proxy trials to control for the effects of fatigue across blocks. A
+mixed ANOVA over factors age (young vs. older), arousal (no
+shock vs. shock), and trials since shock delivery (one to six trials)
+2 p
+over the oculomotor capture effect revealed a significant main effect
+of arousal, F(1, 66) = 6.88, p = .011, η2 p = .094, and a significant
+Arousal × Block × Age three-way cubic interaction, F(5, 330) =
+5.77, p = .019, η2 p = .080 (see Figure 3). Young adults exhibited
+significantly increased oculomotor capture effects by the salient
+2 p
+Figure 3
+The Effect of Arousal-Biased Competition on Oculomotor Capture Dissipating in Young
+Adults
+Note. The oculomotor capture effect is the likelihood for the first-saccade destination to be the
+salient distractor compared with a random nontarget stimulus. Error bars reflect the standard error of
+the mean. YA = young adults; OA = older adults; n.s. = not significant. See the online article for the
+color version of this figure.
+*
+p < .05. ** p < .01.
+Figure 2
+Threat of Shock Increasing Distractibility by Salient Distractors in Young Adults but Not in Older Adults
+936
+KIM, NGUYEN, TIAN, AND MATHER
+distractor on the first trial after shock delivery, t(33) = 3.14, p =
+.004, d = 0.503, 95% CI [2.82, 13.24]; significant and nonsignificant
+effects of two to five trials after shock delivery, ts(33) = [2.71, 1.81],
+ps = [.011, .080], ds = [0.335, 0.213]; and nonsignificant effects
+beginning on the sixth trial after shock delivery, t(33) = 1.41, p =
+.169 (see Figure 3). In contrast, older adults did not exhibit elevated
+oculomotor capture from arousal over any trials during the shock
+block, ts(33) < 1.44, ps > .161, including the first trial after shock
+delivery, t(33) = 0.94, p = .353, 95% CI [−3.72, 10.15] (see Figure 3).
+Given that the effect of arousal exponentially dissipates in young
+adults following receipt of an electric shock, we explored the effects of
+induced arousal in the following measures, both averaged over all
+trials and on the first trial after receipt of the electric shock in which the
+ABC effect is maximal.
+Arousal Does Not Modulate Accuracy and Fixation Time
+Next, we explored whether arousal affected task performance
+differently in young and older adults, beginning with mean accuracy, or whether participants fixated on the target within the time
+limit. We first conducted a 2 × 2 × 2 ANOVA analysis over factors
+age (young vs. older), distractor presence (absent vs. present), and
+arousal (no shock vs. shock) over all trials. We found a significant
+main effect of age, F(1, 66) = 5.88, p = .018, η2 p = .082, and
+2 p
+2 p
+distractor presence, F(1, 66) = 10.08, p = .002, η2 p = .132, but no
+main effect of arousal, F(1, 66) = 1.73, p = .193, nor any interaction
+effects, Fs(1, 66) < 1.63, ps > .265 (see Figure 4A).
+Next, we investigated whether increased arousal differentially
+modulates the speed of attention processing. When conducting the
+aforementioned mixed ANOVA analysis with fixation time as the
+dependent variable, we found a significant main effect of age, F(1,
+66) = 31.68, p < .001, η2 p = .324, and distractor presence, F(1, 66) =
+2 p
+2 p
+2 p
+345.82, p < .001, η2 p = .840, and a significant Age × Distractor
+Presence interaction effect, F(1, 66) = 28.86, p < .001, η2 p = .304
+(see Figure 4B and Supplemental Table 2). However, we found no
+main effect of arousal, F(1, 66) = 0.40, p = .528, nor any other
+interaction effects, Fs(1, 66) < 1.05, ps > .309. In addition, arousal
+Figure 4
+Increased Arousal Not Modulating Task Performance
+did not significantly modulate target fixation times even on the first
+trial after shock delivery for both young adults, distractor-absent
+trial: 15 ms mean difference, 95% CI [−23.7, 38.9], t(33) = 0.49, p =
+.625; distractor-present trial: 16 ms mean difference, 95% CI
+[−12.7, 52.6], t(33) = 1.24, p = .224, and older adults, distractorabsent trial: 18 ms mean difference, 95% CI [−45.4, 9.7], t(33) =
+1.32, p = .197; distractor-present trial: 13 ms mean difference, 95%
+CI [−48.2, 21.8], t(33) = 0.77, p = .448. The significant Age ×
+Distractor Presence interaction effect shows that the distractor
+presence cost was greater in older adults; that is, older adults were
+more negatively affected by the distractor with slower fixation times
+compared with young adults. This age-related distractor presence
+cost was persistent even when normalizing fixation time speeds
+across age groups (see Kim, Senior, et al., 2024). A Bayesian pairedsamples t test revealed moderate evidence that arousal does not
+modulate fixation times in both distractor-absent and distractorpresent trials respectively for young, BF10 = 0.295 and 0.310 (error
+% = 0.037 and 0.036), and older adults, BF10 = 0.199 and 0.187
+(error% = 0.040 and 0.041).
+Arousal Does Not Modulate the Speed of Attention
+Reorienting in Either Young or Older Adults
+Next, we investigated how long participants fixated on an
+incorrect initial saccade (when the first-saccade destination is not the
+target), or dwell time, to probe attention mechanisms of reactive
+disengagement and reorienting. Longer dwell times would show a
+prolonged processing requirement of a stimulus until the next
+saccade is initiated and show deficiencies in rejecting a stimulus as a
+nontarget stimulus. A 2 × 2 × 2 ANOVA analysis over factors age
+(young vs. older), stimuli (nontargets vs. distractor), and arousal (no
+shock vs. shock) revealed a significant main effect of age, F(1,
+66) = 13.18, p < .001, η2 p = .166, and stimuli, F(1, 66) = 51.77,
+2 p
+2 p
+2 p
+p < .001, η2 p = .440, and a significant Age × Stimuli interaction
+effect, F(1, 66) = 4.67, p = .034, η2 p = .066 (see Figure 5A and
+Supplemental Table 3). Post hoc analyses revealed that both young
+and older adults had longer fixation durations on the distractor
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. Bar graphs depict age differences in (A) accuracy and (B) fixation time on distractor-absent and distractor-present trials. The presence
+of the distractor decreased accuracy and slowed fixation times. Older adults also had slower fixation times compared with young adults (see
+Supplemental Table 2). However, arousal did not modulate accuracy nor fixation time in both age groups. Error bars reflect the standard error
+of the mean. See the online article for the color version of this figure.
+***
+p < .001.
+LOCUS COERULEUS AND EYE MOVEMENTS
+937
+Note. Bar graphs depict (A) dwell time and mean saccadic reaction times in (B) distractor-absent and (C) distractor-present trials. Both age groups had longer
+fixation durations on the distractor compared to nontarget shapes and had slower mean saccade latencies when making goal-directed saccades toward the target
+(see also Supplemental Table 3). However, older adults showed significantly longer dwell times and longer mean saccade latencies when the direction of the
+saccade was the distractor. Error bars reflect the standard error of the mean. RT = reaction times. See the online article for the color version of this figure.
+*
+p < .05. ** p < .01. *** p < .001.
+compared to a nontarget shape and that older adults had longer
+fixation durations compared with young adults (see Supplemental
+Table 3). Furthermore, the significant interaction effect shows that
+older adults had particularly longer dwell times compared with
+young adults when the stimulus was the distractor, demonstrating an
+age-related impairment in disengaging from salient stimuli compared with nonsalient stimuli. However, we again did not find a
+main effect of arousal, F(1, 66) = 0.89, p = .350, nor any other
+interaction effects, Fs(1, 66) < 0.51, ps > .477. A Bayesian pairedsamples t test revealed moderate evidence that arousal does not
+modulate dwell times for both distractor and nontarget stimuli
+respectively in young, BF10 = 0.234 and 0.185 (error% = 0.039 and
+0.041), and older adults, BF10 = 0.205 and 0.263 (error% = 0.040
+and 0.038). In addition, arousal did not significantly modulate dwell
+times even on the first trial after shock delivery for either young
+adults, distractor stimuli: 21 ms mean difference, 95% CI [−76.2,
+34.8], t(26) = −0.77, p = .450; nontarget: 11 ms mean difference,
+95% CI [−34.6, 56.1], t(26) = 0.49, p = .629, or older adults,
+distractor stimuli: 20 ms mean difference, 95% CI [−55.7, 15.9],
+t(25) = 1.14, p = .264; nontarget stimuli: 21 ms mean difference,
+95% CI [−53.7, 11.6], t(26) = 1.32, p = .197.
+Arousal Does Not Modulate Saccadic Latencies in Both
+Young and Older Adults
+Next, we investigated whether elevated arousal produced age
+differences in mean sRT (also known as saccadic latencies) or the
+time to initiate the first saccade following the onset of the visual
+search array. Mean sRTs measure the time required to resolve biased
+competition between top–down and bottom-up networks of attention following the programming of both types of saccades. First, we
+conducted a 2 × 2 × 2 ANOVA analysis over factors age (young vs.
+older), stimuli (target vs. nontarget), and arousal (no shock vs.
+shock) on distractor-absent trials. We found a significant main effect
+of age, F(1, 66) = 4.04, p = .048, η2 p = .058, and stimuli, F(1, 66) =
+2 p
+2 p
+49.69, p < .001, η2 p = .430, but no main effect of arousal, F(1, 66) =
+0.05, p = .816, nor any interaction effects, Fs(1, 66) < 0.39, ps >
+.533 (see Figure 5B and Supplemental Table 3). Mean sRTs are
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 5
+Arousal Not Modulating Attention Processing Speeds
+938
+KIM, NGUYEN, TIAN, AND MATHER
+2 p
+2 p
+longer when the direction of the first saccade is toward the target
+because of processing of goal-directed mechanisms of attention
+compared with an automatic reflexive saccade driven by the visual
+cortex. Furthermore, we identified that older adults exhibit longer
+mean sRTs compared with young adults, showing a longer time
+requirement to process visual stimuli (see Supplemental Table 3).
+For distractor-present trials, we conducted a 2 × 3 × 2 ANOVA
+analysis over factors age (young vs. older), stimuli (target vs.
+nontargets vs. distractor), and arousal (no shock vs. shock) and
+found no significant main effect of age, F(1, 66) = 2.84, p = .097,
+but found a significant main effect of stimuli, F(2, 132) = 48.15, p <
+.001, η2 p = .422, and a significant Age × Stimuli interaction effect,
+F(2, 132) = 7.84, p < .001, η2 p = .106 (see Figure 5C and
+Supplemental Table 3). As in distractor-absent trials, mean sRTs
+were longer when making goal-directed saccades (toward the target)
+compared to when making reflexive saccades, and older adults had
+slower mean sRTs compared with young adults (see Supplemental
+Table 3). However, older adults had significantly longer mean sRTs
+compared with young adults when the direction of the saccade
+was toward the distractor, as indicated by the interaction effect.
+However, we again found no main effect of arousal, F(1, 66) = 0.09,
+p = .767, nor any other interaction effects, Fs(2, 132) < 1.19, ps >
+.306. A Bayesian paired-samples t test revealed moderate evidence
+that arousal does not modulate sRT across all stimuli for young
+adults, BF10 = [0.190, 0.317] (error% = [0.041, 0.036]), and moderate
+to anecdotal evidence for older adults, BF10 = [0.190, 0.342] (error
+% = [0.035, 0.041]). The lack of a significant effect of arousal on
+saccadic latencies was evident even on the first trial after shock
+delivery for both young adults, target: 6 ms mean difference, 95%
+CI [−1.95, 14.31], t(33) = 1.55, p = .132; nontarget stimuli: −2 ms
+mean difference, 95% CI [−24.1, 20.9], t(30) = 0.14, p = .887;
+distractor: 4 ms mean difference, 95% CI [−6.8, 15.1], t(33) =
+0.77, p = .445, and older adults, target: 4 ms mean difference, 95%
+CI [−8.95, 16.4], t(33) = 0.60, p = .554; nontarget stimuli: 3 ms
+mean difference, 95% CI [−15.2, 21.4], t(31) = 0.35, p = .731;
+distractor: −15 ms mean difference, 95% CI [−42.0, 11.5], t(33) =
+1.16, p = .254.
+Arousal Increased Baseline Pupil Sizes and Decreased
+Evoked Pupil Responses
+Finally, we investigated whether the unpredictable threat of shock
+modulated both baseline pupil sizes and evoked pupil responses
+(pupil dilation) as indirect measures of the LC-NA system. Given
+that participants were constantly under the threat of unpredictable
+shock throughout the entire run, emulating conditions of increased
+tonic noradrenergic activity, we hypothesized that the threat of
+unpredictable shock would increase baseline pupil sizes and would
+thus decrease phasic noradrenergic responses following the Yerkes–
+Dodson arousal relationship (Aston-Jones & Cohen, 2005). We
+measured baseline resting pupil sizes within the 200 ms period
+before the onset of the visual search array, during which only the
+fixation cross was present on the screen. We defined pupil dilation
+responses as the peak change in pupil size from baseline resting
+states (% change).
+We conducted a 2 × 2 mixed ANOVA analysis over factors age
+(young vs. older) and arousal (no shock vs. shock) with baseline
+pupil size on the first trial after shock delivery as the dependent
+measure. We found a main effect of age, F(1, 66) = 27.68, p < .001,
+η2 p = .295, and arousal, F(1, 66) = 25.99, p < .001, η2 p = .283, but no
+interaction effect, F(1, 66) = 0.74, p = .393 (see Figure 6A). Arousal
+significantly increased baseline pupil size in young adults by 0.21 mm
+(95% CI [0.10, 0.32]), t(33) = 4.02, p < .001, d = 0.291, and older
+adults by 0.15 mm (95% CI [0.05, 0.25]), t(33) = 3.16, p = .003, d =
+0.220. These findings are consistent but with a weaker arousal effect
+when averaging across all trials, main effect of age, F(1, 66) =
+27.03, p < .001, η2 p = .291, main effect of arousal, F(1, 66) =
+2 p
+2 p
+7.49, p = .008, η
+2 p
+= .102, but no interaction effect, F(1, 66) = 1.42,
+Figure 6
+Arousal Increasing Baseline Pupil Sizes and Decreasing Phasic Locus Coeruleus-Noradrenergic Responses as
+Measured With Evoked Pupil Responses
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. To investigate whether arousal differentially modulates the locus coeruleus-noradrenaline (LC-NA) system, the authors
+explored how the threat of unpredictable shock modulates two pupillometry measures of the LC-NA system. The authors found
+that arousal (A) increases baseline pupil sizes and (B) decreases evoked pupil responses to stimuli. Error bars reflect the standard
+error of the mean. See the online article for the color version of this figure.
+**
+p < .01. *** p < .001.
+LOCUS COERULEUS AND EYE MOVEMENTS
+939
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+p = .238. Finally, we conducted the aforementioned ANOVA with
+evoked pupil responses as the dependent measure. We found a
+significant main effect of arousal, F(1, 66) = 24.23, p < .001, η2 p =
+2 p
+significant main effect of arousal, F(1, 66) = 24.23, p < .001, η2 p =
+.269, but no main effect of age, F(1, 66) = 0.03, p = .868, nor an
+interaction effect, F(1, 66) = 0.00, p = .958 (see Figure 6B). As
+expected from the relationship in the LC-NA system with respect to
+tonic and phasic noradrenergic activity, we observed a decrease in
+evoked pupil responses under arousal in both young adults by
+1.18%, 95% CI [−0.43, −1.92], t(33) = 3.20, p = .003, d = 0.425,
+and older adults by 1.19%, 95% CI [−0.56, −1.83], t(33) = 3.84, p <
+.001, d = 0.444.
+Discussion
+We hypothesized that age-related changes in mechanisms of
+attentional control are driven by changes in the neuromodulatory
+LC-NA system. Specifically, we predicted that elevated arousal
+would enhance attentional priority for salient stimuli in young
+adults, but not in older adults, due to the hypothesized elevated
+levels of baseline noradrenergic activity associated with aging.
+Consistent with this hypothesis, we found that arousal increased first
+fixations to the salient, task-irrelevant distractor in young adults but
+not in older adults. However, contrary to our predictions, arousal
+did not modulate the speed of attention processing in either age
+group. Bayesian analyses provided moderate support for the null
+hypothesis, suggesting that arousal does not influence oculomotor
+measures of attention processing speed in either young or older
+adults. Pupillometry data further revealed age-equivalent effects of
+arousal on evoked pupil responses, with higher levels of baseline
+arousal leading to lower task-evoked dilation responses. From our
+data, it seems possible that LC-NA system hyperactivity in aging is
+minimal and not significantly different in cognitively healthy older
+adults when compared with young adults. Alternatively, the absence
+of arousal effects on attentional priority in older adults may reflect
+age-related declines in functional connectivity between the LC and
+the salience network (T.-H. Lee, Kim, et al., 2020). Prior studies
+examining steady-state visual evoked potential have found equivalent distractor suppression in the visual cortex when comparing
+young and older adults (Quigley et al., 2010; Quigley & Müller,
+2014). These findings suggest that early sensory processing in the
+visual cortex with respect to distractor suppression and inhibition of
+attentional priority of irrelevant stimuli remains preserved in aging.
+However, the present findings of arousal-induced changes in first
+fixations but not attention processing speeds suggest that age-related
+changes in the mechanisms of ABC are in early visual priority maps
+in the visual cortex (Itti & Koch, 2000, 2001) and do not reflect
+downstream interactions between higher order networks involving
+attentional control and the LC-NA system. Our pupillometry results
+provide support for the hypothesis that age-related shifts in attentional control may be mediated by alterations in neuromodulatory
+function. Furthermore, recent work in nonhuman primates has
+identified that optogenetic stimulation of LC neurons selectively
+enhances stimulus detection by improving perceptual sensitivity
+within the neuron’s receptive field (Ghosh & Maunsell, 2024),
+suggesting a specific role of the LC-NA system in modulating early
+attentional processes that is independent from general arousal. Our
+finding that the effect of ABC dissipates in young adults following
+the initial trial also suggests that modulations in attentional priority
+were not a product of sustained arousal effects from the underlying
+threat of unpredictable shock but rather from specific neuromodulatory mechanisms following shock delivery. Further research in
+humans should aim to clarify the role of the LC-NA system and its
+network-level interactions in shaping attentional control across the
+adult lifespan.
+Our use of an oculomotor visual search paradigm enabled us to
+examine multiple mechanisms of attentional control and the effect of
+arousal on each brain process. We specifically chose to use eye
+movement measures for their high reliability in both young and
+older adults (Kim, Grégoire, & Anderson, 2024), the relative
+insensitivity to age-related motor confounds as compared with
+motor response times (Hollingworth & Bahle, 2020), and the known
+networks of interaction between the LC-NA system and the oculomotor system in visual perception (Grefkes et al., 2010; Joshi,
+2023; Kalwani et al., 2014; M. Lee et al., 2020; Sawaguchi &
+Kikuchi, 1998). We also employed the unpredictable threat of shock
+to emulate sustained tonic noradrenergic hyperactivity hypothesized
+to occur in aging. Our findings replicate previous observations of
+age differences in the ABC literature with increased oculomotor
+capture by salient stimuli under arousal in young adults, but not in
+older adults (Allen et al., 2017; Durbin et al., 2018; Gallant et al.,
+2020, 2022; T.-H. Lee et al., 2018; Svärd et al., 2014). Notably, our
+use of oculomotor measures also provides clarity to a key theoretical
+tension in the literature. T.-H. Lee et al. (2018) identified that older
+adults’ reduced selectivity for salient stimuli under arousal was due
+to a generalized increase in brain activity for all stimuli. In contrast,
+Gallant et al. (2022) reported that arousal selectively increased
+activation for salient stimuli in young adults, but not in older adults.
+Our results support the interpretation that arousal selectively increases attentional priority to task-irrelevant salient distractors rather
+than broadly enhancing attentional priority to all nontarget stimuli.
+This pattern supports the view that arousal modulates visual priority
+maps in the visual cortex specifically for salient stimuli, rather than
+inducing a global shift from top–down goal-directed processing to
+bottom-up, reflexive processing. These findings are consistent
+with the ABC theory of perception and memory, which posits that
+arousal amplifies the representation of high-priority stimuli while
+suppressing lower priority information selectively (Mather &
+Sutherland, 2011).
+Additionally, we did not find evidence that arousal modulates
+attention processing speeds, including the initiation of eye movements, reorienting, or target identification. This absence of an
+arousal effect on processing speed was unexpected. In the visual
+attention literature, elevated arousal has often been associated with
+faster responses in spatial cuing tasks on valid trials and slower
+responses on invalid trials (T.-H. Lee et al., 2014; Sawada & Sato,
+2015; Sutton & Lutz, 2019). Other studies have shown that taskirrelevant arousing stimuli presented before a task can enhance
+target identification speed (T.-H. Lee et al., 2012; Sutherland &
+Mather, 2018; Zsido et al., 2020). In addition, arousing images have
+been shown to increase dwell time, with these changes closely
+linked to variations in pupil dilation (Astudillo et al., 2018). Our use
+of the unpredictable threat of shock paradigm produced robust
+increases in arousal as evidenced by significant changes in both
+baseline pupil size and evoked pupil responses. However, when
+measuring eye movements, we found no effect of arousal on processing speed, further supporting that ABC operates by modulating
+attentional priority maps in the early visual cortex (Itti & Koch,
+2000), rather than by influencing cognitive resources or processing
+940
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+speed. Furthermore, two previous studies have also shown that
+viewing arousing images induced changes in measures of pupillometry but did not improve recall of higher contrast stimuli (Ásgeirsson
+& Nieuwenhuis, 2017, 2019). These studies also found no effect of
+arousal on the timing of the late positive potential component, supporting that arousal primarily influences early sensory processing.
+Together, these findings argue that the effects of arousal on attentional
+control are likely mediated by selective changes in early visual representations, rather than downstream interactions between broader
+attentional networks.
+Interestingly, in our experimental manipulation, we observed the
+effect of ABC exponentially dissipated in young adults, with the
+strongest effect occurring immediately following shock delivery.
+We used the threat of unpredictable shock to emulate states of tonic
+noradrenergic hyperactivity that are hypothesized to occur in older
+adults (Elman et al., 2017; Gannon & Wang, 2019; Mather, 2020;
+Weinshenker, 2018), given that the threat of unpredictable shock has
+been shown to reduce alpha oscillations in the parietal lobe that
+mimic age-related changes (Balderston et al., 2017). Since our initial
+analyses averaged across all trials without accounting for the timing
+of the shock, we conducted a post hoc examination of whether the
+arousal effect declined over time. We argue that the unpredictable
+threat of shock was successful in elevating tonic noradrenergic
+activity given that baseline pupil sizes were significantly elevated
+when averaged across the entire block and not just the first trial after
+shock delivery. These findings also align with the Glutamate
+Amplifies Noradrenergic Effect model, which posits that arousal
+produces local noradrenaline hot spots in regions representing
+prioritized stimuli, thereby enhancing their priority (Mather et al.,
+2016b). Our data suggest that while tonic arousal may persist, these
+local noradrenergic hot spots form rapidly in response to phasic
+arousal and decay exponentially, returning to baseline approximately 15 s after shock delivery. However, it remains unclear
+whether the absence of such hot spots contributes to the attenuated
+ABC effect observed in older adults. It is also plausible that arousal
+effects on attentional priority require a threshold level of noradrenergic activation that is only reached immediately following shock
+delivery and diminishes shortly thereafter. Future studies employing
+direct electrophysiological recordings of noradrenergic neurons will
+be necessary to confirm these hypotheses and clarify the dynamics
+of tonic and phasic LC-NA activity in ABC.
+Finally, we believe this study demonstrates the utility of eye
+movement measures for investigating mechanisms of attentional
+control and in neurodegenerative disease research. Eye movements,
+in addition to pupillometry, are emerging as valuable noninvasive
+indicators of LC function in humans (Joshi, 2023). Given the high
+reliability of measures of oculomotor function even in older adults
+(Kim, Grégoire, & Anderson, 2024), further establishing and validating eye movements as functional markers of LC-NA system
+activity may be critical for tracking longitudinal changes in aging
+and neurodegeneration. Prior research has shown that eye movement metrics, specifically saccadic latency, can distinguish between
+neurodegenerative diseases (Garbutt et al., 2008; Lage et al., 2021;
+Z. Liu et al., 2021) and differentiate between individuals with
+Alzheimer’s disease from those in prodromal stages such as mild
+cognitive impairment (Chehrehnegar et al., 2019, 2022; Opwonya et
+al., 2022; Peltsch et al., 2014; Wilcockson et al., 2019). Our findings
+lay the groundwork for future studies to further explore the broad
+potential of eye movement measures as functional biomarkers that
+may capture disease progression and aid in predicting transitions to
+prodromal stages of dementia.
+References
+Allen, P. A., Lien, M.-C., & Jardin, E. (2017). Age-related emotional bias in
+processing two emotionally valenced tasks. Psychological Research,
+81(1), 289–308. https://doi.org/10.1007/s00426-015-0711-8
+Armstrong, K. M., Fitzgerald, J. K., & Moore, T. (2006). Changes in visual
+receptive fields with microstimulation of frontal cortex. Neuron, 50(5),
+791–798. https://doi.org/10.1016/j.neuron.2006.05.010
+Ásgeirsson, Á. G., & Nieuwenhuis, S. (2017). No arousal-biased competition
+in focused visuospatial attention. Cognition, 168, 191–204. https://doi.org/
+10.1016/j.cognition.2017.07.001
+Ásgeirsson, Á. G., & Nieuwenhuis, S. (2019). Effects of arousal on biased
+competition in attention and short-term memory. Attention, Perception, &
+Psychophysics, 81(6), 1901–1912. https://doi.org/10.3758/s13414-019-
+01756-x
+Aston-Jones, G., & Cohen, J. D. (2005). An integrative theory of locus
+coeruleus-norepinephrine function: Adaptive gain and optimal performance. Annual Review of Neuroscience, 28(1), 403–450. https://doi.org/
+10.1146/annurev.neuro.28.061604.135709
+Astudillo, C., Muñoz, K., & Maldonado, P. E. (2018). Emotional content
+modulates attentional visual orientation during free viewing of natural
+images. Frontiers in Human Neuroscience, 12, Article 459. https://doi.org/
+10.3389/fnhum.2018.00459
+Balderston, N. L., Hale, E., Hsiung, A., Torrisi, S., Holroyd, T., Carver,
+F. W., Coppola, R., Ernst, M., & Grillon, C. (2017). Threat of shock
+increases excitability and connectivity of the intraparietal sulcus. eLife, 6,
+Article e23608. https://doi.org/10.7554/eLife.23608
+Berridge, C. W. (2008). Noradrenergic modulation of arousal. Brain
+Research Reviews, 58(1), 1–17. https://doi.org/10.1016/j.brainresrev.2007
+.10.013
+Berridge, C. W., & Waterhouse, B. D. (2003). The locus coeruleus-noradrenergic system: Modulation of behavioral state and state-dependent
+cognitive processes. Brain Research Reviews, 42(1), 33–84. https://
+doi.org/10.1016/S0165-0173(03)00143-7
+Betts, M. J., Kirilina, E., Otaduy, M. C. G., Ivanov, D., Acosta-Cabronero, J.,
+Callaghan, M. F., Lambert, C., Cardenas-Blanco, A., Pine, K., Passamonti,
+L., Loane, C., Keuken, M. C., Trujillo, P., Lüsebrink, F., Mattern, H., Liu,
+K. Y., Priovoulos, N., Fliessbach, K., Dahl, M. J., … Hämmerer, D.
+(2019). Locus coeruleus imaging as a biomarker for noradrenergic dysfunction in neurodegenerative diseases. Brain: A Journal of Neurology,
+142(9), 2558–2571. https://doi.org/10.1093/brain/awz193
+Bouret, S., & Sara, S. J. (2004). Reward expectation, orientation of attention
+and locus coeruleus-medial frontal cortex interplay during learning. The
+European Journal of Neuroscience, 20(3), 791–802. https://doi.org/10
+.1111/j.1460-9568.2004.03526.x
+Brainard, D. H. (1997). The psychophysics toolbox. Spatial Vision, 10(4),
+433–436. https://doi.org/10.1163/156856897X00357
+Breton-Provencher, V., & Sur, M. (2019). Active control of arousal by a
+locus coeruleus GABAergic circuit. Nature Neuroscience, 22(2), 218–
+228. https://doi.org/10.1038/s41593-018-0305-z
+Bruce, C. J., & Goldberg, M. E. (1985). Primate frontal eye fields. I. Single
+neurons discharging before saccades. Journal of Neurophysiology, 53(3),
+603–635. https://doi.org/10.1152/jn.1985.53.3.603
+Cabeza, R. (2002). Hemispheric asymmetry reduction in older adults: The
+HAROLD model. Psychology and Aging, 17(1), 85–100. https://doi.org/
+10.1037/0882-7974.17.1.85
+Campbell, K. L., Grady, C. L., Ng, C., & Hasher, L. (2012). Age differences
+in the frontoparietal cognitive control network: Implications for distractibility. Neuropsychologia, 50(9), 2212–2223. https://doi.org/10.1016/
+j.neuropsychologia.2012.05.025
+LOCUS COERULEUS AND EYE MOVEMENTS
+941
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Case, G. R., & Ferrera, V. P. (2007). Coordination of smooth pursuit and
+saccade target selection in monkeys. Journal of Neurophysiology, 98(4),
+2206–2214. https://doi.org/10.1152/jn.00021.2007
+Cassidy, C. M., Therriault, J., Pascoal, T. A., Cheung, V., Savard, M.,
+Tuominen, L., Chamoun, M., McCall, A., Celebi, S., Lussier, F.,
+Massarweh, G., Soucy, J.-P., Weinshenker, D., Tardif, C., Ismail, Z.,
+Gauthier, S., & Rosa-Neto, P. (2022). Association of locus coeruleus
+integrity with Braak stage and neuropsychiatric symptom severity in
+Alzheimer’s disease. Neuropsychopharmacology, 47(5), 1128–1136.
+https://doi.org/10.1038/s41386-022-01293-6
+Chehrehnegar, N., Nejati, V., Shati, M., Esmaeili, M., Rezvani, Z., Haghi,
+M., & Foroughan, M. (2019). Behavioral and cognitive markers of mild
+cognitive impairment: Diagnostic value of saccadic eye movements and
+Simon task. Aging Clinical and Experimental Research, 31(11), 1591–
+1600. https://doi.org/10.1007/s40520-019-01121-w
+Chehrehnegar, N., Shati, M., Esmaeili, M., & Foroughan, M. (2022).
+Executive function deficits in mild cognitive impairment: Evidence from
+saccade tasks. Aging & Mental Health, 26(5), 1001–1009. https://doi.org/
+10.1080/13607863.2021.1913471
+Clewett, D. V., Lee, T.-H., Greening, S., Ponzio, A., Margalit, E., &
+Mather, M. (2016). Neuromelanin marks the spot: Identifying a locus
+coeruleus biomarker of cognitive reserve in healthy aging. Neurobiology
+of Aging, 37, 117–126. https://doi.org/10.1016/j.neurobiolaging.2015
+.09.019
+Corbetta, M., Patel, G., & Shulman, G. L. (2008). The reorienting system of
+the human brain: From environment to theory of mind. Neuron, 58(3),
+306–324. https://doi.org/10.1016/j.neuron.2008.04.017
+Corbetta, M., & Shulman, G. L. (2002). Control of goal-directed and
+stimulus-driven attention in the brain. Nature Reviews Neuroscience, 3(3),
+201–215. https://doi.org/10.1038/nrn755
+Dahl, M. J., Bachman, S. L., Dutt, S., Düzel, S., Bodammer, N. C.,
+Lindenberger, U., Kühn, S., Werkle-Bergner, M., & Mather, M. (2023). The
+integrity of dopaminergic and noradrenergic brain regions is associated
+with different aspects of late-life memory performance. Nature Aging, 3(9),
+1128–1143. https://doi.org/10.1038/s43587-023-00469-z
+Dahl, M. J., Mather, M., Düzel, S., Bodammer, N. C., Lindenberger, U.,
+Kühn, S., & Werkle-Bergner, M. (2019). Rostral locus coeruleus integrity
+is associated with better memory performance in older adults. Nature
+Human Behaviour, 3(11), 1203–1214. https://doi.org/10.1038/s41562-
+019-0715-2
+Dahl, M. J., Mather, M., Werkle-Bergner, M., Kennedy, B. L., Guzman, S.,
+Hurth, K., Miller, C. A., Qiao, Y., Shi, Y., Chui, H. C., & Ringman, J. M.
+(2022). Locus coeruleus integrity is related to tau burden and memory loss
+in autosomal-dominant Alzheimer’s disease. Neurobiology of Aging, 112,
+39–54. https://doi.org/10.1016/j.neurobiolaging.2021.11.006
+Davis, S. W., Dennis, N. A., Daselaar, S. M., Fleck, M. S., & Cabeza, R.
+(2008). Que PASA? The posterior-anterior shift in aging. Cerebral Cortex,
+18(5), 1201–1209. https://doi.org/10.1093/cercor/bhm155
+de Gee, J. W., Colizoli, O., Kloosterman, N. A., Knapen, T., Nieuwenhuis,
+S., & Donner, T. H. (2017). Dynamic modulation of decision biases by
+brainstem arousal systems. eLife, 6, Article e23232. https://doi.org/10
+.7554/eLife.23232
+DiNuzzo, M., Mascali, D., Moraschi, M., Bussu, G., Maugeri, L., Mangini,
+F., Fratini, M., & Giove, F. (2019). Brain networks underlying eye’s pupil
+dynamics. Frontiers in Neuroscience, 13, Article 965. https://doi.org/10
+.3389/fnins.2019.00965
+Durbin, K. A., Clewett, D., Huang, R., & Mather, M. (2018). Age differences
+in selective memory of goal-relevant stimuli under threat. Emotion, 18(6),
+906–911. https://doi.org/10.1037/emo0000398
+Elman, J. A., Panizzon, M. S., Hagler, D. J., Jr., Eyler, L. T., Granholm, E. L.,
+Fennema-Notestine, C., Lyons, M. J., McEvoy, L. K., Franz, C. E., Dale,
+A. M., & Kremen, W. S. (2017). Task-evoked pupil dilation and BOLD
+variance as indicators of locus coeruleus dysfunction. Cortex, 97, 60–69.
+https://doi.org/10.1016/j.cortex.2017.09.025
+Elman, J. A., Puckett, O. K., Beck, A., Fennema-Notestine, C., Cross, L. K.,
+Dale, A. M., Eglit, G. M. L., Eyler, L. T., Gillespie, N. A., Granholm, E. L.,
+Gustavson, D. E., Hagler, D. J., Jr., Hatton, S. N., Hauger, R., Jak, A. J.,
+Logue, M. W., McEvoy, L. K., McKenzie, R. E., Neale, M. C., …
+Kremen, W. S. (2021). MRI-assessed locus coeruleus integrity is heritable
+and associated with multiple cognitive domains, mild cognitive impairment,
+and daytime dysfunction. Alzheimer’s & Dementia: The Journal of the
+Alzheimer’s Association, 17(6), 1017–1025. https://doi.org/10.1002/
+alz.12261
+Gallant, S. N., Durbin, K. A., & Mather, M. (2020). Age differences in
+vulnerability to distraction under arousal. Psychology and Aging, 35(5),
+780–791. https://doi.org/10.1037/pag0000426
+Gallant, S. N., Kennedy, B. L., Bachman, S. L., Huang, R., Cho, C., Lee,
+T.-H., & Mather, M. (2022). Behavioral and fMRI evidence that arousal
+enhances bottom-up selectivity in young but not older adults. Neurobiology of Aging, 120, 149–166. https://doi.org/10.1016/j.neurobiolagi
+ng.2022.08.006
+Gannon, M., & Wang, Q. (2019). Complex noradrenergic dysfunction in
+Alzheimer’s disease: Low norepinephrine input is not always to blame.
+Brain Research, 1702, 12–16. https://doi.org/10.1016/j.brainres.2018
+.01.001
+Garbutt, S., Matlin, A., Hellmuth, J., Schenk, A. K., Johnson, J. K., Rosen, H.,
+Dean, D., Kramer, J., Neuhaus, J., Miller, B. L., Lisberger, S. G., & Boxer,
+A. L. (2008). Oculomotor function in frontotemporal lobar degeneration,
+related disorders and Alzheimer’s disease. Brain: A Journal of Neurology,
+131(5), 1268–1281. https://doi.org/10.1093/brain/awn047
+Gatz, M., Reynolds, C., Nikolic, J., Lowe, B., Karel, M., & Pedersen, N.
+(1995). An empirical test of telephone screening to identify potential
+dementia cases. International Psychogeriatrics, 7(3), 429–438. https://
+doi.org/10.1017/S1041610295002171
+Gazzaley, A., Cooney, J. W., Rissman, J., & D’Esposito, M. (2005). Top–
+down suppression deficit underlies working memory impairment in
+normal aging. Nature Neuroscience, 8(10), 1298–1300. https://doi.org/10
+.1038/nn1543
+Geerligs, L., Renken, R. J., Saliasi, E., Maurits, N. M., & Lorist, M. M.
+(2015). A brain-wide study of age-related changes in functional connectivity. Cerebral Cortex, 25(7), 1987–1999. https://doi.org/10.1093/ce
+rcor/bhu012
+Ghosh, S., & Maunsell, J. H. R. (2024). Locus coeruleus norepinephrine
+contributes to visual–spatial attention by selectively enhancing perceptual
+sensitivity. Neuron, 112(13), 2231–2240.e5. https://doi.org/10.1016/j.neu
+ron.2024.04.001
+Grady, C., Sarraf, S., Saverino, C., & Campbell, K. (2016). Age differences
+in the functional interactions among the default, frontoparietal control, and
+dorsal attention networks. Neurobiology of Aging, 41, 159–172. https://
+doi.org/10.1016/j.neurobiolaging.2016.02.020
+Grefkes, C., Wang, L. E., Eickhoff, S. B., & Fink, G. R. (2010).
+Noradrenergic modulation of cortical networks engaged in visuomotor
+processing. Cerebral Cortex, 20(4), 783–797. https://doi.org/10.1093/ce
+rcor/bhp144
+Grueschow, M., Kleim, B., & Ruff, C. C. (2022). Functional coupling of the
+locus coeruleus is linked to successful cognitive control. Brain Sciences,
+12(3), Article 305. https://doi.org/10.3390/brainsci12030305
+Grueschow, M., Stenz, N., Thörn, H., Ehlert, U., Breckwoldt, J., Brodmann
+Maeder, M., Exadaktylos, A. K., Bingisser, R., Ruff, C. C., & Kleim, B.
+(2021). Real-world stress resilience is associated with the responsivity of
+the locus coeruleus. Nature Communications, 12(1), Article 2275. https://
+doi.org/10.1038/s41467-021-22509-1
+Hämmerer, D., Callaghan, M. F., Hopkins, A., Kosciessa, J., Betts, M.,
+Cardenas-Blanco, A., Kanowski, M., Weiskopf, N., Dayan, P., Dolan, R. J.,
+& Düzel, E. (2018). Locus coeruleus integrity in old age is selectively
+related to memories linked with salient negative events. Proceedings of the
+National Academy of Sciences of the United States of America, 115(9),
+2228–2233. https://doi.org/10.1073/pnas.1712268115
+942
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Hasher, L., & Zacks, R. T. (1988). Working memory, comprehension, and
+aging: A review and a new view. Psychology of Learning and Motivation,
+22, 193–225. https://doi.org/10.1016/S0079-7421(08)60041-9
+Hollingworth, A., & Bahle, B. (2020). Eye tracking in visual search experiments. In S. Pollmann (Ed.), Spatial learning and attention guidance
+(pp. 23–35). Springer. https://doi.org/10.1007/7657_2019_30
+Itti, L., & Koch, C. (2000). A saliency-based search mechanism for overt and
+covert shifts of visual attention. Vision Research, 40(10–12), 1489–1506.
+https://doi.org/10.1016/S0042-6989(99)00163-7
+Itti, L., & Koch, C. (2001). Computational modelling of visual attention.
+Nature Reviews Neuroscience, 2(3), 194–203. https://doi.org/10.1038/
+35058500
+Jacobs, H. I. L., Wiese, S., van de Ven, V., Gronenschild, E. H. B. M.,
+Verhey, F. R. J., & Matthews, P. M. (2015). Relevance of parahippocampal-locus coeruleus connectivity to memory in early dementia.
+Neurobiology of Aging, 36(2), 618–626. https://doi.org/10.1016/j.neuro
+biolaging.2014.10.041
+Joshi, S. (2023). The impact of age and Alzheimer’s disease on locus
+coeruleus mediated neuromodulation of neural circuits and goal-directed
+behavior. PsyArXiv. https://doi.org/10.31234/osf.io/bqwte
+Joshi, S., & Gold, J. I. (2022). Context-dependent relationships between
+locus coeruleus firing patterns and coordinated neural activity in the
+anterior cingulate cortex. eLife, 11, Article e63490. https://doi.org/10
+.7554/eLife.63490
+Joshi, S., Li, Y., Kalwani, R. M., & Gold, J. I. (2016). Relationships between
+pupil diameter and neuronal activity in the locus coeruleus, colliculi, and
+cingulate cortex. Neuron, 89(1), 221–234. https://doi.org/10.1016/j.neuro
+n.2015.11.028
+Kalwani, R. M., Joshi, S., & Gold, J. I. (2014). Phasic activation of individual
+neurons in the locus ceruleus/subceruleus complex of monkeys reflects
+rewarded decisions to go but not stop. The Journal of Neuroscience, 34(41),
+13656–13669. https://doi.org/10.1523/JNEUROSCI.2566-14.2014
+Kennedy, B. L., & Mather, M. (2019). Neural mechanisms underlying agerelated changes in attentional selectivity. In G. R. Samanez-Larkin (Ed.), The
+aging brain: Functional adaptation across adulthood (pp. 45–72). American
+Psychological Association. https://doi.org/10.1037/0000143-003
+Kim, A. J., & Anderson, B. A. (2020a). Arousal-biased competition explains
+reduced distraction by reward cues under threat. eNeuro, 7(4). https://
+doi.org/10.1523/ENEURO.0099-20.2020
+Kim, A. J., & Anderson, B. A. (2020b). Threat reduces value-driven but not
+salience-driven attentional capture. Emotion, 20(5), 874–889. https://
+doi.org/10.1037/emo0000599
+Kim, A. J., & Anderson, B. A. (2022). Systemic effects of selection history
+on learned ignoring. Psychonomic Bulletin & Review, 29(4), 1347–1354.
+https://doi.org/10.3758/s13423-021-02050-4
+Kim, A. J., Grégoire, L., & Anderson, B. A. (2024). Reliably measuring
+learning-dependent distractor suppression with eye tracking. Behavior
+Research Methods, 57(1), Article 18. https://doi.org/10.3758/s13428-024-
+02552-8
+Kim, A. J., Lee, D. S., & Anderson, B. A. (2021). The influence of threat on the
+efficiency of goal-directed attentional control. Psychological Research,
+85(3), 980–986. https://doi.org/10.1007/s00426-020-01321-4
+Kim, A. J., Nguyen, K., Tian, Y., & Mather, M. (2024). Eye movement
+evidence for locus coeruleus-noradrenaline system contributions to age
+differences in attention [Data set]. Open Science Framework. https://osf
+.io/hmfzq
+Kim, A. J., Senior, J., Chu, S., & Mather, M. (2024). Aging impairs reactive
+attentional control but not proactive distractor inhibition. Journal of
+Experimental Psychology: General, 153(7), 1938–1959. https://doi.org/10
+.1037/xge0001602
+Krohn, F., Lancini, E., Ludwig, M., Leiman, M., Guruprasath, G., Haag,
+L., Panczyszyn, J., Düzel, E., Hämmerer, D., & Betts, M. (2023).
+Noradrenergic neuromodulation in ageing and disease. Neuroscience and
+Biobehavioral Reviews, 152, Article 105311. https://doi.org/10.1016/j.neu
+biorev.2023.105311
+Kropotov, J., Ponomarev, V., Tereshchenko, E. P., Müller, A., & Jäncke, L.
+(2016). Effect of aging on ERP components of cognitive control. Frontiers
+in Aging Neuroscience, 8, Article 69. https://doi.org/10.3389/fnagi.20
+16.00069
+Kubo-Kawai, N., & Kawai, N. (2010). Elimination of the enhanced Simon
+effect for older adults in a three-choice situation: Ageing and the Simon
+effect in a go/no-go Simon task. The Quarterly Journal of Experimental
+Psychology, 63(3), 452–464. https://doi.org/10.1080/174702109029
+90829
+Lage, C., Lo´pez-García, S., Bejanin, A., Kazimierczak, M., Aracil-Bolaños,
+I., Calvo-Co´rdoba, A., Pozueta, A., García-Martínez, M., FernándezRodríguez, A., Bravo-González, M., Jiménez-Bonilla, J., Banzo, I., IrureVentura, J., Pegueroles, J., Illán-Gala, I., Fortea, J., Rodríguez-Rodríguez,
+E., Lleo´-Bisa, A., García-Cena, C. E., … Sánchez-Juan, P. (2021).
+Distinctive oculomotor behaviors in Alzheimer’s disease and frontotemporal dementia. Frontiers in Aging Neuroscience, 12, Article 603790.
+https://doi.org/10.3389/fnagi.2020.603790
+Langenecker, S. A., Nielson, K. A., & Rao, S. M. (2004). fMRI of healthy
+older adults during Stroop interference. NeuroImage, 21(1), 192–200.
+https://doi.org/10.1016/j.neuroimage.2003.08.027
+Lee, M., Mueller, A., & Moore, T. (2020). Differences in noradrenaline
+receptor expression across different neuronal subtypes in macaque frontal
+eye field. Frontiers in Neuroanatomy, 14, Article 574130. https://doi.org/
+10.3389/fnana.2020.574130
+Lee, T.-H., Greening, S. G., Ueno, T., Clewett, D., Ponzio, A., Sakaki, M., &
+Mather, M. (2018). Arousal increases neural gain via the locus coeruleusnorepinephrine system in younger adults but not in older adults. Nature
+Human Behaviour, 2(5), 356–366. https://doi.org/10.1038/s41562-018-
+0344-1
+Lee, T.-H., Itti, L., & Mather, M. (2012). Evidence for arousal-biased
+competition in perceptual learning. Frontiers in Psychology, 3, Article
+241. https://doi.org/10.3389/fpsyg.2012.00241
+Lee, T.-H., Kim, S. H., Katz, B., & Mather, M. (2020). The decline in intrinsic
+connectivity between the salience network and locus coeruleus in older
+adults: Implications for distractibility. Frontiers in Aging Neuroscience,
+12, Article 2. https://doi.org/10.3389/fnagi.2020.00002
+Lee, T.-H., Sakaki, M., Cheng, R., Velasco, R., & Mather, M. (2014).
+Emotional arousal amplifies the effects of biased competition in the brain.
+Social Cognitive and Affective Neuroscience, 9(12), 2067–2077. https://
+doi.org/10.1093/scan/nsu015
+Li, L., Feng, X., Zhou, Z., Zhang, H., Shi, Q., Lei, Z., Shen, P., Yang, Q.,
+Zhao, B., Chen, S., Li, L., Zhang, Y., Wen, P., Lu, Z., Li, X., Xu, F., &
+Wang, L. (2018). Stress accelerates defensive responses to looming in
+mice and involves a locus coeruleus-superior colliculus projection.
+Current Biology, 28(6), 859–871.e5. https://doi.org/10.1016/j.cub.2018
+.02.005
+Liu, K. Y., Acosta-Cabronero, J., Cardenas-Blanco, A., Loane, C., Berry,
+A. J., Betts, M. J., Kievit, R. A., Henson, R. N., Düzel, E., Howard, R.,
+Hämmerer, D., & the Cam-CAN. (2019). In vivo visualization of agerelated differences in the locus coeruleus. Neurobiology of Aging, 74, 101–
+111. https://doi.org/10.1016/j.neurobiolaging.2018.10.014
+Liu, K. Y., Kievit, R. A., Tsvetanov, K. A., Betts, M. J., Düzel, E., Rowe, J. B.,
+Howard, R., Hämmerer, D., & the Cam-CAN. (2020). Noradrenergicdependent functions are associated with age-related locus coeruleus signal
+intensity differences. Nature Communications, 11(1), Article 1712. https://
+doi.org/10.1038/s41467-020-15410-w
+Liu, Y., Rodenkirch, C., Moskowitz, N., Schriver, B., & Wang, Q. (2017).
+Dynamic lateralization of pupil dilation evoked by locus coeruleus
+activation results from sympathetic, not parasympathetic, contributions.
+Cell Reports, 20(13), 3099–3112. https://doi.org/10.1016/j.celrep.2017
+.08.094
+LOCUS COERULEUS AND EYE MOVEMENTS
+943
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Liu, Z., Yang, Z., Gu, Y., Liu, H., & Wang, P. (2021). The effectiveness of
+eye tracking in the diagnosis of cognitive disorders: A systematic review
+and meta-analysis. PLOS ONE, 16(7), Article e0254059. https://doi.org/
+10.1371/journal.pone.0254059
+Loughlin, S. E., Foote, S. L., & Grzanna, R. (1986). Efferent projections of
+nucleus locus coeruleus: Morphologic subpopulations have different
+efferent targets. Neuroscience, 18(2), 307–319. https://doi.org/10.1016/
+0306-4522(86)90156-9
+Ludwig, M., Yi, Y.-J., Lüsebrink, F., Callaghan, M. F., Betts, M. J.,
+Yakupov, R., Weiskopf, N., Dolan, R. J., Düzel, E., & Hämmerer, D.
+(2024). Functional locus coeruleus imaging to investigate an ageing
+noradrenergic system. Communications Biology, 7(1), Article 777. https://
+doi.org/10.1038/s42003-024-06446-5
+Lustig, C., Hasher, L., & Zacks, R. T. (2007). Inhibitory deficit theory:
+Recent developments in a “new view.” In D. S. Gorfein & C. M. MacLeod
+(Eds.), Inhibition in cognition (pp. 145–162). American Psychological
+Association. https://doi.org/10.1037/11587-008
+Madden, D. J. (2007). Aging and visual attention. Current Directions in
+Psychological Science, 16(2), 70–74. https://doi.org/10.1111/j.1467-8721
+.2007.00478.x
+Maness, E. B., Burk, J. A., McKenna, J. T., Schiffino, F. L., Strecker, R. E.,
+& McCoy, J. G. (2022). Role of the locus coeruleus and basal forebrain in
+arousal and attention. Brain Research Bulletin, 188, 47–58. https://doi.org/
+10.1016/j.brainresbull.2022.07.014
+Mather, M. (2020). How arousal-related neurotransmitter systems compensate for age-related decline. In A. Gutchess & A. K. Thomas (Eds.),
+The Cambridge handbook of cognitive aging: A life course perspective
+(pp. 101–120). Cambridge University Press. https://doi.org/10.1017/9781
+108552684.007
+Mather, M., Clewett, D., Sakaki, M., & Harley, C. W. (2016a). GANEing
+traction: The broad applicability of NE hotspots to diverse cognitive and
+arousal phenomena. Behavioral and Brain Sciences, 39, Article e228.
+https://doi.org/10.1017/S0140525X16000017
+Mather, M., Clewett, D., Sakaki, M., & Harley, C. W. (2016b).
+Norepinephrine ignites local hotspots of neuronal excitation: How arousal
+amplifies selectivity in perception and memory. Behavioral and Brain
+Sciences, 39, Article e200. https://doi.org/10.1017/S0140525X15000667
+Mather, M., & Sutherland, M. R. (2011). Arousal-biased competition in
+perception and memory. Perspectives on Psychological Science, 6(2),
+114–133. https://doi.org/10.1177/1745691611400234
+McBurney-Lin, J., Lu, J., Zuo, Y., & Yang, H. (2019). Locus coeruleusnorepinephrine modulation of sensory processing and perception: A
+focused review. Neuroscience and Biobehavioral Reviews, 105, 190–199.
+https://doi.org/10.1016/j.neubiorev.2019.06.009
+Murphy, P. R., O’Connell, R. G., O’Sullivan, M., Robertson, I. H., &
+Balsters, J. H. (2014). Pupil diameter covaries with BOLD activity in
+human locus coeruleus. Human Brain Mapping, 35(8), 4140–4154.
+https://doi.org/10.1002/hbm.22466
+Nashiro, K., Sakaki, M., Braskie, M. N., & Mather, M. (2017). Resting-state
+networks associated with cognitive processing show more age-related
+decline than those associated with emotional processing. Neurobiology
+of Aging, 54, 152–162. https://doi.org/10.1016/j.neurobiolaging.2017
+.03.003
+Nummela, S. U., & Krauzlis, R. J. (2011). Superior colliculus inactivation alters
+the weighted integration of visual stimuli. The Journal of Neuroscience,
+31(22), 8059–8066. https://doi.org/10.1523/JNEUROSCI.5480-10.2011
+Opwonya, J., Doan, D. N. T., Kim, S. G., Kim, J. I., Ku, B., Kim, S., Park, S.,
+& Kim, J. U. (2022). Saccadic eye movement in mild cognitive
+impairment and Alzheimer’s disease: A systematic review and metaanalysis. Neuropsychology Review, 32(2), 193–227. https://doi.org/10
+.1007/s11065-021-09495-3
+Peltsch, A., Hemraj, A., Garcia, A., & Munoz, D. P. (2014). Saccade deficits
+in amnestic mild cognitive impairment resemble mild Alzheimer’s disease.
+European Journal of Neuroscience, 39(11), 2000–2013. https://doi.org/10
+.1111/ejn.12617
+Pickel, V. M., Segal, M., & Bloom, F. E. (1974). A radioautographic study
+of the efferent pathways of the nucleus locus coeruleus. The Journal
+of Comparative Neurology, 155(1), 15–42. https://doi.org/10.1002/cne
+.901550103
+Pierrot-Deseilligny, C., Rivaud, S., Gaymard, B., Müri, R., & Vermersch,
+A.-I. (1995). Cortical control of saccades. Annals of Neurology, 37(5),
+557–567. https://doi.org/10.1002/ana.410370504
+Quigley, C., Andersen, S. K., Schulze, L., Grunwald, M., & Müller, M. M.
+(2010). Feature-selective attention: Evidence for a decline in old age.
+Neuroscience Letters, 474(1), 5–8. https://doi.org/10.1016/j.neulet.2010
+.02.053
+Quigley, C., & Müller, M. M. (2014). Feature-selective attention in healthy
+old age: A selective decline in selective attention? The Journal of
+Neuroscience, 34(7), 2471–2476. https://doi.org/10.1523/JNEUROSCI
+.2718-13.2014
+Rey-Mermet, A., & Gade, M. (2018). Inhibition in aging: What is preserved?
+What declines? A meta-analysis. Psychonomic Bulletin & Review, 25(5),
+1695–1716. https://doi.org/10.3758/s13423-017-1384-7
+Sawada, R., & Sato, W. (2015). Emotional attention capture by facial expressions. Scientific Reports, 5(1), Article 14042. https://doi.org/10.1038/
+srep14042
+Sawaguchi, T., & Kikuchi, Y. (1998). Noradrenergic effects on activity of
+prefrontal cortical neurons in behaving monkeys. Advances in Pharmacology,
+42, 759–763. https://doi.org/10.1016/S1054-3589(08)60858-3
+Schall, J. D. (1995). Neural basis of saccade target selection. Reviews in the
+Neurosciences, 6(1), 63–85. https://doi.org/10.1515/REVNEURO.1995.6
+.1.63
+Schmitz, A., & Grillon, C. (2012). Assessing fear and anxiety in humans
+using the threat of predictable and unpredictable aversive events (the NPUThreat Test). Nature Protocols, 7(3), 527–532. https://doi.org/10.1038/
+nprot.2012.001
+Schwarz, L. A., Miyamichi, K., Gao, X. J., Beier, K. T., Weissbourd, B.,
+DeLoach, K. E., Ren, J., Ibanes, S., Malenka, R. C., Kremer, E. J., & Luo,
+L. (2015). Viral-genetic tracing of the input–output organization of a
+central noradrenaline circuit. Nature, 524(7563), 88–92. https://doi.org/10
+.1038/nature14600
+Sommer, M. A., & Wurtz, R. H. (2002). A pathway in primate brain for
+internal monitoring of movements. Science, 296(5572), 1480–1482.
+https://doi.org/10.1126/science.1069590
+Sommer, M. A., & Wurtz, R. H. (2006). Influence of the thalamus on spatial
+visual processing in frontal cortex. Nature, 444(7117), 374–377. https://
+doi.org/10.1038/nature05279
+Sutherland, M. R., & Mather, M. (2018). Arousal (but not valence) amplifies
+the impact of salience. Cognition and Emotion, 32(3), 616–622. https://
+doi.org/10.1080/02699931.2017.1330189
+Sutton, T. M., & Lutz, C. (2019). Attentional capture for emotional words and
+images: The importance of valence and arousal. Canadian Journal of
+Experimental Psychology / Revue canadienne de psychologie expérimentale,
+73(1), 47–54. https://doi.org/10.1037/cep0000154
+Svärd, J., Fischer, H., & Lundqvist, D. (2014). Adult age-differences in
+subjective impression of emotional faces are reflected in emotion-related
+attention and memory tasks. Frontiers in Psychology, 5, Article 423.
+https://doi.org/10.3389/fpsyg.2014.00423
+Takahashi, J., Shibata, T., Sasaki, M., Kudo, M., Yanezawa, H., Obara, S.,
+Kudo, K., Ito, K., Yamashita, F., & Terayama, Y. (2015). Detection of
+changes in the locus coeruleus in patients with mild cognitive impairment
+and Alzheimer’s disease: High-resolution fast spin-echo T1-weighted
+imaging. Geriatrics & Gerontology International, 15(3), 334–340. https://
+doi.org/10.1111/ggi.12280
+Theeuwes, J., Kramer, A. F., Hahn, S., & Irwin, D. E. (1998). Our eyes do not
+always go where we want them to go: Capture of the eyes by new objects.
+944
+KIM, NGUYEN, TIAN, AND MATHER
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Psychological Science, 9(5), 379–385. https://doi.org/10.1111/1467-
+9280.00071
+Unsworth, N., & Robison, M. K. (2017). A locus coeruleus-norepinephrine
+account of individual differences in working memory capacity and
+attention control. Psychonomic Bulletin & Review, 24(4), 1282–1311.
+https://doi.org/10.3758/s13423-016-1220-5
+Vallesi, A., Tronelli, V., Lomi, F., & Pezzetta, R. (2021). Age differences in
+sustained attention tasks: A meta-analysis. Psychonomic Bulletin & Review,
+28(6), 1755–1775. https://doi.org/10.3758/s13423-021-01908-x
+Varazzani, C., San-Galli, A., Gilardeau, S., & Bouret, S. (2015).
+Noradrenaline and dopamine neurons in the reward/effort trade-off: A
+direct electrophysiological comparison in behaving monkeys. The
+Journal of Neuroscience, 35(20), 7866–7877. https://doi.org/10.1523/
+JNEUROSCI.0454-15.2015
+Veríssimo, J., Verhaeghen, P., Goldman, N., Weinstein, M., & Ullman, M. T.
+(2022). Evidence that ageing yields improvements as well as declines
+across attention and executive functions. Nature Human Behaviour, 6(1),
+97–110. https://doi.org/10.1038/s41562-021-01169-7
+Wagenmakers, E.-J., Love, J., Marsman, M., Jamil, T., Ly, A., Verhagen, J.,
+Selker, R., Gronau, Q. F., Dropmann, D., Boutin, B., Meerhoff, F., Knight,
+P., Raj, A., van Kesteren, E.-J., van Doorn, J., Šmíra, M., Epskamp, S.,
+Etz, A., Matzke, D., … Morey, R. D. (2018). Bayesian inference for
+psychology. Part II: Example applications with JASP. Psychonomic
+Bulletin & Review, 25(1), 58–76. https://doi.org/10.3758/s13423-017-
+1323-7
+Wagenmakers, E.-J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Love, J.,
+Selker, R., Gronau, Q. F., Šmíra, M., Epskamp, S., Matzke, D., Rouder,
+J. N., & Morey, R. D. (2018). Bayesian inference for psychology. Part I:
+Theoretical advantages and practical ramifications. Psychonomic Bulletin
+& Review, 25(1), 35–57. https://doi.org/10.3758/s13423-017-1343-3
+Weinshenker, D. (2018). Long road to ruin: Noradrenergic dysfunction in
+neurodegenerative disease. Trends in Neurosciences, 41(4), 211–223.
+https://doi.org/10.1016/j.tins.2018.01.010
+West, R., & Alain, C. (2000). Age-related decline in inhibitory control
+contributes to the increased Stroop effect observed in older adults.
+Psychophysiology, 37(2), 179–189. https://doi.org/10.1111/1469-8986
+.3720179
+Wilcockson, T. D. W., Mardanbegi, D., Xia, B., Taylor, S., Sawyer, P.,
+Gellersen, H. W., Leroi, I., Killick, R., & Crawford, T. J. (2019).
+Abnormalities of saccadic eye movements in dementia due to Alzheimer’s
+disease and mild cognitive impairment. Aging, 11(15), 5389–5398. https://
+doi.org/10.18632/aging.102118
+Wöstmann, M., Störmer, V. S., Obleser, J., Addleman, D. A., Andersen,
+S. K., Gaspelin, N., Geng, J. J., Luck, S. J., Noonan, M. P., Slagter, H. A.,
+& Theeuwes, J. (2022). Ten simple rules to study distractor suppression.
+Progress in Neurobiology, 213, Article 102269. https://doi.org/10.1016/j
+.pneurobio.2022.102269
+Zanto, T. P., & Gazzaley, A. (2017). Selective attention and inhibitory
+control in the aging brain. In R. Cabeza, L. Nyberg, & D. C. Park (Eds.),
+Cognitive neuroscience of aging: Linking cognitive and cerebral aging
+(2nd ed., pp. 207–234). Oxford University Press. https://doi.org/10.1093/
+acprof:oso/9780199372935.003.0009
+Zeef, E. J., Sonke, C. J., Kok, A., Buiten, M. M., & Kenemans, J. L. (1996).
+Perceptual factors affecting age-related differences in focused attention:
+Performance and psychophysiological analyses. Psychophysiology, 33(5),
+555–565. https://doi.org/10.1111/j.1469-8986.1996.tb02432.x
+Zhang, S., Hu, S., Chao, H. H., & Li, C.-S. R. (2016). Resting-state
+functional connectivity of the locus coeruleus in humans: In comparison
+with the ventral tegmental area/substantia nigra pars compacta and the
+effects of age. Cerebral Cortex, 26(8), 3413–3427. https://doi.org/10
+.1093/cercor/bhv172
+Zsido´, A. N. (2024). The effect of emotional arousal on visual attentional
+performance: A systematic review. Psychological Research, 88(1), 1–24.
+https://doi.org/10.1007/s00426-023-01852-6
+Zsido, A. N., Matuz, A., Inhof, O., Darnai, G., Budai, T., Bandi, S., &
+Csatho, A. (2020). Disentangling the facilitating and hindering effects
+of threat-related stimuli—A visual search study. British Journal of
+Psychology, 111(4), 665–682. https://doi.org/10.1111/bjop.12429
+Received January 21, 2025
+Revision received July 4, 2025
+Accepted July 9, 2025 ▪
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

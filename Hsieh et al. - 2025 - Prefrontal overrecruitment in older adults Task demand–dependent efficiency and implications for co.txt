@@ -1,0 +1,978 @@
+﻿Prefrontal Overrecruitment in Older Adults: Task Demand–Dependent
+Efficiency and Implications for Cognitive Aging
+Shulan Hsieh1, 2, 3, 4, Meng-Heng Yang1, and Zai-Fu Yao5, 6, 7, 8
+1 Cognitive Electrophysiology Laboratory, Control, Aging, Sleep, and Emotion, National Cheng Kung University
+2 Department of Psychology, National Cheng Kung University
+3 Institute of Allied Health Sciences, National Cheng Kung University
+4 Department of Public Health, National Cheng Kung University
+5 College of Education, National Tsing Hua University
+6 Research Center for Education and Mind Sciences, National Tsing Hua University
+7 Department of Educational Psychology and Counseling, Basic Psychology Group, National Tsing Hua University
+8 Department of Kinesiology, National Tsing Hua University
+This study examined how prefrontal overactivation in older adults relates to cognitive performance across
+systematically varied task demands, testing predictions from major neural compensation theories. Using a
+visual discrimination paradigm, we parametrically manipulated perceptual load, discrimination precision,
+and response rule complexity. Participants included younger (N = 36; aged 19–33) and older adults (N = 36;
+aged 56–82). Task performance was measured using inverse efficiency scores (IES), and functional
+magnetic resonance imaging assessed brain activation. Older adults demonstrated disproportionately higher
+IES, especially under the most complex condition, suggesting reduced efficiency with rising demand. fMRI
+revealed widespread frontoparietal network activation differences, with older adults showing increased
+recruitment of frontal regions compared with younger adults, especially at higher task demands. Critically,
+prefrontal overactivation in older adults correlated negatively with performance at the highest demand level,
+indicating capacity-limited compensation. Additionally, older adults exhibited reduced default mode
+network suppression and diminished dorsal attention network recruitment, both of which were associated
+with poorer task performance. These findings support the compensation-related utilization of neural circuits
+hypothesis, which predicts a transition from adaptive to inefficient recruitment as cognitive demands
+increase. They also align with broader frameworks such as the posterior–anterior shift in aging and the
+revised scaffolding theory of aging and cognition, emphasizing the role of task complexity in shaping
+compensatory patterns. Overall, the adaptiveness of neural overactivation in older adults appears to depend
+on its relationship to both task demands and behavioral performance.
+Public Significance Statement
+This study showed that older adults recruit additional prefrontal regions to compensate for cognitive
+decline, but this becomes ineffective under high task demands. Findings highlight the importance of
+adjusting task difficulty to match individuals’ cognitive abilities at different ages, which can enhance the
+accuracy of cognitive assessments and inform the design of age-friendly environments, such as
+workplaces, homes, or public spaces.
+Keywords: prefrontal overactivation, cognitive aging, neural compensation, cognitive load, compensationrelated utilization of neural circuits hypothesis model
+Supplemental materials: https://doi.org/10.1037/pag0000920.supp
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+This article was published Online First July 14, 2025.
+Julia Spaniol served as action editor.
+Shulan Hsieh https://orcid.org/0000-0001-6247-244X
+The ideas and data appearing in the article have not been disseminated
+before (e.g., at a conference or meeting, posted on a listserv, shared on a
+website). All participants that took part to the study provided informed
+consent beforehand.
+The authors have no known conflicts of interest to disclose. This study
+received approval from the Human Research Ethics Committee at National
+Cheng Kung University in Tainan, Taiwan, R.O.C., authorized by the Ministry
+of Education, Taiwan, under Approval No. NCKU HREC-E-112-120-2. This
+work was supported by the National Science and Technology Council, Taiwan,
+for financially supporting this research (Grants 108-2410-H-006-038-MY3,
+108-2321-B-006-022-MY2, 109-2923-H-006-002-MY3, 110-2321-B-006-
+004, 111-2321-B-006-008, 111-2410-H-006-114, 112-2321-B-006-013,
+112-2410-H-006-090-MY3, 113-2321-B-006-014, 113-2410-H-006-097-
+MY3, and 114-2321-B-006-015) awarded to Shulan Hsieh. The authors
+thank the Mind Research and Imaging Center at National Cheng Kung
+University for consultation and instrument availability.
+This work is licensed under a Creative Commons Attribution-Non
+Commercial-No Derivatives 4.0 International License (CC BY-NC-ND 4.0;
+https://creativecommons.org/licenses/by-nc-nd/4.0). This license permits
+copying and redistributing the work in any medium or format for noncommercial use provided the original authors and source are credited and a
+link to the license is included in attribution. No derivative works are permitted under this license.
+continued
+Psychology and Aging
+© 2025 The Author(s) 2025, Vol. 40, No. 8, 848–860
+ISSN: 0882-7974 https://doi.org/10.1037/pag0000920
+848
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+849
+Cognitive aging is marked by a gradual decline across domains
+such as memory, attention, and executive function, driven by
+widespread neural changes (C. Grady, 2012; Park & Reuter-Lorenz,
+2009). Structurally, aging disproportionately affects anterior brain
+regions—particularly the prefrontal cortex (PFC)—which exhibit
+more pronounced atrophy and connectivity loss than posterior areas
+(Fjell et al., 2009; Raz et al., 2005). Although primary sensory
+regions such as the occipital cortex remain relatively preserved
+structurally (Raz & Rodrigue, 2006), older adults nonetheless
+experience functional impairments in visual processing, including
+diminished acuity and contrast sensitivity (Owsley, 2011). These
+perceptual deficits are compounded by reduced efficiency in posterior cortical regions, particularly occipital and parietal areas
+(Andersen, 2012), suggesting that sensory and executive changes in
+aging are deeply interconnected (Monge & Madden, 2016).
+One robust pattern in functional neuroimaging is that older adults
+show increased activation in frontal regions relative to younger adults
+during cognitively demanding tasks—a phenomenon often described
+as frontal overactivation (Cabeza et al., 2018). A key theoretical
+explanation for this pattern is the compensation-related utilization of
+neural circuits hypothesis (CRUNCH), which posits that older adults
+recruit additional neural resources to offset reduced processing
+capacity (Reuter-Lorenz & Cappell, 2008). Critically, CRUNCH
+proposes a nonlinear trajectory of neural recruitment: frontal overactivation may support performance under moderate demands, but as
+task complexity increases, compensatory capacity is eventually
+exceeded, leading to underrecruitment and impaired performance
+(Morcom & Henson, 2018; Schneider-Garces et al., 2010).
+This compensatory trajectory also aligns with the posterior–
+anterior shift in aging (PASA) model, which describes a functional
+reorganization from posterior to anterior regions during cognitive
+tasks (Davis et al., 2008). According to the PASA model, increased
+prefrontal activation in older adults relative to younger adults may
+reflect a shift away from declining sensory regions toward relatively
+preserved control systems—a pattern that reflects both anatomical
+vulnerability and strategic compensation. To provide a broader lifespan
+perspective, the scaffolding theory of aging and cognition (STAC), and
+its revised version (STAC-r), conceptualize frontal overactivation as
+dynamic compensatory scaffolding in response to structural decline in
+older adults relative to younger adults (Park & Reuter-Lorenz, 2009;
+Reuter-Lorenz & Park, 2014). STAC-r integrates the effects of lifecourse enrichment factors (e.g., education, physical activity, cognitive
+engagement) that help maintain or bolster compensatory capacity.
+Thus, variability in older adults’ neural responses is shaped by both
+current neural integrity and cumulative experiential factors.
+Cabeza et al.’s (2018) unify these perspectives in a comprehensive framework that evaluates overactivation in terms of its
+functional relevance. They emphasize that increased activation in
+older adults, relative to younger adults, should not be assumed to
+reflect compensation unless it demonstrably supports task performance.
+Overactivation may instead reflect dedifferentiation or inefficiency if
+it fails to yield behavioral benefits, or if it emerges in nontask-relevant
+regions. This distinction is critical for accurately characterizing the
+mechanisms underlying age-related changes in neural recruitment.
+Although overactivation is well established, its functional significance remains contested. Some studies associate increased frontal
+recruitment with maintained or enhanced performance, consistent
+with successful compensation (Cabeza et al., 2018; Park & ReuterLorenz, 2009). Others, however, find that overactivation may reflect
+inefficient or unsuccessful compensation, particularly when it does
+not yield behavioral benefits—or is even negatively correlated with
+performance (Dennis & Cabeza, 2011; Morcom & Henson, 2018).
+These contrasting findings highlight a critical need to distinguish
+between successful compensation, in which increased activation
+supports performance, and attempted but ineffective compensation,
+where neural effort fails to yield benefits (Cabeza et al., 2018). This
+interpretive distinction is central to Cabeza et al.’s (2018) framework, which argues that only activation that contributes to task
+success should be labeled compensatory. They further suggest
+evaluating the relationship between activation and performance at
+the individual level to determine whether neural engagement reflects
+adaptive or maladaptive responses to cognitive challenge.
+To address this open question, the present study employed a visual
+discrimination paradigm adapted from Crittenden and Duncan
+(2014), designed to parametrically vary task difficulty along three
+orthogonal dimensions: perceptual load, discrimination precision,
+and response rule complexity. This design allows for a fine-grained
+analysis of how brain–behavior relationships evolve across escalating
+task demands, offering a direct test of key predictions from
+CRUNCH, PASA, and STAC-r. Unlike prior studies comparing age
+groups at a single task level, our parametric approach enables
+identification of the point at which compensatory mechanisms begin
+to fail. By situating our predictions within Cabeza et al.’s (2018)
+framework, we aim to distinguish between beneficial compensation
+and maladaptive overactivation by examining whether age-related
+activation patterns are positively or negatively associated with
+behavioral performance at each level of task demand.
+We hypothesize that older adults will show greater prefrontal
+activation than younger adults across all conditions, consistent with
+compensatory recruitment. Under low or moderate task demands, this
+overactivation is expected to be positively associated with performance, reflecting successful compensation. At the highest demand
+levels, however, we anticipate a dissociation between activation and
+performance: either overactivation will become ineffective, or underrecruitment will emerge due to capacity limitations—patterns
+predicted by the upper-bound limits in the CRUNCH model.
+According to Cabeza et al. (2018), such a shift in the activation–
+performance relationship may signify a transition from successful to
+unsuccessful compensation, offering critical evidence for evaluating
+the functional nature of overactivation in aging.
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+All authors reviewed and edited the article, designed, and planned the
+experiments. Shulan Hsieh and Meng-Heng Yang wrote the draft for the
+article, analyzed the data, and revise the article. Zai-Fu Yao reanalyzed
+the data, and revised the article.
+Shulan Hsieh played a lead role in conceptualization, data curation,
+funding acquisition, investigation, methodology, project administration,
+resources, supervision, validation, visualization, writing–original draft, and
+writing–review and editing and an equal role in formal analysis. Meng-Heng
+Yang played a supporting role in data curation, methodology, visualization,
+writing–original draft, and writing–review and editing and an equal role in
+formal analysis. Zai-Fu Yao played a supporting role in data curation, formal
+analysis, methodology, visualization, and writing–review and editing.
+Correspondence concerning this article should be addressed to Shulan
+Hsieh, Cognitive Electrophysiology Laboratory, Control, Aging, Sleep,
+and Emotion, National Cheng Kung University, 1 University Road, Tainan
+City 70101, Taiwan. Email: psyhsl@mail.ncku.edu.tw
+850
+HSIEH, YANG, AND YAO
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+In addition, we examine whether older adults’ task-related activations spatially overlap with brain regions associated with largescale intrinsic networks implicated in cognitive aging. Prior work
+suggests that aging may involve reduced suppression or altered
+modulation of the default mode network (DMN) during externally
+oriented tasks, potentially undermining attentional focus (C. L. Grady
+et al., 2010; Spreng et al., 2016). Accordingly, we hypothesize that
+older adults, relative to younger adults, will show greater overlap with
+DMN regions—particularly under high-demand conditions—and
+that this overlap may be negatively associated with behavioral performance. Conversely, reduced overlap with the dorsal attention
+network (DAN) may reflect age-related difficulties in sustaining goaldirected attention during demanding tasks. These network-level shifts
+may further illustrate how compensatory or maladaptive responses
+are implemented in aging, complementing regional analyses and
+supporting Cabeza et al.’s (2018) argument for evaluating compensation at multiple spatial scales.
+In sum, this study provided a multilevel investigation of agerelated neural compensation, examining both regional activation
+patterns and network-level spatial dynamics across a continuous
+gradient of cognitive demands. By integrating CRUNCH, PASA,
+and STAC-r into a unified empirical framework, we aim to delineate
+the boundary conditions under which compensatory activation in
+older adults is beneficial—and when it fails. Our inclusion of Cabeza
+et al.’s (2018) criteria for evaluating compensation strengthens this
+framework by explicitly testing whether overactivation enhances
+performance or reflects dedifferentiation, providing a more nuanced
+understanding of cognitive aging mechanisms.
+Method
+Transparency and Openness
+This study design, hypotheses, and the analytic plan were not
+preregistered. Deidentified data, experimental materials, and analysis
+code used in this study are openly available on the Open Science
+Framework (Hsieh et al., 2025; https://osf.io/7jtsy/). Some data and
+materials that cannot be made fully public due to privacy considerations are available upon request from the corresponding author.
+Participants
+All participants were recruited through online advertisements and
+bulletin boards at the university and in the local community. The data
+collection period spanned from November 2023 to December 2024. A
+power analysis was conducted using G*Power 3.1.9.7 (Faul et al.,
+2007), with parameters set for a power of 0.95, effect size f = 0.25,
+α = .05, and a within-between subjects design, assuming a correlation
+of 0.5 among repeated measures. Participants were screened through
+self-reporting to ensure the absence of neurological or psychiatric
+disorders. In addition, the cognitive status of older adults was assessed
+using the Montreal Cognitive Assessment (MoCA; Nasreddine et al.,
+2005), with a cutoff score of 26. Those participants with an average
+accuracy below 50% in the behavioral task were excluded from
+further analysis. The study was approved by the Human Research
+Ethics Committee of National Cheng Kung University (Approval No.
+NCKU HREC-E-112-120-2). Following completion of the study,
+which included computerized working memory tasks (conducted
+outside the magnetic resonance imaging scanner) and a visual
+discrimination task performed within the magnetic resonance imaging
+scanner, participants were compensated with approximately U.S.$50
+for their participation.
+Stimuli, Tasks, Responses, and Procedure
+Visual Discrimination Tasks With Varying Levels of
+Task Demand
+The experiment involved participants performing a visual discrimination task with four different conditions, as shown in Figure 1.
+The task was developed using OpenSesame (Mathôt et al., 2012).
+During scanning, the stimulus was projected onto a mirror mounted
+on the head coil. The task design was adapted from cognitive load
+manipulations described by Crittenden and Duncan (2014), involving
+a range of tasks from simple perceptual discrimination to more
+complex rule-based tasks.
+In each trial, the baseline condition (4L) began with a uniform gray
+screen. Participants were tasked with identifying the one line that
+differed in length from three others, making this the least demanding
+condition requiring simple perceptual discrimination. Each trial
+started with a fixation cross at the screen’s center for 200 ms. Then,
+four vertical lines appeared for 100 ms, symmetrically aligned around
+the fixation cross, with the total width subtending 8.3° of visual angle.
+Three of the lines were identical in length (13.4°), and the fourth was
+50% shorter (6.7°). Participants identified the shorter line’s position
+using an 8-button response box, and responses were recorded within a
+1,000 ms window after the disappearance of the lines. A jittered
+interstimulus interval of 500 to 1,500 ms followed each trial.
+The remaining conditions varied slightly, as described below. In
+the 8L condition, eight lines were displayed instead of four, with two
+additional lines placed on either side of the original set (total display
+width 16.7°). Participants were required to use both hands, specifically the little and ring fingers, to respond. This condition increased
+the perceptual load, making the task more cognitively demanding
+than the 4L condition.
+In the fine discrimination (FD) condition, participants still viewed
+four lines, but the shortest line was only 10% shorter than the others.
+This required more subtle perceptual judgments, significantly
+raising cognitive demands due to the need for precise discrimination
+between nearly identical line lengths.
+The mapping switch (MS) condition involved an alteration of the
+stimulus–response mapping as shown in Figure 1. While participants still needed to discriminate between lines of similar lengths,
+the response required a shift in the usual button mapping, with the
+right-most odd line corresponding to the left-most button. This
+introduced more complex cognitive processing, including working
+memory and response inhibition, making this the most demanding
+condition, as it placed significant strain on executive functions
+(Duncan, 2010; Duncan & Owen, 2000). Participants practiced this
+condition until achieving at least 70% accuracy.
+Each trial type was grouped into blocks, with each block corresponding to a single condition. A schematic of the upcoming
+condition was displayed in the center of the screen for 2000 ms at the
+start of each block. Following a 3,800 ms pause, the first trial of the
+block began. Each block contained 8 trials, lasting a total of 18.4 s. A
+10-s break occurred between blocks. To encourage engagement,
+participants were shown the accuracy of each block at its conclusion.
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+851
+Note. This figure illustrates the response rules for the four task conditions. In each condition,
+participants identified the position of the shortest line using either four response buttons (for the 4L,
+FD, and MS conditions) or eight response buttons (for the 8L condition). Icons beneath each example
+indicate the correct response for that trial. The task conditions were as follows: (A) 4-line (4L)
+condition: participants selected the shortest line from four options. (B) 8-line (8L) condition: participants selected the shortest line from eight options. (C) Fine discrimination (FD) condition: participants identified the shortest line from four options with minimal size differences. (D) Mapping switch
+(MS) condition: participants selected the shortest line from four options with reversed stimulus–
+response mapping. Arrows indicate the correct key press for each position of the shortest line. See the
+online article for the color version of this figure.
+The experiment consisted of three scanning sessions, each separated by a 30-s break. Each session included 25 task blocks, five for
+each of the five conditions. The order of blocks within each session
+was pseudorandomly arranged.
+The final reaction time (RT) and accuracy will be used to calculate
+the inverse efficiency score (IES; Bruyer & Brysbaert, 2011; Townsend
+& Ashby, 1978, 1983), which serves as a corrected behavioral measure
+that integrates both speed and accuracy (see Equation 1).
+IES =
+RT
+accuracy
+: (1)
+Design and Statistical Analysis
+Behavioral Data: Task Performance Analysis Between the
+Two Age Groups
+Behavioral performance measures—including RT, accuracy, and
+IES—were analyzed separately for each of the four conditions
+(4L, 8L, FD, MS) and for both age groups (younger and older
+adults). Subsequently, we performed mixed-design repeated-measures analyses of variances with a 2 (age group: younger vs. older) ×
+4 (condition: 4L, 8L, FD, MS) design on each task performance
+measure. Post hoc comparisons were then conducted using the Holm
+correction to further explore and compare significant differences
+between conditions. Importantly, in the main text, we reported only
+the IES results, as this metric integrates both RT and accuracy,
+accounting for potential performance trade-offs between the two
+groups.
+Neuroimaging Data: fMRI Imaging Acquisition and
+Analysis
+Imaging data for the visual discrimination task were collected
+using a 3 Tesla General Electric (GE) Discovery MR750 scanner
+(General Electric Medical Systems, Milwaukee, USA) at the Mind
+Research Imaging Center of National Cheng Kung University. The
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 1
+Exemplars of the Four Task Conditions for a Visual Discrimination Task
+852
+HSIEH, YANG, AND YAO
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+scanner was fitted with a 32-channel receive-only phased-array head
+coil. High-resolution structural scans were acquired with a fast
+spoiled gradient-recalled echo sequence. The imaging parameters
+were repetition time = 7.6 ms, echo time = 3.3 ms, flip angle = 12°;
+field of view = 22.4 × 22.4 cm2; matrix size = 224 × 224; slice
+thickness = 1. Functional echo planar imaging images were captured using an interleaved T2* weighted gradient-echo planar
+imaging pulse sequence (repetition time/echo time/flip angle: 2000
+ms/30 ms/78°; matrix size: 64 × 64; field of view: 22 × 22 cm2; slice
+thickness: 3 mm; voxel size: 3.4375 × 3.4375 × 3 mm). Each session
+included 368 volumes, with the first eight volumes discarded as
+dummy scans to account for T1 equilibrium effects.
+fMRI Imaging Preprocessing
+The preprocessing of functional imaging data was carried out using
+the FMRIB Software Library (FSL; FMRIB stands for the Functional
+Magnetic Resonance Imaging of the Brain Software Library;
+Jenkinson et al., 2012). The process began with motion artifact
+correction through the Motion Correction FMRIB’s Linear Image
+Registration Tool (MCFLIRT; Beckmann et al., 2003; Jenkinson &
+Smith, 2001; Jenkinson et al., 2002). Following this, nonbrain tissue
+was removed from the MR images using the Brain Extraction Tool
+(Jenkinson et al., 2002). To identify outlier volumes, the FSL Motion
+Outliers tool (Jenkinson & Smith, 2001; Jenkinson et al., 2002) was
+applied, with outliers defined as those exceeding the 75th percentile
+plus 1.5 times the interquartile range of frame displacement between
+volumes. These outliers were excluded from further analysis to
+minimize their impact. Each participant’s brain functional images
+were registered to their high-resolution T1 structural images via linear
+transformation, followed by the registration of the individual structural images to the MNI152 template. A first-level general linear
+model (GLM) analysis was performed using FSL’s FMRI Expert
+Analysis Tool (Woolrich et al., 2001, 2004), incorporating spatial
+smoothing with a 9 mm full-width half-maximum Gaussian kernel.
+Statistical Analysis: Block Design fMRI Analysis
+For every participant, a GLM was employed to estimate differences across experimental conditions in the visual discrimination
+task. Contrasts were conducted to identify regions that showed
+greater activation in the 8L, FD, and MS conditions compared with
+the 4L condition. The onset of each condition block was defined
+from the start of the stimulus to the end of the block, and this
+was used to create the onset files. These files for each of the four
+conditions were included as explanatory variables in the GLM and
+were convolved with a double γ hemodynamic response function.
+The six head motion parameters, along with the motion outlier data
+from earlier steps, were incorporated as covariates to control for
+potential confounds.
+Statistical Analysis of Condition-Related Effects
+The data from the three runs will be averaged and entered into a
+group-level analysis to identify significant clusters for the three
+contrasts (8L–4L, FD–4L, MS–4L) in both the younger and older
+adult groups. Significant clusters of activity were identified using a
+cluster-level threshold of 0.05 and a z threshold of 3.1 for defining
+contiguous clusters (Eklund et al., 2016). The significance of each
+cluster, based on Gaussian random field theory, was compared with
+the probability threshold (Bansal et al., 2007). Sex and years of
+education were included as covariates in the design matrix by specifying them in the explanatory variables (EVs) section of the model
+setup. Each covariate was mean-centered and added as an additional
+column in the design matrix. This allowed their effects to be modeled
+and regressed out from the group-level statistical analysis, thereby
+controlling for their potential confounding influence on the results.
+Statistical Analyses Examining Age-Related
+Effects and the Association Between Brain Activation and
+Behavioral Performance
+To examine age-related differences in brain activity, three condition contrasts of interest were computed: 8L–4L, FD–4L, and MS–
+4L were conducted separately for each participant. The resulting
+contrast images (COPEs) from the younger and older adult groups
+were then entered into a group-level analysis using FSL FMRI
+Expert Analysis Tool. A two-group unpaired t test was performed to
+compare the two age groups. Contrasts were defined to identify brain
+regions showing greater activation in older compared with younger
+adults (O > Y), as well as regions showing greater activation in
+younger compared with older adults (Y > O). For each significant
+cluster identified in both contrasts, spherical regions of interest
+(ROIs) with a 3 mm radius were created around the peak voxel
+coordinates provided by FSL. Within each ROI, the mean z values
+were extracted for each participant. These values were then used to
+investigate the relationship between brain activation and behavioral
+performance. Specifically, scatterplots were generated to examine
+the association between mean z values and IES scores. In each plot,
+data from the younger and older adult groups were displayed
+separately within the same figure, allowing for a visual comparison
+of brain–behavior relationships across age groups.
+Results
+Participants
+A total of 80 participants were contacted and recruited. Among
+these, two participants could not complete the experiment due
+to equipment failure, and another two were excluded from the
+magnetic resonance imaging experiment as they were unable to
+understand and complete the training and practice phases of the
+behavioral experiment. Additionally, four participants were excluded
+from the analysis due to an average accuracy of less than 0.5 in the
+behavioral experiment, raising concerns about random responses.
+Ultimately, 36 younger participants (19 males, 17 females) and 36
+older participants (16 males, 20 females) were included in the final
+analysis. The younger participants had a mean age of 23.8 years
+(range = 19–33 years, SD = 3.34) and a mean of 16.11 years of
+education (range = 13–20 years, SD = 1.49). The older participants
+had a mean age of 67.1 years (range = 56–82 years, SD = 5.37) and a
+mean of 14.58 years of education (range = 9–20 years, SD = 2.48).
+All older adults scored in the normal range on the MoCA, a screening
+tool for mild cognitive impairment. The mean MoCA score for the
+older group was 28.61 (SD = 1.46, out of 30; see Table 1). This
+confirms that our older participants were cognitively healthy older
+adults without evidence of significant impairment. Refer to Table 1
+for demographic details of the participants.
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+853
+Table 1
+Demographic Information of the Participants
+Measure
+Younger
+Older
+Paired t value
+Age (years)
+Education (years)
+MoCA
+23.84 ± 3.34
+16.11 ± 1.49
+67.10 ± 5.37
+14.58 ± 2.48
+28.61 ± 1.46
+41.07***
+−3.17**
+Note. MoCA = Montreal Cognitive Assessment.
+**
+p < .01. *** p < .001.
+Behavioral Data for the Visual Discrimination
+Task for Two Age Groups
+Figure 2 presents the IES scores for the four conditions across the
+two age groups. A 2 × 4 mixed-design repeated-measures analyses of
+variance revealed a significant main effect of condition, F(3, 210) =
+45.68, p < .001, η2 p = 0.40. Post hoc tests, adjusted using the Holm
+2 p
+correction for multiple comparisons, identified specific differences
+among the conditions. The 4L condition significantly differed from
+the MS condition, t(71) = −10.66, p < .001, Cohen’s d = −1.68, the
+8L condition also significantly differed from the MS condition, t(71)
+= −8.72, p < .001, Cohen’s d = −1.37, and the FD condition also
+significantly differed from the MS condition, t(71) = −8.78, p < .001,
+Cohen’s d = −1.38.
+Additionally, a significant main effect of age group was observed,
+F(1, 70) = 49.09, p < .001, η2 p = 0.41. The interaction effect between
+age group and conditions was also significant, F(3, 210) = 21.62, p <
+.001, η2 p = 0.24, indicating that the relationship between group and
+condition varied significantly across the four conditions. Further
+analysis showed that age group differences were significant across all
+four conditions: 4L condition, F(1, 70) = 86.39, p < .001, Cohen’s d =
+2.19; 8L condition, F(1, 70) = 63.29, p < .001, Cohen’s d = 1.88; FD
+condition, F(1, 70) = 34.18, p < .001, Cohen’s d = 1.38; and MS
+condition, F(1, 70) = 29.56, p < .001, Cohen’s d = 1.28.
+2 p
+2 p
+Figure 2
+Box Plots for Inverse Efficiency Score (IES) Across the Four Conditions (4L, 8L, FD,
+and MS) in Older and Younger Participants
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. 4L = 4-line; 8L = 8-line; FD = fine discrimination; MS = mapping switch. Red boxes
+represent the older group (O), and cyan boxes represent the younger group’s (Y) inverse
+efficiency scores. Each box represents the interquartile range (IQR), spanning from the first
+quartile (Q1, 25th percentile) to the third quartile (Q3, 75th percentile). The thick line within the
+box indicates the median. Whiskers extend to the smallest and largest values within 1.5 × IQR
+from Q1 and Q3. See the online article for the color version of this figure.
+854
+HSIEH, YANG, AND YAO
+fMRI Results for the Visual Discrimination Task
+Whole-Brain Univariate Analysis of Paired-Contrast
+Results for the Younger Group
+To identify brain regions responsive to varying levels of difficulty, we performed three paired contrasts: 8L–4L, FD–4L, and
+MS–4L, comparing these conditions across all younger participants.
+The contrast images, shown in Figure 3, were evaluated with a
+threshold of p < .01 and a 3.1 z threshold to define contiguous
+clusters (Eklund et al., 2016). Detailed cluster information can be
+found in Supplemental Table S1 which includes comprehensive
+statistical parameters, such as Z values, voxel coordinates, and
+cluster sizes for all contrasts (8L–4L, FD–4L, MS–4L).
+Each of the contrasts (see Supplemental Table S1) revealed
+widespread activation throughout the frontoparietal cortex. Parietal
+activations for the 8L condition were more extensive and somewhat
+more anterior than those seen in the FD and MS conditions across
+both hemispheres. Activation was observed bilaterally in areas
+surrounding the intraparietal sulcus, including the inferior parietal
+and angular gyrus regions. On the medial surface of the PFC, near
+the middle cingulum, all three contrasts displayed significant
+activity, with the most extensive activation for MS and the most
+localized for 8L. Additionally, the peak activation in the medial PFC
+for the 8L condition was located more caudally compared with FD
+and MS.
+Joint activation across all three contrasts was observed bilaterally
+in the anterior insula/frontal operculum, with the most restricted
+activation for the 8L–4L contrast. Notably, distinct activation patterns
+were found in the lateral frontal lobe. For the 8L–4L contrast, significant activation in the left frontal lobe was concentrated around the
+precentral gyrus, with another notable cluster in the middle frontal
+region (−31, 36, 27). For the FD–4L contrast, activation appeared
+near the frontal operculum and insula (32, 24, −8). The MS–4L
+contrast showed widespread activation from the frontal pole, extending along the ventral margin of the frontal lobe to the inferior and
+middle frontal regions.
+In the right frontal lobe, the clusters under the 8L–4L contrast
+were primarily located around the precentral gyrus, with a larger
+activation cluster near the middle frontal region (36, 38, 19)
+compared with the left side. Interestingly, the pattern for the MS–4L
+contrast in the right frontal lobe mirrored that seen on the left side.
+Moreover, the significant clusters in the right frontal lobe for the
+Figure 3
+Average BOLD Signal Activation Changes Across Contrasts Between Conditions of Interest for All Younger Participants
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. 4L = 4-line; 8L = 8-line; FD = fine discrimination; MS = mapping switch. The color bar shows thresholded Z statistic values (Z > 3.1).
+Warmer colors indicate stronger activation. The color scale ranges from 3.1 to 11.52. BOLD = blood-oxygen-level-dependent. See the online
+article for the color version of this figure.
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+855
+FD–4L contrast were nearly identical to those seen in the MS–4L
+contrast.
+Whole-Brain Univariate Analysis of Paired-Contrast
+Results for the Older Group
+Similar to the younger group, we present the three contrasts of the
+older group in Figure 4. Detailed cluster information can be found in
+Supplemental Table S2 which includes comprehensive statistical
+parameters, such as Z values, voxel coordinates, and cluster sizes for
+all contrasts (8L–4L, FD–4L, MS–4L). Notably, compared with the
+younger group, the older group shows larger clusters in the inferior
+temporal and temporal pole regions for the 8L–4L contrast.
+Additionally, the cluster in the occipital region expands, and the
+frontal region extends anteriorly to include the inferior frontal and
+frontal pole areas.
+In the FD–4L contrast, the older group shows an expansion of the
+cluster in the occipital region toward the posterior direction, while
+the frontal region expands toward the middle frontal area.
+Additionally, it is noteworthy that the older group has more
+clusters exceeding the threshold on the left side compared with the
+younger group (see Figure 4), resulting in more symmetrical activation areas between the left and right hemispheres.
+In the MS–4L contrast, the differences between the younger
+group and the older group are relatively small. However, the
+activation cluster in the frontal region is less localized in the older
+group, forming a more continuous area.
+Whole-Brain Univariate Analysis of Paired-Contrast
+Results Between Younger and Older Groups
+(Older > Younger and Younger > Older Contrasts)
+Whole-brain two-sample contrasts revealed age effects in both
+directions (i.e., older > younger and younger > older; see Figure 5A
+and 5B and Supplemental Table S3). Older adults showed greater
+activation than younger adults in prefrontal and anterior midline
+regions (older > younger; see Figure 5A and Supplemental Table
+S3), whereas younger adults exhibited higher activation in bilateral
+superior parietal cortex and occipital visual areas (younger > older;
+see Figure 5B and Supplemental Table S3). This pattern—reduced
+engagement of posterior attention and visual regions by older adults
+alongside increased frontal activation—is consistent with an age
+Figure 4
+Average BOLD Signal Activation Changes Across Contrasts Between Conditions of Interest for All Older Participants
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Note. 4L = 4-line; 8L = 8-line; FD = fine discrimination; MS = mapping switch. The color bar shows thresholded Z statistic values (Z > 3.1).
+Warmer colors indicate stronger activation. The color scale ranges from 3.1 to 11.52. BOLD = blood-oxygen-level-dependent. See the online
+article for the color version of this figure.
+856
+HSIEH, YANG, AND YAO
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Figure 5
+Contrast Brain Activation Maps Between Younger and Older Groups for the Three Task Conditions in
+Both Directions (Older > Younger and Younger > Older), Along With Scatterplots Showing Correlations
+With Behavioral Performance
+Note. 4L = 4-line; 8L = 8-line; FD = fine discrimination; MS = mapping switch. From left to right, the significant brain
+activation regions across three contrasts 8L–4L (red in spatial map), FD–4L (green in spatial map), and MS–4L (blue in
+spatial map) are shown. A = older > younger (O > Y); B = younger > older (Y > O); C = significant clusters (Z scores of
+β values) showing correlations between group contrast and behavior (IES), with scatterplots and fitted regression lines.
+R = ROI. See Supplemental Tables S4–S6 for ROI numbers (1–5; R1–R5), corresponding coordinates, and associated
+brain regions. ROI = regions of interest. See the online article for the color version of this figure.
+*
+p < .05. ** p < .01.
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+857
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+related posterior-to-anterior shift (i.e., PASA) in neural recruitment.
+Furthermore, preliminary observations suggested that older adults
+exhibited reduced task-induced deactivation in DMN regions, along
+with weaker recruitment of DAN areas, relative to younger adults.
+These neural differences, particularly under high task demand, and
+their associations with performance are described in detail in
+subsequent sections.
+To further investigate the functional significance of the agerelated differences in activation, we extracted the mean z values
+from the significant clusters identified in both the older > younger
+and younger > older contrasts for each condition (8L–4L, FD–4L,
+MS–4L; see Figure 5 and Supplemental Table S3). We then correlated these extracted activation values with individual IESs within
+each age group (Supplemental Figures S1–S2 and Tables S4–S6).
+For regions identified in the older > younger contrast, activation–
+performance relationships in older adults generally did not reach
+significance, indicating a lack of reliable association with task
+performance. In contrast, for regions where younger adults showed
+greater activation than older adults (younger > older contrast), a
+task-dependent relationship between activation and performance in
+older adults emerged. Specifically, under the highest task demand
+condition (MS–4L contrast), significant positive correlations were
+observed in anterior regions, including the frontal pole and orbitofrontal cortex, indicating that higher activation in these areas was
+reliably linked to less efficient performance (i.e., higher IES).
+Overall, these findings suggest that age-related overactivation
+exhibits region-specific rather than uniform associations with
+behavior. In older adults, certain lateral frontal clusters showed
+increased activation coupled with poorer performance under high
+task demands; however, this pattern did not extend to other regions.
+To transparently illustrate these differential brain–behavior relationships, individual subject-level scatterplots are provided in the
+Supplemental Figures S1–S2 and Tables S4–S6, along with
+regression diagnostics and age-group contrasts.
+Task-Related Deactivation Versus Activation
+Older adults demonstrated a reduction in task-induced deactivation
+within the DMN. During task performance, older adults exhibited
+higher activation in DMN regions (e.g., medial frontal cortex, posterior cingulate) compared with younger adults, who showed the
+typical below-baseline deactivation in these areas. Conversely,
+younger adults more strongly engaged the DAN than older adults. For
+instance, task-related activation in the intraparietal sulcus and frontal
+eye fields was greater in younger adults, indicating age-related underrecruitment of attentional networks in older adults. These patterns
+are illustrated in Supplemental Figures S3–S4.
+Crucially, older adults also exhibited significant differences
+in task-induced DMN deactivation relative to younger adults.
+Specifically, older adults showed significantly less deactivation—or
+even positive activation—in canonical DMN regions, including the
+medial PFC and posterior cingulate cortex (p < .001; see Figure 5A
+and Supplemental Table S3). Younger adults, in contrast, displayed
+robust DMN deactivation during task engagement, which was
+associated with more efficient performance. Together, these findings
+suggest that older adults experience difficulty suppressing the DMN
+and concurrently exhibit weaker activation of task-relevant attentional networks, potentially contributing to their performance
+deficits.
+In contrast to the DMN, regions within the DAN—which closely
+overlapped with the younger > older activation clusters identified in
+our analysis (see Figure 5B and Supplemental Figure S4)—exhibited
+a distinct behavioral association in the older group. Specifically,
+under the highest task demand condition (MS–4L contrast), we
+observed a significant negative correlation between DAN activation
+and performance among older adults (see Figure 5C). That is, higher
+activation in canonical DAN regions such as the intraparietal sulcus
+and frontal eye fields was associated with poorer behavioral outcomes in the older cohort. It is possible that, when challenged by the
+MS–4L condition, older adults attempt to recruit the DAN but do
+so in a less targeted or more diffuse manner, resulting in overengagement that fails to translate into performance benefits.
+Discussion
+The present study systematically examined prefrontal overactivation across varying cognitive demands using a visual discrimination task, providing clear support for the CRUNCH model
+(Reuter-Lorenz & Cappell, 2008; Schneider-Garces et al., 2010).
+Older adults consistently showed greater brain activation than
+younger adults across all cognitive load conditions, with the largest
+difference observed under the highest demand (MS–4L). Notably, the
+observed age-related brain overactivation exhibits region-specific
+rather than uniform associations with behavior. In older adults, brain
+regions where younger adults showed greater activation—primarily
+in more lateral portions of the frontal pole—exhibited a significant
+negative correlation between activation and performance, indicating
+that higher activation in these areas was linked to poorer efficiency.
+This relationship, however, did not extend to other regions.
+Conversely, younger adults showed greater activation in posterior
+attentional and visual processing regions (e.g., superior parietal
+cortex, occipital areas), highlighting a posterior-to-anterior shift
+with aging, consistent with the PASA model (Davis et al., 2008).
+These findings emphasize a clear dissociation: older adults’ additional frontal recruitment occurs alongside reduced posterior
+engagement, particularly under conditions of maximal cognitive
+demand. This pattern is consistent with Cabeza et al. (2018), who
+argue that aging-related overactivation can reflect both compensatory engagement and dedifferentiation, depending on the task
+demands and whether the recruitment benefits performance. Our
+findings reveal a regionally differentiated pattern within the PFC.
+Across most prefrontal regions, increased activation in older adults
+did not reliably predict performance outcomes. However, significant
+negative correlations emerged in the lateral frontal pole—regions
+where younger adults typically showed greater engagement—
+indicating that higher activation was associated with poorer efficiency in older adults. This supports the notion that overactivation
+may reflect unsuccessful compensation in specific subregions, reinforcing the idea that prefrontal engagement in aging is functionally
+heterogeneous.
+Behavioral performance results provided a clear and interpretable
+foundation for our neuroimaging findings. As expected, both
+younger and older adults showed increasing task difficulty reflected
+in worsening IES across the task continuum. However, older adults
+demonstrated slower reaction times and reduced accuracy across all
+conditions, resulting in significantly higher IES. These differences
+were especially pronounced in the MS–4L condition, which combined complex stimulus discrimination with unpredictable response
+858
+HSIEH, YANG, AND YAO
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+mappings. The disproportionate increase in IES for older adults in
+this condition reflects a nonlinear decline in cognitive efficiency
+with increasing task complexity, consistent with prior research
+on age-related deficits in executive control, task switching, and
+interference resolution (Braver & West, 2008; Verhaeghen &
+Cerella, 2002). Importantly, this behavioral pattern aligns with the
+CRUNCH, which predicts that older adults experience increasing
+difficulty as task demands approach or exceed their compensatory
+limits. The steep performance decline under MS–4L thus provides
+behavioral evidence of cognitive overload, supporting our neural
+findings that frontal overactivation at this level is no longer effective
+but maladaptive. The relative parity in performance between age
+groups under low and moderate task demands suggests that compensatory mechanisms may initially preserve behavioral efficiency
+in older adults, but ultimately fail when demand exceeds neural
+capacity. This echoes the load-dependent collapse proposed by both
+CRUNCH and STAC-r (Mattay et al., 2006; Park & Reuter-Lorenz,
+2009; Schneider-Garces et al., 2010). Cabeza et al. (2018) suggested
+that compensatory responses in aging are most effective when there
+is still sufficient neural reserve and connectivity to support taskrelevant processing. Our behavioral findings, especially under MS–
+4L, are consistent with this notion: older adults’ compensatory
+responses may become ineffective or even detrimental when the
+cognitive system is pushed beyond its adaptable limits.
+Critically, our neuroimaging results (Figure 5) reinforce this
+interpretation. Frontal overactivation under the MS–4L condition
+was functionally heterogeneous—particularly in lateral regions
+where younger adults showed greater activation than older adults
+(Y > O)—and these regions exhibited significant negative correlations with performance, suggesting unsuccessful or inefficient
+compensation (Dennis & Cabeza, 2011). By employing parametric
+task manipulations, our study extended previous binary-load
+CRUNCH paradigms, illustrating a gradual erosion of compensatory efficacy (Morcom & Henson, 2018). Cabeza et al. (2018)
+emphasized evaluating the relationship between activation and
+performance to distinguish compensation from maladaptive recruitment. Our use of IES helps clarify this distinction—overactivation in
+the absence of behavioral benefit should not be interpreted as
+compensatory.
+Frontal regions exhibited a clear quantitative difference: specifically, lateral frontal clusters—where younger adults typically outperform older adults—showed significant negative correlations with
+IES in older adults, suggesting maladaptive overactivation under high
+demand (MS–4L). While theories such as STAC-r (Reuter-Lorenz &
+Park, 2014) and hierarchical models (Badre & Nee, 2018) propose
+that certain anterior PFC subregions may offer transient compensatory support, our data do not reveal a clear adaptive role for these
+regions under high cognitive load. The absence of significant positive
+activation–performance correlations suggests that, when demands
+exceed capacity, these areas may fail to support performance. These
+frameworks emphasize that compensation is region-specific, depending on structural integrity, connectivity, and functional specialization (Cabeza et al., 2018; Morcom & Henson, 2018). Our
+findings align with this view: while some lateral frontal regions show
+maladaptive recruitment, other anterior areas exhibit no significant
+relationship with performance—highlighting functional heterogeneity within the PFC. Overall, our results support the view that frontal
+engagement in aging reflects region-specific limitations rather than a
+uniform compensatory process. Cabeza et al. (2018) similarly argued
+that compensation varies with task demands and regional specialization. Our results provide empirical support for this position,
+showing task- and region-specific distinctions in the utility of frontal
+overactivation. These results align with evidence that age-related
+structural atrophy and functional inefficiency are not uniformly
+distributed across the cortex (Fjell et al., 2009), and suggest that the
+success or failure of compensatory engagement may depend on both
+regional capacity and task context (Spreng & Turner, 2019). Our
+findings therefore underscore the value of parametric task designs for
+tracing dynamic changes in the effectiveness of compensatory
+activation in aging.
+Older adults also exhibited altered activation patterns in large-scale
+networks. Specifically, reduced DMN suppression under high load
+suggests impaired inhibition of task-irrelevant processes (C. L. Grady
+et al., 2010; Spreng et al., 2016). While this may reflect general
+deactivation deficits, it could also indicate inefficient switching
+between internal and external modes, a hallmark of cognitive aging.
+Similarly, altered DAN engagement may reflect changes in top-down
+attentional control. However, given our reliance on spatial overlap
+rather than connectivity, these interpretations remain tentative. Future
+work using connectivity and graph-theoretical approaches is needed
+to clarify these network-level changes.
+While our findings emphasize task demand in shaping neural
+recruitment in aging, the observed effects may be domain-specific.
+Our task engaged frontoparietal networks involved in executive
+function and perceptual decisions (Crittenden & Duncan, 2014).
+Other domains (e.g., episodic memory) engage distinct circuits with
+potentially different compensation profiles (Yassa et al., 2011).
+STAC suggests that compensation occurs across domains, but with
+varying neural substrates and efficacy. Cross-domain studies using
+comparable paradigms are needed to determine whether CRUNCH
+and STAC-r principles are generalizable. Our domain-specific results nevertheless support the broader claim of Cabeza et al. (2018):
+compensation and dedifferentiation can co-occur, varying in
+adaptiveness depending on the circuits and demands involved.
+Several limitations warrant consideration. First, reliance on IES
+may obscure specific mechanisms due to sensitivity to error rates and
+speed–accuracy trade-offs (Bruyer & Brysbaert, 2011). Although
+error rates were modest (<10% in most conditions), they exceeded
+15% in MS–4L for older adults. Still, supplementary analyses
+confirmed that the age-related patterns were robust. Second, lack of a
+fixation baseline limits our inferences about DMN suppression.
+Future work should include rest conditions to isolate task-negative
+activity. Third, unmeasured factors like cognitive reserve and lifestyle
+may influence compensation (Cabeza et al., 2018; Stern, 2002).
+Finally, longitudinal studies are needed to determine whether these
+brain–behavior shifts predict cognitive decline or resilience.
+Conclusion
+This study provided strong evidence for a graded, capacitylimited model of neural compensation in aging, consistent with the
+CRUNCH and STAC-r frameworks. Frontal overactivation was
+initially associated with adaptive responses but became maladaptive
+under high demand (MS–4L), suggesting limits to compensatory
+mechanisms. These findings extend prior research by demonstrating
+gradual declines in compensation shaped by task complexity and
+regional specialization.
+PREFRONTAL OVERACTIVATION IN OLDER ADULTS
+859
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Our results support Cabeza et al.’s (2018) integrative framework,
+showing that compensation, dedifferentiation, and inefficiency coexist
+and vary with context and activation–performance dynamics. They
+also align with the PASA and STAC-r models, highlighting a
+dynamic interplay between posterior underrecruitment and anterior
+overrecruitment as a function of task demands and regional neural
+capacity.
+Practically, the findings suggest that tracking the trajectory of IESs
+across escalating task demands (from 4L to 8L to FD to MS) could
+offer a sensitive behavioral indicator of cognitive vulnerability in
+older adults. A steeper IES slope—reflecting a sharper efficiency drop
+under increasing cognitive load—may help identify individuals at
+greater risk for age-related decline. These insights underscore the
+value of adjusting task complexity to better align with individuals’
+cognitive capacity at different ages, not only in cognitive assessments
+but also in the design of training environments, workplace demands,
+and everyday public settings. Tailored cognitive training paradigms
+that scaffold task demands and foster more efficient recruitment of
+cognitive resources could support cognitive health and enhance agefriendliness in diverse applied contexts.
+References
+Andersen, G. J. (2012). Aging and vision: Changes in function and performance from optics to perception. Wiley Interdisciplinary Reviews:
+Cognitive Science, 3(3), 403–410. https://doi.org/10.1002/wcs.1167
+Badre, D., & Nee, D. E. (2018). Frontal cortex and the hierarchical control of
+behavior. Trends in Cognitive Sciences, 22(2), 170–188. https://doi.org/10
+.1016/j.tics.2017.11.005
+Bansal, R., Staib, L. H., Xu, D., Zhu, H., & Peterson, B. S. (2007). Statistical
+analyses of brain surfaces using Gaussian random fields on 2-D manifolds.
+IEEE Transactions on Medical Imaging, 26(1), 46–57. https://doi.org/10
+.1109/TMI.2006.884187
+Beckmann, C. F., Jenkinson, M., & Smith, S. M. (2003). General multilevel
+linear modeling for group analysis in FMRI. NeuroImage, 20(2), 1052–
+1063. https://doi.org/10.1016/S1053-8119(03)00435-X
+Braver, T. S., & West, R. L. (2008). Working memory, executive control, and
+aging. In F. I. M. Craik & T. A. Salthouse (Eds.), The handbook of aging
+and cognition (3rd ed., pp. 311–372). Psychology Press.
+Bruyer, R., & Brysbaert, M. (2011). Combining speed and accuracy in
+cognitive psychology: Is the inverse efficiency score (IES) a better
+dependent variable than the mean reaction time (RT) and the percentage of
+errors (PE)? Psychologica Belgica, 51(1), Article 5. https://doi.org/10
+.5334/pb-51-1-5
+Cabeza, R., Albert, M., Belleville, S., Craik, F. I. M., Duarte, A., Grady,
+C. L., Lindenberger, U., Nyberg, L., Park, D. C., Reuter-Lorenz, P. A.,
+Rugg, M. D., Steffener, J., & Rajah, M. N. (2018). Maintenance, reserve
+and compensation: The cognitive neuroscience of healthy ageing. Nature
+Reviews Neuroscience, 19(11), 701–710. https://doi.org/10.1038/s41583-
+018-0068-2
+Crittenden, B. M., & Duncan, J. (2014). Task difficulty manipulation reveals
+multiple demand activity but no frontal lobe hierarchy. Cerebral Cortex,
+24(2), 532–540. https://doi.org/10.1093/cercor/bhs333
+Davis, S. W., Dennis, N. A., Daselaar, S. M., Fleck, M. S., & Cabeza, R.
+(2008). Que PASA? The posterior-anterior shift in aging. Cerebral Cortex,
+18(5), 1201–1209. https://doi.org/10.1093/cercor/bhm155
+Dennis, N. A., & Cabeza, R. (2011). Neuroimaging of healthy cognitive
+aging. In F. I. M. Craik & T. A. Salthouse (Eds.), The handbook of aging
+and cognition (3rd ed., pp. 1–54). Psychology Press. https://doi.org/10
+.4324/9780203837665.ch1
+Duncan, J. (2010). The multiple-demand (MD) system of the primate
+brain: Mental programs for intelligent behaviour. Trends in Cognitive
+Sciences, 14(4), 172–179. https://doi.org/10.1016/j.tics.2010.01.004
+Duncan, J., & Owen, A. M. (2000). Common regions of the human frontal
+lobe recruited by diverse cognitive demands. Trends in Neurosciences,
+23(10), 475–483. https://doi.org/10.1016/S0166-2236(00)01633-7
+Eklund, A., Nichols, T. E., & Knutsson, H. (2016). Cluster failure: Why
+fMRI inferences for spatial extent have inflated false-positive rates.
+Proceedings of the National Academy of Sciences of the United States
+of America, 113(28), 7900–7905. https://doi.org/10.1073/pnas.1602
+413113
+Faul, F., Erdfelder, E., Lang, A. G., & Buchner, A. (2007). G*Power 3: A
+flexible statistical power analysis program for the social, behavioral, and
+biomedical sciences. Behavior Research Methods, 39(2), 175–191. https://
+doi.org/10.3758/BF03193146
+Fjell, A. M., Walhovd, K. B., Fennema-Notestine, C., McEvoy, L. K., Hagler,
+D. J., Holland, D., Brewer, J. B., & Dale, A. M. (2009). One-year brain
+atrophy evident in healthy aging. The Journal of Neuroscience, 29(48),
+15223–15231. https://doi.org/10.1523/JNEUROSCI.3252-09.2009
+Grady, C. (2012). The cognitive neuroscience of ageing. Nature Reviews
+Neuroscience, 13(7), 491–505. https://doi.org/10.1038/nrn3256
+Grady, C. L., Protzner, A. B., Kovacevic, N., Strother, S. C., Afshin-Pour, B.,
+Wojtowicz, M., Anderson, J. A., Churchill, N., & McIntosh, A. R. (2010).
+A multivariate analysis of age-related differences in default mode and taskpositive networks across multiple cognitive domains. Cerebral Cortex,
+20(6), 1432–1447. https://doi.org/10.1093/cercor/bhp207
+Hsieh, S., Yang, M.-H., & Yao, Z.-F. (2025). Prefrontal overrecruitment in
+older adults: Task demand–dependent efficiency and implications for
+cognitive aging [Data set]. https://osf.io/7jtsy/
+Jenkinson, M., Bannister, P., Brady, M., & Smith, S. (2002). Improved
+optimization for the robust and accurate linear registration and motion
+correction of brain images. NeuroImage, 17(2), 825–841. https://doi.org/
+10.1006/nimg.2002.1132
+Jenkinson, M., Beckmann, C. F., Behrens, T. E., Woolrich, M. W., & Smith,
+S. M. (2012). FSL. NeuroImage, 62(2), 782–790. https://doi.org/10.1016/j
+.neuroimage.2011.09.015
+Jenkinson, M., & Smith, S. (2001). A global optimisation method for robust
+affine registration of brain images. Medical Image Analysis, 5(2), 143–
+156. https://doi.org/10.1016/S1361-8415(01)00036-6
+Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An opensource, graphical experiment builder for the social sciences. Behavior
+Research Methods, 44(2), 314–324. https://doi.org/10.3758/s13428-011-
+0168-7
+Mattay, V. S., Fera, F., Tessitore, A., Hariri, A. R., Berman, K. F., Das, S.,
+Meyer-Lindenberg, A., Goldberg, T. E., Callicott, J. H., & Weinberger,
+D. R. (2006). Neurophysiological correlates of age-related changes in
+working memory capacity. Neuroscience Letters, 392(1–2), 32–37. https://
+doi.org/10.1016/j.neulet.2005.09.025
+Monge, Z. A., & Madden, D. J. (2016). Linking cognitive and visual perceptual decline in healthy aging: The information degradation hypothesis.
+Neuroscience and Biobehavioral Reviews, 69, 166–173. https://doi.org/10
+.1016/j.neubiorev.2016.07.031
+Morcom, A. M., & Henson, R. N. A. (2018). Increased prefrontal activity
+with aging reflects nonspecific neural responses rather than compensation.
+The Journal of Neuroscience, 38(33), 7303–7313. https://doi.org/10.1523/
+JNEUROSCI.1701-17.2018
+Nasreddine, Z. S., Phillips, N. A., Bédirian, V., Charbonneau, S., Whitehead,
+V., Collin, I., Cummings, J. L., & Chertkow, H. (2005). The Montreal
+Cognitive Assessment, MoCA: A brief screening tool for mild cognitive
+impairment. Journal of the American Geriatrics Society, 53(4), 695–699.
+https://doi.org/10.1111/j.1532-5415.2005.53221.x
+Owsley, C. (2011). Aging and vision. Vision Research, 51(13), 1610–1622.
+https://doi.org/10.1016/j.visres.2010.10.020
+860
+HSIEH, YANG, AND YAO
+All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+Park, D. C., & Reuter-Lorenz, P. (2009). The adaptive brain: Aging and
+neurocognitive scaffolding. Annual Review of Psychology, 60(1), 173–196.
+https://doi.org/10.1146/annurev.psych.59.103006.093656
+Raz, N., Lindenberger, U., Rodrigue, K. M., Kennedy, K. M., Head, D.,
+Williamson, A., Dahle, C., Gerstorf, D., & Acker, J. D. (2005). Regional
+brain changes in aging healthy adults: General trends, individual differences and modifiers. Cerebral Cortex, 15(11), 1676–1689. https://doi.org/
+10.1093/cercor/bhi044
+Raz, N., & Rodrigue, K. M. (2006). Differential aging of the brain: Patterns,
+cognitive correlates and modifiers. Neuroscience and Biobehavioral
+Reviews, 30(6), 730–748. https://doi.org/10.1016/j.neubiorev.2006.07.001
+Reuter-Lorenz, P. A., & Cappell, K. A. (2008). Neurocognitive aging and the
+compensation hypothesis. Current Directions in Psychological Science,
+17(3), 177–182. https://doi.org/10.1111/j.1467-8721.2008.00570.x
+Reuter-Lorenz, P. A., & Park, D. C. (2014). How does it STAC up?
+Revisiting the scaffolding theory of aging and cognition. Neuropsychology
+Review, 24(3), 355–370. https://doi.org/10.1007/s11065-014-9270-9
+Schneider-Garces, N. J., Gordon, B. A., Brumback-Peltz, C. R., Shin, E.,
+Lee, Y., Sutton, B. P., Maclin, E. L., Gratton, G., & Fabiani, M. (2010).
+Span, CRUNCH, and beyond: Working memory capacity and the aging
+brain. Journal of Cognitive Neuroscience, 22(4), 655–669. https://doi.org/
+10.1162/jocn.2009.21230
+Spreng, R. N., Stevens, W. D., Viviano, J. D., & Schacter, D. L. (2016).
+Attenuated anticorrelation between the default and dorsal attention
+networks with aging: Evidence from task and rest. Neurobiology
+of Aging, 45, 149–160. https://doi.org/10.1016/j.neurobiolaging.2016
+.05.020
+Spreng, R. N., & Turner, G. R. (2019). The shifting architecture of cognition
+and brain function in older adulthood. Perspectives on Psychological
+Science, 14(4), 523–542. https://doi.org/10.1177/1745691619827511
+Stern, Y. (2002). What is cognitive reserve? Theory and research application
+of the reserve concept. Journal of the International Neuropsychological
+Society, 8(3), 448–460. https://doi.org/10.1017/S1355617702813248
+Townsend, J. T., & Ashby, F. G. (1978). Methods of modeling capacity in
+simple processing systems. In J. T. Townsend (Ed.), Stochastic modeling
+of elementary psychological processes (pp. 261–307). Lawrence Erlbaum
+Associates.
+Townsend, J. T., & Ashby, F. G. (1983). Stochastic modeling of elementary
+psychological processes. CUP Archive.
+Verhaeghen, P., & Cerella, J. (2002). Aging, executive control, and attention:
+A review of meta-analyses. Neuroscience and Biobehavioral Reviews,
+26(7), 849–857. https://doi.org/10.1016/S0149-7634(02)00071-4
+Woolrich, M. W., Behrens, T. E. J., Beckmann, C. F., Jenkinson, M., &
+Smith, S. M. (2004). Multilevel linear modelling for FMRI group analysis
+using Bayesian inference. NeuroImage, 21(4), 1732–1747. https://doi.org/
+10.1016/j.neuroimage.2003.12.023
+Woolrich, M. W., Ripley, B. D., Brady, M., & Smith, S. M. (2001). Temporal
+autocorrelation in univariate linear modeling of FMRI data. NeuroImage,
+14(6), 1370–1386. https://doi.org/10.1006/nimg.2001.0931
+Yassa, M. A., Mattfeld, A. T., Stark, S. M., & Stark, C. E. (2011). Age-related
+memory deficits linked to circuit-specific disruptions in the hippocampus.
+Proceedings of the National Academy of Sciences of the United States of
+America, 108(21), 8873–8878. https://doi.org/10.1073/pnas.1101567108
+Received January 27, 2025
+Revision received June 5, 2025
+Accepted June 6, 2025 ▪
+E-Mail Notification of Your Latest Issue Online!
+Would you like to know when the next issue of your favorite APA journal will be available
+online? This service is now available to you. Sign up at https://my.apa.org/portal/alerts/ and you will
+be notified by e-mail when issues of interest to you become available!
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
